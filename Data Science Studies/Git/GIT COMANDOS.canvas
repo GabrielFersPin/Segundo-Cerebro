@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"736ea6de16e92723","type":"file","file":"Data Science Studies/Git/09_Workflows.md","x":-680,"y":1560,"width":400,"height":400,"color":"#b569ba"},
+		{"id":"43f8fee9c460d593","type":"file","file":"Data Science Studies/Git/10_Tags.md","x":415,"y":1560,"width":400,"height":400,"color":"#efd215"},
+		{"id":"3c32f43779348e85","type":"text","text":"GIT","x":-185,"y":-820,"width":250,"height":60},
+		{"id":"8bb4d4b4dafc0d2d","type":"text","text":"EMERGENCIAS","x":655,"y":-590,"width":250,"height":60,"color":"1"},
+		{"id":"5b433edd3ac80e88","type":"file","file":"Data Science Studies/Git/00_Git_Core.md","x":-260,"y":-1440,"width":400,"height":400},
+		{"id":"bb200b97ed39f526","type":"file","file":"Data Science Studies/Git/01_Setup_Config.md","x":-1520,"y":-590,"width":400,"height":400,"color":"5"},
+		{"id":"c2765c911dc03f06","type":"text","text":"SETUP & CONFIGURACIÓN","x":-680,"y":-450,"width":250,"height":60,"color":"5"},
+		{"id":"61cd468708978866","type":"text","text":"TRABAJO DIARIO LOCAL","x":-385,"y":-220,"width":250,"height":60,"color":"4"},
+		{"id":"fe195e366ac58216","type":"file","file":"Data Science Studies/Git/02_Trabajo_Diario.md","x":-460,"y":140,"width":400,"height":400,"color":"4"},
+		{"id":"a458c28c3f294145","type":"file","file":"Data Science Studies/Git/07_Inspeccion_Busqueda.md","x":-1280,"y":751,"width":400,"height":400},
+		{"id":"6c14828010707c31","type":"file","file":"Data Science Studies/Git/03_Deshacer_Cambios.md","x":-660,"y":751,"width":400,"height":400,"color":"2"},
+		{"id":"09bb3455f3fa1579","type":"file","file":"Data Science Studies/Git/04_Branches.md","x":-60,"y":751,"width":400,"height":400,"color":"2"},
+		{"id":"5c49d72aa570ebbd","type":"file","file":"Data Science Studies/Git/06_Stash.md","x":580,"y":751,"width":400,"height":400,"color":"#d2d515"},
+		{"id":"f1aa1cd463c183c4","type":"file","file":"Data Science Studies/Git/05_Remoto_Colaboracion.md","x":780,"y":-80,"width":400,"height":400,"color":"6"},
+		{"id":"5fcd3078d0cf1287","type":"text","text":"COLABORACIÓN EN REMOTO","x":215,"y":-220,"width":250,"height":60,"color":"6"},
+		{"id":"7ac69b8abb695bcf","type":"file","file":"Data Science Studies/Git/08_Emergencias.md","x":1180,"y":-1040,"width":400,"height":400,"color":"1"}
+	],
+	"edges":[
+		{"id":"9d5f0ac29cd1c7e9","fromNode":"3c32f43779348e85","fromSide":"bottom","toNode":"c2765c911dc03f06","toSide":"top"},
+		{"id":"1607effef5e148b6","fromNode":"3c32f43779348e85","fromSide":"bottom","toNode":"61cd468708978866","toSide":"top"},
+		{"id":"7a4621df0848b98c","fromNode":"3c32f43779348e85","fromSide":"bottom","toNode":"5fcd3078d0cf1287","toSide":"top"},
+		{"id":"a44289e91fe7c545","fromNode":"3c32f43779348e85","fromSide":"top","toNode":"5b433edd3ac80e88","toSide":"bottom"},
+		{"id":"303bd2b4f4cf1027","fromNode":"c2765c911dc03f06","fromSide":"left","toNode":"bb200b97ed39f526","toSide":"right"},
+		{"id":"c6112dbde92cff2f","fromNode":"61cd468708978866","fromSide":"bottom","toNode":"fe195e366ac58216","toSide":"top"},
+		{"id":"38b02f5cf83b4f87","fromNode":"5fcd3078d0cf1287","fromSide":"right","toNode":"f1aa1cd463c183c4","toSide":"left"},
+		{"id":"fedd75443b355087","fromNode":"fe195e366ac58216","fromSide":"bottom","toNode":"6c14828010707c31","toSide":"top"},
+		{"id":"681c2ee6f92035c1","fromNode":"fe195e366ac58216","fromSide":"bottom","toNode":"09bb3455f3fa1579","toSide":"top"},
+		{"id":"f05cf5eeaf0f5165","fromNode":"fe195e366ac58216","fromSide":"bottom","toNode":"5c49d72aa570ebbd","toSide":"top"},
+		{"id":"21376d3e6d2abeca","fromNode":"fe195e366ac58216","fromSide":"bottom","toNode":"a458c28c3f294145","toSide":"top"},
+		{"id":"128972dda02b0907","fromNode":"3c32f43779348e85","fromSide":"bottom","toNode":"8bb4d4b4dafc0d2d","toSide":"bottom"},
+		{"id":"01e6ccf0aa5d97f3","fromNode":"8bb4d4b4dafc0d2d","fromSide":"right","toNode":"7ac69b8abb695bcf","toSide":"left"}
+	]
+}

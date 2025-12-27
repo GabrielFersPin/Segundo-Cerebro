@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"4334909b91e8eb06","type":"file","file":"Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/00_Docker_Core.md","x":-200,"y":-200,"width":400,"height":400},
+		{"id":"325201d29b488276","type":"file","file":"Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/01_Imagenes.md","x":-960,"y":-200,"width":400,"height":400,"color":"2"},
+		{"id":"d452c080a0666264","type":"file","file":"Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/02_Contenedores.md","x":560,"y":-200,"width":400,"height":400,"color":"4"},
+		{"id":"c77e9ea1045e499c","type":"file","file":"Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/03_Dockerfile.md","x":-200,"y":-960,"width":400,"height":400,"color":"2"},
+		{"id":"708752502d2a1b4c","type":"file","file":"Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/04_Docker_Compose.md","x":-200,"y":440,"width":400,"height":400,"color":"6"},
+		{"id":"b6bd625770fffbd4","type":"file","file":"Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/05_Volumes.md","x":-760,"y":1040,"width":400,"height":400,"color":"3"},
+		{"id":"3540cd57f0cb5894","type":"file","file":"Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/06_Networks.md","x":-200,"y":1040,"width":400,"height":400},
+		{"id":"d22aee08a1410104","type":"file","file":"Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/07_Sistema_Mantenimiento.md","x":440,"y":1040,"width":400,"height":400,"color":"#684618"},
+		{"id":"f2b15120bcc552cc","type":"file","file":"Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/08_Data_Science.md","x":-200,"y":1760,"width":400,"height":400,"color":"4"},
+		{"id":"73b9bad40cf65371","x":-1760,"y":-1290,"width":250,"height":60,"type":"text","text":"Build"},
+		{"id":"d1c29ff98a9adef5","x":-1100,"y":-1290,"width":250,"height":60,"type":"text","text":"Run"},
+		{"id":"4035b01d2cdcadb3","x":-760,"y":-1290,"width":250,"height":60,"type":"text","text":"Container"},
+		{"id":"0b30f60fc327ab99","x":-1440,"y":-1290,"width":250,"height":60,"type":"text","text":"Image"},
+		{"id":"7217e0f02b59e86d","x":-2080,"y":-1290,"width":240,"height":60,"type":"text","text":"DOCKERFILE"}
+	],
+	"edges":[
+		{"id":"c88d3fd420822c3f","fromNode":"4334909b91e8eb06","fromSide":"left","toNode":"325201d29b488276","toSide":"right"},
+		{"id":"d85a106071217689","fromNode":"4334909b91e8eb06","fromSide":"right","toNode":"d452c080a0666264","toSide":"left"},
+		{"id":"098f48b599030a01","fromNode":"4334909b91e8eb06","fromSide":"bottom","toNode":"708752502d2a1b4c","toSide":"top"},
+		{"id":"5c4609c1dc0e4010","fromNode":"708752502d2a1b4c","fromSide":"bottom","toNode":"b6bd625770fffbd4","toSide":"top"},
+		{"id":"59b2b566a3bde3f0","fromNode":"708752502d2a1b4c","fromSide":"bottom","toNode":"3540cd57f0cb5894","toSide":"top"},
+		{"id":"c47a49aa29144b5d","fromNode":"708752502d2a1b4c","fromSide":"bottom","toNode":"d22aee08a1410104","toSide":"top"},
+		{"id":"e3f127944226b001","fromNode":"4334909b91e8eb06","fromSide":"top","toNode":"c77e9ea1045e499c","toSide":"bottom"},
+		{"id":"703398e1abb96158","fromNode":"7217e0f02b59e86d","fromSide":"right","toNode":"73b9bad40cf65371","toSide":"left"},
+		{"id":"8242ad9e202c1eb3","fromNode":"73b9bad40cf65371","fromSide":"right","toNode":"0b30f60fc327ab99","toSide":"left"},
+		{"id":"648d063995783a92","fromNode":"0b30f60fc327ab99","fromSide":"right","toNode":"d1c29ff98a9adef5","toSide":"left"},
+		{"id":"65dfdc5f405b37ee","fromNode":"d1c29ff98a9adef5","fromSide":"right","toNode":"4035b01d2cdcadb3","toSide":"left"}
+	]
+}

@@ -1,0 +1,6 @@
+# Daily Reflections
+
+Asunto: Conexión con el universo
+Created: 23 de enero de 2024 4:33
+
+- Estoy todavía pensando en la visita del parque Warner, me gastaré mucho dinero que talvez no me compensará, espero que se cancele este evento y pueda guardar el dinero sin remordimientos. Otra cosa que estuve pensando es en agradecer por todo que está pasando y esforzarme más para contribuir con el planeta de manera general, evitando cualquier tipo de desperdicio y ayudando a quién necesita, de esta forma talvez vuelva buenas cosas del universo, me parece algo muy intuitivo, incluso de cuño religioso, pero siento realmente esta necesidad. El pensamiento de que eres parte de un todo hace con que quieras ayudar a mejorar ese todo, excluyendo ese pensamiento individual es una llave para una percepción más amplia del universo, obviamente no puedo resolver todos los problemas del mundo, pero con lo que esté a mis manos voy hacerlo, empezando por lo básico y luego pasando a una forma más compleja, como trabajo voluntario y cosas realmente impactantes.

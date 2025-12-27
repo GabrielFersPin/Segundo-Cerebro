@@ -1,0 +1,7 @@
+# Daily Reflections
+
+Asunto: Autismo
+Created: 23 de enero de 2024 4:33
+
+- Empiezo a sospechar de que estoy en algún espectro del autismo, debo de estar en alguna parte del espectro que se hace casi imperceptible a un desconocido. Empecé a sospechar simplemente por que mi amigo Aitor me ha dicho otro día que soy una persona que no demuestro ser realmente quien soy cuando hay algún desconocido en el grupo o mucha gente, siempre estoy apartado, y para darle alguna explicación le he dicho que soy así por que la mayoría de la gente lo le interesa lo que tengo para hablar y como no puedo hacer small talk, pues por eso no soy capaz de integrarme en cualquier conversación. Lo que me ha hecho pensar que soy distinto de los demás, porque la mayoría de las personas son capaces de simplemente hablar de cosas cotidianas y realmente creer que a todo mundo le interesa, y cuentan y interactúan sobre esos temas sin profundarse demasiado. Para mi una conversación interesante es exactamente lo contrario, tiene que ser sobre temas con profundidad.
+- Una  otra cosa que he percibido es que nunca tuve esa capacidad de socializar fácilmente, no se porque, en el colegio siempre fue una persona divertida, la gente se reía conmigo, pero la mayoría de las veces no era porque tenía la intención de hacerlo, si no que se reían por mi comportamiento diferente, mi forma de expresarme ya era motivo de risa y me sentía integrado. Siempre fue considerado una persona inteligente y diferente por todo el mundo.
