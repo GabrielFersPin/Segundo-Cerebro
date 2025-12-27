@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
+                "file": "Data Science Studies/Fundamendos de las Ciencias de Datos/Regresión Logística.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Eduinnovatech_Proposal"
+              "title": "Regresión Logística"
             }
           }
         ]
@@ -187,8 +187,11 @@
   },
   "active": "6a2df6656dab3857",
   "lastOpenFiles": [
+    "Data Science Studies/Fundamendos de las Ciencias de Datos/Dashboard_Fundamentos.md",
+    "Data Science Studies/Fundamendos de las Ciencias de Datos/Regresión Logística.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos y Estructuras de Búsqueda.md",
     "Universidad/Dashboard General.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Modelos_Servicios.md",
     "Ingeniería/Electromagnetismo/Tema 1.md",
@@ -220,9 +223,6 @@
     "Ingeniería/Termodinámica/Tema 2/Segundo principio de la termodinámica.md",
     "Ingeniería/Termodinámica/Tema 1/Tipos de sistemas.md",
     "Ingeniería/Termodinámica/Tema 1/Primer principio de la termodinámica.md",
-    "Ingeniería/Tecnología de los Materiales/Resistencia de los Materiales f934fbe6f2fc4050a942a7c207d35bc7/Principios y cargas distribuidas.md",
-    "Ingeniería/Tecnología de los Materiales/Ciencia de los Materiales 1ca5070912ac4a5aa60fa7346159b912.md",
-    "Ingeniería/Tecnología de los Materiales/Resistencia de los Materiales f934fbe6f2fc4050a942a7c207d35bc7/Tracción o compresión.md",
     "Ingeniería/Tecnología de los Materiales/Resistencia de los Materiales f934fbe6f2fc4050a942a7c207d35bc7/Tema 6 ebe5a58444e840bc8c0c0b4e5ca97ecf/tratamiento_DE_CARGAS_DISTRIBUDAS.pdf",
     "Ingeniería/Tecnología de los Materiales/Resistencia de los Materiales f934fbe6f2fc4050a942a7c207d35bc7/Tema 6 ebe5a58444e840bc8c0c0b4e5ca97ecf/Problema_6_3.pdf",
     "Ingeniería/Tecnología de los Materiales/Resistencia de los Materiales f934fbe6f2fc4050a942a7c207d35bc7/Tema 6 ebe5a58444e840bc8c0c0b4e5ca97ecf/Ejercicio_7_estructuras_reticuladas.pdf",
