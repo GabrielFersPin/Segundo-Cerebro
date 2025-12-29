@@ -1,5 +1,5 @@
 ---
-cards-deck: Algoritmos
+cards-deck: Algoritmos:Búsqueda
 created: 2024-11-27
 modified: 2025-12-10
 status: 🌿 Creciendo

@@ -533,8 +533,8 @@ Priority Queue → Procesar objetivos por urgencia
 - [x] Conozco la complejidad de cada operación ✅ 2025-12-10
 - [x] Sé cuándo usar cada estructura ✅ 2025-12-10
 - [x] Puedo implementar las básicas (lista, pila, cola) ✅ 2025-12-10
-- [ ] Entiendo las relaciones padre-hijo en heap
-- [ ] Puedo hacer recorridos de árbol sin ver la respuesta
+- [x] Entiendo las relaciones padre-hijo en heap ✅ 2025-12-27
+- [x] Puedo hacer recorridos de árbol sin ver la respuesta ✅ 2025-12-27
 - [x] Distingo BFS de DFS visualmente ✅ 2025-12-10
 
 ---
