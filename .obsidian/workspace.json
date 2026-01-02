@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fe7ff7a05f58105f",
+        "id": "4ed6108fa89dad2f",
         "type": "tabs",
         "children": [
           {
-            "id": "6a2df6656dab3857",
+            "id": "619ac35f415d7c2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos y Estructuras de Búsqueda.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Algoritmos y Estructuras de Búsqueda"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6b00cfbf30760cd6",
@@ -186,19 +181,30 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "6a2df6656dab3857",
+  "active": "619ac35f415d7c2b",
   "lastOpenFiles": [
+    "Journal/Maria Clara.md",
+    "Journal/Thoughts.md",
+    "Journal/Cosas que comentar con Karen.md",
+    "Journal/Journal.md",
+    "Journal/Sueño.md",
+    "Journal/journal_completo.md",
+    "Soledad.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Microservices/docker-compose.yml",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Microservices",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_PoC",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos y Estructuras de Búsqueda.md",
     "Universidad/Dashboard General.md",
+    "Journal/2025-12-29.md",
     "Data Science Studies/Arquitectura de Ordenadores/CPU - Arquitecturas CISC vs RISC.md",
     "Data Science Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md",
     "Data Science Studies/Arquitectura de Ordenadores/Trabajo Out of order Execution.md",
     "Data Science Studies/Embeddings/Embeddings.md",
-    "Journal/2025-12-29.md",
     "Journal/2025-12-27.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/00_Docker_Core.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Estructura de Datos.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Dashboard-Algoritmos.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos y Estructuras de Búsqueda.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Big O y Análisis de Complejidad.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Diseño de Algoritmos.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Resolución de Problemas (UD5).md",
@@ -212,14 +218,6 @@
     "Data Science Studies/Algoritmo y Estructura de Datos/Tema5_AplicacionEDaRresolucionProblemas.pdf",
     "Data Science Studies/Algoritmo y Estructura de Datos/Tema6_DisenoDeAlgoritmos.pdf",
     "Data Science Studies/Fundamendos de las Ciencias de Datos/Dashboard_Fundamentos.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Modelos_Servicios.md",
-    "Ingeniería/Electromagnetismo/Tema 1.md",
-    "Ingeniería/Electromagnetismo/Tema 2.md",
-    "Ingeniería/Electromagnetismo/Cuestiones importantes tema 3 e80488221f9d49faa306d6e000c648d9.md",
-    "Ingeniería/Termodinámica/Máquinas térmicas.md",
-    "Ingeniería/Electromagnetismo.md",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026822201.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026621368.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 4 973c10893877457e824a1874ba8a3844/Untitled 2.png",
@@ -231,9 +229,6 @@
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 9.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 8.png",
     "Ingeniería/Tecnología de los Materiales/Resistencia de los Materiales f934fbe6f2fc4050a942a7c207d35bc7/Tema 6 ebe5a58444e840bc8c0c0b4e5ca97ecf/tratamiento_DE_CARGAS_DISTRIBUDAS.pdf",
-    "Ingeniería/Tecnología de los Materiales/Resistencia de los Materiales f934fbe6f2fc4050a942a7c207d35bc7/Tema 6 ebe5a58444e840bc8c0c0b4e5ca97ecf/Problema_6_3.pdf",
-    "Ingeniería/Tecnología de los Materiales/Resistencia de los Materiales f934fbe6f2fc4050a942a7c207d35bc7/Tema 6 ebe5a58444e840bc8c0c0b4e5ca97ecf/Ejercicio_7_estructuras_reticuladas.pdf",
-    "Ingeniería/Tecnología de los Materiales/Ciencia de los Materiales 1ca5070912ac4a5aa60fa7346159b912/Tema 2 1e6f90fd456f4be9849b0552d1f4a9ad/Respuestas_cuestionario2.pdf",
     "Data Science Studies/Git/GIT COMANDOS.canvas",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
     "Sin título.canvas",

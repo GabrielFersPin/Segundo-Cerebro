@@ -1,0 +1,3 @@
+- Mi relación con las drogas -psicodelicos(Viaje)/Metanfetamina/Mariahuana
+- Seek for dopamine(Antes no necesitava tanta)
+- Pensamientos negativos muy fuertes
