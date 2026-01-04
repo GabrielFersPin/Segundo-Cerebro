@@ -32,9 +32,9 @@ graph TD
     classDef realtime fill:#ffb900,stroke:#fff,stroke-width:2px,color:#333;
 
     %% --- Actores Externos ---
-    Student(["👤 Alumno"]) :::external
-    Teacher(["🎓 Profesor (Monitor)"]) :::external
-    EntraID{"🔐 Microsoft Entra ID\n(Login Colegios)"} :::azure
+    Student(["👤 Alumno"])
+    Teacher(["🎓 Profesor (Monitor)"])
+    EntraID{"🔐 Microsoft Entra ID\n(Login Colegios)"}
 
     %% --- Azure Cloud Scope ---
     subgraph AzureRegion ["☁️ Microsoft Azure (West Europe)"]
@@ -43,17 +43,17 @@ graph TD
         %% Capa Web y API
         subgraph ComputeLayer ["⚡ Capa de Computación"]
             style ComputeLayer fill:#fff,stroke:#ddd
-            AppService["📱 Azure App Service\n(Python Backend)"] :::azure
-            SignalR(("📡 Azure SignalR\nWebSockets Gestionados")) :::realtime
+            AppService["📱 Azure App Service\n(Python Backend)"]
+            SignalR(("📡 Azure SignalR\nWebSockets Gestionados"))
         end
 
         %% Capa Privada de Datos (VNet)
         subgraph DataLayer ["🔒 VNet Privada (Datos)"]
             style DataLayer fill:#eefbfb,stroke:#008080,stroke-width:2px
             
-            SQL[("🛢️ SQL Database\nServerless")] :::data
-            Redis["🚀 Azure Redis Cache\n(Sesiones Rápidas)"] :::data
-            OpenAI["🧠 Azure OpenAI\n(GPT-4o)"] :::data
+            SQL[("🛢️ SQL Database\nServerless")]
+            Redis["🚀 Azure Redis Cache\n(Sesiones Rápidas)"]
+            OpenAI["🧠 Azure OpenAI\n(GPT-4o)"]
             
             %% Private Endpoints
             PE_SQL((Private EP))
@@ -74,6 +74,12 @@ graph TD
     AppService -- "6. Persistencia" --> PE_SQL --> SQL
     AppService -- "7. Cache Session" --> Redis
     AppService -- "8. Consultas IA" --> PE_AI --> OpenAI
+
+    %% --- Asignación de Clases ---
+    class Student,Teacher external;
+    class EntraID,AppService azure;
+    class SignalR realtime;
+    class SQL,Redis,OpenAI data;
 ```
 
 ### 2.2. Justificación de Componentes Nuevos

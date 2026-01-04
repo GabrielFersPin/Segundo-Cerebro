@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4ed6108fa89dad2f",
+        "id": "63b8d484cfb59f43",
         "type": "tabs",
         "children": [
           {
-            "id": "619ac35f415d7c2b",
+            "id": "f6dac3d015aa29d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -185,8 +185,9 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "619ac35f415d7c2b",
+  "active": "f6dac3d015aa29d9",
   "lastOpenFiles": [
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
     "Journal/Maria Clara.md",
     "Journal/Thoughts.md",
     "Journal/Cosas que comentar con Karen.md",
@@ -194,7 +195,6 @@
     "Journal/Sueño.md",
     "Journal/journal_completo.md",
     "Soledad.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Microservices/docker-compose.yml",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Microservices",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_PoC",
