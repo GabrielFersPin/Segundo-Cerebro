@@ -11,10 +11,14 @@
             "id": "619ac35f415d7c2b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Eduinnovatech_Proposal"
             }
           }
         ]
