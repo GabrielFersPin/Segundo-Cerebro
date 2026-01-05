@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "63b8d484cfb59f43",
+        "id": "b9252d561f88346f",
         "type": "tabs",
         "children": [
           {
-            "id": "f6dac3d015aa29d9",
+            "id": "2d0eb1fa91aff0d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Eduinnovatech_Proposal"
@@ -185,8 +185,11 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "f6dac3d015aa29d9",
+  "active": "2d0eb1fa91aff0d9",
   "lastOpenFiles": [
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Unconfirmed 79278.crdownload",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/EC2_Amazon_Elastic_Compute_Cloud.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
     "Journal/Maria Clara.md",
     "Journal/Thoughts.md",
@@ -214,14 +217,12 @@
     "Data Science Studies/Algoritmo y Estructura de Datos/Resolución de Problemas (UD5).md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Diseño de Algoritmos (UD6).md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Resolución de Problemas.md",
-    "Data Science Studies/Fundamendos de las Ciencias de Datos/Regresión Logística.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD6_extracted.txt",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD5_extracted.txt",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD4_extracted.txt",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD4_AnalisisEficienciaAlgoritmos.pdf",
     "Data Science Studies/Algoritmo y Estructura de Datos/Tema5_AplicacionEDaRresolucionProblemas.pdf",
     "Data Science Studies/Algoritmo y Estructura de Datos/Tema6_DisenoDeAlgoritmos.pdf",
-    "Data Science Studies/Fundamendos de las Ciencias de Datos/Dashboard_Fundamentos.md",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026822201.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026621368.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 4 973c10893877457e824a1874ba8a3844/Untitled 2.png",
@@ -232,7 +233,6 @@
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 7.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 9.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 8.png",
-    "Ingeniería/Tecnología de los Materiales/Resistencia de los Materiales f934fbe6f2fc4050a942a7c207d35bc7/Tema 6 ebe5a58444e840bc8c0c0b4e5ca97ecf/tratamiento_DE_CARGAS_DISTRIBUDAS.pdf",
     "Data Science Studies/Git/GIT COMANDOS.canvas",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
     "Sin título.canvas",
