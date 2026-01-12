@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science Studies/Arquitectura de Ordenadores/Trabajo Out of order Execution.md",
+                "file": "Data Science Studies/Algoritmo y Estructura de Datos/Exam Prep.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trabajo Out of order Execution"
+              "title": "Exam Prep"
+            }
+          },
+          {
+            "id": "28adf0fc94b1e0f7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 21.02.17.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-09 21.02.17.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6b00cfbf30760cd6",
@@ -182,11 +196,22 @@
       "templater-obsidian:Templater": false,
       "flashcards-obsidian:Generate flashcards": false,
       "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
       "card-board:CardBoard": false
     }
   },
-  "active": "afa0359caa08e806",
+  "active": "28adf0fc94b1e0f7",
   "lastOpenFiles": [
+    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 21.02.17.excalidraw.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Exam Prep.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Ejercicios Tema 5.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 20.43.31.excalidraw.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 20.29.40.excalidraw.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/LL_Exam_Practice.py",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 20.28.21.excalidraw.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
+    "Universidad/Dashboard General.md",
+    "Data Science Studies/Arquitectura de Ordenadores/Trabajo Out of order Execution.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Dashboard-Infraestructura.md",
@@ -204,25 +229,16 @@
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Microservices",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_PoC",
     "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos y Estructuras de Búsqueda.md",
-    "Universidad/Dashboard General.md",
     "Journal/2025-12-29.md",
     "Data Science Studies/Arquitectura de Ordenadores/CPU - Arquitecturas CISC vs RISC.md",
     "Data Science Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md",
-    "Data Science Studies/Arquitectura de Ordenadores/Trabajo Out of order Execution.md",
     "Data Science Studies/Embeddings/Embeddings.md",
     "Journal/2025-12-27.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/00_Docker_Core.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Estructura de Datos.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Dashboard-Algoritmos.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Big O y Análisis de Complejidad.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Diseño de Algoritmos.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Resolución de Problemas (UD5).md",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD6_extracted.txt",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD5_extracted.txt",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD4_extracted.txt",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD4_AnalisisEficienciaAlgoritmos.pdf",
     "Data Science Studies/Algoritmo y Estructura de Datos/Tema5_AplicacionEDaRresolucionProblemas.pdf",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Tema6_DisenoDeAlgoritmos.pdf",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026822201.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026621368.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 4 973c10893877457e824a1874ba8a3844/Untitled 2.png",
