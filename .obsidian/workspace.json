@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "656fac90a900cec2",
+        "id": "b10e62927f7a2549",
         "type": "tabs",
         "children": [
           {
-            "id": "afa0359caa08e806",
+            "id": "87a56b59aa010416",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science Studies/Algoritmo y Estructura de Datos/Exam Prep.md",
-                "mode": "source",
-                "source": false
+                "file": "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos sobre Grafos.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Exam Prep"
-            }
-          },
-          {
-            "id": "28adf0fc94b1e0f7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 21.02.17.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-09 21.02.17.excalidraw"
+              "title": "Algoritmos sobre Grafos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,8 +187,14 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "28adf0fc94b1e0f7",
+  "active": "87a56b59aa010416",
   "lastOpenFiles": [
+    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos sobre grafos.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Grafos_Visual_Summary.png",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos sobre Grafos.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Algortimos de Programación dinámica.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
+    "Universidad/Dashboard General.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 21.02.17.excalidraw.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Exam Prep.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Ejercicios Tema 5.md",
@@ -209,8 +202,6 @@
     "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 20.29.40.excalidraw.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/LL_Exam_Practice.py",
     "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 20.28.21.excalidraw.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
-    "Universidad/Dashboard General.md",
     "Data Science Studies/Arquitectura de Ordenadores/Trabajo Out of order Execution.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
@@ -230,10 +221,6 @@
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_PoC",
     "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos y Estructuras de Búsqueda.md",
     "Journal/2025-12-29.md",
-    "Data Science Studies/Arquitectura de Ordenadores/CPU - Arquitecturas CISC vs RISC.md",
-    "Data Science Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md",
-    "Data Science Studies/Embeddings/Embeddings.md",
-    "Journal/2025-12-27.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD6_extracted.txt",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD5_extracted.txt",
     "Data Science Studies/Algoritmo y Estructura de Datos/UD4_extracted.txt",
@@ -247,7 +234,6 @@
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 4.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 6.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 7.png",
-    "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 9.png",
     "Data Science Studies/Git/GIT COMANDOS.canvas",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
     "Sin título.canvas",
