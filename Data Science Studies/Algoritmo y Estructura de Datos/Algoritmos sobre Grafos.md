@@ -78,6 +78,23 @@ Encuentra el camino más corto desde un **nodo origen** a todos los demás nodos
 
 **Analogía**: Imagina verter agua en el nodo origen; el agua se expande por las tuberías (aristas) y llega antes a los nodos más cercanos (menor peso/resistencia).
 
+### 🧠 Estrategia (El "Script")
+
+**"El Tacaño"**: Su lógica es priorizar siempre el camino con el **menor costo acumulado**.
+
+**La Lógica**: "Siempre miro las opciones disponibles y elijo la que tenga el menor costo *total* hasta el momento".
+
+**La Ejecución**:
+*(Escenario: A→B(10), A→C(5), B→D(2), C→D(9), C→B(3))*
+
+1. Estoy en **A**. Opciones: B (costo 10), C (costo 5).
+2. **Decisión**: C es más barato (5 < 10). Voy a C.
+3. Ahora en **C**. Opciones desde aquí: D (costo 5+9=14), B (costo 5+3=8).
+4. *Espera*, también puedo ir todavía por A→B (costo 10).
+5. **Decisión**: El camino a B vía C (costo 8) es más barato que el directo a B (10) o a D (14). Voy a B vía C.
+6. Ahora en **B**. Opción: D (costo 8+2=10).
+7. **Resultado**: Camino A -> C -> B -> D. Costo Total: 10.
+
 ### ⚙️ Funcionamiento
 
 1. Asignar distancia 0 al origen y ∞ al resto.
@@ -138,17 +155,38 @@ Buscan conectar **todos** los nodos del grafo con el **menor costo total** posib
 
 ### ⚔️ Prim vs Kruskal
 
-**Prim (Crecimiento Voraz)**:
+#### Prim (Crecimiento Voraz)
 
-- Empieza en un nodo arbitrario.
-- En cada paso, agrega la arista más barata que conecta el árbol actual con un nodo externo.
-- **Visual**: Mancha de aceite expandiéndose lentamente por lo más barato.
+**🧠 Estrategia (El "Script")**: "El Conquistador".
 
-**Kruskal (Unión de Bosques)**:
+**La Lógica**: "Desde los nodos que ya controlo (mi territorio), ¿cuál es la conexión más barata hacia un nodo que aún no tengo?".
 
-- Ordena todas las aristas por peso.
-- Añade aristas de menor a mayor si no forman ciclo (usa Union-Find).
-- **Visual**: Múltiples fragmentos que se van uniendo hasta formar uno solo.
+**La Ejecución**:
+*(Escenario: Grafo no dirigido A-B(10), A-C(5), B-D(2), C-D(9), C-B(3))*
+
+1. Empiezo en **A** (Territorio: {A}). Frontera: A-B(10), A-C(5).
+2. **Decisión**: A-C es más barato (5). Conquisto C. (Territorio: {A, C}).
+3. Frontera actual: A-B(10), C-B(3), C-D(9).
+4. **Decisión**: C-B es más barato (3). Conquisto B. (Territorio: {A, C, B}).
+5. Frontera actual: A-B(10) [inútil, ya tengo B], C-D(9), B-D(2).
+6. **Decisión**: B-D es más barato (2). Conquisto D. (Territorio: {A, C, B, D}).
+7. **Resultado**: Conexiones A-C, C-B, B-D. Costo Total: 10.
+
+#### Kruskal (Unión de Bosques)
+
+**🧠 Estrategia (El "Script")**: "El Constructor de Puentes".
+
+**La Lógica**: "¿Cuál es la arista más barata de *todo* el mapa? Si une dos islas separadas, la construyo".
+
+**La Ejecución**:
+*(Escenario: Mismo grafo anterior)*
+
+1. Lista de aristas ordenada: (B-D, 2), (C-B, 3), (A-C, 5), (C-D, 9), (A-B, 10).
+2. **Decisión**: (B-D, 2) es la más barata. Uno B con D. Islas: {B,D}, {A}, {C}.
+3. **Decisión**: (C-B, 3) es la siguiente. Uno C con el grupo B-D. Islas: {B,D,C}, {A}.
+4. **Decisión**: (A-C, 5) es la siguiente. Uno A con el grupo B-D-C. Islas: {A,B,C,D}.
+5. **Decisión**: (C-D, 9). C y D ya están en la misma isla. Descartar (evita ciclo).
+6. **Resultado**: Aristas B-D, C-B, A-C. Costo Total: 10.
 
 ```mermaid
 graph TD
@@ -175,6 +213,25 @@ graph TD
 ### 🔍 Concepto
 
 Ordenación lineal de los vértices de un **Grafo Dirigido Acíclico (DAG)** tal que para toda arista `u -> v`, `u` aparece antes que `v`.
+
+### 🧠 Estrategia (El "Script")
+
+**"El Organizado"**: Su lógica es resolver prerrequisitos antes de avanzar.
+
+**La Lógica**: "No puedo procesar esta tarea hasta que todas las que apuntan a ella (prerrequisitos) estén tachadas de la lista".
+
+**La Ejecución**:
+*(Escenario: A→B, A→C, C→B, B→D, C→D)*
+
+1. Calculo dependencias (entradas): A=0, B=2(A,C), C=1(A), D=2(B,C).
+2. **Decisión**: Solo **A** tiene 0 dependencias. Proceso A.
+   - Al terminar A, libero a sus vecinos: B(2->1), C(1->0).
+3. **Decisión**: Ahora **C** tiene 0 dependencias. Proceso C.
+   - Al terminar C, libero a sus vecinos: B(1->0), D(2->1).
+4. **Decisión**: Ahora **B** tiene 0 dependencias. Proceso B.
+   - Al terminar B, libero a sus vecinos: D(1->0).
+5. **Decisión**: Ahora **D** tiene 0 dependencias. Proceso D.
+6. **Resultado**: Orden A -> C -> B -> D.
 
 ### 🎯 Casos de Uso
 
