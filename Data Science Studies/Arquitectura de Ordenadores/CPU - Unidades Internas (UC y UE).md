@@ -1,14 +1,14 @@
 ---
 cards-deck: Arquitectura::CPU_Unidades
 created: 2024-12-13
-modified: 2026-01-16
-status: 🌱 Semilla
+modified: 2026-01-17
+status: 🌳 Maduro
 tipo_nota: tecnica
 asignatura: Arquitectura
-nivel-comprension: 🤔
-proxima-revision: 2026-01-17
-ultima-revision: 2026-01-14
-veces-revisado: 1
+nivel-comprension: ✅
+proxima-revision: 2026-02-16
+ultima-revision: 2026-01-17
+veces-revisado: 2
 tiempo-repaso: 20min
 tiempo-estimado: 30m
 ---

@@ -1,14 +1,14 @@
 ---
 cards-deck: Arquitectura::Hardware
 created: 2025-11-04
-modified: 2025-12-12
+modified: 2026-01-17
 status: 🌳 Maduro
 tipo_nota: tecnica
 asignatura: Arquitectura
 nivel-comprension: ✅
-proxima-revision: 2026-01-11
-ultima-revision: 2025-12-12
-veces-revisado: 1
+proxima-revision: 2026-02-16
+ultima-revision: 2026-01-17
+veces-revisado: 2
 estado: 🟡 Atrasado
 tiempo-estimado: 2min
 ---
@@ -37,7 +37,7 @@ Los componentes del hardware están divididos en cuatro categorías principales:
 - El ordenador procesa esta información en un formato que puede entender
 - Ejemplos: ratón, teclado, escáner, micrófono, cámara web
 
-**Relacionado**: [[Hardware]] • [[Periféricos]]
+**Relacionado**: [[Componentes de Hardware]]
 
 ---
 
@@ -50,7 +50,7 @@ Los componentes del hardware están divididos en cuatro categorías principales:
 - Transforman la información procesada en formato comprensible para humanos
 - Ejemplos: monitor, altavoz, impresora, proyector
 
-**Relacionado**: [[Hardware]] • [[Periféricos]]
+**Relacionado**: [[Componentes de Hardware]]
 
 ---
 
@@ -63,7 +63,7 @@ Los componentes del hardware están divididos en cuatro categorías principales:
 - **ALU (Unidad Aritmético-Lógica)**: Realiza operaciones aritméticas y lógicas, devuelve resultados a la UC
 - **Memoria Principal**: Memoria rápida que ejecuta programas. Incluye ROM (Read Only Memory) y RAM (Random Access Memory)
 
-**Relacionado**: [[CPU]] • [[Arquitectura de von Neumann]]
+**Relacionado**: [[CPU - Unidades Internas (UC y UE)]]
 
 ---
 
@@ -76,7 +76,7 @@ Los componentes del hardware están divididos en cuatro categorías principales:
 - **Memoria no volátil**: Persistente, mantiene datos sin energía
 - **Complemento a memoria principal**: Mayor capacidad pero menor velocidad que RAM
 
-**Relacionado**: [[Memoria]] • [[Sistemas de Archivos]]
+**Relacionado**: [[CPU - Fundamentos y Componentes Básicos]]
 
 ---
 
@@ -101,26 +101,6 @@ Los componentes del hardware están divididos en cuatro categorías principales:
 Son componentes que hacen funcionar el ordenador con más detalle de su funcionamiento. La arquitectura de von Neumann establece esta división clara entre componentes, lo que permite entender el flujo de datos en el sistema.
 
 Conexión con mi proyecto: Al entrenar modelos de ML, la GPU actúa como procesador especializado, la RAM mantiene los datos en memoria activa, y el SSD almacena el modelo entrenado.
-
----
-
-##🎴 Flashcards
-
-¿Qué elemento tecnológico define la 1ª Generación de ordenadores?::Las Válvulas de Vacío (grandes, calientes y poco fiables). #card 
-
-¿Qué invento marcó el inicio de la 2ª Generación y reemplazó a las válvulas?::El Transistor (permitió reducir tamaño y consumo drásticamente). #card 
-
-¿Qué innovación define la 3ª Generación de ordenadores?::Los Circuitos Integrados (Chips), que integran miles de transistores en una pastilla de silicio. #card 
-
-¿Cuál fue el primer microprocesador comercial (4ª Generación)?::El Intel 4004 (1971) la primera CPU completa en un solo chip. #card 
-
-Completa las tecnologías clave de las 5 generaciones: 1. ==Válvulas==, 2. ==Transistores==, 3. ==Circuitos Integrados==, 4. ==Microprocesadores==, 5. ==IA e Internet==. #card
-
----
-
-**📊 Total de flashcards**: 10
-
-> 🎯 **Para revisar**: Cmd/Ctrl+P → "Flashcards: Review flashcards"
 
 ---
 
