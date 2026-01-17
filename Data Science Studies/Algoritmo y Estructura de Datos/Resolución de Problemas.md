@@ -34,8 +34,8 @@ graph TD
     end
 
     subgraph Recursivo [Recursivo: Llamada a sí mismo]
-        R1[Función(5)] --> R2[Función(4)]
-        R2 --> R3[Función(3)]
+        R1["Función(5)"] --> R2["Función(4)"]
+        R2 --> R3["Función(3)"]
         R3 --> R4[...]
         R4 -.-> RET[Retorno Base]
         RET -.-> R3
