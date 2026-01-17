@@ -1,16 +1,20 @@
 ---
-tipo_nota: tecnica
+tipo_nota: Trabajo
 asignatura: Arquitectura
 nivel-comprension: 💡
-proxima-revision: 2025-12-24
+proxima-revision: 2026-01-25
 tiempo-repaso: 10 min
-veces-revisado: 1
+veces-revisado: 2
 tags:
   - seguridad
   - cpu
   - hardware
   - performance
 created: 2025-12-17
+ultima-revision: 2026-01-15
+modified: 2026-01-15
+tiempo-estimado: 20min
+status: 🌳 Maduro
 ---
 
 # La Carrera por la Velocidad: Ejecución Especulativa y Vulnerabilidades

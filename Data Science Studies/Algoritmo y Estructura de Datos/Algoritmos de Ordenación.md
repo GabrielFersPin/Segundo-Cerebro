@@ -1,20 +1,20 @@
 ---
 cards-deck: "Algoritmos: Ordenación"
 created: 2024-11-27
-modified: 2025-12-26
+modified: 2026-01-14
 status: 🌿 Creciendo
 tipo_nota: tecnica
 asignatura: Algoritmos
 procesamiento: COMPLETO
 prioridad: EXAMEN-LEJANO
 fecha-examen: 2025-02-15
-proxima-revision: 2026-01-09
+proxima-revision: 2026-01-28
 complejidad: ⭐⭐⭐
 tiempo-estimado: 1h
 fuente: UD3 - Algoritmos y Estructuras de Datos UAX
 nivel-comprension: 💡
-ultima-revision: 2025-12-26
-veces-revisado: 4
+ultima-revision: 2026-01-14
+veces-revisado: 5
 ---
 
 # Algoritmos de Ordenación

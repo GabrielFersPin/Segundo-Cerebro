@@ -1,5 +1,5 @@
 ---
-cards-deck: Algoritmos:Big O
+cards-deck: Algoritmos::Big O
 created: 2025-11-04
 modified: 2025-12-23
 status: 🌳 Maduro

@@ -1,10 +1,10 @@
 ---
-cards-deck: Algoritmos
 created: 2025-11-26
 modified: 2025-12-10
 status: 🌿 Creciendo
 tipo_nota: tecnica
 asignatura: Algoritmos
+cards-deck: Algoritmos::Estructura-de-Datos
 nivel-comprension: 💡
 proxima-revision: 2025-12-24
 ultima-revision: 2025-12-10
@@ -524,6 +524,34 @@ Pila → Undo/redo de acciones
 Priority Queue → Procesar objetivos por urgencia
 Árbol → Dependencias entre objetivos
 ```
+---
+
+---
+cards-deck: Algoritmos::Estructura-de-Datos
+#card 
+---
+
+## 🎴 Flashcards
+
+¿Cuál es la diferencia en complejidad de acceso entre un Array y una Lista Enlazada?::Array es O(1) (acceso directo por índice), Lista es O(n) (acceso secuencial). #card
+
+¿Qué regla define el orden de salida en una Pila (Stack) y en una Cola (Queue)?::Pila es LIFO (Último en entrar, Primero en salir), Cola es FIFO (Primero en entrar, Primero en salir). #card
+
+En una Tabla Hash, ¿qué complejidad temporal tiene la búsqueda en el caso promedio?::O(1) (Tiempo constante). #card 
+
+¿Qué es una colisión en una Tabla Hash y cómo se soluciona con "chaining"?::Ocurre cuando dos claves dan el mismo hash. Con chaining, se crea una lista enlazada en esa posición para guardar ambos valores. #card
+
+¿Qué propiedad fundamental cumple un Árbol Binario de Búsqueda (BST)?::Para cualquier nodo, los valores a su IZQUIERDA son menores y los valores a su DERECHA son mayores. #card 
+
+Visualmente, ¿cuál es la diferencia entre BFS y DFS al recorrer un grafo?::BFS explora por niveles/ancho (usa una Cola), DFS explora por profundidad/ramas (usa una Pila o recursión). #card
+
+Si estás programando la función "Deshacer" (Undo) de un editor, ¿qué estructura de datos es la ideal?::Una Pila (Stack). #card
+
+Para encontrar la ruta más corta en un mapa sin pesos (laberinto), ¿qué algoritmo utilizas?::BFS (Búsqueda en Anchura). #card
+
+¿Por qué los Arrays son más eficientes para la caché de la CPU que las Listas Enlazadas?::Porque ocupan memoria contigua, permitiendo cargar bloques enteros en caché. Las listas están dispersas. #card
+
+¿Cuál es la complejidad temporal de insertar un elemento al inicio de un Array?::O(n), porque hay que desplazar todos los elementos restantes. #card 
 
 ---
 

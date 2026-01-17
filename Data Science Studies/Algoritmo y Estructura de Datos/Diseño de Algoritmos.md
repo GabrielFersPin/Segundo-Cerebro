@@ -1,14 +1,16 @@
 ---
 cards-deck: Algoritmos
 created: 2025-12-27
-modified: 2025-12-27
-status: 🌱
+modified: 2026-01-14
+status: 🌱 Semilla
 tipo_nota: tecnica
 asignatura: Algoritmos
-nivel-comprension: 💡
-proxima-revision: 2026-01-03
+nivel-comprension: 🤔
+proxima-revision: 2026-01-17
 tiempo-estimado: 15m
 origen: PDF Tema6 (Visual)
+ultima-revision: 2026-01-14
+veces-revisado: 1
 ---
 
 # Diseño de Algoritmos  🎨
@@ -120,3 +122,14 @@ graph TD
 
 - [[Resolución de Problemas]]
 - [[Big O y Análisis de Complejidad]]
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia

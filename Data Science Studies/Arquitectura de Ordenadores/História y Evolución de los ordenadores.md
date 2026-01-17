@@ -1,14 +1,14 @@
 ---
-cards-deck: Arquitectura::Hardware
+cards-deck: Arquitectura::Evolución de los Ordenadores
 created: 2025-11-04
-modified: 2025-12-12
-status: 🌿 Creciendo
+modified: 2026-01-15
+status: 🌳 Maduro
 tipo_nota: tecnica
 asignatura: Arquitectura
-nivel-comprension: 💡
-proxima-revision: 2025-12-26
-ultima-revision: 2025-12-12
-veces-revisado: 1
+nivel-comprension: ✅
+proxima-revision: 2026-02-14
+ultima-revision: 2026-01-15
+veces-revisado: 2
 estado: 🟡 Atrasado
 tiempo-estimado: 30m
 ---
@@ -123,37 +123,34 @@ Fueron cambios importantes basados principalmente en el procesamiento cada vez m
 
 ---
 
-## 🎴 Flashcards
+##🎴 Flashcards 
+¿Qué marcó principalmente la Primera Generación (1946-1955)?::Válvula al vacío - controla flujo de electrones para representar información en binario (0s y 1s). #card 
 
-¿Qué marcó principalmente la Primera Generación (1946-1955)?::Válvula al vacío - controla flujo de electrones para representar información en binario (0s y 1s) #historia #generaciones
+¿Qué cambio tecnológico impulsó la Segunda Generación (1955-1964)?::El transistor - podía amplificar y controlar corriente eléctrica, era más pequeño, barato y rápido. #card 
 
-¿Qué cambio tecnológico impulsó la Segunda Generación (1955-1964)?::El transistor - podía amplificar y controlar corriente eléctrica, era más pequeño, barato y rápido que las válvulas #historia #transistor
+¿Qué innovación caracterizó la Tercera Generación (1964-1974)?::Circuito integrado (CI) - dispositivo que contiene gran cantidad de transistores mediante impresión sobre semiconductor. #card 
 
-¿Qué innovación caracterizó la Tercera Generación (1964-1974)?::Circuito integrado (CI) - dispositivo que contiene gran cantidad de transistores mediante impresión sobre semiconductor #historia #circuitos
+¿Qué definió la Cuarta Generación (1974-1983)?::El microprocesador - CPU completa en un solo chip, nacimiento del ordenador personal. #card 
 
-¿Qué definió la Cuarta Generación (1974-1983)?::El microprocesador - CPU completa en un solo chip, nacimiento del ordenador personal #historia #microprocesador
+¿Qué caracteriza la Quinta Generación (1983-actualidad)?::Implementación de IA, internet, computación móvil, cloud computing y procesadores multi-core. #card 
 
-¿Qué caracteriza la Quinta Generación (1983-actualidad)?::Implementación de IA, internet, computación móvil, cloud computing y procesadores multi-core #historia #ia #actual
+Primera Generación::Válvulas de vacío (1946-1955) - ENIAC, ordenadores del tamaño de habitaciones. #card 
 
-Primera Generación:::Válvulas de vacío (1946-1955) - ENIAC, ordenadores del tamaño de habitaciones #historia
+Segunda Generación::Transistores (1955-1964) - más pequeños, rápidos y fiables que válvulas. #card 
 
-Segunda Generación:::Transistores (1955-1964) - más pequeños, rápidos y fiables que válvulas #historia
+Tercera Generación::Circuitos integrados (1964-1974) - minicomputadoras, primeros sistemas operativos. #card 
 
-Tercera Generación:::Circuitos integrados (1964-1974) - minicomputadoras, primeros sistemas operativos #historia
+Cuarta Generación::Microprocesadores (1974-1983) - nacimiento del PC, Apple II, IBM PC. #card 
 
-Cuarta Generación:::Microprocesadores (1974-1983) - nacimiento del PC, Apple II, IBM PC #historia
+Quinta Generación::IA y conectividad (1983-actualidad) - internet, cloud, mobile computing. #card 
 
-Quinta Generación:::IA y conectividad (1983-actualidad) - internet, cloud, mobile computing #historia
+¿Por qué el transistor fue revolucionario?::Más pequeño, más barato, más rápido y más fiable que las válvulas de vacío. Permitió reducir tamaño y costo. #card 
 
-¿Por qué el transistor fue revolucionario?::Más pequeño, más barato, más rápido y más fiable que las válvulas de vacío. Permitió reducir tamaño y costo de ordenadores #transistor #ventajas
+¿Qué permitió el circuito integrado?::Integrar miles de transistores en un solo chip semiconductor, reduciendo dramáticamente tamaño y aumentando fiabilidad. #card 
 
-¿Qué permitió el circuito integrado?::Integrar miles de transistores en un solo chip semiconductor, reduciendo dramáticamente tamaño y aumentando fiabilidad #circuitos #integracion
+¿Cuál fue el primer microprocesador comercial?::Intel 4004 (1971) - primera CPU completa en un chip. #card  
 
-¿Cuál fue el primer microprocesador comercial?::Intel 4004 (1971) - primera CPU completa en un chip #microprocesador #intel
-
-Las 5 generaciones se caracterizan por: ==Válvulas== (1ª), ==Transistores== (2ª), ==Circuitos Integrados== (3ª), ==Microprocesadores== (4ª), ==IA e Internet== (5ª) #historia #generaciones
-
-¿Qué impacto tuvo la democratización de la informática?::Pasó de ordenadores gigantes accesibles solo para gobiernos/universidades a PCs en cada hogar y smartphones en cada bolsillo #impacto #social
+Las 5 generaciones se caracterizan por: ==Válvulas== (1ª), ==Transistores== (2ª), ==Circuitos Integrados== (3ª), ==Microprocesadores== (4ª), ==IA e Internet== (5ª). #card
 
 ---
 

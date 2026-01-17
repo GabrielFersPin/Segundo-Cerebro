@@ -1,11 +1,17 @@
 ---
-nivel-comprension: 🤔
-proxima-revision: 2026-01-01
-ultima-revision: 2025-12-25
-modified: 2025-12-25
+nivel-comprension: 💡
+proxima-revision: 2026-01-25
+ultima-revision: 2026-01-15
+modified: 2026-01-15
 tiempo-estimado: 15m
-veces-revisado: 2
-status: 🌱 Semilla
+veces-revisado: 3
+status: 🌿 Creciendo
+cards-deck: Arquitectura::CPU-Fundamentos
+created: 2026-01-15
+tipo_nota: tecnica
+asignatura: Arquitectura
+estado: 🟢 Al día
+tiempo-repaso: 5min
 ---
 
 # CPU - Fundamentos y Componentes Básicos
@@ -196,40 +202,37 @@ ADD R1, R2, R3
 
 ---
 
-## 🎴 Flashcards
+---
+cards-deck: Arquitectura::CPU-Fundamentos
+tipo_nota: tecnica
+asignatura: Arquitectura
+estado: 🟢 Al día
+nivel-comprension: 💡
+---
 
-### 📘 Conceptos Fundamentales
+## 🎴 Flashcards  
 
-¿Cuál es la función principal de la CPU en un ordenador?::Es el cerebro que coordina todas las operaciones, cálculos y funciones del sistema. Actúa como director de orquesta. #cpu #fundamentos
+¿Cuál es la función principal de la CPU?::Es el cerebro que coordina todas las operaciones y actúa como director de orquesta del sistema. #card
 
-¿Qué dos componentes tiene una instrucción básica?::Código de operación (opcode) que indica QUÉ hacer, y operandos que son los datos sobre los que trabaja. #instruccion #fundamentos
+¿Qué dos componentes tiene una instrucción básica?::Código de operación (opcode) y operandos. #card
 
-¿Cuál es la diferencia entre Registro de Instrucción (RI) y Contador de Programa (CP)?::El RI almacena la instrucción que se está ejecutando AHORA, mientras que el CP apunta a la SIGUIENTE instrucción a ejecutar. #registros #cpu
+¿Diferencia entre Registro de Instrucción (RI) y Contador de Programa (CP)?::El RI tiene la instrucción ACTUAL, el CP apunta a la SIGUIENTE. #card
 
-¿Qué banderas (flags) almacena el Registro de Estado y para qué sirven?::Almacena Zero Flag (ZF), Overflow Flag (OF), Negative Flag (NF) y Parity Flag (PF). Se usan en instrucciones condicionales (if/else) para tomar decisiones. #flags #control-flujo
+¿Qué flags almacena el Registro de Estado?::Zero (ZF), Overflow (OF), Negative (NF) y Parity (PF). #card
 
-La memoria caché está pegada al procesador. ¿Cuál es su ventaja y cuál es su trade-off?::Ventaja: acceso ultra-rápido a datos. Trade-off: tiene muy poca capacidad de almacenamiento comparada con RAM. #memoria #cache
+Ventaja y desventaja de la memoria caché::Ventaja: velocidad extrema. Desventaja: poca capacidad y alto coste. #card
 
-### 🔧 Aplicación y Escenarios
+Cuando presionas una tecla ejecutando Python, ¿qué se activa en la CPU?::Gestión de Interrupciones. #card
 
-Cuando presionas una tecla mientras tu ordenador está ejecutando código Python, ¿qué función de la CPU se activa? ? Gestión de Interrupciones. La CPU pausa la ejecución actual, guarda el estado, atiende la entrada del teclado y luego retoma el proceso. #interrupciones #practica
+¿Qué unidad de la CPU calcula decimales para vectores en ML?::La FPU (Unidad de Punto Flotante). #card
 
-En tu sistema de recomendación de coworkings con 1000+ espacios, cuando calculas similitudes entre vectores, ¿qué unidad de la CPU hace los cálculos con decimales? ? La FPU (Unidad de Punto Flotante), que es parte de la Unidad de Ejecución y está especializada en operaciones con números decimales. #fpu #machine-learning
+¿Por qué los registros son vitales para Machine Learning?::Evitan ir a RAM en cada operación matemática, acelerando el entrenamiento. #card
 
-### 🔗 Conexiones Avanzadas
+3 funciones de la CPU al ejecutar np.dot() (NumPy)::1. Gestión Memoria, 2. Ejecución (FPU), 3. Control Flujo. #card
 
-¿Por qué los registros son más importantes en Machine Learning que en procesamiento de texto simple? ? ML requiere miles de operaciones matemáticas consecutivas (multiplicaciones de matrices, cálculo de gradientes). Si la CPU tuviera que ir a RAM en cada operación, el entrenamiento sería 100x más lento. Los registros permiten mantener valores intermedios sin salir del procesador. #ml #optimizacion
+En una app React, ¿qué operaciones dominan al renderizar?::Entrada/Salida (actualizar DOM y memoria de video). #card
 
-Cuando NumPy ejecuta ==np.dot()== (producto de matrices), menciona 3 funciones de la CPU que se activan en secuencia ?
-
-1. Gestión de Memoria (carga datos desde RAM), 2. Ejecución de Instrucciones (operaciones matemáticas en FPU/ALU), 3. Control de Flujo (bucles para iterar sobre elementos de la matriz). #numpy #integracion #cloze
-    
-
-Tu app React renderiza un componente con 50 elementos en una lista. Desde el punto de vista de la CPU, ¿qué tipo de operaciones domina: aritméticas, lógicas o de E/S? ? Operaciones de Entrada/Salida (E/S). React necesita actualizar el DOM, lo que implica comunicación con el subsistema gráfico (GPU) y escribir en memoria de video. Las operaciones lógicas (comparar virtual DOM) son secundarias. #react #frontend
-
-### 📊 Debugging Mental
-
-Si un programa en Python tiene un bucle infinito y la CPU está al 100%, ¿qué componente de la CPU está fallando en su función de detección? ? La gestión de interrupciones. El programa debería ser interrumpido por el sistema operativo después de consumir su tiempo de CPU, pero si no hay mecanismo de timeout o el programa desactiva interrupciones, seguirá ejecutándose. #debugging #so
+Si un bucle infinito pone la CPU al 100%, ¿qué falla?::La gestión de interrupciones (Timer del SO). #card 
 
 ---
 
@@ -272,6 +275,7 @@ Si un programa en Python tiene un bucle infinito y la CPU está al 100%, ¿qué 
 - **Nivel de comprensión**: 💡 Entendido
     
 - **Tiempo estimado de repaso**: 15min
+    
 
 ---
 
@@ -280,5 +284,7 @@ Si un programa en Python tiene un bucle infinito y la CPU está al 100%, ¿qué 
 Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
 
 - [ ] Hacer flashcards #mejora-concepto
+    
 - [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+    
 - [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia

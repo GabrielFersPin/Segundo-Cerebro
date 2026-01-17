@@ -1,5 +1,5 @@
 ---
-cards-deck: Arquitectura
+cards-deck: Arquitectura::CISC vs RISC
 created: 2024-12-13
 modified: 2025-12-25
 status: 🌿 Creciendo

@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b10e62927f7a2549",
+        "id": "977041d4c21daa4e",
         "type": "tabs",
         "children": [
           {
-            "id": "87a56b59aa010416",
+            "id": "e143368631f12866",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos sobre Grafos.md",
+                "file": "Universidad/2026-01-15.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algoritmos sobre Grafos"
+              "title": "2026-01-15"
+            }
+          },
+          {
+            "id": "54bb41a7790f98bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "CPU - Fundamentos y Componentes Básicos"
             }
           }
         ]
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mejora-practica",
+                "query": "tag cards-deck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6b00cfbf30760cd6",
@@ -161,9 +174,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "bcebfffce02c8a1f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Cola de notas a revisar"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -184,48 +207,50 @@
       "flashcards-obsidian:Generate flashcards": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
+      "obsidian-spaced-repetition:Revisar Tarjetas": false,
       "card-board:CardBoard": false
     }
   },
-  "active": "87a56b59aa010416",
+  "active": "e143368631f12866",
   "lastOpenFiles": [
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos sobre grafos.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Grafos_Visual_Summary.png",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos sobre Grafos.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algortimos de Programación dinámica.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
+    "Universidad/2026-01-16.md",
+    "Universidad/2026-01-15.md",
+    "Data Science Studies/Arquitectura de Ordenadores/CPU - Unidades Internas (UC y UE).md",
+    "Data Science Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md",
+    "Data Science Studies/Arquitectura de Ordenadores/CPU - Arquitecturas CISC vs RISC.md",
+    "Data Science Studies/Arquitectura de Ordenadores/Canva - CPU.canvas",
+    "Universidad/Cerebro_Dir/Cerebro.py",
+    "Universidad/Cerebro_Dir",
+    "Universidad/Cerebro.py",
+    "Universidad/analisis_cerebro.py~",
+    "Universidad/Cerebro~",
+    "Universidad/Cerebro",
+    "Universidad/🧠~",
     "Universidad/Dashboard General.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 21.02.17.excalidraw.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Exam Prep.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Ejercicios Tema 5.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 20.43.31.excalidraw.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 20.29.40.excalidraw.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/LL_Exam_Practice.py",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 20.28.21.excalidraw.md",
+    "~",
+    "",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Estructura de Datos.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Big O y Análisis de Complejidad.md",
+    "Data Science Studies/Arquitectura de Ordenadores/Dashboard-Arquitectura.md",
+    "Data Science Studies/Arquitectura de Ordenadores/História y Evolución de los ordenadores.md",
+    "Data Science Studies/Arquitectura de Ordenadores/Componentes de Hardware.md",
     "Data Science Studies/Arquitectura de Ordenadores/Trabajo Out of order Execution.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Dashboard-Infraestructura.md",
-    "Journal/Soledad.md",
-    "Journal/2026-01-05.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Unconfirmed 79278.crdownload",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/EC2_Amazon_Elastic_Compute_Cloud.md",
-    "Journal/Maria Clara.md",
-    "Journal/Thoughts.md",
-    "Journal/Cosas que comentar con Karen.md",
-    "Journal/Journal.md",
-    "Journal/Sueño.md",
-    "Journal/journal_completo.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Microservices/docker-compose.yml",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Microservices",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_PoC",
+    "Sin título.base",
+    "202601151542.md",
+    "Data Science Studies/Arquitectura de Ordenadores/CPU - Índice General.md",
+    "Universidad/Task_list.md",
+    "Arquitectura_Computadores_MOC.md",
+    "Universidad/Analisis_Cerebral.md",
+    "Templates/Class_Notes_Template.md",
+    "Templates/Task-List.md",
+    "Universidad/Dashboard_Rendimiento.md",
+    "Universidad/Task-List.md",
+    "Templates/Dashboard_Rendimiento.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Diseño de Algoritmos.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Diseño de Algoritmos (UD6).md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos y Estructuras de Búsqueda.md",
-    "Journal/2025-12-29.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/UD6_extracted.txt",
-    "Data Science Studies/Algoritmo y Estructura de Datos/UD5_extracted.txt",
-    "Data Science Studies/Algoritmo y Estructura de Datos/UD4_extracted.txt",
-    "Data Science Studies/Algoritmo y Estructura de Datos/UD4_AnalisisEficienciaAlgoritmos.pdf",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Tema5_AplicacionEDaRresolucionProblemas.pdf",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Grafos_Visual_Summary.png",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026822201.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026621368.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 4 973c10893877457e824a1874ba8a3844/Untitled 2.png",
@@ -236,7 +261,6 @@
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 7.png",
     "Data Science Studies/Git/GIT COMANDOS.canvas",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
-    "Sin título.canvas",
     "Sin título 1.canvas"
   ]
 }

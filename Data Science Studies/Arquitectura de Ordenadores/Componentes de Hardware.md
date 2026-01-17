@@ -12,7 +12,7 @@ veces-revisado: 1
 estado: 🟡 Atrasado
 tiempo-estimado: 2min
 ---
-
+ 
 # Componentes del Hardware
 
 > [!abstract] Objetivo
@@ -104,27 +104,17 @@ Conexión con mi proyecto: Al entrenar modelos de ML, la GPU actúa como procesa
 
 ---
 
-## 🎴 Flashcards
+##🎴 Flashcards
 
-¿Cuál es la diferencia entre memoria ROM y RAM?::RAM es volátil (se borra al apagar) y se usa para procesar información activa. ROM es permanente y contiene instrucciones básicas del sistema #memoria #hardware
+¿Qué elemento tecnológico define la 1ª Generación de ordenadores?::Las Válvulas de Vacío (grandes, calientes y poco fiables). #card 
 
-¿Qué hace la UC (Unidad de Control)?::Detecta señales de estado, interpreta instrucciones de memoria y genera órdenes para coordinar el sistema #cpu #procesamiento
+¿Qué invento marcó el inicio de la 2ª Generación y reemplazó a las válvulas?::El Transistor (permitió reducir tamaño y consumo drásticamente). #card 
 
-¿Cuál es la diferencia entre memoria volátil y persistente?::Volátil se borra al apagar (RAM). Persistente permanece sin energía (ROM, SSD, HDD) #memoria #almacenamiento
+¿Qué innovación define la 3ª Generación de ordenadores?::Los Circuitos Integrados (Chips), que integran miles de transistores en una pastilla de silicio. #card 
 
-¿Cuáles son las 4 categorías de componentes de hardware?::Entrada (teclado, ratón), Salida (monitor, altavoz), Procesamiento (CPU), Almacenamiento (HDD, SSD) #hardware #componentes
+¿Cuál fue el primer microprocesador comercial (4ª Generación)?::El Intel 4004 (1971) la primera CPU completa en un solo chip. #card 
 
-UC (Unidad de Control):::Componente de la CPU que coordina y controla las operaciones del sistema, interpreta instrucciones y gestiona señales #cpu #arquitectura
-
-ALU (Unidad Aritmético-Lógica):::Componente de la CPU que realiza operaciones aritméticas y lógicas #cpu #arquitectura
-
-¿Por qué necesitamos almacenamiento además de RAM?::RAM es rápida pero volátil y tiene poca capacidad. El almacenamiento (SSD/HDD) es persistente y tiene mayor capacidad #memoria #almacenamiento
-
-¿Ejemplos de dispositivos de entrada?::Teclado, ratón, escáner, micrófono, cámara web, touchpad #hardware #entrada
-
-¿Ejemplos de dispositivos de salida?::Monitor, altavoz, impresora, proyector, auriculares #hardware #salida
-
-La CPU contiene ==UC== (Unidad de Control), ==ALU== (Unidad Aritmético-Lógica) y ==memoria principal== #cpu #componentes
+Completa las tecnologías clave de las 5 generaciones: 1. ==Válvulas==, 2. ==Transistores==, 3. ==Circuitos Integrados==, 4. ==Microprocesadores==, 5. ==IA e Internet==. #card
 
 ---
 
