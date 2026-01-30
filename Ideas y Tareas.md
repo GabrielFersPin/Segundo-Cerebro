@@ -26,9 +26,7 @@ kanban-plugin: board
 
 ## LinkedIn
 
-- [ ] - [ ] Post de las mejoras de la aplicación
-- [ ] - [ ] Post sobre la creación de la comunidad en la universidad
-- [ ] - [ ] Creación de un post acerca de la origen del vibe coding
+- [ ] - [x] Creación de un post acerca de la origen del vibe coding ✅ 2026-01-20
 
 
 ## Discord Universidad

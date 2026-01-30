@@ -2,14 +2,15 @@
 cards-deck: Nube::Modelos-Servicios
 tipo_nota: tecnica
 asignatura: Infraestructura-Nube
-nivel-comprension: 🤔
-proxima-revision: 2025-11-20
-ultima-revision: 2025-11-20
+nivel-comprension: ✅
+proxima-revision: 2026-02-21
+ultima-revision: 2026-01-22
 tiempo-repaso: 5min
-status: 🌱 Semilla
-veces-revisado: 0
+status: 🌳 Maduro
+veces-revisado: 1
 created: 2025-11-20
-modified: 2025-11-20
+modified: 2026-01-22
+tiempo-estimado: 10min
 ---
 
 # Modelos de Servicios en la Nube
@@ -104,25 +105,35 @@ En mi proyecto de coworkings y la app de gamificación, uso diferentes modelos:
 
 ## 🎴 Flashcards
 
-¿Cuáles son los tres modelos de servicio en la nube?::IaaS (Infrastructure as a Service), PaaS (Platform as a Service) y SaaS (Software as a Service) #cloud #modelos
+¿Cuáles son los tres modelos de servicio en la nube?::IaaS (Infrastructure as a Service), PaaS (Platform as a Service) y SaaS (Software as a Service) #cloud #modelos #card
+<!--SR:!2026-01-26,4,270-->
 
-IaaS (Infrastructure as a Service):::Alquilas infraestructura virtualizada (servidores, almacenamiento, redes). Tú gestionas el SO y aplicaciones. Ejemplo: Amazon EC2, Google Compute Engine #cloud #iaas
+IaaS (Infrastructure as a Service):::Alquilas infraestructura virtualizada (servidores, almacenamiento, redes). Tú gestionas el SO y aplicaciones. Ejemplo: Amazon EC2, Google Compute Engine #cloud #iaas #card
+<!--SR:!2026-01-26,4,270!2026-01-26,4,270-->
 
-PaaS (Platform as a Service):::Entorno completo para desarrollar y desplegar aplicaciones sin gestionar servidores. Solo subes tu código. Ejemplo: Heroku, Google App Engine #cloud #paas
+PaaS (Platform as a Service):::Entorno completo para desarrollar y desplegar aplicaciones sin gestionar servidores. Solo subes tu código. Ejemplo: Heroku, Google App Engine #cloud #paas #card
+<!--SR:!2026-01-25,3,250!2026-01-26,4,270-->
 
 SaaS (Software as a Service):::Aplicaciones completas listas para usar vía web. No gestionas nada de infraestructura. Ejemplo: Gmail, Notion, Spotify #cloud #saas
+<!--SR:!2026-01-26,4,270!2026-01-26,4,270-->
+#card 
+Analogía de la pizza para servicios en la nube::IaaS = tienes horno e ingredientes, PaaS = masa preparada y horno listo, SaaS = pizza a domicilio #cloud #analogia #card
+<!--SR:!2026-01-26,4,270-->
 
-Analogía de la pizza para servicios en la nube::IaaS = tienes horno e ingredientes, PaaS = masa preparada y horno listo, SaaS = pizza a domicilio #cloud #analogia
+¿Qué modelo de servicio en la nube ofrece más control pero requiere más gestión técnica?::IaaS - tienes control total pero debes gestionar SO, seguridad, actualizaciones, etc. #cloud #iaas #card
+<!--SR:!2026-01-26,4,270-->
 
-¿Qué modelo de servicio en la nube ofrece más control pero requiere más gestión técnica?::IaaS - tienes control total pero debes gestionar SO, seguridad, actualizaciones, etc. #cloud #iaas
+¿Qué modelo de servicio usarías para desplegar una app web sin preocuparte de configurar servidores?::PaaS (ejemplo: Heroku) - subes el código con git push y automáticamente se despliega #cloud #paas #card
+<!--SR:!2026-01-26,4,270-->
 
-¿Qué modelo de servicio usarías para desplegar una app web sin preocuparte de configurar servidores?::PaaS (ejemplo: Heroku) - subes el código con git push y automáticamente se despliega #cloud #paas
+Responsabilidades en cloud::En IaaS gestionas desde el SO hacia arriba. En PaaS solo gestionas aplicación y datos. En SaaS no gestionas nada #cloud #responsabilidades #card
+<!--SR:!2026-01-25,3,250-->
 
-Responsabilidades en cloud::En IaaS gestionas desde el SO hacia arriba. En PaaS solo gestionas aplicación y datos. En SaaS no gestionas nada #cloud #responsabilidades
+¿Cómo clasificas estos servicios? - Amazon EC2, Gmail, Heroku, Netflix, Google Compute Engine, Railway::IaaS: EC2, Google Compute Engine | PaaS: Heroku, Railway | SaaS: Gmail, Netflix #cloud #clasificacion #card
+<!--SR:!2026-01-26,4,270-->
 
-¿Cómo clasificas estos servicios? - Amazon EC2, Gmail, Heroku, Netflix, Google Compute Engine, Railway::IaaS: EC2, Google Compute Engine | PaaS: Heroku, Railway | SaaS: Gmail, Netflix #cloud #clasificacion
-
-¿Para Data Science, cuándo usarías IaaS vs SaaS?::IaaS (EC2 con GPU) para entrenar modelos personalizados con control total. SaaS (Google Colab) para análisis rápidos sin configuración #cloud #datascience
+¿Para Data Science, cuándo usarías IaaS vs SaaS?::IaaS (EC2 con GPU) para entrenar modelos personalizados con control total. SaaS (Google Colab) para análisis rápidos sin configuración #cloud #datascience #card
+<!--SR:!2026-01-26,4,270-->
 
 ---
 

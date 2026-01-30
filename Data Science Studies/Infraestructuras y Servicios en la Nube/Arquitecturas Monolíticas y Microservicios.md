@@ -1,17 +1,18 @@
 ---
 cards-deck: Nube::Monolítica-Microservicio
 created: 2025-11-02
-modified: 2025-11-20
-status: 🌿 Creciendo
+modified: 2026-01-22
+status: 🌳 Maduro
 tipo_nota: tecnica
 asignatura: Infraestructura-Nube
-nivel-comprension: 💡
-proxima-revision: 2025-11-27
-ultima-revision: 2025-11-20
+nivel-comprension: ✅
+proxima-revision: 2026-02-21
+ultima-revision: 2026-01-22
 tiempo-repaso: 5min
-veces-revisado: 0
+veces-revisado: 1
+tiempo-estimado: 5m
 ---
-q
+
 # Arquitecturas Monolíticas
 
 > [!abstract] Objetivo
@@ -77,17 +78,20 @@ Mi aplicación de InnerLevel tiene una arquitectura híbrida entre monílitca y 
 
 > 💡 **Formato**: Usa `Pregunta::Respuesta` para flashcards inline
 
-¿Cuál es la diferencia fundamental entre un monolito y arquitecturas distribuidas en términos de acoplamiento?::En un monolito, todos los componentes (interfaz, lógica, datos) están acoplados en una sola unidad. Un cambio en una parte afecta potencialmente todo. En arquitecturas distribuidas, los componentes están desacoplados y se comunican a través de interfaces definidas. #Arquitectura #Monolítica, #Microservicios, #Nube
+¿Cuál es la diferencia fundamental entre un monolito y arquitecturas distribuidas en términos de acoplamiento?::En un monolito, todos los componentes (interfaz, lógica, datos) están acoplados en una sola unidad. Un cambio en una parte afecta potencialmente todo. En arquitecturas distribuidas, los componentes están desacoplados y se comunican a través de interfaces definidas. #Arquitectura #Monolítica, #Microservicios, #Nube #card
+<!--SR:!2026-01-26,4,270-->
 
-¿Por qué el despliegue es más simple pero más riesgoso en monolitos?::Es simple porque despliegas UNA sola unidad. Pero es riesgoso porque cualquier cambio pequeño requiere desplegar TODO. Si falla, cae toda la aplicación. No puedes actualizar "solo el módulo de cartas". #Arquitectura #monolítica, #microservicios, #nube
+¿Por qué el despliegue es más simple pero más riesgoso en monolitos?::Es simple porque despliegas UNA sola unidad. Pero es riesgoso porque cualquier cambio pequeño requiere desplegar TODO. Si falla, cae toda la aplicación. No puedes actualizar "solo el módulo de cartas". #Arquitectura #monolítica, #microservicios, #nube #card
+<!--SR:!2026-01-26,4,270-->
 
-¿Por qué la escalabilidad horizontal es ineficiente en monolitos?::Para manejar más tráfico, debes replicar TODO el monolito (incluso las partes que no necesitan más recursos). Si solo "Cartas" tiene mucho tráfico, aún replicas toda la BD y lógica de Batallas.
+¿Por qué la escalabilidad horizontal es ineficiente en monolitos?::Para manejar más tráfico, debes replicar TODO el monolito (incluso las partes que no necesitan más recursos). Si solo "Cartas" tiene mucho tráfico, aún replicas toda la BD y lógica de Batallas. #card
+<!--SR:!2026-01-26,4,270-->
 
-¿En qué casos el monolito SÍ es la mejor opción?::Aplicaciones pequeñas/medianas (< 5 desarrolladores) Tiempo de market-to-launch crítico Equipo no tiene experiencia con sistemas distribuidos Tráfico predecible y manejable Cambios frecuentes en toda la aplicación
+¿En qué casos el monolito SÍ es la mejor opción?::Aplicaciones pequeñas/medianas (< 5 desarrolladores) Tiempo de market-to-launch crítico Equipo no tiene experiencia con sistemas distribuidos Tráfico predecible y manejable Cambios frecuentes en toda la aplicación #card
+<!--SR:!2026-01-26,4,270-->
 
-> 💡 Usa ==texto== para ocultar partes. Ejemplo: "El algoritmo ==QuickSort== tiene complejidad ==O(n log n)=="
-
-El monolito sacrifica == escalabilidad == para ganar == velocidad inicial ==
+El monolito sacrifica == escalabilidad == para ganar == velocidad inicial == #card
+<!--SR:!2026-01-26,4,270!2026-01-25,3,250--> 
 
 ---
 

@@ -1,15 +1,16 @@
 ---
 cards-deck: Nube
 created: 2025-11-20
-modified: 2025-11-20
-status: 🌱
-tipo_nota: "tecnica"
+modified: 2026-01-22
+status: 🌿 Creciendo
+tipo_nota: tecnica
 asignatura: Infraestructura-Nube
 nivel-comprension: 💡
-proxima-revision: 2025-11-23
-ultima-revision: 2025-11-20
-veces-revisado: 0
+proxima-revision: 2026-01-29
+ultima-revision: 2026-01-22
+veces-revisado: 1
 tiempo-repaso: 30min
+tiempo-estimado: 10m
 ---
 
 # Amazon EC2 (Elastic Compute Cloud)
@@ -50,7 +51,7 @@ El concepto de "elasticidad" es fundamental: puedes escalar verticalmente (cambi
 - Se pueden arrancar, detener, reiniciar o terminar según necesidad
 - Mantienen su configuración y datos mientras estén en estado "stopped" (detenidas)
 
-**Relacionado**: [[AMI]] • [[Security Groups]] • [[EBS]]
+**Relacionado**: [[AMI]] 
 
 ### 📌 Tipos de Instancia
 
@@ -63,7 +64,7 @@ El concepto de "elasticidad" es fundamental: puedes escalar verticalmente (cambi
 - **p3/p4**: Equipadas con GPUs NVIDIA para ML/AI y deep learning
 - **m5**: Balanceadas entre CPU y memoria, versátiles para cargas mixtas
 
-**Relacionado**: [[GPU Computing]] • [[Machine Learning Infrastructure]]
+**Relacionado**: [[GPU Computing]]
 
 ### 📌 AMI (Amazon Machine Image)
 
@@ -163,27 +164,37 @@ Para mi app de RPG con React, la arquitectura ideal sería: una t3.small para el
 
 > 💡 **Formato**: Usa `Pregunta::Respuesta` para flashcards inline
 
-¿Qué es Amazon EC2?::Servicio de máquinas virtuales de AWS que proporciona capacidad de computación escalable en la nube #aws #fundamental
+¿Qué es Amazon EC2?::Servicio de máquinas virtuales de AWS que proporciona capacidad de computación escalable en la nube #aws #card
+<!--SR:!2026-01-26,4,270-->
 
-¿Qué es una AMI en EC2?::Amazon Machine Image, plantilla que contiene SO, aplicaciones y configuraciones para lanzar instancias #ami #conceptos
+¿Qué es una AMI en EC2?::Amazon Machine Image, plantilla que contiene SO, aplicaciones y configuraciones para lanzar instancias #ami #card
+<!--SR:!2026-01-26,4,270-->
 
-¿Cuál es la diferencia entre Security Groups y NACLs?::Security Groups son stateful y operan a nivel de instancia, NACLs son stateless y operan a nivel de subnet #networking #seguridad
+¿Cuál es la diferencia entre Security Groups y NACLs?::Security Groups son stateful y operan a nivel de instancia, NACLs son stateless y operan a nivel de subnet #networking #seguridad #card
+<!--SR:!2026-01-23,1,230-->
 
 Tipos de instancia EC2
 ?
-t3/t4 (propósito general), c5/c6 (computación), r5/r6 (memoria), p3/p4 (GPU), m5 (balanceado) #instancias #tipos
+t3/t4 (propósito general), c5/c6 (computación), r5/r6 (memoria), p3/p4 (GPU), m5 (balanceado) #instancias #card
+<!--SR:!2026-01-26,4,270--> 
 
-Amazon EC2 ofrece ==On-Demand== para pago por uso sin compromiso, ==Reserved Instances== con ahorro hasta 70% con compromiso 1-3 años, y ==Spot Instances== con hasta 90% descuento usando capacidad no utilizada #pricing
+Amazon EC2 ofrece ==On-Demand== para pago por uso sin compromiso, ==Reserved Instances== con ahorro hasta 70% con compromiso 1-3 años, y ==Spot Instances== con hasta 90% descuento usando capacidad no utilizada #pricing #card
+<!--SR:!2026-01-25,3,250!2026-01-26,4,270!2026-01-26,4,270--> 
 
-EBS:::Elastic Block Store, almacenamiento en bloque persistente que se conecta a instancias EC2 y permite snapshots #storage #ebs
+EBS:::Elastic Block Store, almacenamiento en bloque persistente que se conecta a instancias EC2 y permite snapshots #storage #ebs #card
+<!--SR:!2026-01-25,3,250!2026-01-25,3,250-->
 
-¿Qué instancias usarías para entrenar modelos de deep learning?::Instancias p3 o p4 que tienen GPUs NVIDIA optimizadas para ML/AI #ml #gpu
+¿Qué instancias usarías para entrenar modelos de deep learning?::Instancias p3 o p4 que tienen GPUs NVIDIA optimizadas para ML/AI #ml #gpu #card
+<!--SR:!2026-01-26,4,270-->
 
-¿Los datos en una instancia EC2 persisten cuando la detienes (stop)?::Los datos en EBS sí persisten, pero los datos en instance store (almacenamiento efímero) se pierden #storage #persistencia
+¿Los datos en una instancia EC2 persisten cuando la detienes (stop)?::Los datos en EBS sí persisten, pero los datos en instance store (almacenamiento efímero) se pierden #storage #persistencia #card
+<!--SR:!2026-01-26,4,270-->
 
-Security Group:::Firewall virtual a nivel de instancia que controla tráfico inbound/outbound de forma stateful #security #networking
+Security Group:::Firewall virtual a nivel de instancia que controla tráfico inbound/outbound de forma stateful #security #networking #card
+<!--SR:!2026-01-26,4,270!2026-01-23,1,230-->
 
-¿Cuándo usarías Spot Instances?::Para cargas de trabajo interrumpibles como procesamiento batch, entrenamiento de modelos, análisis de datos donde puedes tolerar interrupciones #spot #pricing
+¿Cuándo usarías Spot Instances?::Para cargas de trabajo interrumpibles como procesamiento batch, entrenamiento de modelos, análisis de datos donde puedes tolerar interrupciones #spot #pricing #card
+<!--SR:!2026-01-26,4,270-->
 
 ---
 
@@ -223,3 +234,14 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 > - Experimentar con Spot Instances para entrenar un modelo pequeño
 > - Crear una AMI personalizada con tu stack de Data Science
 > - Cuando revises esta nota, actualiza el contador de revisiones y ajusta la próxima fecha según tu comprensión
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia
