@@ -1,3 +1,0 @@
-z
-- [ ] No se evaluan las secciones de modelos y cluster porque no son parte de la entrega 1
-- [ ] Proyecto muy bien planteado y encaminado desde el punto de vista tecnológico. El tema elegido es muy bueno. Se puede mejorar y aplicar mayor rigor en el análisis presentado. Las conclusiones estén bien, pero no proceden exclusivamente del análisis de datos mostrado. Hace falta referenciar las fuentes utilizadas.

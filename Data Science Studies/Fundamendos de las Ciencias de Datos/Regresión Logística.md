@@ -1,19 +1,22 @@
 ---
 cards-deck: Fundamentos DS
 created: 2025-12-15 19:17
-modified: 2025-12-27 02:22
-status: 🌱 Semilla
+modified: 2026-02-07
+status: 🌿 Creciendo
 tipo_nota: tecnica
 asignatura: Fundamentos-DS
 procesamiento: PROCESADO
 prioridad: EXAMEN-LEJANO
 tipo-captura: concepto
 fecha-examen: ""
-proxima-revision: 2026-01-03
+proxima-revision: 2026-02-07
 complejidad: ⭐⭐
 tiempo-estimado: 15 min
 origen: Clase
 urgente: false
+nivel-comprension: 💡
+ultima-revision: 2026-02-07
+veces-revisado: 1
 ---
 
 # Regresión Logística
@@ -97,11 +100,14 @@ probabilidad = modelo.predict_proba(X_new) # Devuelve [0.2, 0.8]
 
 ## 🎴 Flashcards para Examen
 
-¿La Regresión Logística es para regresión o clasificación?::Clasificación (a pesar del nombre).
+¿La Regresión Logística es para regresión o clasificación?::Clasificación (a pesar del nombre). #card
+<!--SR:!2026-02-08,1,230-->
 
-¿Qué función fuerza la salida a estar entre 0 y 1?::La función Sigmoide.
+¿Qué función fuerza la salida a estar entre 0 y 1?::La función Sigmoide. #card
+<!--SR:!2026-02-08,1,230-->
 
-¿Cuál es el umbral (threshold) por defecto para decidir 0 o 1?::0.5
+¿Cuál es el umbral (threshold) por defecto para decidir 0 o 1?::0.5 #card
+<!--SR:!2026-02-08,1,230-->
 
 ---
 
@@ -109,3 +115,14 @@ probabilidad = modelo.predict_proba(X_new) # Devuelve [0.2, 0.8]
 
 - [[Regresión Lineal]] (Su hermana para variables continuas)
 * [[Matriz de Confusión]] (Cómo evaluamos si el modelo funciona)
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia

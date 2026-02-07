@@ -135,7 +135,7 @@ enqueue(6)          dequeue()
 
 ---
 
-## #️⃣ 4. TABLA HASH (Hash Table)
+## #️⃣ 4. TABLA HASH (Hash Table) [[Tablas Hash]]
 
 ### Estructura Visual:
 ```

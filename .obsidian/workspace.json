@@ -4,49 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "830cc4f4978c99d6",
+        "id": "a091c4e270637c3b",
         "type": "tabs",
         "children": [
           {
-            "id": "1469070a75684d09",
+            "id": "ebd78dbd0d1b1990",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Universidad/Dashboard General.md",
-                "mode": "source",
-                "source": false
+                "file": "Ideas y Tareas.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "Dashboard General"
-            }
-          },
-          {
-            "id": "a4ad5066cedf20a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Universidad/Cerebro/2026-01-30.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-30"
-            }
-          },
-          {
-            "id": "237c8c6582810124",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "icon": "lucide-trello",
+              "title": "Ideas y Tareas"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,44 +206,46 @@
   },
   "active": "bcebfffce02c8a1f",
   "lastOpenFiles": [
-    "Universidad/Dashboard General.md",
-    "Universidad/Cerebro/2026-01-30.md",
+    "Data Science Studies/Fundamendos de las Ciencias de Datos/Regresión Logística.md",
+    "Data Science Studies/Fundamendos de las Ciencias de Datos/Dashboard_Fundamentos.md",
+    "Data Science Studies/Fundamendos de las Ciencias de Datos/Proyecto-Climate_Change_Indicator.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/ExamenAlgoritmos.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 21.02.17.excalidraw.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos sobre Grafos.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Guía Rápida de Algoritmos.png",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos y Estructuras de Búsqueda.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/ListaEnlazada.png",
+    "Data Science Studies/Arquitectura de Ordenadores/Dashboard-Arquitectura.md",
+    "Data Science Studies/Arquitectura de Ordenadores/Canva - CPU.canvas",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Estructura de Datos.md",
+    "Universidad/Dashboard General.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Punteros_Explicacion_Visual.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Notaciones Asintóticas.md",
     "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Resolución de Problemas.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Diseño de Algoritmos.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Ejercicios Tema 5.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Algortimos de Programación dinámica.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Tablas Hash.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Code/colas_de_prioridad.py",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Code/TablaHashHotel.py",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Code",
+    "Data Science Studies/Algoritmo y Estructura de Datos/TablaHashHotel.py",
+    "Data Science Studies/Algoritmo y Estructura de Datos/colas_de_prioridad.py",
+    "Data Science Studies/TablaHashHotel.py",
+    "Data Science Studies/colas_de_prioridad.py",
+    "colas_de_prioridad.py",
+    "TablaHashHotel.py",
+    "Universidad/Cerebro/TablaHashHotel.py",
+    "Universidad/Cerebro/2026-01-31.md",
+    "Universidad/Cerebro/2026-01-30.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Dashboard-Algoritmos.md",
+    "2026-01-30.md",
     "Data Science Studies/Camino para el gran Data Scientist de las galáxias (2022).md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/DevOps.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/IaaS vs. Serverless (AWS vs. Azure).md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/05_ISN.pdf",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/EC2_Amazon_Elastic_Compute_Cloud.md",
-    "Universidad/Cerebro/2026-01-29.md",
-    "Arquitectura_Computadores_MOC.md",
-    "Data Science Studies/Fundamendos de las Ciencias de Datos/Proyecto-Climate_Change_Indicator.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
-    "Preguntas Accenture.md",
-    "Data Science Studies/Proyectos/InnerLevel/LifeQuest Cards.md",
-    "Data Science Studies/Proyectos/Coworking/README.md",
-    "Data Science Studies/Proyectos/Coworking/Motivación.md",
-    "Data Science Studies/Proyectos/Coworking/Modelos.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/00_Docker_Core.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Dashboard-Infraestructura.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Arquitecturas Monolíticas y Microservicios.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Ejercicio Feedback.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Cloud_Computing.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Ventajas y Desventajas de Adoptar la Computación en la Nube.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Modelos_Servicios.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Modelos_Implementacion.md",
-    "Universidad/Cerebro/2026-01-22.md",
-    "Data Science Studies/Proyectos/InnerLevel",
-    "Sin nombre 1",
-    "Data Science Studies/Sin nombre",
-    "Sin nombre",
-    "Data Science Studies/Arquitectura de Ordenadores/Canva - CPU.canvas",
-    "Universidad/Cerebro_Dir/Cerebro.py",
-    "Universidad/Cerebro_Dir",
-    "Universidad/Cerebro.py",
-    "Universidad/analisis_cerebro.py~",
-    "Universidad/Cerebro~",
     "Data Science Studies/Algoritmo y Estructura de Datos/Grafos_Visual_Summary.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026822201.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026621368.png",
@@ -269,8 +253,6 @@
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 2.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 5.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 4.png",
-    "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 6.png",
-    "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 7.png",
     "Data Science Studies/Git/GIT COMANDOS.canvas",
     "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
     "Sin título 1.canvas"

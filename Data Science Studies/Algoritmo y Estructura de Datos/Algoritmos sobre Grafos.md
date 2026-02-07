@@ -249,17 +249,17 @@ Ordenación lineal de los vértices de un **Grafo Dirigido Acíclico (DAG)** tal
 
 ## 🎴 Flashcards
 
-¿Qué estructura de datos optimiza Dijkstra?::Cola de prioridad (Min-Heap) #algoritmos #grafos
+¿Qué estructura de datos optimiza Dijkstra?::Cola de prioridad (Min-Heap) #algoritmos #grafos #card
 
-¿Cuál es la diferencia principal entre Dijkstra y Bellman-Ford?::Dijkstra es más rápido pero no admite pesos negativos; Bellman-Ford sí admite pesos negativos #algoritmos #grafos
+¿Cuál es la diferencia principal entre Dijkstra y Bellman-Ford?::Dijkstra es más rápido pero no admite pesos negativos; Bellman-Ford sí admite pesos negativos #algoritmos #grafos #card
 
-MST - Definición::Minimum Spanning Tree: subgrafo que conecta todos los vértices con el coste mínimo total y sin ciclos #algoritmos #grafos
+MST - Definición::Minimum Spanning Tree: subgrafo que conecta todos los vértices con el coste mínimo total y sin ciclos #algoritmos #grafos #card
 
-¿Qué algoritmo usa "Union-Find" para detectar ciclos?::Kruskal #algoritmos #grafos
+¿Qué algoritmo usa "Union-Find" para detectar ciclos?::Kruskal #algoritmos #grafos #card
 
-¿Para qué sirve el Ordenamiento Topológico?::Para ordenar tareas con dependencias en un DAG #algoritmos #grafos
+¿Para qué sirve el Ordenamiento Topológico?::Para ordenar tareas con dependencias en un DAG #algoritmos #grafos #card
 
-Complejidad de Floyd-Warshall::O(V³) #algoritmos #complejidad
+Complejidad de Floyd-Warshall::O(V³) #algoritmos #complejidad #card
 
 ---
 

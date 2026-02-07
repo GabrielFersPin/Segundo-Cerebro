@@ -108,13 +108,13 @@ graph TD
 
 ## 🎴 Flashcards Visuales
 
-¿Qué forma tiene la estrategia "Divide y Vencerás"?::Un árbol que se ramifica y luego se une (como Merge Sort).
+¿Qué forma tiene la estrategia "Divide y Vencerás"?::Un árbol que se ramifica y luego se une (como Merge Sort). #card 
 
-¿Qué visualización representa mejor a los algoritmos Voraces?::Comerse la pieza más grande disponible en cada paso (Pacman).
+¿Qué visualización representa mejor a los algoritmos Voraces?::Comerse la pieza más grande disponible en cada paso (Pacman). #card 
 
-¿Si ves un mapa de Metro (todos conectados con todos), qué algoritmo es?::Floyd-Warshall.
+¿Si ves un mapa de Metro (todos conectados con todos), qué algoritmo es?::Floyd-Warshall. #card 
 
-¿Si ves antenas que hay que conectar con el mínimo cable posible?::Kruskal.
+¿Si ves antenas que hay que conectar con el mínimo cable posible?::Kruskal. #card 
 
 ---
 
