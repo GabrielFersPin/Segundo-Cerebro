@@ -162,9 +162,14 @@ tags: [Journey]
  - Got an SQL/Python Interview and didn't get the job
  - Better understand FastAPi for InnerLevel
 - January
- - Continue to working on InnerLevel (LifeQuest Cards)
+  - Continue to working on InnerLevel (LifeQuest Cards)
 	 - Implement the FastAPI to manage the AI engine
 	 - improve some of the design
 	 - Fixing errors
-- Did a Azure cloud app for te cloud course
-- Get a interview for data engineer junior in Accenture
+ - Did a Azure cloud app for the cloud course
+ - Get a interview for data engineer junior in Accenture
+- February
+ - Got the data engineer job
+ - Continue studying for the exams
+ - Fail at 3 clases from 4 that I have.
+ - 

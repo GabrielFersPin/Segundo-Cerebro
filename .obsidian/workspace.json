@@ -4,28 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a091c4e270637c3b",
+        "id": "75598195c8f8b764",
         "type": "tabs",
         "children": [
           {
-            "id": "ebd78dbd0d1b1990",
+            "id": "a2a047c32dde7d36",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Ideas y Tareas.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Data Science Studies/Azure Data Engineer/Azure Stream Analytics.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Ideas y Tareas"
+              "icon": "lucide-file",
+              "title": "Azure Stream Analytics"
             }
           }
         ]
@@ -149,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-12-04.md",
-                "followCursor": false,
+                "file": "Azure Synapse Analytics.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 2025-12-04"
+              "title": "Esquema de Azure Synapse Analytics"
             }
           },
           {
@@ -204,48 +197,49 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "bcebfffce02c8a1f",
+  "active": "a2a047c32dde7d36",
   "lastOpenFiles": [
-    "Data Science Studies/Fundamendos de las Ciencias de Datos/Regresión Logística.md",
-    "Data Science Studies/Fundamendos de las Ciencias de Datos/Dashboard_Fundamentos.md",
-    "Data Science Studies/Fundamendos de las Ciencias de Datos/Proyecto-Climate_Change_Indicator.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/ExamenAlgoritmos.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Drawing 2026-01-09 21.02.17.excalidraw.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos sobre Grafos.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Guía Rápida de Algoritmos.png",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos y Estructuras de Búsqueda.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/ListaEnlazada.png",
-    "Data Science Studies/Arquitectura de Ordenadores/Dashboard-Arquitectura.md",
-    "Data Science Studies/Arquitectura de Ordenadores/Canva - CPU.canvas",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Estructura de Datos.md",
+    "Data Science Studies/Azure Data Engineer/Azure Stream Analytics.md",
+    "Data Science Studies/Azure Data Engineer/Azure Stream Analytics.md",
+    "Data Science Studies/Azure Data Engineer/Azure Synapse Analytics.md",
+    "Data Science Studies/Camino para el gran Data Scientist de las galáxias (2022).md",
+    "Data Science Studies/Data Lake.md",
+    "Data Science Studies/Data Warehousing.md",
+    "Data Science Studies/Azure Data Engineer/Azure Blob storage.md",
+    "Ideas y Tareas.md",
     "Universidad/Dashboard General.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Punteros_Explicacion_Visual.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Notaciones Asintóticas.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Resolución de Problemas.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Diseño de Algoritmos.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Ejercicios Tema 5.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Algortimos de Programación dinámica.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Tablas Hash.md",
+    "Data Science Studies/Azure Data Engineer/Azure Data Lake Storage Gen2.md",
+    "Journal/2026-02-18.md",
+    "Journal/2026-01-05.md",
+    "Journal/journal_completo.md",
+    "Data Science Studies/Azure Data Engineer",
+    "Sin nombre 1",
+    "Data Science Studies/Métodos numéricos/Métodos Numéricos y Factorización.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Modelos_Implementacion.md",
+    "Data Science Studies/Data Lake",
+    "Sin nombre",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Cloud_Computing.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Arquitecturas Monolíticas y Microservicios.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Dashboard-Infraestructura.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/EC2_Amazon_Elastic_Compute_Cloud.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/DevOps.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/05_Volumes.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/06_Networks.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/03_Dockerfile.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/07_Sistema_Mantenimiento.md",
+    "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
+    "Data Science Studies/Fundamendos de las Ciencias de Datos/Regresión Logística.md",
+    "Data Science Studies/Algoritmo y Estructura de Datos/Guía Rápida de Algoritmos.png",
+    "Data Science Studies/Algoritmo y Estructura de Datos/ListaEnlazada.png",
+    "Data Science Studies/Arquitectura de Ordenadores/Canva - CPU.canvas",
     "Data Science Studies/Algoritmo y Estructura de Datos/Code/colas_de_prioridad.py",
     "Data Science Studies/Algoritmo y Estructura de Datos/Code/TablaHashHotel.py",
     "Data Science Studies/Algoritmo y Estructura de Datos/Code",
     "Data Science Studies/Algoritmo y Estructura de Datos/TablaHashHotel.py",
     "Data Science Studies/Algoritmo y Estructura de Datos/colas_de_prioridad.py",
     "Data Science Studies/TablaHashHotel.py",
-    "Data Science Studies/colas_de_prioridad.py",
-    "colas_de_prioridad.py",
-    "TablaHashHotel.py",
-    "Universidad/Cerebro/TablaHashHotel.py",
-    "Universidad/Cerebro/2026-01-31.md",
-    "Universidad/Cerebro/2026-01-30.md",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Dashboard-Algoritmos.md",
-    "2026-01-30.md",
-    "Data Science Studies/Camino para el gran Data Scientist de las galáxias (2022).md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/DevOps.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/IaaS vs. Serverless (AWS vs. Azure).md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/EC2_Amazon_Elastic_Compute_Cloud.md",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
     "Data Science Studies/Algoritmo y Estructura de Datos/Grafos_Visual_Summary.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026822201.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026621368.png",
@@ -254,7 +248,6 @@
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 5.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 4.png",
     "Data Science Studies/Git/GIT COMANDOS.canvas",
-    "Data Science Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
     "Sin título 1.canvas"
   ]
 }

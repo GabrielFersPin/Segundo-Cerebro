@@ -121,43 +121,46 @@ La elección del modelo de implementación es una decisión estratégica que imp
 
 ## 🎴 Flashcards
 
-¿Cuáles son los 4 modelos principales de implementación en la nube?::1) Nube Pública (servicios de terceros vía Internet), 2) Nube Privada (infraestructura dedicada exclusiva), 3) Nube Híbrida (combinación de pública y privada), 4) Nube Comunitaria (compartida entre organizaciones) #cloud #modelos
+¿Cuáles son los 4 modelos principales de implementación en la nube?::1) Nube Pública (servicios de terceros vía Internet), 2) Nube Privada (infraestructura dedicada exclusiva), 3) Nube Híbrida (combinación de pública y privada), 4) Nube Comunitaria (compartida entre organizaciones) #cloud #modelos #card 
 
-Nube Pública:::Servicios cloud proporcionados por proveedores externos (AWS, Azure, GCP) con infraestructura compartida multi-tenant y modelo pay-as-you-go #cloud #publica
+Nube Pública:::Servicios cloud proporcionados por proveedores externos (AWS, Azure, GCP) con infraestructura compartida multi-tenant y modelo pay-as-you-go #cloud #publica #card 
 
-Nube Privada:::Infraestructura cloud dedicada exclusivamente a una organización, con control total pero mayor costo. Puede ser on-premises o managed #cloud #privada
+Nube Privada:::Infraestructura cloud dedicada exclusivamente a una organización, con control total pero mayor costo. Puede ser on-premises o managed #cloud #privada #card 
 
-Nube Híbrida:::Arquitectura que combina infraestructura pública y privada con orquestación integrada, permitiendo cloud bursting #cloud #hibrida
+Nube Híbrida:::Arquitectura que combina infraestructura pública y privada con orquestación integrada, permitiendo cloud bursting #cloud #hibrida #card 
 
-Nube Comunitaria:::Infraestructura compartida entre organizaciones con intereses comunes (ej: universidades, gobierno) con costos compartidos #cloud #comunitaria
+Nube Comunitaria:::Infraestructura compartida entre organizaciones con intereses comunes (ej: universidades, gobierno) con costos compartidos #cloud #comunitaria #card 
 
-Modelo de pago por uso (pay-as-you-go):::Característica de nube pública donde se factura solo por recursos consumidos, reduciendo CAPEX y convirtiendo costos en OPEX #cloud #finanzas
+Modelo de pago por uso (pay-as-you-go):::Característica de nube pública donde se factura solo por recursos consumidos, reduciendo CAPEX y convirtiendo costos en OPEX #cloud #finanzas #card 
 
-¿Qué proveedores principales de nube pública existen?::AWS (Amazon Web Services), Microsoft Azure y Google Cloud Platform (GCP) #cloud #proveedores
+¿Qué proveedores principales de nube pública existen?::AWS (Amazon Web Services), Microsoft Azure y Google Cloud Platform (GCP) #cloud #proveedores #card
+<!--SR:!2026-02-11,4,270-->
 
-¿Qué ventaja clave ofrece la nube privada en sectores regulados?::Control total sobre infraestructura y datos, permitiendo cumplir con regulaciones estrictas como PCI-DSS (finanzas), HIPAA (salud), o normativas gubernamentales #cloud #privada #compliance
+¿Qué ventaja clave ofrece la nube privada en sectores regulados?::Control total sobre infraestructura y datos, permitiendo cumplir con regulaciones estrictas como PCI-DSS (finanzas), HIPAA (salud), o normativas gubernamentales #cloud #privada #card #compliance
 
-¿Cómo se conectan las nubes híbridas?::Mediante redes seguras como VPN, enlaces dedicados (Direct Connect/ExpressRoute) o conexiones privadas, permitiendo orquestación integrada #cloud #hibrida #networking
+¿Cómo se conectan las nubes híbridas?::Mediante redes seguras como VPN, enlaces dedicados (Direct Connect/ExpressRoute) o conexiones privadas, permitiendo orquestación integrada #cloud #hibrida #networking #card 
 
-¿Qué es "cloud bursting"?::Estrategia donde una app corre en nube privada pero "estalla" hacia pública automáticamente durante picos de demanda, aprovechando escalabilidad elástica #cloud #hibrida #bursting
+¿Qué es "cloud bursting"?::Estrategia donde una app corre en nube privada pero "estalla" hacia pública automáticamente durante picos de demanda, aprovechando escalabilidad elástica #cloud #hibrida #bursting #card 
 
-¿En qué se diferencia nube comunitaria de privada compartida?::Comunitaria es compartida por organizaciones con intereses comunes (universidades, gobierno) con gobernanza colaborativa. Privada compartida es gestionada por proveedor para múltiples clientes sin compartir objetivos #cloud #comunitaria
+¿En qué se diferencia nube comunitaria de privada compartida?::Comunitaria es compartida por organizaciones con intereses comunes (universidades, gobierno) con gobernanza colaborativa. Privada compartida es gestionada por proveedor para múltiples clientes sin compartir objetivos #cloud #comunitaria #card 
 
-¿Cuáles son los 3 tipos de servicios en nube pública?::1) SaaS (Software as a Service) - apps listas como Gmail, 2) PaaS (Platform as a Service) - entornos de desarrollo, 3) IaaS (Infrastructure as a Service) - recursos virtualizados #cloud #servicios
+¿Cuáles son los 3 tipos de servicios en nube pública?::1) SaaS (Software as a Service) - apps listas como Gmail, 2) PaaS (Platform as a Service) - entornos de desarrollo, 3) IaaS (Infrastructure as a Service) - recursos virtualizados #cloud #servicios #card 
 
-¿3 casos de uso ideales para nube híbrida?::1) Cargas fluctuantes con cloud bursting, 2) Disaster recovery con replicación entre entornos, 3) Compliance con datos sensibles on-premises y apps públicas en cloud #cloud #hibrida #casos-uso
+¿3 casos de uso ideales para nube híbrida?::1) Cargas fluctuantes con cloud bursting, 2) Disaster recovery con replicación entre entornos, 3) Compliance con datos sensibles on-premises y apps públicas en cloud #cloud #hibrida #casos-uso #card
+<!--SR:!2026-02-08,1,230-->
 
-¿Cuáles son las principales desventajas de nube pública?::1) Menor control sobre infraestructura, 2) Preocupaciones de seguridad en multi-tenant, 3) Vendor lock-in, 4) Posible incumplimiento de data residency, 5) Costos impredecibles #cloud #publica #desventajas
+¿Cuáles son las principales desventajas de nube pública?::1) Menor control sobre infraestructura, 2) Preocupaciones de seguridad en multi-tenant, 3) Vendor lock-in, 4) Posible incumplimiento de data residency, 5) Costos impredecibles #cloud #publica #desventajas #card 
 
-¿Dónde puede estar ubicada una nube privada?::On-premises (instalaciones propias) o managed private cloud (gestionada por terceros) como IBM Cloud Private o VMware Cloud #cloud #privada #deployment
+¿Dónde puede estar ubicada una nube privada?::On-premises (instalaciones propias) o managed private cloud (gestionada por terceros) como IBM Cloud Private o VMware Cloud #cloud #privada #deployment #card 
 
-¿Qué factor es MÁS importante al elegir entre nube pública y privada?::Nivel de sensibilidad de datos y requisitos de compliance. Datos sensibles/regulados requieren privada o híbrida. Datos no sensibles con escalabilidad se benefician de pública #cloud #decision #seguridad
+¿Qué factor es MÁS importante al elegir entre nube pública y privada?::Nivel de sensibilidad de datos y requisitos de compliance. Datos sensibles/regulados requieren privada o híbrida. Datos no sensibles con escalabilidad se benefician de pública #cloud #decision #seguridad #card 
 
-Trade-offs en modelos cloud::Triángulo de imposibilidad entre costo, control y escalabilidad. Pública optimiza costo/escalabilidad. Privada maximiza control. Híbrida balancea pero añade complejidad #cloud #arquitectura
+Trade-offs en modelos cloud::Triángulo de imposibilidad entre costo, control y escalabilidad. Pública optimiza costo/escalabilidad. Privada maximiza control. Híbrida balancea pero añade complejidad #cloud #arquitectura #card
+<!--SR:!2026-02-08,1,230-->
 
-¿Evolución típica de adopción cloud en organizaciones?::Fase 1: Lift-and-shift a pública → Fase 2: Identificar workloads sensibles → Fase 3: Arquitectura híbrida madura → Fase 4: Multi-cloud con contenedores #cloud #estrategia
+¿Evolución típica de adopción cloud en organizaciones?::Fase 1: Lift-and-shift a pública → Fase 2: Identificar workloads sensibles → Fase 3: Arquitectura híbrida madura → Fase 4: Multi-cloud con contenedores #cloud #estrategia #card 
 
-Para Data Science/ML, ¿cuándo usar nube híbrida?::Datos de entrenamiento sensibles en privada (GDPR), procesamiento GPU en pública (cost-effective), inferencias en pública (escalabilidad) #cloud #ml #hibrida
+Para Data Science/ML, ¿cuándo usar nube híbrida?::Datos de entrenamiento sensibles en privada (GDPR), procesamiento GPU en pública (cost-effective), inferencias en pública (escalabilidad) #cloud #ml #hibrida #card 
 
 ---
 
