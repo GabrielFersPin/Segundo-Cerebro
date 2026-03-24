@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"0e0332d934a34aae","type":"text","text":"[[CPU]]","x":-380,"y":-100,"width":250,"height":60,"color":"2"},
 		{"id":"31001253c120a620","type":"text","text":"Parity Flag (PF): Control de errores simple","x":-830,"y":-348,"width":250,"height":58},
-		{"id":"6151d302e0f5c08f","type":"file","file":"Data Science Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md","x":-905,"y":430,"width":550,"height":660},
+		{"id":"6151d302e0f5c08f","type":"file","file":"Data Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md","x":-905,"y":430,"width":550,"height":660},
 		{"id":"e316d3ff2ab28964","type":"text","text":"Status Register/Flags: Estado de la operación","x":-1030,"y":-142,"width":250,"height":60},
 		{"id":"08c8d82c877ae6a7","type":"text","text":"Zero Flag: Se pone a 1 cuando el resultado es 0 ","x":-1485,"y":-142,"width":250,"height":60},
 		{"id":"a822c2c545de9a3a","type":"text","text":"Overflow Flag(OF): Resultado demasiado grande","x":-1420,"y":-340,"width":250,"height":60},

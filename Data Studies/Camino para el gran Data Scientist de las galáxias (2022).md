@@ -167,9 +167,11 @@ tags: [Journey]
 	 - improve some of the design
 	 - Fixing errors
  - Did a Azure cloud app for the cloud course
- - Get a interview for data engineer junior in Accenture
+ - Get a interview for junior data engineer in Accenture
 - February
- - Got the data engineer job
+ - Got the junior data engineer job
  - Continue studying for the exams
  - Fail at 3 clases from 4 that I have.
- - 
+- March
+ - Start a AWS course inside the company
+ - Start a Agent course inside the company
