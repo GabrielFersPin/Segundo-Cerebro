@@ -1,0 +1,27 @@
+Agents
+
+Agent 1:
+    Objetivo: Analisar Notas
+    Rol: Analista
+    Prompt: Analisar todas las notas del vault para conseguir extraer todos los conceptos.
+    Input: vault (Segundo_Cerebro)
+    Output: Notas organizadas por conceptos
+
+Agent 2:
+    Objtivo: Crear etiquetas para cada nota
+    Rol: Creador de Etiquetas
+    Prompt: Crear etiquetas de conceptos clave de cada nota
+    Input: Notas organizadas del primer agente
+    Output: Notas que contienen etiquetas de los conceptos clave de las notas
+
+Agent 3:
+    Objetivo: Verificar si las notas tienen conexiones
+    Rol: Verificador de notas
+    Prompt: Verificar todas las etiquetas y crear relaciones entre ellas
+    Input: Etiquetas de las notas
+    Output: Sistema conectado con etiquetas de los conceptos principales de las notas
+
+
+Flujo
+
+Agent 1 ---> Agent 2 ----> Agent 3
