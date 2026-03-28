@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bcbe4ac59289a35c",
+        "id": "f9c06f9906df0565",
         "type": "tabs",
         "children": [
           {
-            "id": "97489a3fa684c793",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Studies/Camino para el gran Data Scientist de las galáxias (2022).md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Camino para el gran Data Scientist de las galáxias (2022)"
-            }
-          },
-          {
-            "id": "bc5256801f08111e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agents.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Agents"
-            }
-          },
-          {
-            "id": "d6f000d4c367b8e6",
+            "id": "de08db0be99bf983",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,23 +20,8 @@
               "icon": "lucide-file",
               "title": "DataX"
             }
-          },
-          {
-            "id": "be37c0606804b3fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LangGraph.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LangGraph"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,50 +197,50 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "be37c0606804b3fb",
+  "active": "de08db0be99bf983",
   "lastOpenFiles": [
-    "CrewAI.md",
-    "LangGraph.md",
-    "Lang Graph.md",
-    "LangGraph.md",
-    "DataX.md",
-    "2026-03-24.md",
     "Agents.md",
-    "Data Studies/Camino para el gran Data Scientist de las galáxias (2022).md",
-    "Finanzas/Estudio del Coche.md",
-    "Studies/UPM/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 6 f0b937d4c33945d3be358a5423f1d148/Untitled 2.png.md",
     "Ideas y Tareas.md",
+    "Finanzas/Estudio del Coche.md",
+    "Finanzas/Marzo.md",
+    "Finanzas/Dashboard Financiero.md",
+    "Finanzas/Planes y Seguimiento Financiero.md",
+    "Data Studies/Python/Python_Cheat_Sheet_-_The_Basics_Coursera.pdf",
+    "DataX.md",
+    "Data Studies/Python/Python Links.md",
+    "Data Studies/Python/Pyhton_for_Data_Science.pdf",
+    "Data Studies/Python/Work with different file formats.md",
+    "Data Studies/Python/_Index_of_Python.md",
+    "Studies/Data Science Studies/Python/Pyhton_for_Data_Science.pdf.md",
+    "Studies/Data Science Studies/Python/Programación Orientada a Objetos/_Index_of_Programación Orientada a Objetos.md",
+    "Studies/Data Science Studies/Python/Programación Orientada a Objetos",
+    "Studies/Data Science Studies/Python",
+    "Studies/Data Science Studies",
+    "Studies",
+    "Data Studies/Python/Data Processing.md",
+    "Data Studies/Python/Programación Orientada a Objetos/OOP - 1.md",
+    "Data Studies/Python/Programación Orientada a Objetos/OOP.md",
+    "Data Studies/AI Agents/CrewAI.md",
+    "crew_output.json",
+    "test_vault/example.md",
+    "Data Studies/AI Agents",
+    "Data Studies/Camino para el gran Data Scientist de las galáxias (2022).md",
+    "Data Studies/AI Agents/LangGraph.md",
+    "test_vault/crew_output.json",
+    "test_vault",
+    "Lang Graph.md",
+    "2026-03-24.md",
+    "Studies/UPM/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 6 f0b937d4c33945d3be358a5423f1d148/Untitled 2.png.md",
     "Data Studies/AWS/Resource Tagging & Cost Explorer.md",
     "Data Studies/AWS/Monitoring & Management.md",
     "Data Studies/AWS/AWS - Servicios.md",
     "Data Studies/AWS/EC2_Amazon_Elastic_Compute_Cloud.md",
-    "Data Studies/AWS",
-    "Finanzas/Planes y Seguimiento Financiero.md",
-    "Finanzas/Dashboard Financiero.md",
-    "Finanzas/Marzo.md",
-    "Data Studies/Python/Programación Orientada a Objetos/OOP.md",
-    "Data Studies/Python/Programación Orientada a Objetos/UD2.md",
-    "Studies/UPM/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 6 f0b937d4c33945d3be358a5423f1d148",
-    "Studies/UPM/Termodinámica 855c50ea520449b2a8e44316f47e7c32",
-    "Studies/UPM",
-    "Studies",
     "Sin título.canvas",
-    "202603122058.md",
-    "Universidad/Dashboard General.md",
-    "Finanzas",
-    "Journal/2026-02-18.md",
-    "Journal/2026-03-10.md",
-    "Journal/2026-01-05.md",
-    "Journal/Sin título.md",
-    "Data Studies/Azure",
-    "Sin nombre 1",
-    "Data Science Studies/Data Lake",
     "Data Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
     "Data Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
     "Data Studies/Algoritmo y Estructura de Datos/Guía Rápida de Algoritmos.png",
     "Data Studies/Algoritmo y Estructura de Datos/ListaEnlazada.png",
     "Data Studies/Arquitectura de Ordenadores/Canva - CPU.canvas",
-    "Data Science Studies/Algoritmo y Estructura de Datos/Code/colas_de_prioridad.py",
     "Data Science Studies/Algoritmo y Estructura de Datos/Grafos_Visual_Summary.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026822201.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 1/Trabajo y Calor fed336e2cfc2405a853ba069088a0cdc/daum_equation_1600026621368.png",

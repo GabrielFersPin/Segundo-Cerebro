@@ -6,7 +6,10 @@ kanban-plugin: board
 
 ## Accenture
 
-- [ ] - [ ] Cursos: CrewAI, LangGraph and Knowledge Graph
+- [ ] - [x] CrewAI ✅ 2026-03-28
+- [ ] - [ ] LangGraph
+- [ ] - [ ] Knowledge Graph
+- [ ] - [ ] Curso workday
 
 
 ## LinkedIn

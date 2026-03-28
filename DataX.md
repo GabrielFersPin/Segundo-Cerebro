@@ -42,6 +42,22 @@ Capa semántica:
 	La capa semántica se construye por grafos, para escalar con facilidad, reducir alucinaciones y por la governanza.
 	 Cada Nodo tiene un embedding 
 
+Migración de código
+
+	Modelado de grafos ---- > Grafo de conocimiento
+
+Gobierno de Datos
+
+	Como una organización gestiona sus datos
+	Dimensiones de calidad: duplicidad, validez
+	Ética en la parte regulatoria de la IA
+	Lineaje y Uqeries: Trazabilidad 
+	Espacio de datos: Unifica los catálogos de diferentes fuentes
+	Democratización si riesgos: Compartir y analizar datos críticos a través de toda la organización garantizado el cumplimiento normativo de diseño
+	Gobernanza automatizada: Reducción drástica del tiempo manual para crear glosarios, linajes y reglas de calidad, transformando metadatos técnicos en valor de negocio instantáneo.
+	Operaciones Inteligentes: Remediación semi-automática
+	
+
 
 ---
 

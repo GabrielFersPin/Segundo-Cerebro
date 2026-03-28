@@ -1,6 +1,6 @@
 
 [[Python]]
-# UD 2
+# OOP - 1
 
 - Encapsulamiento
     
