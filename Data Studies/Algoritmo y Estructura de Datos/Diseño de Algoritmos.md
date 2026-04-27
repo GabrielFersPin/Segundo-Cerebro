@@ -1,16 +1,16 @@
 ---
+asignatura: Algoritmos
 cards-deck: Algoritmos
 created: 2025-12-27
 modified: 2026-01-14
-status: 🌱 Semilla
-tipo_nota: tecnica
-asignatura: Algoritmos
 nivel-comprension: 🤔
-proxima-revision: 2026-01-17
-tiempo-estimado: 15m
 origen: PDF Tema6 (Visual)
-ultima-revision: 2026-01-14
-veces-revisado: 1
+proxima-revision: '2026-05-04'
+status: 🌱 Semilla
+tiempo-estimado: 15m
+tipo_nota: tecnica
+ultima-revision: '2026-04-27'
+veces-revisado: 2
 ---
 
 # Diseño de Algoritmos  🎨
@@ -18,7 +18,7 @@ veces-revisado: 1
 > [!abstract] Objetivo Visual
 > Asociar cada familia de algoritmos con una **forma** o **movimiento**.
 
----
+
 
 ## 1. Las 3 Estrategias Maestras 🧠
 
@@ -75,7 +75,7 @@ graph LR
 **Forma**: Una Tabla / Rejilla.
 Vas rellenando huecos basándote en los huecos anteriores.
 
----
+
 
 ## 2. Mapa Visual de Casos de Uso (⚠️ Examen)
 
@@ -104,7 +104,7 @@ graph TD
     style Krusk fill:#9ff
 ```
 
----
+
 
 ## 🎴 Flashcards Visuales
 
@@ -116,7 +116,7 @@ graph TD
 
 ¿Si ves antenas que hay que conectar con el mínimo cable posible?::Kruskal. #card 
 
----
+
 
 ## 🔗 Referencias
 
@@ -124,7 +124,7 @@ graph TD
 - [[Big O y Análisis de Complejidad]]
 
 
----
+
 
 ## 🚧 Plan de Mejora / Tareas Pendientes
 

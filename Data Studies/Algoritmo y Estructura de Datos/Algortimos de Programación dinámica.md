@@ -1,19 +1,21 @@
 ---
-cards-deck: Algoritmos
-created: 2026-01-12 16:40
-modified: 2026-01-12 16:40
-status: 🌱
-tipo_nota: tecnica
 asignatura: Algoritmos
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-fecha-examen: ""
-proxima-revision: 2026-01-19
+cards-deck: Algoritmos
 complejidad: ⭐
-tiempo-estimado: ""
+created: 2026-01-12 16:40
+fecha-examen: ''
+modified: 2026-01-12 16:40
 origen: UD4
+prioridad: FUNDACIONAL
+procesamiento: CAPTURA-RAPIDA
+proxima-revision: '2026-05-04'
+status: 🌱
+tiempo-estimado: ''
+tipo-captura: concepto
+tipo_nota: tecnica
+ultima-revision: '2026-04-27'
 urgente: false
+veces-revisado: 1
 ---
 
 # Algoritmos de Programación dinámica
@@ -23,7 +25,7 @@ urgente: false
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
----
+
 
 ## 📝 Captura principal
 
@@ -38,7 +40,7 @@ urgente: false
 
 
 
----
+
 
 ## 🔑 Keywords / Conceptos clave
 
@@ -48,14 +50,14 @@ urgente: false
 > Estos keywords ayudarán a encontrar esta nota después
 
 
----
+
 
 ## ❓ Preguntas / Dudas pendientes
 
 - [ ]
 - [ ]
 
----
+
 
 ## 🧩 Conexiones potenciales
 
@@ -64,7 +66,7 @@ urgente: false
 -
 -
 
----
+
 
 ## ✅ Checklist procesamiento
 
@@ -75,7 +77,7 @@ urgente: false
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
----
+
 
 ## 💭 Notas adicionales / Ideas rápidas
 
@@ -84,7 +86,7 @@ urgente: false
 
 
 
----
+
 
 ## 📋 Metadata resumen
 
@@ -96,6 +98,6 @@ urgente: false
 | Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
 
----
+
 
 #pendiente-procesar #captura-rapida

@@ -1,14 +1,16 @@
 ---
+asignatura: Algoritmos
 cards-deck: Algoritmos
 created: 2025-12-27
 modified: 2025-12-27
-status: 🌱
-tipo_nota: tecnica
-asignatura: Algoritmos
 nivel-comprension: 💡
-proxima-revision: 2026-01-03
-tiempo-estimado: 15m
 origen: PDF Tema5 (Visual)
+proxima-revision: '2026-05-04'
+status: 🌱
+tiempo-estimado: 15m
+tipo_nota: tecnica
+ultima-revision: '2026-04-27'
+veces-revisado: 1
 ---
 
 # Resolución de Problemas 🎨
@@ -16,7 +18,7 @@ origen: PDF Tema5 (Visual)
 > [!abstract] Objetivo Visual
 > Entender *cómo se mueve* el algoritmo. No memorices código, visualiza el flujo.
 
----
+
 
 ## 1. Recursividad vs Iteración 🔄
 
@@ -44,7 +46,7 @@ graph TD
     end
 ```
 
----
+
 
 ## 2. Grafos: Los 4 Fantásticos 🕸️
 
@@ -72,7 +74,7 @@ graph LR
 | **BFS** (Amplitud) | 🌊 **La Mancha de Aceite** | Se expande capa por capa (Vecinos -> Vecinos de vecinos). |
 | **Kruskal** | 💰 **El Tacaño** | Ordena cables por precio (baratos primero). Conecta islas hasta tener todo unido. |
 
----
+
 
 ## 3. Backtracking (Vuelta Atrás) 🔙
 
@@ -89,7 +91,7 @@ graph TD
     style D fill:#afa
 ```
 
----
+
 
 ## 4. Programación Dinámica 💾
 
@@ -115,7 +117,7 @@ graph TD
 
 Guardamos el resultado la primera vez. La segunda vez es instantáneo.
 
----
+
 
 ## 🎴 Flashcards Visuales
 
@@ -125,4 +127,4 @@ Guardamos el resultado la primera vez. La segunda vez es instantáneo.
 
 ¿Qué hace Kruskal visualmente?::Une "islas" de nodos usando las aristas más baratas posibles.
 
----
+
