@@ -16,6 +16,7 @@ kanban-plugin: board
 
 - [ ] - [x] Creación de un post acerca de la origen del vibe coding ✅ 2026-01-20
 - [ ] - [x] Creación de un post con una foto del ingreso en el nuevo puesto. ✅ 2026-03-24
+- [ ] - [ ] Post de los upgrades de mi aplicació
 
 
 ## App
@@ -32,15 +33,15 @@ kanban-plugin: board
 - [ ] - [x] Las 'cartas' de la aplicación podrían ser el própio elemento que quieres conseguir, una carta de madera sería una tabla de madera con la terea escrita en ella, entonces cuanto más tiempo te dedicas a esta carta más deteriorada se ve. Cuando se completa te genera el elemento de la carta y se destruye en partes menores que las recolectas como un loot. ✅ 2026-03-17
 - [ ] - [x] Crear una manera del usuario acceder a los otros menus a partir de la villa. Como si los otros menus fuesen parte del paisaje. ✅ 2026-03-17
 - [ ] - [x] Cambiar logo de la pagina inicial simplemente con el nombre de la app ✅ 2026-03-17
+- [ ] - [x] Crear traducción en ingles y banderas de selección de idiomas ✅ 2026-04-07
+- [ ] - [ ] Crear las runas con formatos irregulares
 - [ ] - [ ] Crar un discord para la aplicació
 - [ ] - [ ] Crear las versiones con diferentes niveles de todas las construcciones
-- [ ] - [ ] Crear traducción en ingles y banderas de selección de idiomas
 
 
 ## Finanzas
 
 - [ ] - [ ] Automatizar la primera aportación a los fondos SRI/ESG
-- [ ] - [ ] Ahorrar y comprar passat variant manual diésel 2.0 140cv
 - [ ] - [ ] Revisar alertas inmobiliarias (< 120k en Asturias)
 
 

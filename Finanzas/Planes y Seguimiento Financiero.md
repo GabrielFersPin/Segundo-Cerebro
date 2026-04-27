@@ -8,17 +8,20 @@ cssclass: cards
 - [ ] Investigar fondos indexados SRI/ESG (cero exposición a corporaciones no éticas)
 - [ ] Analizar plataformas de banca ética y crowdlending renovable (Triodos, Fiare, Fundeen)
 - [ ] Automatizar la primera aportación mensual (ej. 100€) al carril de inversión responsable
-- [ ] Ahorrar para la compra del monovolumen/familar manual y diésel (objetivo: otoño)
-- [ ] Revisar alertas inmobiliarias (casas < 120k en Gozón, Villaviciosa, Castrillón)
-- [ ] Comprar coche monovolumen/familiar 
-- [ ] Hacer mueble camper
+- [ ] Buscar furgoneta para camperizar 
 - [ ] Invertir en la Nacionalidad
 - [ ] Invertir en el mantenimiento del coche
-- [ ] Comprar silla escritorio 
-- [ ] comprar ropa para trabajo
+- [x] Comprar silla escritorio ✅ 2026-04-07
+- [x] comprar ropa para trabajo ✅ 2026-04-07
 - [ ] Psicologa
-- [ ] 
-
+- [ ] Almohada/gorra de satén o seda
+- [ ] Docker Hub para portátil
+- [ ] Claude Code Pro
+- [ ] Monitor Panorámico
+- [ ] Funda para tabla
+- [x] Peluquería ✅ 2026-04-16
+- [ ] Pack de productos de higiene Pimpant sin quimicos
+- [ ] pack de frutas/verduras/productos 
 ---
 
 # 📊 Seguimiento Financiero

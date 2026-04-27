@@ -1,30 +1,25 @@
 ---
-tags:
-  - clase
-  - 2026-03-24
-deck: Obsidian::null
-created: 2026-03-24 09:09
-modified: 2026-03-24 09:09
+cards-deck: Nube
+created: 2026-04-27 16:15
+modified: 2026-04-27 16:15
 status: 🌱
 tipo_nota: tecnica
-profesor:
-cards-deck: Nube
 asignatura: Infraestructura-Nube
 procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
+prioridad: EXAMEN-MEDIO
 tipo-captura: concepto
 fecha-examen: ""
-proxima-revision: 2026-03-31
+proxima-revision: 2026-05-04
 complejidad: ⭐
 tiempo-estimado: ""
-origen: Clase
+origen: Curso
 urgente: false
 ---
 
-# Agent
+# Databricks
 
 > [!info] Contexto captura
-> **Fecha**: 2026-03-24 09:11
+> **Fecha**: 2026-04-27 16:15
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -34,21 +29,14 @@ urgente: false
 
 > [!tip] Lo más importante
 > *Escribe aquí la idea principal o el concepto clave en 1-2 frases*
-> Agents are autonomous programs that sense the environment, understand intentionally, and take actions to complete their goals
-> DataX: Data processing development powered by an agentic solution
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-Agents: Alta autonomía, interactuar en segundo plano, pro activo, tareas complejas, alta memoria
+[!Introducción] 
 
-Assistants: Autonomía limitada, interacción linear, respuesta reactiva, complejidad de tareas es simple, memoria persistente en general limitada.
-
-Arquitectura de Agentes: Agente simples, Secuenciales, jerarquico, colaborativos.
-
-Verificabilidad y Evaluación
 
 ---
 
@@ -102,7 +90,7 @@ Verificabilidad y Evaluación
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-03-24 09:11 |
+| Capturado | 2026-04-27 16:15 |
 | Asignatura | `= this.asignatura` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |
@@ -111,27 +99,4 @@ Verificabilidad y Evaluación
 ---
 
 #pendiente-procesar #captura-rapida
----
-tags:
-  - clase
-  - 2026-03-24
-deck: Obsidian::null
-created: 2026-03-24 09:08
-modified: 2026-03-24 09:08
-status: 🌱
-tipo_nota: tecnica
-profesor:
-cards-deck: Nube
-asignatura: Infraestructura-Nube
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-fecha-examen: ""
-proxima-revision: 2026-03-31
-complejidad: ⭐
-tiempo-estimado: ""
-origen: Clase
-urgente: false
----
-
-
+************

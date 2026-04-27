@@ -3,16 +3,18 @@
     "flashcardTags": [
       "#card"
     ],
-    "convertFoldersToDecks": false,
+    "convertFoldersToDecks": true,
     "burySiblingCards": false,
     "randomizeCardOrder": null,
     "flashcardCardOrder": "DueFirstRandom",
     "flashcardDeckOrder": "PrevDeckComplete_Sequential",
     "convertHighlightsToClozes": true,
-    "convertBoldTextToClozes": false,
-    "convertCurlyBracketsToClozes": false,
+    "convertBoldTextToClozes": true,
+    "convertCurlyBracketsToClozes": true,
     "clozePatterns": [
-      "==[123;;]answer[;;hint]=="
+      "==[123;;]answer[;;hint]==",
+      "**[123;;]answer[;;hint]**",
+      "{{[123;;]answer[;;hint]}}"
     ],
     "singleLineCardSeparator": "::",
     "singleLineReversedCardSeparator": ":::",
@@ -51,7 +53,7 @@
     "maximumInterval": 36525,
     "maxLinkFactor": 1,
     "dataStore": "NOTES",
-    "cardCommentOnSameLine": false,
+    "cardCommentOnSameLine": true,
     "showSchedulingDebugMessages": false,
     "showParserDebugMessages": false
   },

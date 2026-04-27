@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f9c06f9906df0565",
+        "id": "c942a7fce419cc6e",
         "type": "tabs",
         "children": [
           {
-            "id": "de08db0be99bf983",
+            "id": "70fdc75d0e0fbfb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataX.md",
+                "file": "Data Studies/Data Lakehouse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataX"
+              "title": "Data Lakehouse"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#seguridad",
+                "query": "tag:#️⃣",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure Synapse Analytics.md",
+                "file": "Finanzas/Planes y Seguimiento Financiero.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Azure Synapse Analytics"
+              "title": "Esquema de Planes y Seguimiento Financiero"
             }
           },
           {
@@ -162,7 +162,7 @@
             }
           },
           {
-            "id": "bcebfffce02c8a1f",
+            "id": "6b8804b4095ea407",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -197,44 +197,44 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "de08db0be99bf983",
+  "active": "70fdc75d0e0fbfb2",
   "lastOpenFiles": [
-    "Agents.md",
-    "Ideas y Tareas.md",
-    "Finanzas/Estudio del Coche.md",
-    "Finanzas/Marzo.md",
-    "Finanzas/Dashboard Financiero.md",
+    "Data Studies/Databricks.md",
+    "Data Studies/Data Lakehouse.md",
+    "Data Studies/Data Lake.md",
+    "Data Studies/Data Warehousing.md",
     "Finanzas/Planes y Seguimiento Financiero.md",
+    "Finanzas/Marzo.md",
+    "Finanzas/Estudio del Coche.md",
+    "Journal/2026-04-24.md",
+    "Ideas y Tareas.md",
+    "Data Studies/AWS/EC2_Amazon_Elastic_Compute_Cloud.md",
+    "Data Studies/AWS/Monitoring & Management.md",
+    "Data Studies/AWS/Resource Tagging & Cost Explorer.md",
+    "Data Studies/Spark.md",
+    "Sin título.base",
+    "Data Studies/Fundamendos de las Ciencias de Datos/Regresión Logística.md",
+    "Data Studies/Fundamendos de las Ciencias de Datos/Dashboard_Fundamentos.md",
+    "Data Studies/Infraestructuras y Servicios en la Nube/Cloud_Computing.md",
+    "Data Studies/Infraestructuras y Servicios en la Nube/IaaS vs. Serverless (AWS vs. Azure).md",
+    "Data Studies/Algoritmo y Estructura de Datos/Diseño de Algoritmos.md",
+    "Data Studies/Algoritmo y Estructura de Datos/Tablas Hash.md",
+    "Data Studies/Algoritmo y Estructura de Datos/ExamenAlgoritmos.md",
+    "Data Studies/Proyectos/segundo_cerebro_agentes_plan_v2.md",
+    "Data Studies/Proyectos/InnerLevel/LifeQuest Cards - Backend Guide.md",
+    "Data Studies/Proyectos/InnerLevel/LifeQuest Cards.md",
+    "Data Studies/Proyectos/InnerLevel/LifeQuest Cards - Frontend Guide.md",
+    "Finanzas/Dashboard Financiero.md",
+    "Data Studies/AI Agents/Agentes_Documento_Completo.md",
+    "Infraestructura-Nube",
     "Data Studies/Python/Python_Cheat_Sheet_-_The_Basics_Coursera.pdf",
-    "DataX.md",
-    "Data Studies/Python/Python Links.md",
     "Data Studies/Python/Pyhton_for_Data_Science.pdf",
-    "Data Studies/Python/Work with different file formats.md",
-    "Data Studies/Python/_Index_of_Python.md",
-    "Studies/Data Science Studies/Python/Pyhton_for_Data_Science.pdf.md",
-    "Studies/Data Science Studies/Python/Programación Orientada a Objetos/_Index_of_Programación Orientada a Objetos.md",
     "Studies/Data Science Studies/Python/Programación Orientada a Objetos",
     "Studies/Data Science Studies/Python",
     "Studies/Data Science Studies",
     "Studies",
-    "Data Studies/Python/Data Processing.md",
-    "Data Studies/Python/Programación Orientada a Objetos/OOP - 1.md",
-    "Data Studies/Python/Programación Orientada a Objetos/OOP.md",
-    "Data Studies/AI Agents/CrewAI.md",
     "crew_output.json",
-    "test_vault/example.md",
     "Data Studies/AI Agents",
-    "Data Studies/Camino para el gran Data Scientist de las galáxias (2022).md",
-    "Data Studies/AI Agents/LangGraph.md",
-    "test_vault/crew_output.json",
-    "test_vault",
-    "Lang Graph.md",
-    "2026-03-24.md",
-    "Studies/UPM/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 6 f0b937d4c33945d3be358a5423f1d148/Untitled 2.png.md",
-    "Data Studies/AWS/Resource Tagging & Cost Explorer.md",
-    "Data Studies/AWS/Monitoring & Management.md",
-    "Data Studies/AWS/AWS - Servicios.md",
-    "Data Studies/AWS/EC2_Amazon_Elastic_Compute_Cloud.md",
     "Sin título.canvas",
     "Data Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
     "Data Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",

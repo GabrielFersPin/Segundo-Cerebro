@@ -34,7 +34,19 @@ urgente: false
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
-- Teh data warehouse can be a relational database extracted from a data lake.
+- The data warehouse can be a relational database extracted from a data lake.
+### Strenghts
+
+- Purpose-built for BI and reporting
+- Meant to unify disparate systems
+- Houses and structured, clean data with a standardized schema
+
+### Downsides
+
+- No Support for semi or unstructured data
+- Poor support for data science, AI and streming use cases
+- Uses closed and propietary formats
+- Expensive to scale
 
 
 

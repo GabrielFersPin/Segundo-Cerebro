@@ -40,6 +40,21 @@ urgente: false
 >The action is execute in a environment and an observation is returned
 >Create a class Agent to build the agent
 
+### Creating the agent
+> ```python
+> class Agent:
+> 	def __init__ (self, system=""): # The agent is parameterize by a system message
+> 		self.system = system # atribute message
+> 		self.messages = []
+> 		if self.system:
+> 			self.messagens.append({}"role":"system", "content": system})
+> 	
+> 	def __call_(self, message): # The message is take by the user and than give it back from the assistant
+> 		self.messages.append({"role", "user", "content": message})
+> 		result = self.execute()
+> 		self.messages.append({"role", "assistant", "content": result})
+> 		return result
+
 ### Graphs
 > Nodes: Agents or functions
 > Edges: Connect nodes

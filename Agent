@@ -1,27 +1,60 @@
 Agents
 
 Agent 1:
-    Objetivo: Analisar Notas
-    Rol: Analista
-    Prompt: Analisar todas las notas del vault para conseguir extraer todos los conceptos.
-    Input: vault (Segundo_Cerebro)
-    Output: Notas organizadas por conceptos
+
+capture_agent = Agent(
+    role="Capturador de conocimiento",
+    goal="Procesar input raw y convertirlo en nota atómica Zettelkasten",
+    backstory="""Eres experto en el método Zettelkasten. 
+    Recibes información en bruto y la transformas en notas atómicas 
+    con el formato de Obsidian, detectando automáticamente la asignatura 
+    (Algoritmos, Arquitectura, Nube, Fundamentos DS) y la dificultad.""",
+    tools=[FileWriterTool()],
+    llm="gpt-4o"  # o claude via anthropic
+)
 
 Agent 2:
-    Objtivo: Crear etiquetas para cada nota
-    Rol: Creador de Etiquetas
-    Prompt: Crear etiquetas de conceptos clave de cada nota
-    Input: Notas organizadas del primer agente
-    Output: Notas que contienen etiquetas de los conceptos clave de las notas
 
-Agent 3:
-    Objetivo: Verificar si las notas tienen conexiones
-    Rol: Verificador de notas
-    Prompt: Verificar todas las etiquetas y crear relaciones entre ellas
-    Input: Etiquetas de las notas
-    Output: Sistema conectado con etiquetas de los conceptos principales de las notas
+@tool("Buscar notas relacionadas")
+def buscar_en_chromadb(query: str) -> str:
+    """Busca notas semánticamente similares en ChromaDB"""
+    import chromadb
+    client = chromadb.PersistentClient(path="./chroma_db")
+    collection = client.get_collection("obsidian_notes")
+    results = collection.query(query_texts=[query], n_results=5)
+    return str(results['documents'])
 
+connection_agent = Agent(
+    role="Conector de conocimiento",
+    goal="Encontrar conexiones semánticas entre notas existentes y nueva nota",
+    tools=[buscar_en_chromadb],
+    backstory="Eres el mapa mental vivo del segundo cerebro..."
+)
 
-Flujo
+Agent 3: Generador de flashcards
+    
+Toma el contenido de la nota y genera flashcards directamente en el formato que ya usa tu template: Pregunta::Respuesta, Término:::Definición, o cloze con ==texto==. Las escribe directamente en el archivo .md.
 
-Agent 1 ---> Agent 2 ----> Agent 3
+Agente 4: Revisor inteligente
+
+Lee tus metadatos de frontmatter (proxima-revision, veces-revisado, nivel-comprension) y genera cada mañana una cola de repaso priorizada. Básicamente automatiza la decisión de "qué estudio hoy". Muy útil dado que tienes el backlog de Algoritmos y Arquitectura.
+
+Agente 5 — Síntesis semanal
+Cada domingo procesa todas las notas tocadas esa semana, genera un "mapa de progreso" y detecta gaps: conceptos que aparecen mucho en búsquedas pero que no tienes bien documentados.
+
+Crew - El flujo de mayor ROI inmediato es este pipeline de dos agentes: Captura → Conexión. Con solo esos dos, cada nota nueva queda automáticamente vinculada al grafo existente sin esfuerzo manual.
+
+crew = Crew(
+    agents=[capture_agent, connection_agent, flashcard_agent],
+    tasks=[capture_task, connect_task, flashcard_task],
+    process=Process.sequential,  # captura → conexión → flashcards
+    verbose=True
+)
+
+# Lanzar con cualquier input
+result = crew.kickoff(inputs={
+    "raw_input": "El algoritmo de Dijkstra usa una cola de prioridad...",
+    "asignatura": "Algoritmos",
+    "obsidian_path": "/Users/gabriel/Obsidian/Vault"
+})
+
