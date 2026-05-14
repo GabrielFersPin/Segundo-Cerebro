@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Studies/Data Lakehouse.md",
+                "file": "Reading/Libros que quiero leer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Lakehouse"
+              "title": "Libros que quiero leer"
             }
           }
         ]
@@ -199,8 +199,9 @@
   },
   "active": "70fdc75d0e0fbfb2",
   "lastOpenFiles": [
-    "Data Studies/Databricks.md",
     "Data Studies/Data Lakehouse.md",
+    "Reading/Libros que quiero leer.md",
+    "Data Studies/Databricks.md",
     "Data Studies/Data Lake.md",
     "Data Studies/Data Warehousing.md",
     "Finanzas/Planes y Seguimiento Financiero.md",
@@ -225,7 +226,6 @@
     "Data Studies/Proyectos/InnerLevel/LifeQuest Cards.md",
     "Data Studies/Proyectos/InnerLevel/LifeQuest Cards - Frontend Guide.md",
     "Finanzas/Dashboard Financiero.md",
-    "Data Studies/AI Agents/Agentes_Documento_Completo.md",
     "Infraestructura-Nube",
     "Data Studies/Python/Python_Cheat_Sheet_-_The_Basics_Coursera.pdf",
     "Data Studies/Python/Pyhton_for_Data_Science.pdf",

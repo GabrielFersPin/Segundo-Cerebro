@@ -1,0 +1,2 @@
+- Trail life - Ray Jardine
+- El extranjero - Albert Camus
