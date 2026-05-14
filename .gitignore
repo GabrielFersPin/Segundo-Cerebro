@@ -48,3 +48,7 @@ node_modules/
 # CrewAI outputs
 crew_output.json
 test_vault/crew_output.json
+
+# Directories and files to ignore
+Finanzas/
+Journal/
