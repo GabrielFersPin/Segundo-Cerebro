@@ -1,0 +1,158 @@
+---
+tags: [clase, fine-tuning, aprendizaje automático, modelos]
+deck: Obsidian::Fine-Tuning
+created: 2026-05-11 11:30
+modified: 2026-05-11 11:30
+status: 🟡
+tipo_nota: clase
+profesor: No especificado
+---
+
+# 📝 Fine-Tuning Methods
+
+> [!info] Metadata de la clase
+> **Fecha**: 2026-05-11
+> **Hora**: 11:30
+> **Profesor**: No especificado
+> **Estado**: 🟡 Por procesar
+
+---
+
+## 🎯 Objetivo de la clase
+
+Entender los métodos de fine-tuning para modelos de lenguaje y aprendizaje profundo: cuándo usar cada técnica y cuáles son sus ventajas y limitaciones.
+
+---
+
+## 📊 Captura Rápida
+
+### ⚡ Notas Rápidas
+- Fine-tuning es ajustar un modelo pre-entrenado a una tarea específica.
+- Métodos comunes: full fine-tuning, freeze layers, LoRA, adapters, delta tuning.
+- Cada técnica busca equilibrio entre calidad, costo computacional y memoria.
+- En NLP, el fine-tuning a menudo mejora rendimiento en tareas específicas.
+
+### 🔑 Conceptos Clave
+- **Pre-trained model**: modelo entrenado en datos generales.
+- **Fine-tuning**: ajuste posterior con datos de tarea concreta.
+- **Parameter-efficient tuning**: ajustar menos parámetros para reducir costo.
+- **Transfer learning**: reutilizar conocimiento previo en nuevas tareas.
+
+### ❓ Dudas
+- ¿Cuándo conviene usar LoRA en lugar de full fine-tuning?
+- ¿Cómo elegir qué capas congelar?
+- ¿Qué tamaño de dataset es suficiente para fine-tuning?
+
+### 💡 Insights
+- Los métodos de fine-tuning eficientes son clave para usar LLMs con recursos limitados.
+- Algunas técnicas permiten actualizar modelos sin guardar pesos completos.
+- El fine-tuning puede reducir alucinaciones al especializar el modelo.
+
+### ⚠️ Importante
+- Fine-tuning mal hecho puede sobreajustar a datos pequeños.
+- No todos los modelos y datos se benefician del fine-tuning.
+- Es importante evaluar comparando con un baseline sin ajuste.
+
+---
+
+## 📝 Notas Detalladas
+
+### ¿Qué es el fine-tuning?
+Fine-tuning consiste en tomar un modelo pre-entrenado y continuar su entrenamiento en un conjunto de datos específico para mejorar su rendimiento en una tarea concreta.
+
+El modelo ya tiene representaciones generales del lenguaje; el fine-tuning ajusta esas representaciones para el dominio o la tarea deseada.
+
+---
+
+## 🔍 Métodos principales
+
+### 1. **Full Fine-Tuning**
+
+- Ajustar todos los parámetros del modelo.
+- Requiere mayor memoria y tiempo de entrenamiento.
+- Beneficio: máximo potencial de adaptación.
+- Riesgo: sobreajuste y necesidad de datos suficientes.
+
+### 2. **Freeze Layers**
+
+- Congelar algunas capas del modelo y ajustar solo otras.
+- Ejemplo: congelar las primeras capas y entrenar las últimas.
+- Ventaja: menor costo computacional.
+- Uso común cuando el dataset es pequeño.
+
+### 3. **Adapters**
+
+- Insertar módulos pequeños entre capas y entrenar solo esos módulos.
+- Mantiene la mayoría de los pesos originales fijos.
+- Permite múltiples adaptaciones sin duplicar el modelo completo.
+- Ejemplos: AdapterHub, Houlsby adapters.
+
+### 4. **LoRA (Low-Rank Adaptation)**
+
+- Ajusta solo matrices de bajo rango dentro de las capas.
+- Muy eficiente en parámetros y memoria.
+- Ideal para grandes LLMs con recursos limitados.
+- Soporta despliegues rápidos y múltiples tareas.
+
+### 5. **Delta Tuning / Prompt Tuning**
+
+- Ajusta vectores o prompts en lugar de pesos de la red.
+- **Prompt Tuning**: aprende prompts continuos para guiar al modelo.
+- **Prefix Tuning**: añade secuencias aprendidas en la entrada.
+- Extremadamente eficiente, pero menos flexible que full fine-tuning.
+
+---
+
+## ⚖️ Comparación de métodos
+
+| Método | Parámetros entrenados | Costo | Flexibilidad | Uso recomendado |
+|---|---|---|---|---|
+| Full Fine-Tuning | Todos | Alto | Muy alta | Datos grandes, máxima adaptación |
+| Freeze Layers | Parcial | Medio | Alta | Dataset moderado, recursos limitados |
+| Adapters | Bajo | Bajo | Alta | Múltiples tareas, múltiples dominios |
+| LoRA | Muy bajo | Muy bajo | Alta | LLM grande, recursos limitados |
+| Prompt Tuning | Muy bajo | Muy bajo | Media | Adaptación rápida, tareas similares |
+
+---
+
+## ✅ Casos de uso
+
+- **Clasificación de texto**: fine-tuning de un modelo de lenguaje general a un corpus específico.
+- **Generación de respuestas**: adaptar un LLM a estilo de escritura o tipo de contenido.
+- **NLP en dominio especializado**: medicina, legal, finanzas.
+- **Sistemas multimodales**: ajustar modelos que combinan texto e imagen.
+
+---
+
+## 🔗 Conexiones
+- [[Prompt Engineering - Técnicas y mejores prácticas]]
+- [[Model Evaluation - Métricas BLEU ROUGE BERTScore]]
+- [[FastMCP - Ejemplo de implementación]]
+- [[A2A - Agent-to-Agent]]
+
+---
+
+## 🔄 Procesamiento Post-Clase
+
+### 📋 Checklist de Procesamiento
+- [ ] Probar fine-tuning en un modelo pequeño.
+- [ ] Comparar LoRA vs full fine-tuning en el mismo dataset.
+- [ ] Registrar costo en GPU/memoria.
+- [ ] Evaluar con métricas BLEU/ROUGE/BERTScore si aplica.
+
+### 🎯 Acciones Prioritarias
+1. Seleccionar una tarea de NLP y dataset de prueba.
+2. Implementar un ejemplo con LoRA.
+3. Medir mejoras y riesgos de sobreajuste.
+
+---
+
+## 🎴 Flashcards Rápidas
+- **¿Qué es fine-tuning?**
+  - Ajustar un modelo pre-entrenado a una tarea específica.
+- **¿Qué es LoRA?**
+  - Low-Rank Adaptation, método eficiente para ajustar solo partes pequeñas del modelo.
+- **¿Cuándo usar adapters?**
+  - Cuando se necesitan múltiples adaptaciones sin entrenar el modelo completo.
+- **¿Cuál es el riesgo del full fine-tuning?**
+  - Sobreajuste y altos costos de memoria.
