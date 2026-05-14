@@ -1,6 +1,0 @@
-# Daily Reflections
-
-Asunto: Again and again and again
-Created: 3 de febrero de 2024 2:04
-
-Estoy aquí como a victima otra vez, pero sintiéndome bien por los pequeños logros que he tenido estos meses, como superar muchos retos, como entrar en los locales y pedir trabajo de una manera activa, después conseguir hacer nuevos amigos simplemente aproximándome de ellos y hablando con ellos y creando unos amigos con quien pudiera pedir trabajo y también para surfear. Lo único que siento es que no tengo nada controlado financieramente para poder continuar a vivir estas intensas experiencias. Entonces tendré que volver a vivir con mi madre, trabajar en un trabajo que no me emociona mucho hacerlo, pero me dará la oportunidad de seguir mi real pasión. Tengo la intención de resolver los problemas de mi carrera este año, quiero poder conectarme con las empresas y seguir mi camino en lo que realmente me gusta para poder a volver a vivir estas experiencias de nuevo, pero financieramente más estable, puede que en otro entorno con diferentes personas, pero seguramente no quiero perder las ganas de poder vivirlas.

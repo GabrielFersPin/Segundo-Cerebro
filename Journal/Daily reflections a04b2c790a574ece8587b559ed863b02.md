@@ -1,6 +1,0 @@
-# Daily reflections
-
-Asunto: Fallo
-Created: 23 de enero de 2024 4:33
-
-- Que mamada! Un día horrible, siento ganas de llorar, estar solo, escuchar música y sufrir hasta cuando pueda. Me pasa todos los pensamientos malos por la cabeza, siento que la vida está llegando en un punto que no habrá más sol para mí, tengo ganas de ir a Portugal y creo que no voy a ir porque tengo la prioridad de hacer mi nacionalidad para abrirme puertas en el ámbito profesional. Creo que esta angustia de ser un ser humano y tener necesidades comunes a todos como socialización y diversión no cabe a mí, hasta intento de vez en cuando, salir con los colegas a la mierda de las discotecas para llenarme de alcohol y imaginar estar divirtiéndome. Creo que si no tuviera estas necesidades seria una persona por lo menos que seguiría un ritmo de vida normal. Me graduaría, viajaría, tendría personas a mi lado para hablar y trabajaría y me desarrollaría en el trabajo hasta conseguir una posición importante para después crear una empresa con todo en conocimiento utilizado en los años trabajados. Seria una persona con un suceso mediano o hasta alto. Seguramente habría otros problemas, pero no tendría la sensación de una vida fallida. Tal vez lo que falte es la droga, para sedarme y seguir la vida como si fuera normal ser un fallo en el mundo.

@@ -1,1 +1,0 @@
-¿Siempre tuve dotes intelectuales por encima de la media? El real motivo por el cual no me ha ido bien la vida adulta es porque no me encaja el camino tradicional industrial de la sociedad. ¿Me han tratado siempre como adulto? ¿Tuve una infancia normal? ¿Siempre he sido tratado diferente?
