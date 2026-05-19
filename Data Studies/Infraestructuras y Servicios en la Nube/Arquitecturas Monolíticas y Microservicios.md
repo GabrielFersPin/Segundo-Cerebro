@@ -4,7 +4,7 @@ created: 2025-11-02
 modified: 2026-01-22
 status: 🌳 Maduro
 tipo_nota: tecnica
-asignatura: Infraestructura-Nube
+area: Infraestructura-Nube
 nivel-comprension: ✅
 proxima-revision: 2026-02-21
 ultima-revision: 2026-01-22

@@ -4,6 +4,11 @@ created: 2025-01-19
 modified: 2025-01-19
 status: 🌱
 tipo_nota: tecnica
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # Git - Sistema de Control de Versiones

@@ -4,6 +4,11 @@ created: 2025-27-11
 modified: 2025-27-11
 status: 🌱
 tipo_nota: tecnica
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # Vector Databases (Bases de Datos Vectoriales)

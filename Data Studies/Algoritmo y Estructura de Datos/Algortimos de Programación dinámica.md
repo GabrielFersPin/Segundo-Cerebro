@@ -1,5 +1,5 @@
 ---
-asignatura: Algoritmos
+area: Algoritmos
 cards-deck: Algoritmos
 complejidad: ⭐
 created: 2026-01-12 16:40
@@ -16,6 +16,8 @@ tipo_nota: tecnica
 ultima-revision: '2026-04-27'
 urgente: false
 veces-revisado: 1
+nivel-comprension: ""
+tiempo-repaso: ""
 ---
 
 # Algoritmos de Programación dinámica

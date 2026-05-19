@@ -4,7 +4,7 @@ created: 2025-12-15 19:17
 modified: 2026-02-07
 status: 🌿 Creciendo
 tipo_nota: tecnica
-asignatura: Fundamentos-DS
+area: Fundamentos-DS
 procesamiento: PROCESADO
 prioridad: EXAMEN-LEJANO
 tipo-captura: concepto
@@ -17,6 +17,7 @@ urgente: false
 nivel-comprension: 💡
 ultima-revision: 2026-02-07
 veces-revisado: 1
+tiempo-repaso: ""
 ---
 
 # Regresión Logística

@@ -4,7 +4,7 @@ created: 2026-05-06
 modified: 2026-05-06
 status: 🌱
 tipo_nota: tecnica
-asignatura: IA / Agentes
+area: IA / Agentes
 procesamiento: CAPTURA-RAPIDA
 prioridad: FUNDACIONAL
 tipo-captura: concepto
@@ -14,6 +14,11 @@ complejidad: ⭐
 tiempo-estimado: ""
 origen: Estudio personal
 urgente: false
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # A2A - Agent-to-Agent

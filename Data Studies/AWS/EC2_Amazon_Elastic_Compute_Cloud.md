@@ -4,7 +4,7 @@ created: 2025-11-20
 modified: 2026-01-22
 status: 🌿 Creciendo
 tipo_nota: tecnica
-asignatura: Infraestructura-Nube
+area: Infraestructura-Nube
 nivel-comprension: 💡
 proxima-revision: 2026-01-29
 ultima-revision: 2026-01-22

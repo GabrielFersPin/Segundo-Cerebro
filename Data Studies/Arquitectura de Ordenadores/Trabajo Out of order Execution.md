@@ -1,6 +1,6 @@
 ---
 tipo_nota: Trabajo
-asignatura: Arquitectura
+area: Arquitectura
 nivel-comprension: 💡
 proxima-revision: 2026-01-25
 tiempo-repaso: 10 min
@@ -15,6 +15,7 @@ ultima-revision: 2026-01-15
 modified: 2026-01-15
 tiempo-estimado: 20min
 status: 🌳 Maduro
+cards-deck: ""
 ---
 
 # La Carrera por la Velocidad: Ejecución Especulativa y Vulnerabilidades

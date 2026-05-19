@@ -4,6 +4,11 @@ created: 2025-01-XX
 modified: 2025-01-XX
 status: 🌱
 tipo_nota: tecnica
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # RAG (Retrieval-Augmented Generation)

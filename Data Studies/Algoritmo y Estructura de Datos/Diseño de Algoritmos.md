@@ -1,5 +1,5 @@
 ---
-asignatura: Algoritmos
+area: Algoritmos
 cards-deck: Algoritmos
 created: 2025-12-27
 modified: 2026-01-14
@@ -11,6 +11,7 @@ tiempo-estimado: 15m
 tipo_nota: tecnica
 ultima-revision: '2026-04-27'
 veces-revisado: 2
+tiempo-repaso: ""
 ---
 
 # Diseño de Algoritmos  🎨

@@ -8,6 +8,12 @@ modified: 2026-03-19 12:50
 status: 🔴
 tipo_nota: clase
 profesor: Jose Gomez-Calcerrada
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 
 # 📝 AWS - Monitoring & Management

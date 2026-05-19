@@ -4,7 +4,7 @@ created: 2026-03-24 12:34
 modified: 2026-03-24 12:34
 status: 🌱
 tipo_nota: tecnica
-asignatura:
+area:
 procesamiento: CAPTURA-RAPIDA
 prioridad: FUNDACIONAL
 tipo-captura: concepto
@@ -14,6 +14,10 @@ complejidad: ⭐⭐
 tiempo-estimado: ""
 origen: Clase
 urgente: false
+nivel-comprension: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # DataX

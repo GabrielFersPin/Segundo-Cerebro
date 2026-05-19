@@ -4,7 +4,7 @@ created: 2024-12-13
 modified: 2026-01-17
 status: 🌳 Maduro
 tipo_nota: tecnica
-asignatura: Arquitectura
+area: Arquitectura
 nivel-comprension: ✅
 proxima-revision: 2026-02-16
 ultima-revision: 2026-01-17

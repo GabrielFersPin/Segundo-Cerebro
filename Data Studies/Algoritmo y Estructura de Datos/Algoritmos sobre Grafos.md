@@ -4,7 +4,7 @@ created: 2026-01-12
 modified: 2026-01-12
 status: 🌿 Creciendo
 tipo_nota: tecnica
-asignatura: Algoritmos
+area: Algoritmos
 procesamiento: COMPLETO
 prioridad: EXAMEN-LEJANO
 fecha-examen: 2025-02-15
@@ -15,6 +15,7 @@ fuente: UD4 - Algoritmos sobre Grafos
 nivel-comprension: 💡
 ultima-revision: 2026-01-12
 veces-revisado: 1
+tiempo-repaso: ""
 ---
 
 # Algoritmos sobre Grafos

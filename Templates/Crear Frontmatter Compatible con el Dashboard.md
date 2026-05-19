@@ -6,10 +6,7 @@ new Notice("🔧 Actualizando frontmatter de nota técnica...");
 // Verificar si tiene los campos básicos
 const fm = app.metadataCache.getFileCache(file)?.frontmatter;
 
-const asignatura = await tp.system.suggester(
-    ["Algoritmos", "Arquitectura", "Infraestructura-Nube", "Fundamentos-DS"],
-    ["Algoritmos", "Arquitectura", "Infraestructura-Nube", "Fundamentos-DS"]
-);
+const area = await tp.system.prompt("📚 Área/Tema:");
 
 const nivelComprension = await tp.system.suggester(
     ["❓ No entiendo", "🤔 Entiendo parcialmente", "💡 Entiendo bien", "✅ Domino el concepto", "🎯 Puedo enseñarlo"],
@@ -48,12 +45,12 @@ if (fechaRevision < hoy) {
 // Aplicar cambios
 await app.fileManager.processFrontMatter(file, (frontmatter) => {
     // Campos obligatorios ordenados como Big_O
-    frontmatter["cards-deck"] = asignatura;
+    frontmatter["cards-deck"] = area;
     frontmatter.created = frontmatter.created || tp.date.now("YYYY-MM-DD");
     frontmatter.modified = tp.date.now("YYYY-MM-DD");
     frontmatter.status = status;
     frontmatter.tipo_nota = frontmatter.tipo_nota || "tecnica";
-    frontmatter.asignatura = asignatura;
+    frontmatter.area = area;
     frontmatter["nivel-comprension"] = nivelComprension;
     frontmatter["proxima-revision"] = proximaRevision;
     frontmatter["ultima-revision"] = tp.date.now("YYYY-MM-DD");
@@ -62,5 +59,5 @@ await app.fileManager.processFrontMatter(file, (frontmatter) => {
     frontmatter["tiempo-repaso"] = tiempoRepaso;
 });
 
-new Notice(`✅ Nota técnica actualizada: ${asignatura} - ${nivelComprension}`);
+new Notice(`✅ Nota técnica actualizada: ${area} - ${nivelComprension}`);
 _%>

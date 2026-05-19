@@ -4,13 +4,14 @@ created: 2025-11-04
 modified: 2025-12-23
 status: 🌳 Maduro
 tipo_nota: tecnica
-asignatura: Algoritmos
+area: Algoritmos
 nivel-comprension: ✅
 proxima-revision: 2026-01-22
 ultima-revision: 2025-12-23
 veces-revisado: 7
 estado: 🟢 Al día
 tiempo-estimado: 5m
+tiempo-repaso: ""
 ---
 
 # Notación Big O y Análisis de Complejidad

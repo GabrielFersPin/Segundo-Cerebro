@@ -6,6 +6,12 @@ modified: 2026-05-06 15:35
 status: 🟡
 tipo_nota: clase
 profesor: No especificado
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 
 # 📝 ASGI (Asynchronous Server Gateway Interface)

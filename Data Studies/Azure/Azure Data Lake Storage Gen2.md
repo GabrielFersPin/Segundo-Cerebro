@@ -4,7 +4,7 @@ created: 2026-02-09 14:30
 modified: 2026-02-09 14:30
 status: 🌱
 tipo_nota: tecnica
-asignatura:
+area:
 procesamiento: CAPTURA-RAPIDA
 prioridad:
 tipo-captura:
@@ -14,6 +14,10 @@ complejidad: ⭐
 tiempo-estimado: ""
 origen:
 urgente: false
+nivel-comprension: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # Azure Data Lake Storage Gen2

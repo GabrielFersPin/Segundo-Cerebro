@@ -1,11 +1,17 @@
 ---
 tipo: dashboard-asignatura
-asignatura: "Infraestructura-Nube"
+area: "Infraestructura-Nube"
 estado: "🟢 Al día"
 proxima-clase: 2025-11-27
 examen: 2026-02-06
 profesor: "Iván"
 created: 2025-11-20
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 
 # 📚 Infraestructura-Nube

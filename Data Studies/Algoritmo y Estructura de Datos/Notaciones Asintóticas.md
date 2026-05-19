@@ -4,7 +4,7 @@ created: 2025-11-26
 modified: 2025-12-23
 status: 🌿 Creciendo
 tipo_nota: tecnica
-asignatura: Algoritmos
+area: Algoritmos
 nivel-comprension: 💡
 proxima-revision: 2026-01-22
 ultima-revision: 2025-12-23

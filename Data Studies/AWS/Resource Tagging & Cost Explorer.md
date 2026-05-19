@@ -8,6 +8,12 @@ modified: 2026-03-19 13:10
 status: 🔴
 tipo_nota: clase
 profesor: Jose Gomez-Calcerrada
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 
 # 📝 AWS - Resourcing Tagging & Cost Explorer

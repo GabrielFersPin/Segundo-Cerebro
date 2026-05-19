@@ -4,7 +4,7 @@ created: 2026-04-07 09:06
 modified: 2026-04-07 09:06
 status: 🌱
 tipo_nota: tecnica
-asignatura: null
+area: null
 procesamiento: CAPTURA-RAPIDA
 prioridad: null
 tipo-captura: concepto
@@ -14,6 +14,10 @@ complejidad: ⭐
 tiempo-estimado: ""
 origen: Clase
 urgente: false
+nivel-comprension: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # Spark

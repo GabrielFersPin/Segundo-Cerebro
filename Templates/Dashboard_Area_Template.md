@@ -1,38 +1,32 @@
 <%*
-const asignatura = await tp.system.prompt("📚 Nombre asignatura:");
-const asignaturaSlug = await tp.system.suggester(
-    ["Algoritmos", "Arquitectura", "Infraestructura-Nube", "Fundamentos-DS", "Otro (usar nombre tal cual)"],
-    ["Algoritmos", "Arquitectura", "Infraestructura-Nube", "Fundamentos-DS", asignatura]
-);
+const area = await tp.system.prompt("📚 Nombre del Área/Tema:");
+const areaSlug = await tp.system.prompt("📚 Nombre corto del Área/Tema:");
 const estado = await tp.system.suggester(
     ["🟢 Al día", "🟡 Atrasado", "🔴 Crítico"], 
     ["🟢 Al día", "🟡 Atrasado", "🔴 Crítico"]
 );
-const proximaClase = await tp.system.prompt("Próxima clase (YYYY-MM-DD):");
-const examen = await tp.system.prompt("Fecha examen (YYYY-MM-DD):");
-const profesor = await tp.system.prompt("Profesor:");
+const proximaSesion = await tp.system.prompt("Próxima sesión (YYYY-MM-DD):");
+const hito = await tp.system.prompt("Fecha de hito importante (YYYY-MM-DD):");
 _%>---
-tipo: dashboard-asignatura
-asignatura: "<% asignaturaSlug %>"
+tipo: dashboard-area
+area: "<% areaSlug %>"
 estado: "<% estado %>"
-proxima-clase: <% proximaClase %>
-examen: <% examen %>
-profesor: "<% profesor %>"
+proxima-sesion: <% proximaSesion %>
+hito-importante: <% hito %>
 created: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
-# 📚 <% asignatura %>
+# 📚 <% area %>
 
 ## 📊 Estado actual
 
 **Estado general**: <% estado %>
-**Próximo examen**: <% examen %> (en `$= Math.ceil((new Date("<% examen %>") - new Date()) / (1000 * 60 * 60 * 24))` días)
-**Profesor**: <% profesor %>
+**Próximo hito**: <% hito %> (en `$= Math.ceil((new Date("<% hito %>") - new Date()) / (1000 * 60 * 60 * 24))` días)
 
 **Estadísticas rápidas**:
-- 🔴 Críticos (❓/🤔): `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.asignatura == "<% asignaturaSlug %>" && (p["nivel-comprension"] == "❓" || p["nivel-comprension"] == "🤔")).length`
-- 🟡 En progreso (💡): `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.asignatura == "<% asignaturaSlug %>" && p["nivel-comprension"] == "💡").length`
-- 🟢 Dominados (✅/🎯): `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.asignatura == "<% asignaturaSlug %>" && (p["nivel-comprension"] == "✅" || p["nivel-comprension"] == "🎯")).length`
+- 🔴 Críticos (❓/🤔): `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.area == "<% areaSlug %>" && (p["nivel-comprension"] == "❓" || p["nivel-comprension"] == "🤔")).length`
+- 🟡 En progreso (💡): `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.area == "<% areaSlug %>" && p["nivel-comprension"] == "💡").length`
+- 🟢 Dominados (✅/🎯): `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.area == "<% areaSlug %>" && (p["nivel-comprension"] == "✅" || p["nivel-comprension"] == "🎯")).length`
 
 ---
 
@@ -49,7 +43,7 @@ TABLE WITHOUT ID
   tiempo-repaso as "⏱️"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND asignatura = "<% asignaturaSlug %>"
+  AND area = "<% areaSlug %>"
   AND proxima-revision <= date(today)
 SORT proxima-revision ASC
 ```
@@ -67,7 +61,7 @@ TABLE WITHOUT ID
   tiempo-repaso as "⏱️"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND asignatura = "<% asignaturaSlug %>"
+  AND area = "<% areaSlug %>"
   AND proxima-revision > date(today)
   AND proxima-revision <= date(today) + dur(7 days)
 SORT proxima-revision ASC
@@ -88,7 +82,7 @@ TABLE WITHOUT ID
   tiempo-repaso as "⏱️"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND asignatura = "<% asignaturaSlug %>"
+  AND area = "<% areaSlug %>"
   AND (nivel-comprension = "❓" OR nivel-comprension = "🤔")
 SORT proxima-revision ASC
 ```
@@ -105,7 +99,7 @@ TABLE WITHOUT ID
   tiempo-repaso as "⏱️"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND asignatura = "<% asignaturaSlug %>"
+  AND area = "<% areaSlug %>"
   AND nivel-comprension = "💡"
 SORT proxima-revision ASC
 ```
@@ -123,7 +117,7 @@ TABLE WITHOUT ID
   ultima-revision as "Última vez"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND asignatura = "<% asignaturaSlug %>"
+  AND area = "<% areaSlug %>"
   AND (nivel-comprension = "✅" OR nivel-comprension = "🎯")
 SORT veces-revisado DESC
 ```
@@ -145,13 +139,13 @@ TABLE WITHOUT ID
   proxima-revision as "📅 Revisar"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND asignatura = "<% asignaturaSlug %>"
+  AND area = "<% areaSlug %>"
 SORT proxima-revision ASC
 ```
 
 ---
 
-## 🎯 Objetivos para el próximo examen
+## 🎯 Objetivos para el próximo hito
 
 - [ ] Repasar todos los temas 🔴
 - [ ] Subir temas 🤔 a 💡
@@ -160,11 +154,11 @@ SORT proxima-revision ASC
 
 ---
 
-## 🗓️ Calendario de clases
+## 🗓️ Calendario de sesiones
 
-| Fecha | Tema | Asistencia | Notas |
-|-------|------|------------|-------|
-|  |  |  |  |
+| Fecha | Tema | Notas |
+|-------|------|-------|
+|  |  |  |
 
 ---
 

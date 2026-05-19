@@ -4,13 +4,14 @@ created: 2025-11-04
 modified: 2026-01-17
 status: 🌳 Maduro
 tipo_nota: tecnica
-asignatura: Arquitectura
+area: Arquitectura
 nivel-comprension: ✅
 proxima-revision: 2026-02-16
 ultima-revision: 2026-01-17
 veces-revisado: 2
 estado: 🟡 Atrasado
 tiempo-estimado: 2min
+tiempo-repaso: ""
 ---
  
 # Componentes del Hardware

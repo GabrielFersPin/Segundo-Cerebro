@@ -1,17 +1,19 @@
 ---
-cards-deck: <% await tp.system.suggester(["Algoritmos", "Nube", "DataScience", "Arquitectura"], ["Algoritmos", "Nube", "DataScience", "Arquitectura"]) %>
 created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 modified: <% tp.date.now("YYYY-MM-DD HH:mm") %>
+area: <% await tp.system.prompt("📚 Área o Tema principal:") %>
+tipo_nota: captura_rapida
 status: 🌱
-tipo_nota: tecnica
-asignatura: <% await tp.system.suggester(["Algoritmos", "Arquitectura", "Infraestructura-Nube", "Fundamentos-DS"], ["Algoritmos", "Arquitectura", "Infraestructura-Nube", "Fundamentos-DS"]) %>
+nivel-comprension: ""
+proxima-revision: <% tp.date.now("YYYY-MM-DD", 7) %>
+ultima-revision: <% tp.date.now("YYYY-MM-DD") %>
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: <% await tp.system.prompt("🎴 Mazo para Flashcards:") %>
 procesamiento: CAPTURA-RAPIDA
 prioridad: <% await tp.system.suggester(["EXAMEN-PROXIMO", "EXAMEN-MEDIO", "EXAMEN-LEJANO", "EJERCICIO", "FUNDACIONAL"], ["EXAMEN-PROXIMO", "EXAMEN-MEDIO", "EXAMEN-LEJANO", "EJERCICIO", "FUNDACIONAL"]) %>
 tipo-captura: <% await tp.system.suggester(["💡 Concepto", "❓ Pregunta", "🔧 Ejercicio", "📖 Lectura", "🐛 Duda", "💭 Idea"], ["concepto", "pregunta", "ejercicio", "lectura", "duda", "idea"]) %>
-fecha-examen: ""
-proxima-revision: <% tp.date.now("YYYY-MM-DD", 7) %>
 complejidad: ⭐
-tiempo-estimado: ""
 origen: <% await tp.system.prompt("📍 Fuente/Contexto (clase, libro, video, etc):") %>
 urgente: false
 ---
@@ -91,7 +93,7 @@ urgente: false
 | Campo | Valor |
 |-------|-------|
 | Capturado | <% tp.date.now("YYYY-MM-DD HH:mm") %> |
-| Asignatura | `= this.asignatura` |
+| Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |

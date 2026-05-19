@@ -1,6 +1,6 @@
 ---
 tipo_nota: tecnica
-asignatura: Infraestructura-Nube
+area: Infraestructura-Nube
 nivel-comprension: 🤔
 proxima-revision: 2025-11-27
 ultima-revision: 2025-11-20
@@ -9,6 +9,7 @@ status: 🌿 Creciendo
 veces-revisado: 0
 created: 2025-11-20
 modified: 2025-11-20
+cards-deck: ""
 ---
 # 🐳 DOCKER
 

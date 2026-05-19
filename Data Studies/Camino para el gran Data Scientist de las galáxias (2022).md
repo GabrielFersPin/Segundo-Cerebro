@@ -5,6 +5,12 @@ description: The Roadmap of the tools that I get for do cool projects
 author: Gabriel
 categories: [Roadmap, Journey]
 tags: [Journey]
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/gabriel-fernandes-pinheiro/)
 

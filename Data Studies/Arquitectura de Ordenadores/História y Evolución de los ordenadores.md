@@ -4,13 +4,14 @@ created: 2025-11-04
 modified: 2026-01-15
 status: 🌳 Maduro
 tipo_nota: tecnica
-asignatura: Arquitectura
+area: Arquitectura
 nivel-comprension: ✅
 proxima-revision: 2026-02-14
 ultima-revision: 2026-01-15
 veces-revisado: 2
 estado: 🟡 Atrasado
 tiempo-estimado: 30m
+tiempo-repaso: ""
 ---
 
 # Historia y Evolución de los Ordenadores

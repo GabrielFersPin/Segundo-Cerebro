@@ -4,7 +4,7 @@ created: 2026-04-27
 modified: 2026-04-27
 status: 🌱 Semilla
 tipo_nota: tecnica
-asignatura: Databricks
+area: Databricks
 nivel-comprension: 🤔
 proxima-revision: 2026-04-30
 ultima-revision: 2026-04-27

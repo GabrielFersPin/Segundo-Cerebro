@@ -1,7 +1,7 @@
 ---
 cards-deck: Nube::Modelos-Implementacion
 tipo_nota: tecnica
-asignatura: Infraestructura-Nube
+area: Infraestructura-Nube
 nivel-comprension: 🤔
 proxima-revision: 2025-11-27
 ultima-revision: 2025-11-20

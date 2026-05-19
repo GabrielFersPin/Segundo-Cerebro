@@ -1,9 +1,15 @@
 ---
-cards-deck: <% await tp.system.prompt("🎴 Mazo (ej: Nube, Algoritmos, DataScience, Arquitectura):") %>
 created: <% tp.date.now("YYYY-MM-DD") %>
 modified: <% tp.date.now("YYYY-MM-DD") %>
-status: 🌱
+area: ""
 tipo_nota: ""
+status: 🌱
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: <% await tp.system.prompt("🎴 Mazo (ej: Nube, Algoritmos, DataScience, Arquitectura):") %>
 ---
 
 # <% await tp.system.prompt("📌 Título del concepto:") %>
@@ -19,24 +25,17 @@ const tipoNota = await tp.system.suggester(
     ["tecnica", "filosofia", "idea", "proyecto"]
 );
 
-// Variable para almacenar la asignatura
-let asignaturaSeleccionada = "";
+// Variable para almacenar el área
+let areaSeleccionada = "";
 _%>
 
-## 🎓 Contexto Académico
+## 🎓 Contexto de Estudio
 
 <%* 
 if (tipoNota === "tecnica" || tipoNota === "proyecto") {
-    asignaturaSeleccionada = await tp.system.suggester(
-        ["Algoritmos", "Arquitectura", "Infraestructura Nube", "Fundamentos DS", "Otro (escribir)"],
-        ["Algoritmos", "Arquitectura", "Infraestructura-Nube", "Fundamentos-DS", "custom"]
-    );
+    areaSeleccionada = await tp.system.prompt("📚 Área/Tema:");
     
-    if (asignaturaSeleccionada === "custom") {
-        asignaturaSeleccionada = await tp.system.prompt("📚 Nombre de la asignatura:");
-    }
-    
-    tR += `**Asignatura/Curso**: ${asignaturaSeleccionada}\n`;
+    tR += `**Área/Tema**: ${areaSeleccionada}\n`;
     
     const relevancia = await tp.system.prompt("🎯 Relevancia para (Examen/Proyecto/Certificación, opcional):", "");
     if (relevancia) {
@@ -321,8 +320,8 @@ await app.fileManager.processFrontMatter(tp.config.target_file, (fm) => {
     fm.status = emojiEstado;
     
     // NUEVOS CAMPOS para integración con dashboards
-    if (asignaturaSeleccionada) {
-        fm.asignatura = asignaturaSeleccionada;
+    if (areaSeleccionada) {
+        fm.area = areaSeleccionada;
     }
     fm["nivel-comprension"] = nivelComprension;
     fm["proxima-revision"] = tp.date.now("YYYY-MM-DD", diasRevision);

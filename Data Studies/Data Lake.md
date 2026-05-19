@@ -4,6 +4,11 @@ created: 2026-02-09
 modified: 2026-02-09
 status: 🌱
 tipo_nota: ""
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # Data Lake

@@ -1,27 +1,31 @@
 ---
-tags: [clase, <% tp.date.now("YYYY-MM-DD") %>]
-deck: Obsidian::<% await tp.system.prompt("📚 Asignatura (ej: ML, Estadística, Deep Learning):") %>
 created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 modified: <% tp.date.now("YYYY-MM-DD HH:mm") %>
+area: <% await tp.system.prompt("📚 Área/Tema (ej: ML, Estadística, Deep Learning):") %>
+tipo_nota: nota_estudio
 status: 🔴
-tipo_nota: clase
-profesor: <% await tp.system.prompt("👤 Profesor (opcional):", "") %>
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: <% await tp.system.prompt("🎴 Mazo para Flashcards:") %>
+tags: [nota_estudio, <% tp.date.now("YYYY-MM-DD") %>]
 ---
 
-# 📝 <% await tp.system.prompt("📚 Asignatura:") %> - <% await tp.system.prompt("📌 Tema de la clase:") %>
+# 📝 <% await tp.system.prompt("📚 Área:") %> - <% await tp.system.prompt("📌 Tema de la sesión:") %>
 
-> [!info] Metadata de la clase
+> [!info] Metadata de la nota
 > **Fecha**: <% tp.date.now("YYYY-MM-DD") %>
 > **Hora**: <% tp.date.now("HH:mm") %>
-> **Profesor**: <%* const prof = tp.frontmatter.profesor; tR += prof || "No especificado"; _%>
 > **Estado**: 🔴 En vivo | 🟡 Por procesar | 🟢 Procesada
 
 ---
 
-## 🎯 Objetivo de la clase
+## 🎯 Objetivo de la sesión
 
 <%* 
-const objetivo = await tp.system.prompt("🎯 ¿Cuál es el objetivo principal de esta clase? (opcional - presiona Enter para omitir):", "");
+const objetivo = await tp.system.prompt("🎯 ¿Cuál es el objetivo principal de esta sesión de estudio? (opcional - presiona Enter para omitir):", "");
 if (objetivo) {
     tR += objetivo;
 } else {
@@ -34,8 +38,8 @@ _%>
 ## 📊 Captura Rápida
 
 <%*
-// Sistema de captura rápida durante la clase
-tR += `> 💡 **Modo captura rápida**: Usa los atajos para agregar contenido sin interrumpir la clase\n\n`;
+// Sistema de captura rápida durante la sesión
+tR += `> 💡 **Modo captura rápida**: Usa los atajos para agregar contenido sin interrumpir el flujo\n\n`;
 
 // Crear secciones vacías para captura rápida
 tR += `### ⚡ Notas Rápidas\n`;
@@ -47,7 +51,7 @@ tR += `<!-- Marca con ** los conceptos importantes -->\n\n`;
 tR += `- \n\n`;
 
 tR += `### ❓ Dudas\n`;
-tR += `<!-- Preguntas que surjan durante la clase -->\n\n`;
+tR += `<!-- Preguntas que surjan durante el estudio -->\n\n`;
 tR += `- [ ] \n\n`;
 
 tR += `### 💡 Insights\n`;
@@ -68,11 +72,11 @@ _%>
 ## 📝 Notas Detalladas
 
 <%*
-// Sección para desarrollo posterior o si hay tiempo durante la clase
+// Sección para desarrollo posterior o si hay tiempo durante la sesión
 tR += `<!-- Desarrolla aquí los conceptos con más detalle cuando tengas tiempo -->\n\n`;
 
 const iniciarDetalle = await tp.system.suggester(
-    ["➕ Agregar sección detallada ahora", "⏭️ Dejar para después de clase"],
+    ["➕ Agregar sección detallada ahora", "⏭️ Dejar para después de la sesión"],
     ["si", "no"]
 );
 
@@ -146,13 +150,13 @@ if (iniciarDetalle === "si") {
         if (continuar === "no") break;
     }
 } else {
-    tR += `_[Sección para desarrollar después de clase]_\n`;
+    tR += `_[Sección para desarrollar después de la sesión]_\n`;
 }
 _%>
 
 ---
 
-## 🔄 Procesamiento Post-Clase
+## 🔄 Procesamiento Post-Sesión
 
 ### 📋 Checklist de Procesamiento
 - [ ] Revisar y organizar notas rápidas
@@ -166,7 +170,7 @@ _%>
 
 ### 🎯 Acciones Prioritarias
 <%*
-tR += `<!-- Identifica 3 acciones clave después de clase -->\n`;
+tR += `<!-- Identifica 3 acciones clave después de la sesión -->\n`;
 tR += `1. \n`;
 tR += `2. \n`;
 tR += `3. \n\n`;
@@ -207,7 +211,7 @@ if (crearFlashcardsAhora === "si") {
         tR += `Basic\n`;
         tR += `${pregunta}\n`;
         tR += `Back: ${respuesta}\n`;
-        tR += `Tags: clase, ${tp.frontmatter.deck.split("::")[1]}\n`;
+        tR += `Tags: nota_estudio, ${tp.frontmatter.deck.split("::")[1]}\n`;
         tR += `<!--ID: ${idUnico}-->\n`;
         tR += `END\n\n`;
     }
@@ -226,7 +230,7 @@ _%>
 3. 
 
 ### 💭 Reflexión personal
-_¿Qué es lo más importante/útil/interesante de esta clase?_
+_¿Qué es lo más importante/útil/interesante de esta sesión?_
 
 ### 🔮 Aplicaciones futuras
 _¿Dónde y cómo puedo aplicar este conocimiento?_
@@ -252,7 +256,7 @@ const dificultad = await tp.system.suggester(
 );
 
 tR += `- **Comprensión inicial**: ${comprension}\n`;
-tR += `- **Importancia para el curso**: ${importancia}\n`;
+tR += `- **Importancia global**: ${importancia}\n`;
 tR += `- **Dificultad percibida**: ${dificultad}\n`;
 tR += `- **Tiempo estimado de estudio**: \n`;
 tR += `- **Próxima revisión**: ${tp.date.now("YYYY-MM-DD", 2)}\n`;
@@ -276,7 +280,7 @@ _%>
 ---
 
 > [!tip] 💡 Flujo de trabajo recomendado
-> 1. **Durante la clase**: Usa la sección de Captura Rápida
+> 1. **Durante la sesión**: Usa la sección de Captura Rápida
 > 2. **Justo después**: Completa dudas y conexiones mientras está fresco
 > 3. **Mismo día**: Procesa las notas, crea flashcards
 > 4. **24-48h después**: Primera revisión con Active Recall

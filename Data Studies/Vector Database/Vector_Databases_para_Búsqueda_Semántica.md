@@ -5,6 +5,12 @@ tipo_nota: tecnica
 dificultad: ⭐⭐⭐☆☆
 status: 🌱
 proxima_revision: 2026-04-12
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 
 # Vector Databases para Búsqueda Semántica

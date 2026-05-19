@@ -1,11 +1,17 @@
 ---
 tipo: dashboard-asignatura
-asignatura: Fundamentos-DS
+area: Fundamentos-DS
 estado: 🟢 Al día
 proxima-clase: 2025-11-24
 examen: 2026-02-06
 profesor: Romi
 created: 2025-11-20
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 
 # 📚 Fundamentos-DS

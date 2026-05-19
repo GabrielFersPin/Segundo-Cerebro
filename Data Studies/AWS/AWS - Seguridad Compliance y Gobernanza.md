@@ -6,6 +6,12 @@ modified: 2026-05-14 10:00
 status: 🟡
 tipo_nota: clase
 profesor: No especificado
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 
 # 📝 AWS - Servicios de Seguridad, Compliance y Gobernanza

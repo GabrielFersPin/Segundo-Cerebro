@@ -4,6 +4,11 @@ created: 2026-02-19
 modified: 2026-02-19
 status: 🌱
 tipo_nota: tecnica
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # Azure Stream Analytics

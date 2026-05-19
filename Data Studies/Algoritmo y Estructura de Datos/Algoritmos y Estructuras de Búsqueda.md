@@ -4,7 +4,7 @@ created: 2024-11-27
 modified: 2026-01-14
 status: 🌿 Creciendo
 tipo_nota: tecnica
-asignatura: Algoritmos
+area: Algoritmos
 procesamiento: COMPLETO
 prioridad: EXAMEN-LEJANO
 fecha-examen: 2025-02-15
@@ -15,6 +15,7 @@ fuente: UD3 - Algoritmos y Estructuras de Datos UAX
 nivel-comprension: 💡
 ultima-revision: 2026-01-14
 veces-revisado: 3
+tiempo-repaso: ""
 ---
 
 # Algoritmos y Estructuras de Búsqueda

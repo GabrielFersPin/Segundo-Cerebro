@@ -4,6 +4,11 @@ created: 2025-11-27
 modified: 2025-11-27
 status: 🌱
 tipo_nota: tecnica
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # Embeddings (Representaciones Vectoriales)

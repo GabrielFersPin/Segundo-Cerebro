@@ -9,7 +9,7 @@ status: 🌿 Creciendo
 cards-deck: Arquitectura::CPU-Fundamentos
 created: 2026-01-15
 tipo_nota: tecnica
-asignatura: Arquitectura
+area: Arquitectura
 estado: 🟢 Al día
 tiempo-repaso: 5min
 ---

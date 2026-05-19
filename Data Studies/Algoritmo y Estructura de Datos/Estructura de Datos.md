@@ -3,7 +3,7 @@ created: 2025-11-26
 modified: 2025-12-10
 status: 🌿 Creciendo
 tipo_nota: tecnica
-asignatura: Algoritmos
+area: Algoritmos
 cards-deck: Algoritmos::Estructura-de-Datos
 nivel-comprension: 💡
 proxima-revision: 2025-12-24

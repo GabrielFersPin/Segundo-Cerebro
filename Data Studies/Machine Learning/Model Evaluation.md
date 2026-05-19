@@ -1,18 +1,18 @@
 ---
-cards-deck:
-created: 2026-03-24 19:54
-modified: 2026-03-24 19:54
+cards-deck: DataScience
+created: 2026-05-20 00:11
+modified: 2026-05-20 00:11
 status: 🌱
 tipo_nota: tecnica
 area:
 procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
+prioridad:
+tipo-captura:
 fecha-examen: ""
-proxima-revision: 2026-03-31
+proxima-revision: 2026-05-27
 complejidad: ⭐
 tiempo-estimado: ""
-origen: Curso
+origen:
 urgente: false
 nivel-comprension: ""
 ultima-revision: ""
@@ -20,10 +20,10 @@ veces-revisado: 0
 tiempo-repaso: ""
 ---
 
-# LangGraph
+# null
 
 > [!info] Contexto captura
-> **Fecha**: 2026-03-24 19:54
+> **Fecha**: 2026-05-20 00:11
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -39,31 +39,7 @@ tiempo-repaso: ""
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-### ReAct (Reason + Act)
->LLM first thinks what to do and them decides an action to take
->The action is execute in a environment and an observation is returned
->Create a class Agent to build the agent
 
-### Creating the agent
-> ```python
-> class Agent:
-> 	def __init__ (self, system=""): # The agent is parameterize by a system message
-> 		self.system = system # atribute message
-> 		self.messages = []
-> 		if self.system:
-> 			self.messagens.append({}"role":"system", "content": system})
-> 	
-> 	def __call_(self, message): # The message is take by the user and than give it back from the assistant
-> 		self.messages.append({"role", "user", "content": message})
-> 		result = self.execute()
-> 		self.messages.append({"role", "assistant", "content": result})
-> 		return result
-
-### Graphs
-> Nodes: Agents or functions
-> Edges: Connect nodes
-> Conditional Edges: Decisions
-> 
 
 
 ---
@@ -118,7 +94,7 @@ tiempo-repaso: ""
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-03-24 19:54 |
+| Capturado | 2026-05-20 00:11 |
 | Asignatura | `= this.asignatura` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

@@ -4,6 +4,11 @@ created: 2025-11-18
 modified: 2025-11-18
 status: 🌱
 tipo_nota: tecnica
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
 ---
 
 # Pipeline RAG (Flujo completo)

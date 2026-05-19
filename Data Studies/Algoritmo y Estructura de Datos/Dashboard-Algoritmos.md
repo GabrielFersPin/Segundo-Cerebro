@@ -1,11 +1,17 @@
 ---
 tipo: dashboard-asignatura
-asignatura: Algoritmos
+area: Algoritmos
 estado: 🟡 Atrasado
 proxima-clase: 2025-11-20
 examen: 2026-02-06
 profesor: Ivan
 created: 2025-11-20
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 
 # 📚 Algoritmo

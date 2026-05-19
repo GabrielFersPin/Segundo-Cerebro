@@ -6,6 +6,12 @@ modified: 2026-01-29 19:25
 status: 🟢
 tipo_nota: clase
 profesor: "No especificado"
+nivel-comprension: ""
+proxima-revision: ""
+ultima-revision: ""
+veces-revisado: 0
+tiempo-repaso: ""
+cards-deck: ""
 ---
 
 # 📝 Infraestructuras y Servicios en la Nube - DevOps y Jenkins

@@ -3,16 +3,16 @@ tipo: dashboard-general
 created: 2025-11-19
 ---
 
-# 📊 Control Académico - Semestre 2024-25
+# 📊 Control de Estudio
 
-## 🎯 Vista Global de Asignaturas
+## 🎯 Vista Global de Areas
 ```dataview
 TABLE WITHOUT ID
-  file.link as "Asignatura",
+  file.link as "Area",
   estado as "Estado",
-  examen as "🎯 Examen"
+  hito-importante as "🎯 Próximo Hito"
 FROM ""
-WHERE tipo = "dashboard-asignatura"
+WHERE tipo = "dashboard-area"
 SORT estado ASC
 ```
 
@@ -20,26 +20,26 @@ SORT estado ASC
 ```dataview
 TABLE WITHOUT ID
   file.link as "Tema",
-  asignatura as "📚 Asignatura",
+  area as "📚 Area",
   nivel-comprension as "Nivel",
   tiempo-repaso as "⏱️"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND asignatura
+  AND area
   AND proxima-revision <= date(today)
-SORT asignatura ASC
+SORT area ASC
 ```
 
 ## 🟡 Esta semana (próximos 7 días)
 ```dataview
 TABLE WITHOUT ID
   file.link as "Tema",
-  asignatura as "Asignatura",
+  area as "Area",
   proxima-revision as "📅 Fecha",
   nivel-comprension as "Nivel"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND asignatura
+  AND area
   AND proxima-revision
   AND proxima-revision > date(today)
   AND proxima-revision <= date(today) + dur(7 days)
@@ -50,13 +50,13 @@ SORT proxima-revision ASC
 ```dataview
 TABLE WITHOUT ID
   file.link as "Tema",
-  asignatura as "Asignatura",
+  area as "Area",
   status as "Estado",
   nivel-comprension as "Nivel",
   proxima-revision as "📅 Revisar"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND asignatura
+  AND area
   AND nivel-comprension
   AND proxima-revision
 SORT proxima-revision ASC
@@ -67,28 +67,28 @@ SORT proxima-revision ASC
 TABLE WITHOUT ID
   file.link as "Tema",
   status as "Estado",
-  choice(asignatura, "✅", "❌ Falta") as "Asignatura",
+  choice(area, "✅", "❌ Falta") as "Area",
   choice(nivel-comprension, "✅", "❌ Falta") as "Nivel",
   choice(proxima-revision, "✅", "❌ Falta") as "Próxima revisión"
 FROM ""
 WHERE tipo_nota = "tecnica"
-  AND (!asignatura OR !nivel-comprension OR !proxima-revision)
+  AND (!area OR !nivel-comprension OR !proxima-revision)
 ```
 
 ## 📊 Estadísticas
 
 - **Total notas técnicas**: `$= dv.pages('""').where(p => p.tipo_nota == "tecnica").length`
-- **Notas completas**: `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.asignatura && p["nivel-comprension"] && p["proxima-revision"]).length`
-- **Notas incompletas**: `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && (!p.asignatura || !p["nivel-comprension"] || !p["proxima-revision"])).length`
+- **Notas completas**: `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.area && p["nivel-comprension"] && p["proxima-revision"]).length`
+- **Notas incompletas**: `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && (!p.area || !p["nivel-comprension"] || !p["proxima-revision"])).length`
 - **Temas dominados (✅/🎯)**: `$= dv.pages('""').where(p => p["nivel-comprension"] == "✅" || p["nivel-comprension"] == "🎯").length`
 - **En progreso (💡)**: `$= dv.pages('""').where(p => p["nivel-comprension"] == "💡").length`
 - **Necesitan atención (❓/🤔)**: `$= dv.pages('""').where(p => p["nivel-comprension"] == "❓" || p["nivel-comprension"] == "🤔").length`
 
 ---
 
-## 🗓️ Por Asignatura (solo completas)
+## 🗓️ Por Area (ejemplos)
 
-### Algoritmos
+### Ejemplo de Area 1
 ```dataview
 TABLE WITHOUT ID
   file.link as "Tema",
@@ -97,29 +97,15 @@ TABLE WITHOUT ID
   proxima-revision as "Revisar"
 FROM ""
 WHERE tipo_nota = "tecnica" 
-  AND asignatura = "Algoritmos"
+  AND area = "Ejemplo1"
 SORT proxima-revision ASC
 ```
 
-### Arquitectura
+### Ejemplo de Area 2
 ```dataview
 LIST
 FROM ""
-WHERE tipo_nota = "tecnica" AND asignatura = "Arquitectura"
-```
-
-### Infraestructura Nube
-```dataview
-LIST
-FROM ""
-WHERE tipo_nota = "tecnica" AND asignatura = "Infraestructura-Nube"
-```
-
-### Fundamentos DS
-```dataview
-LIST
-FROM ""
-WHERE tipo_nota = "tecnica" AND asignatura = "Fundamentos-DS"
+WHERE tipo_nota = "tecnica" AND area = "Ejemplo2"
 ```
 
 ---

@@ -94,7 +94,7 @@ tags: [diario, tracking]
 ### 15:30 - 18:30 | <% bloqueTarde %>
 <%* if (dayOfWeek === "Monday" || dayOfWeek === "Wednesday" || dayOfWeek === "Friday") { %>
 > **Foco Proyecto DS:**
-> - [ ] Revisar feedback del profesor
+> - [ ] Revisar feedback/comentarios
 > - [ ] Implementar cambios en Streamlit
 > - [ ] Commit en Git
 <%* } else { %>
