@@ -18,7 +18,7 @@ jobs:
       - name: Checkout Quartz
         uses: actions/checkout@v4
         with:
-          repository: GabrielFersPin/quartz
+          repository: GabrielFersPin/Jardin-Digital
           token: ${{ secrets.QUARTZ_PAT }}
           path: quartz
 
