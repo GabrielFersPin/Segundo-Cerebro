@@ -11,14 +11,10 @@
             "id": "87ce9a623728b742",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Studies/Machine Learning/Model Evaluation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Model Evaluation"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -297,8 +293,14 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "87ce9a623728b742",
+  "active": "60dfcc24e4dc9430",
   "lastOpenFiles": [
+    "AWS_Service_Tools_for_Responsible_AI.md",
+    "AWS_Services_for_MLOps.md",
+    "MLOps.md",
+    "SageMaker_AI.md",
+    "Model_Deployment.md",
+    "Model Deployment.md",
     "Model_Evaluation.md",
     "crear_nota.py",
     "scratch/update_frontmatter.py",
@@ -323,12 +325,6 @@
     "Data Studies/Data Lake.md",
     "Data Studies/Data Warehousing.md",
     "Finanzas/Planes y Seguimiento Financiero.md",
-    "Finanzas/Marzo.md",
-    "Finanzas/Estudio del Coche.md",
-    "Journal/2026-04-24.md",
-    "Ideas y Tareas.md",
-    "Data Studies/AWS/EC2_Amazon_Elastic_Compute_Cloud.md",
-    "Data Studies/AWS/Monitoring & Management.md",
     "Sin título.base",
     "Infraestructura-Nube",
     "Data Studies/Python/Python_Cheat_Sheet_-_The_Basics_Coursera.pdf",
