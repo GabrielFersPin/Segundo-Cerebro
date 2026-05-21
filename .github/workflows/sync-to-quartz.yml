@@ -1,0 +1,48 @@
+name: Sync Notes to Quartz
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Segundo Cerebro
+        uses: actions/checkout@v4
+        with:
+          path: segundo_cerebro
+
+      - name: Checkout Quartz
+        uses: actions/checkout@v4
+        with:
+          repository: GabrielFersPin/quartz
+          token: ${{ secrets.QUARTZ_PAT }}
+          path: quartz
+
+      - name: Sync files
+        run: |
+          rsync -av --delete \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.obsidian' \
+            --exclude='Templates' \
+            --exclude='scratch' \
+            --exclude='*.html' \
+            segundo_cerebro/ quartz/content/
+
+      - name: Commit and Push to Quartz
+        run: |
+          cd quartz
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/
+          
+          if git diff --staged --quiet; then
+            echo "No hay cambios para sincronizar."
+          else
+            git commit -m "Auto-sync: nuevas notas desde Segundo-Cerebro"
+            git push origin HEAD
+          fi
