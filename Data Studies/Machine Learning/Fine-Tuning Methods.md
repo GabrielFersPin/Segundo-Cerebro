@@ -1,27 +1,24 @@
 ---
-tags:
-  - fine-tuning
-  - aprendizaje-automático
-  - modelos
-deck: Obsidian::Fine-Tuning
 created: 2026-05-22 09:34
 modified: 2026-05-22 09:34
-status: 🌱
+area: Machine Learning
 tipo_nota: captura_rapida
-profesor: No especificado
-nivel-comprension: ""
+status: 🔴 Por procesar
+nivel-comprension: "❓"
 proxima-revision: 2026-05-29
 ultima-revision: 2026-05-22
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck:
-area: Machine Learning
+cards-deck: 
 procesamiento: CAPTURA-RAPIDA
 prioridad: EXAMEN-PROXIMO
 tipo-captura: concepto
 complejidad: ⭐
 origen: Curso
 urgente: false
+tags: 
+deck: Obsidian::Fine-Tuning
+profesor: No especificado
 ---
 
 # Fine Tuning Methods

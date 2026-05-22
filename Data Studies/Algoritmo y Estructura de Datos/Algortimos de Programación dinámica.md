@@ -1,23 +1,21 @@
 ---
-area: Algoritmos
-cards-deck: Algoritmos
-complejidad: ⭐
 created: 2026-01-12 16:40
-fecha-examen: ''
 modified: 2026-01-12 16:40
-origen: UD4
-prioridad: FUNDACIONAL
-procesamiento: CAPTURA-RAPIDA
-proxima-revision: '2026-05-04'
-status: 🌱
-tiempo-estimado: ''
-tipo-captura: concepto
+area: Algoritmos
 tipo_nota: tecnica
+status: 🔴 Por procesar
+nivel-comprension: "❓"
+proxima-revision: '2026-05-04'
 ultima-revision: '2026-04-27'
-urgente: false
 veces-revisado: 1
-nivel-comprension: ""
 tiempo-repaso: ""
+cards-deck: Algoritmos
+procesamiento: CAPTURA-RAPIDA
+prioridad: FUNDACIONAL
+tipo-captura: concepto
+complejidad: ⭐
+origen: UD4
+urgente: false
 ---
 
 # Algoritmos de Programación dinámica

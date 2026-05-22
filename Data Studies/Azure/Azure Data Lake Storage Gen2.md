@@ -1,23 +1,21 @@
 ---
-cards-deck: Azure Data Engineer
 created: 2026-02-09 14:30
 modified: 2026-02-09 14:30
-status: 🌱
+area: 
 tipo_nota: tecnica
-area:
-procesamiento: CAPTURA-RAPIDA
-prioridad:
-tipo-captura:
-fecha-examen: ""
+status: 🔴 Por procesar
+nivel-comprension: "❓"
 proxima-revision: 2026-02-16
-complejidad: ⭐
-tiempo-estimado: ""
-origen:
-urgente: false
-nivel-comprension: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+cards-deck: Azure Data Engineer
+procesamiento: CAPTURA-RAPIDA
+prioridad: 
+tipo-captura: 
+complejidad: ⭐
+origen: 
+urgente: false
 ---
 
 # Azure Data Lake Storage Gen2

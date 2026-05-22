@@ -1,23 +1,21 @@
 ---
-cards-deck:
 created: 2026-02-09 16:24
 modified: 2026-02-09 16:24
-status: 🌱
+area: 
 tipo_nota: tecnica
-area:
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-fecha-examen: ""
+status: 🔴 Por procesar
+nivel-comprension: "❓"
 proxima-revision: 2026-02-16
-complejidad: ⭐
-tiempo-estimado: ""
-origen: Curso
-urgente: false
-nivel-comprension: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+cards-deck: 
+procesamiento: CAPTURA-RAPIDA
+prioridad: FUNDACIONAL
+tipo-captura: concepto
+complejidad: ⭐
+origen: Curso
+urgente: false
 ---
 
 # Data Warehouse

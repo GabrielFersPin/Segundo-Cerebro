@@ -1,23 +1,21 @@
 ---
-cards-deck:
 created: 2026-02-09 14:35
 modified: 2026-02-09 14:35
-status: 🌱
+area: 
 tipo_nota: tecnica
-area:
-procesamiento: CAPTURA-RAPIDA
-prioridad:
-tipo-captura:
-fecha-examen: ""
+status: 🔴 Por procesar
+nivel-comprension: "❓"
 proxima-revision: 2026-02-16
-complejidad: ⭐
-tiempo-estimado: ""
-origen: Curso
-urgente: false
-nivel-comprension: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+cards-deck: 
+procesamiento: CAPTURA-RAPIDA
+prioridad: 
+tipo-captura: 
+complejidad: ⭐
+origen: Curso
+urgente: false
 ---
 
 # Azure Blob Storage

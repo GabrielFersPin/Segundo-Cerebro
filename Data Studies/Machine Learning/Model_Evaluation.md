@@ -3,8 +3,8 @@ created: 2026-05-20 00:34
 modified: 2026-05-20 00:34
 area: "Machine Learning"
 tipo_nota: captura_rapida
-status: 🌱
-nivel-comprension: ""
+status: 🔴 Por procesar
+nivel-comprension: "❓"
 proxima-revision: 2026-05-27
 ultima-revision: ""
 veces-revisado: 0

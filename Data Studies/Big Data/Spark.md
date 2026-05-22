@@ -1,23 +1,21 @@
 ---
-cards-deck: null
 created: 2026-04-07 09:06
 modified: 2026-04-07 09:06
-status: 🌱
-tipo_nota: tecnica
 area: null
-procesamiento: CAPTURA-RAPIDA
-prioridad: null
-tipo-captura: concepto
-fecha-examen: ""
+tipo_nota: tecnica
+status: 🔴 Por procesar
+nivel-comprension: "❓"
 proxima-revision: 2026-04-14
-complejidad: ⭐
-tiempo-estimado: ""
-origen: Clase
-urgente: false
-nivel-comprension: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+cards-deck: null
+procesamiento: CAPTURA-RAPIDA
+prioridad: null
+tipo-captura: concepto
+complejidad: ⭐
+origen: Clase
+urgente: false
 ---
 
 # Spark

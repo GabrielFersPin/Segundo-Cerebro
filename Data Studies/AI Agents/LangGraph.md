@@ -1,23 +1,21 @@
 ---
-cards-deck:
 created: 2026-03-24 19:54
 modified: 2026-03-24 19:54
-status: 🌱
+area: 
 tipo_nota: tecnica
-area:
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-fecha-examen: ""
+status: 🔴 Por procesar
+nivel-comprension: "❓"
 proxima-revision: 2026-03-31
-complejidad: ⭐
-tiempo-estimado: ""
-origen: Curso
-urgente: false
-nivel-comprension: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+cards-deck: 
+procesamiento: CAPTURA-RAPIDA
+prioridad: FUNDACIONAL
+tipo-captura: concepto
+complejidad: ⭐
+origen: Curso
+urgente: false
 ---
 
 # LangGraph

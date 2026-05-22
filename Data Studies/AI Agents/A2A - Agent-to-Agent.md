@@ -1,24 +1,22 @@
 ---
-cards-deck:
 created: 2026-05-06
 modified: 2026-05-06
-status: 🌱
-tipo_nota: tecnica
 area: IA / Agentes
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-fecha-examen: ""
-proxima_revision: 2026-05-13
-complejidad: ⭐
-tiempo-estimado: ""
-origen: Estudio personal
-urgente: false
-nivel-comprension: ""
+tipo_nota: tecnica
+status: 🔴 Por procesar
+nivel-comprension: "❓"
 proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+cards-deck: 
+procesamiento: CAPTURA-RAPIDA
+prioridad: FUNDACIONAL
+tipo-captura: concepto
+complejidad: ⭐
+origen: Estudio personal
+urgente: false
+proxima_revision: 2026-05-13
 ---
 
 # A2A - Agent-to-Agent
