@@ -1,5 +1,9 @@
 ---
-tags: [clase, evaluación, métricas, NLP, modelos]
+tags:
+  - evaluación
+  - métricas
+  - NLP
+  - modelos
 deck: Obsidian::Evaluación de Modelos
 created: 2026-05-11 11:00
 modified: 2026-05-11 11:00

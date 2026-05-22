@@ -1,5 +1,8 @@
 ---
-tags: [clase, comparación, FastMCP, FastAPI]
+tags:
+  - comparación
+  - FastMCP
+  - FastAPI
 deck: Obsidian::Comparación
 created: 2026-05-06 15:05
 modified: 2026-05-06 15:05

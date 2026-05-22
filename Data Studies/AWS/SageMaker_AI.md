@@ -50,5 +50,7 @@ SageMaker AI asynchronous inference is a capability in SageMaker AI that queues 
 
 On-demand serverless inference is a capability in SageMaker AI that provides serverless inference for machine learning models.
 
-`
+# Sagemaker JumpStart
+
+Is a feature of Sagemaker AI that provides pre-trained, open source models for you to use. SageMaker JumpStart offers FMs that you can use for summarization use cases.
 
