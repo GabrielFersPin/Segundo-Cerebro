@@ -113,3 +113,4 @@ WHERE contains(list("tecnica", "nota_estudio", "captura_rapida"), tipo_nota) AND
 
 ---
 
+

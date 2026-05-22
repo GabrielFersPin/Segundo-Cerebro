@@ -24,9 +24,9 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 **Próximo hito**: <% hito %> (en `$= Math.ceil((new Date("<% hito %>") - new Date()) / (1000 * 60 * 60 * 24))` días)
 
 **Estadísticas rápidas**:
-- 🔴 Críticos (❓/🤔): `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.area == "<% areaSlug %>" && (p["nivel-comprension"] == "❓" || p["nivel-comprension"] == "🤔")).length`
-- 🟡 En progreso (💡): `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.area == "<% areaSlug %>" && p["nivel-comprension"] == "💡").length`
-- 🟢 Dominados (✅/🎯): `$= dv.pages('""').where(p => p.tipo_nota == "tecnica" && p.area == "<% areaSlug %>" && (p["nivel-comprension"] == "✅" || p["nivel-comprension"] == "🎯")).length`
+- 🔴 Críticos (❓/🤔): `$= dv.pages('""').where(p => ["tecnica", "nota_estudio", "captura_rapida"].includes(p.tipo_nota) && p.area == "<% areaSlug %>" && (p["nivel-comprension"] == "❓" || p["nivel-comprension"] == "🤔")).length`
+- 🟡 En progreso (💡): `$= dv.pages('""').where(p => ["tecnica", "nota_estudio", "captura_rapida"].includes(p.tipo_nota) && p.area == "<% areaSlug %>" && p["nivel-comprension"] == "💡").length`
+- 🟢 Dominados (✅/🎯): `$= dv.pages('""').where(p => ["tecnica", "nota_estudio", "captura_rapida"].includes(p.tipo_nota) && p.area == "<% areaSlug %>" && (p["nivel-comprension"] == "✅" || p["nivel-comprension"] == "🎯")).length`
 
 ---
 
@@ -42,7 +42,7 @@ TABLE WITHOUT ID
   proxima-revision as "📅 Vence",
   tiempo-repaso as "⏱️"
 FROM ""
-WHERE tipo_nota = "tecnica"
+WHERE contains(list("tecnica", "nota_estudio", "captura_rapida"), tipo_nota)
   AND area = "<% areaSlug %>"
   AND proxima-revision <= date(today)
 SORT proxima-revision ASC
@@ -60,7 +60,7 @@ TABLE WITHOUT ID
   proxima-revision as "📅 Revisar",
   tiempo-repaso as "⏱️"
 FROM ""
-WHERE tipo_nota = "tecnica"
+WHERE contains(list("tecnica", "nota_estudio", "captura_rapida"), tipo_nota)
   AND area = "<% areaSlug %>"
   AND proxima-revision > date(today)
   AND proxima-revision <= date(today) + dur(7 days)
@@ -81,7 +81,7 @@ TABLE WITHOUT ID
   proxima-revision as "📅 Revisar",
   tiempo-repaso as "⏱️"
 FROM ""
-WHERE tipo_nota = "tecnica"
+WHERE contains(list("tecnica", "nota_estudio", "captura_rapida"), tipo_nota)
   AND area = "<% areaSlug %>"
   AND (nivel-comprension = "❓" OR nivel-comprension = "🤔")
 SORT proxima-revision ASC
@@ -98,7 +98,7 @@ TABLE WITHOUT ID
   proxima-revision as "📅 Revisar",
   tiempo-repaso as "⏱️"
 FROM ""
-WHERE tipo_nota = "tecnica"
+WHERE contains(list("tecnica", "nota_estudio", "captura_rapida"), tipo_nota)
   AND area = "<% areaSlug %>"
   AND nivel-comprension = "💡"
 SORT proxima-revision ASC
@@ -116,7 +116,7 @@ TABLE WITHOUT ID
   veces-revisado as "Repasos",
   ultima-revision as "Última vez"
 FROM ""
-WHERE tipo_nota = "tecnica"
+WHERE contains(list("tecnica", "nota_estudio", "captura_rapida"), tipo_nota)
   AND area = "<% areaSlug %>"
   AND (nivel-comprension = "✅" OR nivel-comprension = "🎯")
 SORT veces-revisado DESC
@@ -138,7 +138,7 @@ TABLE WITHOUT ID
   nivel-comprension as "Nivel",
   proxima-revision as "📅 Revisar"
 FROM ""
-WHERE tipo_nota = "tecnica"
+WHERE contains(list("tecnica", "nota_estudio", "captura_rapida"), tipo_nota)
   AND area = "<% areaSlug %>"
 SORT proxima-revision ASC
 ```
