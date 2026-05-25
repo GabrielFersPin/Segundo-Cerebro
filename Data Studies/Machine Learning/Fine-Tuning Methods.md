@@ -245,11 +245,7 @@ El modelo ya tiene representaciones generales del lenguaje; el fine-tuning ajust
 ---
 
 ## 🎴 Flashcards Rápidas
-- **¿Qué es fine-tuning?**
-  - Ajustar un modelo pre-entrenado a una tarea específica.
-- **¿Qué es LoRA?**
-  - Low-Rank Adaptation, método eficiente para ajustar solo partes pequeñas del modelo.
-- **¿Cuándo usar adapters?**
-  - Cuando se necesitan múltiples adaptaciones sin entrenar el modelo completo.
-- **¿Cuál es el riesgo del full fine-tuning?**
-  - Sobreajuste y altos costos de memoria.
+¿Qué es fine-tuning?::Ajustar un modelo pre-entrenado a una tarea específica. #card
+¿Qué es LoRA?::Low-Rank Adaptation, método eficiente para ajustar solo partes pequeñas del modelo. #card
+¿Cuándo usar adapters?::Cuando se necesitan múltiples adaptaciones sin entrenar el modelo completo. #card
+¿Cuál es el riesgo del full fine-tuning?::Sobreajuste y altos costos de memoria. #card

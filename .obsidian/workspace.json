@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
+                "file": "Data Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algoritmos de Ordenación"
+              "title": "CPU - Fundamentos y Componentes Básicos"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "Template_Captura_Rápida"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -325,17 +326,21 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "0ba054a8217961eb",
+  "active": "751f2a62e6527e98",
   "lastOpenFiles": [
+    "format_notes.py",
+    "Data Studies/Arquitectura de Ordenadores/Trabajo Out of order Execution.md",
+    "Data Studies/Machine Learning/Model Evaluation - Métricas BLEU ROUGE BERTScore.md",
+    "Data Studies/Protocolos/FastMCP - Ejemplo de implementación.md",
+    "Reading/Filosofía/El mito de Sísifo - Alber Camus.md",
+    "Data Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
+    "Data Studies/AWS/AWS_Service_Tools_for_Responsible_AI.md",
     "Dashboard_General.md",
     "Dashboard de Estudio.md",
-    "Data Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
     "Templates/Template_Captura_Rápida.md",
     "Data Studies/AWS/Amazon_Text_and_Images_Services.md",
     "scratch/format_rapid_notes.py",
-    "Data Studies/Machine Learning/Model Evaluation - Métricas BLEU ROUGE BERTScore.md",
     "Data Studies/Machine Learning/Fine-Tuning Methods.md",
-    "Data Studies/AWS/AWS_Service_Tools_for_Responsible_AI.md",
     "Templates/hub_template.md",
     "Templates/Dashboard_Rendimiento.md",
     "Templates/Task-List.md",
@@ -353,13 +358,9 @@
     "Data Studies/AWS/AWS_Services_for_MLOps.md",
     "Data Studies/AWS/EC2_Amazon_Elastic_Compute_Cloud.md",
     "Data Studies/AWS/Monitoring & Management.md",
-    "Data Studies/AWS/Resource Tagging & Cost Explorer.md",
-    "Data Studies/Machine Learning/Model Evaluation.md",
-    "Model Deployment.md",
     "crear_nota.py",
     "scratch/update_frontmatter.py",
     "scratch",
-    "Templates/Dashboard_Area_Template.md",
     "Templates/sedc2FT24",
     "Sin título.base",
     "Infraestructura-Nube",

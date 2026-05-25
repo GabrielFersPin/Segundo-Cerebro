@@ -64,4 +64,3 @@ Provide scores datiling which features contributes the most to your model predic
 ## Amazon Inspector
 
 Is a vulnerability management service that continously scans workloads for software vulnerabilities and uninteded network exposure. Amazon Inspector assesses the security and compliance of your AWS reaources by performing automated security checks based on best practices and comomon vulnerabilities. Amazon Inspector can assess EC2 instances and Amazon ECR repositories to provide detailed findings and recommendations for detailed findings and recommendations for remediation. You can use Amazon Inspector to maintain a secure and compliant AWS environment.
-

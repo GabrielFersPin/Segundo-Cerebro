@@ -33,27 +33,32 @@ Entender qué es la programación asincrónica en Python, cómo funcionan `async
 ## 📊 Captura Rápida
 
 ### ⚡ Notas Rápidas
+
 - `async` declara una función que puede pausarse y reanudarse.
 - `await` pausa una función `async` hasta que una operación termine.
 - La programación asincrónica permite ejecutar múltiples operaciones sin bloquear.
 - Ideal para operaciones I/O (red, archivos, bases de datos).
 
 ### 🔑 Conceptos Clave
+
 - **Sincrónico**: esperas a que termine una operación antes de continuar.
 - **Asincrónico**: inicias una operación y continúas con otras tareas mientras se completa.
 - **Event loop**: bucle que gestiona tareas asincrónicas.
 - **await**: solo se puede usar dentro de funciones `async`.
 
 ### ❓ Dudas
+
 - ¿async crea threads nuevos? No, todo se ejecuta en un solo thread con el event loop.
 - ¿Puedo mezclar código sincrónico y asincrónico? Con cuidado, sí.
 - ¿Es async más rápido para operaciones CPU? No, para I/O.
 
 ### 💡 Insights
+
 - `async` no es paralelismo, es concurrencia: múltiples tareas intercaladas en un thread.
 - La verdadera ventaja de async aparece cuando hay muchas operaciones I/O simultáneas.
 
 ### ⚠️ Importante
+
 - `await` solo funciona dentro de funciones `async`.
 - Si una función `async` hace operaciones CPU pesadas sin `await`, bloquea todo el event loop.
 - Usar bibliotecas asincrónicas (`aiohttp`, `asyncpg`) para maximizar beneficios.
@@ -63,11 +68,13 @@ Entender qué es la programación asincrónica en Python, cómo funcionan `async
 ## 📝 Notas Detalladas
 
 ### ¿Qué es la programación asincrónica?
+
 La programación asincrónica permite que un programa ejecute múltiples operaciones sin esperar a que cada una termine. En lugar de bloquear, el programa pausa una tarea y continúa con otra, volviendo a la primera cuando esté lista.
 
 ### Ejemplo sincrónico vs asincrónico
 
 **Sincrónico (bloqueante):**
+
 ```python
 def fetch_data(url):
     response = requests.get(url)  # Espera aquí
@@ -79,6 +86,7 @@ fetch_data("http://api2.com")
 ```
 
 **Asincrónico (no bloqueante):**
+
 ```python
 async def fetch_data(url):
     response = await aiohttp.get(url)  # Pausa aquí, pero no bloquea
@@ -123,6 +131,7 @@ asyncio.run(main())
 ```
 
 ### Cuándo usar async
+
 - ✅ Operaciones I/O: red, archivos, bases de datos.
 - ✅ Servidores web (ASGI).
 - ✅ Procesamiento de muchas conexiones simultáneas.
@@ -130,6 +139,7 @@ asyncio.run(main())
 - ❌ Código que necesita comportarse como sincrónico.
 
 ### Relación con ASGI
+
 ASGI se construye sobre async porque permite que un servidor maneje muchas solicitudes HTTP sin crear múltiples threads. Cada solicitud es una corrutina que se pausa cuando espera (I/O) y se reanuda cuando está lista.
 
 ```python
@@ -149,17 +159,20 @@ async def root():
 ## 🔄 Procesamiento Post-Clase
 
 ### 📋 Checklist de Procesamiento
+
 - [ ] Probar ejemplos sincrónico vs asincrónico.
 - [ ] Entender el event loop.
 - [ ] Practicar con bibliotecas async (`aiohttp`, `asyncpg`).
 - [ ] Conectar con ASGI y FastAPI.
 
 ### 🎯 Acciones Prioritarias
+
 1. Leer [[ASGI - Asynchronous Server Gateway Interface]].
 2. Escribir un script async con `asyncio.gather()`.
 3. Comparar rendimiento con múltiples I/O.
 
 ### 🔗 Conexiones
+
 - [[ASGI - Asynchronous Server Gateway Interface]]
 - [[uv y npm en virtual environment]]
 - [[FastAPI vs FastMCP]]
@@ -167,9 +180,7 @@ async def root():
 ---
 
 ## 🎴 Flashcards Rápidas
-- **¿Qué es async?**
-  - Una forma de escribir código concurrente que pausa sin bloquear el programa.
-- **¿Cuál es la diferencia entre async y threading?**
-  - Async usa concurrencia en un thread; threading usa múltiples threads.
-- **¿Cuándo debo usar async?**
-  - Para operaciones I/O en servidores web y cuando necesites manejar muchas conexiones simultáneamente.
+
+¿Qué es async?::Una forma de escribir código concurrente que pausa sin bloquear el programa. #card
+¿Cuál es la diferencia entre async y threading?::Async usa concurrencia en un thread; threading usa múltiples threads. #card
+¿Cuándo debo usar async?::Para operaciones I/O en servidores web y cuando necesites manejar muchas conexiones simultáneamente. #card

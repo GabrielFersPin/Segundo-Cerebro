@@ -26,6 +26,7 @@ tags: [captura_rapida, 2026-05-20]
 Model Evaluation is the process of evaluating a model to determine its performance and accuracy.
 
 It consists of three main steps:
+
 1. **Train the model**: Train the model on the training data.
 2. **Evaluate the model**: Evaluate the model on the test data.
 3. **Tune the model**: Tune the model on the validation data.
@@ -68,13 +69,13 @@ Both bias and variance can lead to overfitting or underfitting. The goal is to f
 
 ## Classification and Regression Metrics
 
-classification metrics: 
-    - Accuracy: 
-    - Precision: 
-    - Recall: 
-    - F1-Score: 
+classification metrics:
+    - Accuracy:
+    - Precision:
+    - Recall:
+    - F1-Score:
 
-regression metrics: 
+regression metrics:
     - Mean Squared Error (MSE)
     - Root Mean Squared Error (RMSE)
 
@@ -92,15 +93,15 @@ These metrics help us understand how well the model performs on unseen data and 
 
 ## Confusion Matrix
 
-A confusion matrix is a table that summarizes the performance of a classification model. It shows the number of correct and incorrect predictions made by the model, broken down by class. 
+A confusion matrix is a table that summarizes the performance of a classification model. It shows the number of correct and incorrect predictions made by the model, broken down by class.
 
 Predictions (from the model)
 
         Actual (true)           Actual (true)        
         Class A                 Class B     
 
-Predicted (model)     True Positives      False Negatives     
-Class A          
+Predicted (model)     True Positives      False Negatives
+Class A
 
 Predicted (model)     False Positives     True Negatives
 Class B
@@ -134,7 +135,7 @@ Recall = True Positives / (True Positives + False Negatives)
 
 F1-Score is the harmonic mean of precision and recall. It is calculated as:
 
-F1-Score = 2 * (Precision * Recall) / (Precision + Recall)
+F1-Score = 2 *(Precision* Recall) / (Precision + Recall)
 
 ## AUC-ROC Curve
 
@@ -143,15 +144,16 @@ F1-Score = 2 * (Precision * Recall) / (Precision + Recall)
 ROC is a probability curve that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold varies. The curve is plotted with the True Positive Rate (TPR) on the y-axis and the False Positive Rate (FPR) on the x-axis.
 
 ### AUC (Area Under the Curve)
+
 AUC is the area under the ROC curve. It is a measure of the overall performance of the model. The AUC value ranges from 0 to 1, where 1 is the best possible performance and 0 is the worst possible performance.
 
 ## Regression problems metrics
 
-For regression problems, we can use the following metrics: 
+For regression problems, we can use the following metrics:
+
 - MSE (Mean Squared Error)
 - RMSE (Root Mean Squared Error)
 
-## Business metrics 
+## Business metrics
 
 Business metrics are metrics that are used to evaluate the performance of a model in the context of a specific business problem. They measure the impact of the model on the business, such as the increase in revenue or the decrease in costs.
-

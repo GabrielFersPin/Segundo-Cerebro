@@ -31,6 +31,7 @@ proxima_revision: 2026-05-13
 ## 🧠 Definición
 
 A2A (Agent-to-Agent) describe la interacción directa entre agentes inteligentes autónomos. En este paradigma, un agente puede:
+
 - comunicarse con otro agente,
 - delegar tareas,
 - compartir hallazgos,
@@ -56,16 +57,19 @@ A2A no es solo "mensaje entre agentes"; es un patrón de colaboración en el que
 ## 🧩 Ejemplos
 
 ### Ejemplo 1: Escritor y editor
+
 - Agente A: genera borradores de contenido.
 - Agente B: revisa, corrige y sugiere mejoras.
 - Flujo A2A: A envía texto a B, B responde con cambios y comentarios, A ajusta el borrador.
 
 ### Ejemplo 2: Planificador y ejecutor
+
 - Agente Planificador: define pasos, prioridades y dependencias.
 - Agente Ejecutor: realiza cada acción usando herramientas externas.
 - Flujo A2A: el planificador delega tareas; el ejecutor reporta estado y solicita clarificaciones.
 
 ### Ejemplo 3: Monitor y reparador
+
 - Agente Monitor: detecta anomalías en datos o servicios.
 - Agente Reparador: aplica correcciones o reinicia procesos.
 - Flujo A2A: el monitor envía alerta, el reparador responde con diagnóstico y ejecuta la solución.
@@ -135,4 +139,4 @@ A2A no es solo "mensaje entre agentes"; es un patrón de colaboración en el que
 
 ---
 
-#pendiente-procesar #captura-rapida
+# pendiente-procesar #captura-rapida

@@ -11,7 +11,7 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: ""
+cards-deck: Protocolos::FastMCP_Ejemplo_de_implementacion
 ---
 
 # 📝 FastMCP - Ejemplo de implementación

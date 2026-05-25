@@ -32,80 +32,86 @@ urgente: false
 > [!tip] Lo más importante
 > *Escribe aquí la idea principal o el concepto clave en 1-2 frases*
 
-
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
 > How to create an Agent:
-	 role=
-	 goal=
-	 backstory=
-	 allow_delegation=False
-	 Verbose=True -> To see what it's doing
+  role=
+  goal=
+  backstory=
+  allow_delegation=False
+  Verbose=True -> To see what it's doing
 
 >Agent: Planner
 >The benefit os using multiple strings:
- >	vername = "line 1 of text"
->		   	"line 2 of text"
+ > vername = "line 1 of text"
+>      "line 2 of text"
 
 ### Create a Task
+
 ```
 plan = Task (
- 	  description=(
- 	  )
+    description=(
+    )
      expected_output=" ",
      agent=planner, # put the agent to complete this task
  )
 ```
-### Create the crew 
+
+### Create the crew
+
 ```
 crew = Crew(
-	agents=[planner, writer, editor]
-	tasks=[plan, write, edit],
-	verbose = 2
-	)	
+ agents=[planner, writer, editor]
+ tasks=[plan, write, edit],
+ verbose = 2
+ ) 
 ```
 
 ### Execute the crew
+
 ```
 topic = 'Your Topic here'
 result = crew.kickoff(inputs=('topic':'Artificial Intelligence'))
 ```
 
 ### Key elements
->	Focus
->	Choose the tools that your agent will do
->	Role Playing
->	Cooperation: Ability to cooperate on producing ideas 
->	Guardrails: Prevent the agent to allucinate and make the results consistent
->	Memory: The ability to the agent to remember what was done
->	Long Term Memory: Store in the database locals, self-critique itself to get better
+>
+> Focus
+> Choose the tools that your agent will do
+> Role Playing
+> Cooperation: Ability to cooperate on producing ideas
+> Guardrails: Prevent the agent to allucinate and make the results consistent
+> Memory: The ability to the agent to remember what was done
+> Long Term Memory: Store in the database locals, self-critique itself to get better
 
-### Support Automation 
+### Support Automation
+>
 >Allow delgation
->	allow_delegation=False
+> allow_delegation=False
 >Add Q&A agent: review task
 
 ### Mental Framework
+>
 >What would be the people that they would hire to do this job for them
 
 ### Key elements of agent tools
+>
 >Versitile
->	A tool need to be able to accept different kin of requests
+> A tool need to be able to accept different kin of requests
 >Fail Gracefully
->	If something goes wrong they can self-heal. CrewAI implements that by default.
->	Ask agent to retry given the error message
+> If something goes wrong they can self-heal. CrewAI implements that by default.
+> Ask agent to retry given the error message
 >Caching
->	caching layer that prevents the unnacessaary requests.
->	Cross-agent caching: If one agent tried to use a tool with a given set of arguments, and another agent try to use the same tool, with the same set of arguments, even if they are different agents, they're actually use a cache layer. So the second time they try to use a tool, they not going to do that API call
+> caching layer that prevents the unnacessaary requests.
+> Cross-agent caching: If one agent tried to use a tool with a given set of arguments, and another agent try to use the same tool, with the same set of arguments, even if they are different agents, they're actually use a cache layer. So the second time they try to use a tool, they not going to do that API call
 >Tools examples:
->	search the internet
->	scrape a website
->	connect to a database
->	call an API
->	send notifications
-
+> search the internet
+> scrape a website
+> connect to a database
+> call an API
+> send notifications
 
 ### Tasks
 
@@ -116,7 +122,6 @@ result = crew.kickoff(inputs=('topic':'Artificial Intelligence'))
 >Override Agent tools with specific task tools
 >Force human input before and of task
 
-
 ---
 
 ## 🔑 Keywords / Conceptos clave
@@ -125,7 +130,6 @@ result = crew.kickoff(inputs=('topic':'Artificial Intelligence'))
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
-
 
 ---
 
@@ -160,9 +164,6 @@ result = crew.kickoff(inputs=('topic':'Artificial Intelligence'))
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
-
-
 ---
 
 ## 📋 Metadata resumen
@@ -177,4 +178,4 @@ result = crew.kickoff(inputs=('topic':'Artificial Intelligence'))
 
 ---
 
-#pendiente-procesar #captura-rapida
+# pendiente-procesar #captura-rapida

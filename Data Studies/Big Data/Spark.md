@@ -27,8 +27,7 @@ urgente: false
 
 ---
 
-#pendiente-procesar #captura-rapida
-
+# pendiente-procesar #captura-rapida
 
 ## 📝 Definición
 
@@ -38,7 +37,7 @@ Spark es un motor de procesamiento de datos en clúster, diseñado para ser ráp
 
 - **Lazy Evaluation**: Spark no ejecuta las operaciones inmediatamente, sino que las acumula y optimiza su ejecución cuando se realiza una acción que requiere un resultado.
 - **Action**: Son operaciones que devuelven un valor al driver después de ejecutar el flujo de trabajo definido por las transformaciones.
-- **Narrow vs Wild Transformations**: 
+- **Narrow vs Wild Transformations**:
   - Narrow: Transformaciones que no requieren el movimiento de datos entre las particiones, como `filter` y `select`.
   - Wild: Transformaciones que producen una reorganización de datos, como `join` y `group by`, que pueden causar un `shuffle`.
 - **Repartition vs Coalesce**:
@@ -92,10 +91,10 @@ Este ejemplo demuestra el uso de transformaciones `filter` y `group by`, y una a
    - Es el retraso de la ejecución de las operaciones hasta que se requiere un resultado, optimizando así el flujo de trabajo. #card
 
 2. **¿Cuál es la diferencia entre una Narrow y una Wild Transformation en Spark?**
-   - Narrow Transformation opera dentro de una sola partición sin mover datos, mientras que Wild Transformation requiere mover datos entre particiones, causando un `shuffle`. #card <!--SR:!2026-04-15,4,270--> 
+   - Narrow Transformation opera dentro de una sola partición sin mover datos, mientras que Wild Transformation requiere mover datos entre particiones, causando un `shuffle`. #card <!--SR:!2026-04-15,4,270-->
 
 3. **¿Qué función tiene el DAG en Spark?**
-   - El DAG representa el flujo de operaciones en Spark, asegurando que las tareas se ejecuten de manera eficiente y ordenada sin ciclos. #card 
+   - El DAG representa el flujo de operaciones en Spark, asegurando que las tareas se ejecuten de manera eficiente y ordenada sin ciclos. #card
 
 4. **¿Cuándo usarías `repartition` en lugar de `coalesce`?**
-   - `Repartition` se usa para aumentar el número de particiones, ideal para distribuir datos uniformemente, mientras que `coalesce` reduce particiones sin causar un `shuffle` adicional. #card 
+   - `Repartition` se usa para aumentar el número de particiones, ideal para distribuir datos uniformemente, mientras que `coalesce` reduce particiones sin causar un `shuffle` adicional. #card

@@ -33,12 +33,14 @@ Entender qué es prompt engineering, las técnicas fundamentales para optimizar 
 ## 📊 Captura Rápida
 
 ### ⚡ Notas Rápidas
+
 - Prompt engineering es el arte de diseñar instrucciones para obtener mejores respuestas de LLMs.
 - Un buen prompt define claramente el contexto, rol, tarea y formato esperado.
 - Las técnicas incluyen: few-shot learning, chain-of-thought, role-playing y temperatura.
 - El mismo prompt puede dar resultados muy diferentes según parámetros y estructura.
 
 ### 🔑 Conceptos Clave
+
 - **Prompt**: instrucción o pregunta que das a un LLM.
 - **Few-shot learning**: proporcionar ejemplos para guiar la respuesta.
 - **Chain-of-thought**: pedir razonamiento paso a paso.
@@ -46,16 +48,19 @@ Entender qué es prompt engineering, las técnicas fundamentales para optimizar 
 - **Token limit**: restricción de longitud de entrada/salida.
 
 ### ❓ Dudas
+
 - ¿Por qué un pequeño cambio de wording cambia tanto la respuesta?
 - ¿Cómo sé si mi prompt es óptimo?
 - ¿Existen técnicas para evitar alucinaciones?
 
 ### 💡 Insights
+
 - El prompt engineering es casi un arte: no hay recetas definitivas, requiere experimentación.
 - Los mejores prompts son específicos, contextuales y con ejemplos claros.
 - La claridad y la estructura son más importantes que la extensión.
 
 ### ⚠️ Importante
+
 - No confundir prompt engineering con manipulación: debe ser ético y transparente.
 - Los prompts óptimos para un modelo pueden no funcionar igual en otro.
 - El "jailbreaking" no es prompt engineering legítimo.
@@ -69,6 +74,7 @@ Entender qué es prompt engineering, las técnicas fundamentales para optimizar 
 Prompt engineering es la práctica de diseñar y optimizar instrucciones (prompts) para obtener respuestas precisas, relevantes y de alta calidad de modelos de lenguaje. Es la interfaz entre el usuario y el modelo.
 
 Un buen prompt:
+
 - Define claramente la tarea.
 - Proporciona contexto suficiente.
 - Especifica el formato de salida esperado.
@@ -81,11 +87,13 @@ Un buen prompt:
 ```
 
 **Ejemplo débil:**
+
 ```
 ¿Qué es machine learning?
 ```
 
 **Ejemplo efectivo:**
+
 ```
 Eres un experto en ciencia de datos. Explica qué es machine learning en 2-3 párrafos, 
 enfocándote en aplicaciones prácticas. Usa ejemplos concretos.
@@ -94,6 +102,7 @@ enfocándote en aplicaciones prácticas. Usa ejemplos concretos.
 ### Técnicas principales
 
 #### 1. **Few-Shot Learning**
+
 Proporcionar ejemplos de entrada-salida para guiar el modelo.
 
 ```
@@ -104,6 +113,7 @@ Traduce al inglés:
 ```
 
 #### 2. **Chain-of-Thought (CoT)**
+
 Pedir al modelo que razone paso a paso antes de responder.
 
 ```
@@ -113,6 +123,7 @@ Primero, identifica los datos. Luego, aplica la fórmula. Finalmente, calcula.
 ```
 
 #### 3. **Role-Playing**
+
 Asignar un rol específico al modelo para enmarcar la respuesta.
 
 ```
@@ -121,11 +132,13 @@ de propiedad. Responde de manera profesional y clara.
 ```
 
 #### 4. **Temperature y Parámetros**
+
 - **Temperature 0**: respuestas determinísticas, ideales para tareas precisas.
 - **Temperature 0.7**: balance entre coherencia y creatividad (típico).
 - **Temperature 1+**: muy creativo, útil para brainstorming.
 
 #### 5. **Negation Framing**
+
 Indicar qué NO hacer ayuda al modelo a enfocar mejor.
 
 ```
@@ -144,6 +157,7 @@ Cita solo hechos verificables. NO uses lenguaje sensacionalista.
 ### Relación con agentes y MCP
 
 En sistemas de agentes (como CrewAI), el prompt engineering define:
+
 - Las instrucciones del agente (role, goal, backstory).
 - El formato de herramientas y cómo se invocan.
 - La forma en que el agente razona sobre problemas.
@@ -155,6 +169,7 @@ En FastMCP, los prompts guían cómo los LLMs deciden usar herramientas disponib
 ## 🔄 Procesamiento Post-Clase
 
 ### 📋 Checklist de Procesamiento
+
 - [ ] Revisar y practicar las técnicas principales.
 - [ ] Experimentar con different temperatures.
 - [ ] Crear ejemplos personalizados de few-shot.
@@ -163,11 +178,13 @@ En FastMCP, los prompts guían cómo los LLMs deciden usar herramientas disponib
 - [ ] Identificar gaps de conocimiento.
 
 ### 🎯 Acciones Prioritarias
+
 1. Desarrollar una biblioteca de prompts reutilizables.
 2. Practicar chain-of-thought en problemas complejos.
 3. Entender cómo prompt engineering se aplica a agentes.
 
 ### 🔗 Conexiones
+
 - [[A2A - Agent-to-Agent]]
 - [[CrewAI]]
 - [[FastMCP - Ejemplo de implementación]]
@@ -177,11 +194,8 @@ En FastMCP, los prompts guían cómo los LLMs deciden usar herramientas disponib
 ---
 
 ## 🎴 Flashcards Rápidas
-- **¿Qué es prompt engineering?**
-  - Diseño y optimización de instrucciones para obtener mejores respuestas de LLMs.
-- **¿Cuál es la estructura básica de un prompt efectivo?**
-  - Contexto + Rol + Tarea + Restricciones + Formato esperado.
-- **¿Qué es Chain-of-Thought?**
-  - Técnica que pide al modelo razonar paso a paso antes de responder.
-- **¿Cuándo usar temperature alta vs baja?**
-  - Temperature baja (0-0.3) para tareas precisas; temperatura alta (0.7+) para creatividad.
+
+¿Qué es prompt engineering?::Diseño y optimización de instrucciones para obtener mejores respuestas de LLMs. #card
+¿Cuál es la estructura básica de un prompt efectivo?::Contexto + Rol + Tarea + Restricciones + Formato esperado. #card
+¿Qué es Chain-of-Thought?::Técnica que pide al modelo razonar paso a paso antes de responder. #card
+¿Cuándo usar temperature alta vs baja?::Temperature baja (0-0.3) para tareas precisas; temperatura alta (0.7+) para creatividad. #card

@@ -28,13 +28,13 @@ SageMaker is a fully managed service that provides all the tools and infrastruct
 Provides:
 
 - Deployment with one click or a single API call
-- Automatic scaling 
+- Automatic scaling
 - Model hosting services
 - HTTPS endpoints for secure model access
 
 You can use SageMaker to deploy a model to get predictions in several ways:
 
-### Real Time 
+### Real Time
 
 Real time inference is ideal for inference workloads where you have real-time interactive, and low latency requirements
 
@@ -42,7 +42,7 @@ Real time inference is ideal for inference workloads where you have real-time in
 
 Batch Transform is ideal for inference workloads where you have large amounts of data to process and you don't need real-time predictions
 
-### Asynchronous 
+### Asynchronous
 
 SageMaker AI asynchronous inference is a capability in SageMaker AI that queues incoming requests and processes them asynchronously.
 
@@ -53,4 +53,3 @@ On-demand serverless inference is a capability in SageMaker AI that provides ser
 # Sagemaker JumpStart
 
 Is a feature of Sagemaker AI that provides pre-trained, open source models for you to use. SageMaker JumpStart offers FMs that you can use for summarization use cases.
-

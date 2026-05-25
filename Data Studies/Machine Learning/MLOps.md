@@ -9,7 +9,7 @@ proxima-revision: 2026-05-27
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: ""
+cards-deck: Machine_Learning::MLOps
 tags: [captura_rapida, 2026-05-20]
 ---
 

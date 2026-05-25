@@ -32,11 +32,11 @@ urgente: false
 > [!tip] Lo más importante
 > *Data warehouse is a relational database*
 
-
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 - The data warehouse can be a relational database extracted from a data lake.
+
 ### Strenghts
 
 - Purpose-built for BI and reporting
@@ -50,8 +50,6 @@ urgente: false
 - Uses closed and propietary formats
 - Expensive to scale
 
-
-
 ---
 
 ## 🔑 Keywords / Conceptos clave
@@ -59,8 +57,7 @@ urgente: false
 `keyword1`, `keyword2`, `keyword3`
 
 > [!note] Para RAG
-> [[Data Lake]], 
-
+> [[Data Lake]],
 
 ---
 
@@ -95,9 +92,6 @@ urgente: false
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
-
-
 ---
 
 ## 📋 Metadata resumen
@@ -112,4 +106,4 @@ urgente: false
 
 ---
 
-#pendiente-procesar #captura-rapida
+# pendiente-procesar #captura-rapida

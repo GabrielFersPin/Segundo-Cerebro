@@ -36,16 +36,19 @@ Comparar las características y usos de FastMCP y FastAPI para saber cuándo con
 ## 📊 Captura Rápida
 
 ### 🔑 Diferencia central
+
 - FastMCP: protocolo de integración para modelos de lenguaje y herramientas.
 - FastAPI: framework HTTP para construir APIs web y microservicios.
 
 ### ⚡ Puntos clave
+
 - FastMCP usa `@mcp.tool()` y type hints para generar esquemas.
 - FastAPI usa Pydantic y OpenAPI para validar datos y documentar rutas.
 - FastMCP típicamente se ejecuta con transporte especializado (por ejemplo `stdio`).
 - FastAPI se ejecuta como servidor web (Uvicorn, Hypercorn, etc.).
 
 ### ❓ Preguntas útiles
+
 - ¿Necesito una API web abierta a clientes humanos o una interfaz de herramientas para un LLM?
 - ¿Quiero exponer endpoints HTTP o necesito un protocolo de herramientas para agentes?
 - ¿Necesito documentación automática OpenAPI o un esquema de herramienta LLM?
@@ -55,6 +58,7 @@ Comparar las características y usos de FastMCP y FastAPI para saber cuándo con
 ## 📝 Comparación detallada
 
 ### FastMCP
+
 - Propósito: conectar un modelo de lenguaje con herramientas externas.
 - Modelo: definiciones de funciones como herramientas.
 - Generación de esquema: automática con type hints y docstrings.
@@ -62,6 +66,7 @@ Comparar las características y usos de FastMCP y FastAPI para saber cuándo con
 - Ideal para: agentes, asistentes basados en LLM, herramientas que ejecutan lógica de negocio desde prompts.
 
 ### FastAPI
+
 - Propósito: exponer APIs HTTP de forma rápida y tipada.
 - Modelo: rutas HTTP con decoradores `@app.get()`, `@app.post()`, etc.
 - Generación de esquema: OpenAPI/Swagger automáticos.
@@ -84,6 +89,7 @@ Comparar las características y usos de FastMCP y FastAPI para saber cuándo con
 ---
 
 ## 🔗 Conexiones
+
 - [[MCP - Model Context Protocol]]
 - [[FastMCP - Ejemplo de implementación]]
 - [[FastAPI]]
@@ -91,6 +97,7 @@ Comparar las características y usos de FastMCP y FastAPI para saber cuándo con
 ---
 
 ## 🎴 Flashcards
+
 - **¿Para qué sirve FastMCP?**
   - Para exponer herramientas como funciones a un LLM.
 - **¿Para qué sirve FastAPI?**

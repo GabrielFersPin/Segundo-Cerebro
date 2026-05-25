@@ -130,9 +130,6 @@ Sin `async`, la aplicación se comportaría como WSGI tradicional y perdería be
 ---
 
 ## 🎴 Flashcards Rápidas
-- **¿Qué es ASGI?**
-  - Especificación para servidores y aplicaciones web asincrónicas en Python.
-- **¿Cuál es la principal ventaja de ASGI sobre WSGI?**
-  - Manejo concurrente de solicitudes sin bloqueos gracias a async/await.
-- **¿Qué es uvicorn?**
-  - Un servidor ASGI rápido para ejecutar aplicaciones Python asincrónicas.
+¿Qué es ASGI?::Especificación para servidores y aplicaciones web asincrónicas en Python. #card
+¿Cuál es la principal ventaja de ASGI sobre WSGI?::Manejo concurrente de solicitudes sin bloqueos gracias a async/await. #card
+¿Qué es uvicorn?::Un servidor ASGI rápido para ejecutar aplicaciones Python asincrónicas. #card

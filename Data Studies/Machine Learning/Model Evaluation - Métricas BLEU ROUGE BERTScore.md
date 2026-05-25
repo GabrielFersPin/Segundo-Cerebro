@@ -273,11 +273,7 @@ BLEU: bajo (palabras diferentes)
 ---
 
 ## 🎴 Flashcards Rápidas
-- **¿Para qué sirven las métricas de evaluación?**
-  - Cuantificar qué tan bien un modelo cumple una tarea y comparar modelos.
-- **¿Cuál es la diferencia entre BLEU y ROUGE?**
-  - BLEU para traducción, ROUGE para resúmenes. Ambas usan n-gramas.
-- **¿Por qué BERTScore es mejor que BLEU?**
-  - Captura significado semántico además de coincidencias exactas de palabras.
-- **¿Qué es el trade-off entre precisión y recall?**
-  - Precisión = exactitud; Recall = cobertura. F1 es el balance.
+¿Para qué sirven las métricas de evaluación?::Cuantificar qué tan bien un modelo cumple una tarea y comparar modelos. #card
+¿Cuál es la diferencia entre BLEU y ROUGE?::BLEU para traducción, ROUGE para resúmenes. Ambas usan n-gramas. #card
+¿Por qué BERTScore es mejor que BLEU?::Captura significado semántico además de coincidencias exactas de palabras. #card
+¿Qué es el trade-off entre precisión y recall?::Precisión = exactitud; Recall = cobertura. F1 es el balance. #card

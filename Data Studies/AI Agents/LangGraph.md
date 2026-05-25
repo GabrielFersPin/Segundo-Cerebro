@@ -32,37 +32,38 @@ urgente: false
 > [!tip] Lo más importante
 > *Escribe aquí la idea principal o el concepto clave en 1-2 frases*
 
-
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
 ### ReAct (Reason + Act)
+>
 >LLM first thinks what to do and them decides an action to take
 >The action is execute in a environment and an observation is returned
 >Create a class Agent to build the agent
 
 ### Creating the agent
+>
 > ```python
 > class Agent:
-> 	def __init__ (self, system=""): # The agent is parameterize by a system message
-> 		self.system = system # atribute message
-> 		self.messages = []
-> 		if self.system:
-> 			self.messagens.append({}"role":"system", "content": system})
-> 	
-> 	def __call_(self, message): # The message is take by the user and than give it back from the assistant
-> 		self.messages.append({"role", "user", "content": message})
-> 		result = self.execute()
-> 		self.messages.append({"role", "assistant", "content": result})
-> 		return result
+>  def __init__ (self, system=""): # The agent is parameterize by a system message
+>   self.system = system # atribute message
+>   self.messages = []
+>   if self.system:
+>    self.messagens.append({}"role":"system", "content": system})
+>  
+>  def __call_(self, message): # The message is take by the user and than give it back from the assistant
+>   self.messages.append({"role", "user", "content": message})
+>   result = self.execute()
+>   self.messages.append({"role", "assistant", "content": result})
+>   return result
 
 ### Graphs
+>
 > Nodes: Agents or functions
 > Edges: Connect nodes
 > Conditional Edges: Decisions
-> 
-
+>
 
 ---
 
@@ -72,7 +73,6 @@ urgente: false
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
-
 
 ---
 
@@ -107,9 +107,6 @@ urgente: false
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
-
-
 ---
 
 ## 📋 Metadata resumen
@@ -124,4 +121,4 @@ urgente: false
 
 ---
 
-#pendiente-procesar #captura-rapida
+# pendiente-procesar #captura-rapida

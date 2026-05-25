@@ -41,27 +41,27 @@ Conceptos---
 ### 🔑 Conceptos Clave
 <!-- Marca con ** los conceptos importantes -->
 
-- 
+-
 
 ### ❓ Dudas
 <!-- Preguntas que surjan durante la clase -->
 
-- [ ] 
+- [ ]
 
 ### 💡 Insights
 <!-- Conexiones o ideas que se te ocurran -->
 
-- 
+-
 
 ### ⚠️ Importante
 <!-- Información crítica para exámenes o proyectos -->
 
-- 
+-
 
 ### 📚 Referencias Mencionadas
 <!-- Papers, libros, recursos -->
 
-- 
+-
 
 ---
 
@@ -85,12 +85,12 @@ Dashboards: Build real-time custom dashboards to monitor uor fill
 
 Complete audit log of all AWS API calls
 
-
 ---
 
 ## 🔄 Procesamiento Post-Clase
 
 ### 📋 Checklist de Procesamiento
+
 - [ ] Revisar y organizar notas rápidas
 - [ ] Clarificar conceptos confusos
 - [ ] Resolver dudas pendientes
@@ -102,15 +102,15 @@ Complete audit log of all AWS API calls
 
 ### 🎯 Acciones Prioritarias
 <!-- Identifica 3 acciones clave después de clase -->
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ### 🔗 Conexiones con otras notas
 <!-- Enlaces a notas relacionadas -->
-- Conceptos previos: 
-- Temas relacionados: 
-- Aplicaciones: 
+- Conceptos previos:
+- Temas relacionados:
+- Aplicaciones:
 
 ---
 
@@ -123,14 +123,17 @@ _[Flashcards pendientes - Crear después del procesamiento]_
 ## 📊 Resumen y Takeaways
 
 ### 🎯 Los 3 puntos clave
-1. 
-2. 
-3. 
+
+1.
+2.
+3.
 
 ### 💭 Reflexión personal
+
 _¿Qué es lo más importante/útil/interesante de esta clase?_
 
 ### 🔮 Aplicaciones futuras
+
 _¿Dónde y cómo puedo aplicar este conocimiento?_
 
 ---
@@ -140,16 +143,18 @@ _¿Dónde y cómo puedo aplicar este conocimiento?_
 - **Comprensión inicial**: 50%
 - **Importancia para el curso**: ⭐⭐⭐⭐
 - **Dificultad percibida**: 🟡
-- **Tiempo estimado de estudio**: 
+- **Tiempo estimado de estudio**:
 - **Próxima revisión**: 2026-03-21
+
 ---
 
 ## 🏷️ Tags Semánticos
 
-#AWS #Cloud Computing
+# AWS #Cloud Computing
 ---
 
 > [!tip] 💡 Flujo de trabajo recomendado
+>
 > 1. **Durante la clase**: Usa la sección de Captura Rápida
 > 2. **Justo después**: Completa dudas y conexiones mientras está fresco
 > 3. **Mismo día**: Procesa las notas, crea flashcards

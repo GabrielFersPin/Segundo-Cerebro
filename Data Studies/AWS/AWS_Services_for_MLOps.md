@@ -31,7 +31,7 @@ Sagemaker Data Wrangler: a tool for data preparation and feature engineering
 
 Sagemaker Processing Job: a tool for data processing and feature engineering
 
-**Curate features** 
+**Curate features**
 
 Sagemaker Feature Store: a tool for feature storage and retrieval
 
