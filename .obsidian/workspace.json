@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md",
-                "mode": "preview",
-                "source": true
+                "file": "Data Studies/AWS/AWS Infraestructure & Technologies for building Gen AI Applications.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "CPU - Fundamentos y Componentes Básicos"
+              "title": "AWS Infraestructure & Technologies for building Gen AI Applications"
             }
           },
           {
@@ -328,17 +328,20 @@
   },
   "active": "751f2a62e6527e98",
   "lastOpenFiles": [
+    "Data Studies/AWS/SageMaker_AI.md",
+    "Data Studies/AWS/AWS Infraestructure & Technologies for building Gen AI Applications.md",
+    "Data Studies/AWS/Amazon_Text_and_Images_Services.md",
+    "Data Studies/AWS/AWS_Service_Tools_for_Responsible_AI.md",
+    "Data Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md",
     "format_notes.py",
     "Data Studies/Arquitectura de Ordenadores/Trabajo Out of order Execution.md",
     "Data Studies/Machine Learning/Model Evaluation - Métricas BLEU ROUGE BERTScore.md",
     "Data Studies/Protocolos/FastMCP - Ejemplo de implementación.md",
     "Reading/Filosofía/El mito de Sísifo - Alber Camus.md",
     "Data Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
-    "Data Studies/AWS/AWS_Service_Tools_for_Responsible_AI.md",
     "Dashboard_General.md",
     "Dashboard de Estudio.md",
     "Templates/Template_Captura_Rápida.md",
-    "Data Studies/AWS/Amazon_Text_and_Images_Services.md",
     "scratch/format_rapid_notes.py",
     "Data Studies/Machine Learning/Fine-Tuning Methods.md",
     "Templates/hub_template.md",
@@ -353,17 +356,14 @@
     "Data Studies/LLM",
     "Data Studies/Protocolos/FastMCP vs FastAPI.md",
     "Data Studies/Machine Learning/Model_Deployment.md",
-    "Data Studies/AWS/SageMaker_AI.md",
     "Data Studies/Machine Learning/MLOps.md",
     "Data Studies/AWS/AWS_Services_for_MLOps.md",
     "Data Studies/AWS/EC2_Amazon_Elastic_Compute_Cloud.md",
-    "Data Studies/AWS/Monitoring & Management.md",
     "crear_nota.py",
     "scratch/update_frontmatter.py",
     "scratch",
     "Templates/sedc2FT24",
     "Sin título.base",
-    "Infraestructura-Nube",
     "Sin título.canvas",
     "Data Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
     "Data Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
