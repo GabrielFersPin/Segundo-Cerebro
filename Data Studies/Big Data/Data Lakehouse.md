@@ -1,15 +1,15 @@
 ---
+area: Databricks
 cards-deck: DataScience
 created: 2026-04-27
 modified: 2026-04-27
-status: 🌱 Semilla
-tipo_nota: tecnica
-area: Databricks
 nivel-comprension: 🤔
-proxima-revision: 2026-04-30
-ultima-revision: 2026-04-27
-veces-revisado: 0
+proxima-revision: '2026-06-01'
+status: 🌱 Semilla
 tiempo-repaso: 15min
+tipo_nota: tecnica
+ultima-revision: '2026-05-25'
+veces-revisado: 1
 ---
 
 # 📌 Data Lakehouse
@@ -17,7 +17,7 @@ tiempo-repaso: 15min
 > [!abstract] Objetivo
 > 🎯 Comprender el concepto de Data Lakehouse, su arquitectura, y sus ventajas frente a los tradicionales Data Lakes y Data Warehouses, especialmente en el ecosistema de Databricks.
 
----
+
 
 ## 🎓 Contexto Académico
 
@@ -25,7 +25,7 @@ tiempo-repaso: 15min
 **Relevancia para**: Databricks / Data Engineering
 **Dificultad percibida**: ⭐⭐⭐☆☆ Medio
 
----
+
 
 ## 📝 Definición
 
@@ -35,7 +35,7 @@ Permite almacenar grandes volúmenes de datos estructurados, semiestructurados y
 
 En el ecosistema de Databricks, esta arquitectura suele implementarse sobre **Delta Lake**, un formato de almacenamiento de código abierto que aporta transacciones ACID, manejo de metadatos escalable y procesamiento unificado de datos en streaming y batch.
 
----
+
 
 ## ⚙️ Conceptos Clave
 
@@ -67,7 +67,7 @@ En el ecosistema de Databricks, esta arquitectura suele implementarse sobre **De
 - Facilita el cumplimiento de normativas de privacidad (ej. GDPR) al permitir eliminar registros específicos fácilmente.
 - Provee un catálogo unificado de metadatos (ej. Unity Catalog en Databricks).
 
----
+
 
 ## 💻 Ejemplo Práctico
 
@@ -77,13 +77,13 @@ Antes del Lakehouse, la empresa almacenaba los logs e imágenes en un Data Lake 
 
 Con un Data Lakehouse (ej. en Databricks con Delta Lake), la empresa almacena **todos** los datos en un almacenamiento en la nube de bajo costo (ej. AWS S3 o Azure Data Lake Storage). Sobre este almacenamiento, la capa Delta proporciona la estructura para que Tableau/PowerBI consulte las ventas rápidamente usando SQL, mientras que los modelos de ML en Python acceden a las imágenes y logs en el mismo lugar y al mismo tiempo.
 
----
+
 
 ## 💭 Reflexiones & Conexiones
 
 🧠 El Data Lakehouse elimina la dicotomía tradicional entre Data Lakes (para ML/AI) y Data Warehouses (para BI). Databricks es uno de los principales impulsores de esta arquitectura. Es crucial entender que el Lakehouse no es un producto físico, sino un *paradigma arquitectónico* habilitado por tecnologías como Delta Lake, Apache Iceberg o Apache Hudi.
 
----
+
 
 ## 🎴 Flashcards
 
@@ -101,7 +101,7 @@ El componente que añade transacciones ACID a un Data Lake para convertirlo en u
 
 ¿Qué tipos de datos soporta un Data Lakehouse de forma nativa?::Datos estructurados, semiestructurados y no estructurados. #DataLakehouse
 
----
+
 
 ## 📚 Referencias & Enlaces
 
@@ -109,7 +109,7 @@ El componente que añade transacciones ACID a un Data Lake para convertirlo en u
 **Referencias externas**: [Databricks - What is a Data Lakehouse?](https://www.databricks.com/glossary/data-lakehouse)
 **Fuente**: Curso de Databricks
 
----
+
 
 ## 📋 Metadata
 
@@ -120,7 +120,7 @@ El componente que añade transacciones ACID a un Data Lake para convertirlo en u
 - **Nivel de comprensión**: 🤔
 - **Tiempo estimado de repaso**: 15min
 
----
+
 
 > [!tip] 💡 Próximos pasos
 > _Cuando revises esta nota, actualiza el contador de revisiones y ajusta la próxima fecha según tu comprensión_

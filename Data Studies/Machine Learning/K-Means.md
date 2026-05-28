@@ -1,8 +1,7 @@
 #MachineLearning 
 # K-Means 
 
-````markdown
-# {{K-means}}
+# K-Means
 
 ## 📌 Resumen
 

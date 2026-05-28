@@ -1,15 +1,15 @@
 ---
-cards-deck: Nube::Modelos-Implementacion
-tipo_nota: tecnica
 area: Infraestructura-Nube
-nivel-comprension: 🤔
-proxima-revision: 2025-11-27
-ultima-revision: 2025-11-20
-tiempo-repaso: 5min
-status: 🌿 Creciendo
-veces-revisado: 0
+cards-deck: Nube::Modelos-Implementacion
 created: 2025-11-20
 modified: 2025-11-20
+nivel-comprension: 🤔
+proxima-revision: '2026-06-01'
+status: 🌿 Creciendo
+tiempo-repaso: 5min
+tipo_nota: tecnica
+ultima-revision: '2026-05-25'
+veces-revisado: 1
 ---
 
 # Modelos de Implementación en la Nube
@@ -17,7 +17,7 @@ modified: 2025-11-20
 > [!abstract] Objetivo
 > Comprender los diferentes modelos de implementación cloud y cuándo usar cada uno según las necesidades organizacionales
 
----
+
 
 ## 📝 Definición
 
@@ -25,7 +25,7 @@ La implementación en la nube se refiere a la forma en que se despliegan, gestio
 
 La elección del modelo de implementación es una decisión estratégica que impacta directamente en el costo, seguridad, escalabilidad y control operacional de una organización. Cada modelo presenta trade-offs únicos entre flexibilidad, seguridad y costos operacionales.
 
----
+
 
 ## ⚙️ Conceptos Clave
 
@@ -85,7 +85,7 @@ La elección del modelo de implementación es una decisión estratégica que imp
 
 **Relacionado**: [[Gobernanza Cloud]] • [[Shared Responsibility Model]]
 
----
+
 
 ## 💻 Ejemplo Práctico
 
@@ -103,7 +103,7 @@ La elección del modelo de implementación es una decisión estratégica que imp
 - **Conectividad**: VPN segura entre ambos entornos
 - **Resultado**: Balance entre seguridad y escalabilidad
 
----
+
 
 ## 💭 Reflexiones & Conexiones
 
@@ -117,7 +117,7 @@ La elección del modelo de implementación es una decisión estratégica que imp
 
 **Aplicación práctica**: En mi proyecto de sistema de recomendación de coworkings, una arquitectura híbrida sería ideal: base de datos con información de usuarios en nube privada (GDPR compliance), sistema de recomendación en nube pública (GPUs para re-entrenamiento), y frontend en CDN público para baja latencia global.
 
----
+
 
 ## 🎴 Flashcards
 
@@ -162,13 +162,13 @@ Trade-offs en modelos cloud::Triángulo de imposibilidad entre costo, control y 
 
 Para Data Science/ML, ¿cuándo usar nube híbrida?::Datos de entrenamiento sensibles en privada (GDPR), procesamiento GPU en pública (cost-effective), inferencias en pública (escalabilidad) #cloud #ml #hibrida #card 
 
----
+
 
 **📊 Total de flashcards**: 19
 
 > 🎯 **Para revisar**: Cmd/Ctrl+P → "Flashcards: Review flashcards"
 
----
+
 
 ## 📚 Referencias & Enlaces
 
@@ -185,7 +185,7 @@ Para Data Science/ML, ¿cuándo usar nube híbrida?::Datos de entrenamiento sens
 
 **Fuente**: Material académico - Tema 2: Modelos de implementación en la Nube
 
----
+
 
 ## 📋 Metadata
 
@@ -197,7 +197,7 @@ Para Data Science/ML, ¿cuándo usar nube híbrida?::Datos de entrenamiento sens
 - **Tiempo estimado de repaso**: 30min
 - **Dificultad**: ⭐⭐⭐ (Intermedia)
 
----
+
 
 > [!tip] 💡 Próximos pasos
 > _Esta nota tiene contenido avanzado. Considera crear notas separadas para Cloud Bursting, Multi-Cloud Strategy, y FinOps_

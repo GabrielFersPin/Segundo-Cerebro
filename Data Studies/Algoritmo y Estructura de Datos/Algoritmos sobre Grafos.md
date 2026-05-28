@@ -1,21 +1,21 @@
 ---
-cards-deck: Algoritmos:Grafos
-created: 2026-01-12
-modified: 2026-01-12
-status: 🌿 Creciendo
-tipo_nota: tecnica
 area: Algoritmos
-procesamiento: COMPLETO
-prioridad: EXAMEN-LEJANO
-fecha-examen: 2025-02-15
-proxima-revision: 2026-01-20
+cards-deck: Algoritmos:Grafos
 complejidad: ⭐⭐⭐⭐⭐
-tiempo-estimado: 3h
+created: 2026-01-12
+fecha-examen: 2025-02-15
 fuente: UD4 - Algoritmos sobre Grafos
+modified: 2026-01-12
 nivel-comprension: 💡
-ultima-revision: 2026-01-12
-veces-revisado: 1
-tiempo-repaso: ""
+prioridad: EXAMEN-LEJANO
+procesamiento: COMPLETO
+proxima-revision: '2026-06-01'
+status: 🌿 Creciendo
+tiempo-estimado: 3h
+tiempo-repaso: ''
+tipo_nota: tecnica
+ultima-revision: '2026-05-25'
+veces-revisado: 2
 ---
 
 # Algoritmos sobre Grafos
@@ -25,7 +25,7 @@ tiempo-repaso: ""
 
 ![[Grafos_Visual_Summary.png]]
 
----
+
 
 ## 📊 Comparativa Rápida
 
@@ -38,7 +38,7 @@ tiempo-repaso: ""
 | **Floyd-Warshall** | Todos los Caminos | O(V³) | Matrices densas, todos contra todos |
 | **Topo Sort** | Ordenamiento | O(V + E) | Dependencias, DAGs |
 
----
+
 
 ## 1️⃣ Representación de Grafos
 
@@ -69,7 +69,7 @@ graph LR
     style E fill:#ccf,stroke:#333
 ```
 
----
+
 
 ## 2️⃣ Algoritmo de Dijkstra (Camino Más Corto)
 
@@ -146,7 +146,7 @@ def dijkstra(grafo, inicio):
     return distancias
 ```
 
----
+
 
 ## 3️⃣ Árbol de Expansión Mínima (MST) - Prim y Kruskal
 
@@ -207,7 +207,7 @@ graph TD
     style D fill:#bfb
 ```
 
----
+
 
 ## 4️⃣ Ordenamiento Topológico
 
@@ -246,7 +246,7 @@ Ordenación lineal de los vértices de un **Grafo Dirigido Acíclico (DAG)** tal
 2. Al terminar de visitar un nodo (cuando ya no tiene vecinos por explorar), añadirlo al inicio de una lista (o a una pila).
 3. El resultado es la pila invertida.
 
----
+
 
 ## 🎴 Flashcards
 
@@ -262,7 +262,7 @@ MST - Definición::Minimum Spanning Tree: subgrafo que conecta todos los vértic
 
 Complejidad de Floyd-Warshall::O(V³) #algoritmos #complejidad #card
 
----
+
 
 ## 💭 Guía de Decisión
 
@@ -291,25 +291,25 @@ flowchart TD
     style Topo fill:#bfb,stroke:#333
 ```
 
----
+
 
 ## 🔗 Relacionado
 
 [[Algoritmos y Estructuras de Búsqueda]]
 [[Big O y Análisis de Complejidad]]
 
----
+
 
 ## 📚 Referencias
 
 - Cormen, Leiserson, Rivest, Stein - "Introduction to Algorithms"
 - Grokking Algorithms (Cap 6-7)
 
----
+
 
 # algoritmos #grafos #dijkstra #mst #python #data-structures
 
----
+
 
 ## 🚧 Plan de Mejora
 

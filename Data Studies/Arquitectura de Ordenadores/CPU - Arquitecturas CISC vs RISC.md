@@ -1,16 +1,16 @@
 ---
+area: Arquitectura
 cards-deck: Arquitectura::CISC vs RISC
 created: 2024-12-13
 modified: 2025-12-25
-status: 🌿 Creciendo
-tipo_nota: tecnica
-area: Arquitectura
 nivel-comprension: 💡
-proxima-revision: 2026-01-24
-ultima-revision: 2025-12-25
-veces-revisado: 2
-tiempo-repaso: 25min
+proxima-revision: '2026-06-01'
+status: 🌿 Creciendo
 tiempo-estimado: 10m
+tiempo-repaso: 25min
+tipo_nota: tecnica
+ultima-revision: '2026-05-25'
+veces-revisado: 3
 ---
 
 # CPU - Arquitecturas CISC vs RISC
@@ -18,7 +18,7 @@ tiempo-estimado: 10m
 > [!abstract] Objetivo
 > Comprender las dos filosofías fundamentales de diseño de procesadores y sus trade-offs
 
----
+
 
 ## 🎓 Contexto Académico
 
@@ -27,7 +27,7 @@ tiempo-estimado: 10m
 **Dificultad percibida**: ⭐⭐⭐⭐☆
 **Hub padre**: [[cpu-indice-general|🗂️ CPU - Índice General]]
 
----
+
 
 ## 📝 Introducción
 
@@ -38,7 +38,7 @@ Existen dos filosofías principales para diseñar CPUs:
 
 **Pregunta clave**: ¿Es mejor tener muchas instrucciones complejas o pocas instrucciones simples?
 
----
+
 
 ## 🏗️ RISC (Reduced Instruction Set Computing)
 
@@ -52,7 +52,7 @@ Existen dos filosofías principales para diseñar CPUs:
 3. Cada instrucción se ejecuta en un solo ciclo de reloj
 4. El compilador hace más trabajo
 
----
+
 
 ### Características Técnicas
 
@@ -82,7 +82,7 @@ El compilador debe optimizar más - traduce instrucciones complejas en secuencia
 **Ejemplo**: 
 Operación compleja → Compilador la divide en 5-10 instrucciones RISC simples
 
----
+
 
 ### ✅ Ventajas RISC
 
@@ -92,7 +92,7 @@ Operación compleja → Compilador la divide en 5-10 instrucciones RISC simples
 4. **Ideal para pipelining**: Todas las instrucciones tienen la misma estructura
 5. **Escalabilidad**: Fácil añadir más núcleos
 
----
+
 
 ### 📱 Ejemplos RISC
 
@@ -112,7 +112,7 @@ Operación compleja → Compilador la divide en 5-10 instrucciones RISC simples
 
 **Tu conexión**: Mi móvil utiliza ARM
 
----
+
 
 ## 🏢 CISC (Complex Instruction Set Computing)
 
@@ -126,7 +126,7 @@ Operación compleja → Compilador la divide en 5-10 instrucciones RISC simples
 3. Una instrucción puede tardar varios ciclos
 4. El hardware hace más trabajo
 
----
+
 
 ### Características Técnicas
 
@@ -155,7 +155,7 @@ El compilador tiene menos trabajo - puede usar instrucciones complejas directame
 **Ejemplo**: 
 Operación compleja → 1 instrucción CISC que lo hace todo
 
----
+
 
 ### 🎯 Modos de Direccionamiento
 
@@ -167,7 +167,7 @@ CISC soporta **modos complejos** de acceder a datos:
 
 **Ventaja**: Flexibilidad en manipulación de datos
 
----
+
 
 ### ✅ Ventajas CISC
 
@@ -176,7 +176,7 @@ CISC soporta **modos complejos** de acceder a datos:
 3. **Compatibilidad hacia atrás**: x86 mantiene compatibilidad desde los 80s
 4. **Potencia en tareas específicas**: Instrucciones especializadas para ciertas operaciones
 
----
+
 
 ### 💻 Ejemplos CISC
 
@@ -190,7 +190,7 @@ CISC soporta **modos complejos** de acceder a datos:
 
 **Tu conexión**: Mi PC utiliza esta tencología
 
----
+
 
 ## ⚔️ COMPARACIÓN DIRECTA
 
@@ -208,7 +208,7 @@ CISC soporta **modos complejos** de acceder a datos:
 | **Pipelining** | [Fácil] | [Difícil] |
 | **Ejemplos** | [ARM, MIPS] | [x86, x86-64] |
 
----
+
 
 ### 🔥 Debate Histórico
 
@@ -223,7 +223,7 @@ CISC soporta **modos complejos** de acceder a datos:
 
 **Moraleja**: La distinción pura ya no existe - todos son híbridos
 
----
+
 
 ## 🎯 ¿Cuál es Mejor?
 
@@ -240,7 +240,7 @@ CISC soporta **modos complejos** de acceder a datos:
 - ✅ Aplicaciones de escritorio/servidores
 - ✅ Cuando el consumo energético no es crítico
 
----
+
 
 ## 🌐 Arquitecturas Modernas Adicionales
 
@@ -258,7 +258,7 @@ Similar a VLIW pero más sofisticado
 
 **Nota**: Estas arquitecturas no tuvieron mucho éxito comercial
 
----
+
 
 ## 💭 Reflexiones & Conexiones
 
@@ -271,7 +271,7 @@ Los chips de IA modernos (TPUs, NPUs) son híbridos diseñados para operaciones 
 **¿Porqué no se cambian todos las arquitecturas a ARM?**
 Lo que pasa es que si cambiamos todos a ARM que son mucho más eficientes, los programas antiguos no funcionarían
 
----
+
 
 ## 🎴 Flashcards
 
@@ -296,7 +296,7 @@ Si RISC (ARM) es más eficiente energéticamente, ¿por qué los servidores y PC
 
 ¿Quién interactúa directamente con el hardware (gestión de CPU/RAM): El creador de un lenguaje (ej. Guido van Rossum) o el creador del Kernel (ej. Linus Torvalds)? #card **El Kernel (Linus Torvalds)**. El kernel gestiona los recursos físicos y "habla" con el metal. Los lenguajes de programación corren _sobre_ el kernel y le piden recursos a él, no al hardware directamente.
 
----
+
 
 ## 📚 Referencias & Enlaces
 
@@ -310,7 +310,7 @@ Si RISC (ARM) es más eficiente energéticamente, ¿por qué los servidores y PC
 
 **Fuente**: TCSO - UD2.pdf
 
----
+
 
 ## 📋 Metadata
 
@@ -321,7 +321,7 @@ Si RISC (ARM) es más eficiente energéticamente, ¿por qué los servidores y PC
 - **Nivel de comprensión**: 🤔 Entiendo parcialmente
 - **Tiempo estimado de repaso**: 25min
 
----
+
 
 ## 🚧 Plan de Mejora / Tareas Pendientes
 

@@ -5,13 +5,13 @@ created: 2025-12-27
 modified: 2025-12-27
 nivel-comprension: 💡
 origen: PDF Tema5 (Visual)
-proxima-revision: '2026-05-04'
+proxima-revision: '2026-06-01'
 status: 🌱
 tiempo-estimado: 15m
+tiempo-repaso: ''
 tipo_nota: tecnica
-ultima-revision: '2026-04-27'
-veces-revisado: 1
-tiempo-repaso: ""
+ultima-revision: '2026-05-25'
+veces-revisado: 2
 ---
 
 # Resolución de Problemas 🎨

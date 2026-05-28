@@ -49,6 +49,9 @@ urgente: false
 
 	Amazon Bedrock Party Rock: You can use it to build generative AI applications to learn fundamental techniques, such as understanding how a foundational model responds to different prompts. Some examples of applications that you can build in PartyRock are creating playlists, trivia, game, recipes, and more. .
 
+**Amazon OpenSearch Serverless**: Provides vector storage and search capabilities. 
+- Helps build ML, augmented search experiences, and generative AI without having to manage the vector database infraestructure.
+- 
 	 
 
 

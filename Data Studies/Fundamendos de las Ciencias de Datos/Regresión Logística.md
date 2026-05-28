@@ -1,23 +1,23 @@
 ---
-cards-deck: Fundamentos DS
-created: 2025-12-15 19:17
-modified: 2026-02-07
-status: 🌿 Creciendo
-tipo_nota: tecnica
 area: Fundamentos-DS
-procesamiento: PROCESADO
-prioridad: EXAMEN-LEJANO
-tipo-captura: concepto
-fecha-examen: ""
-proxima-revision: 2026-02-07
+cards-deck: Fundamentos DS
 complejidad: ⭐⭐
-tiempo-estimado: 15 min
-origen: Clase
-urgente: false
+created: 2025-12-15 19:17
+fecha-examen: ''
+modified: 2026-02-07
 nivel-comprension: 💡
-ultima-revision: 2026-02-07
-veces-revisado: 1
-tiempo-repaso: ""
+origen: Clase
+prioridad: EXAMEN-LEJANO
+procesamiento: PROCESADO
+proxima-revision: '2026-06-01'
+status: 🌿 Creciendo
+tiempo-estimado: 15 min
+tiempo-repaso: ''
+tipo-captura: concepto
+tipo_nota: tecnica
+ultima-revision: '2026-05-25'
+urgente: false
+veces-revisado: 2
 ---
 
 # Regresión Logística
@@ -27,7 +27,7 @@ tiempo-repaso: ""
 > Se usa para predecir la probabilidad de que algo sea Verdadero (1) o Falso (0).
 > **Ejemplo**: ¿Este email es Spam? (Sí/No)
 
----
+
 
 ## 🧠 ¿Qué es y cómo funciona?
 
@@ -48,7 +48,7 @@ $$
 * Si $z$ es muy grande negativo $\to$ Probabilidad $\approx 0$
 * Si $z = 0$ $\to$ Probabilidad $= 0.5$ (El punto de decisión)
 
----
+
 
 ## 🆚 Diferencias Clave
 
@@ -59,7 +59,7 @@ $$
 | **Línea de ajuste** | Recta | Curva en forma de "S" (Sigmoide) |
 | **Uso principal** | Predicción / Forecasting | Clasificación Binaria |
 
----
+
 
 ## 🎲 Concepto de Odds (Posibilidades)
 
@@ -79,7 +79,7 @@ $$
 > Si aplicas el logaritmo a las Odds, obtienes una línea recta. De ahí viene la conexión con la regresión lineal.
 > $\ln(\frac{P}{1-P}) = \beta_0 + \beta_1X$
 
----
+
 
 ## � Ejemplo en Python (Scikit-Learn)
 
@@ -97,7 +97,7 @@ prediccion = modelo.predict(X_new)         # Devuelve 0 o 1
 probabilidad = modelo.predict_proba(X_new) # Devuelve [0.2, 0.8]
 ```
 
----
+
 
 ## 🎴 Flashcards para Examen
 
@@ -110,7 +110,7 @@ probabilidad = modelo.predict_proba(X_new) # Devuelve [0.2, 0.8]
 ¿Cuál es el umbral (threshold) por defecto para decidir 0 o 1?::0.5 #card
 <!--SR:!2026-02-08,1,230-->
 
----
+
 
 ## 🔗 Referencias
 
@@ -118,7 +118,7 @@ probabilidad = modelo.predict_proba(X_new) # Devuelve [0.2, 0.8]
 * [[Matriz de Confusión]] (Cómo evaluamos si el modelo funciona)
 
 
----
+
 
 ## 🚧 Plan de Mejora / Tareas Pendientes
 

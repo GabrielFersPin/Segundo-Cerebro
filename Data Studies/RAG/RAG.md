@@ -52,7 +52,7 @@ RAG es una técnica que combina recuperación de información (Retrieval) con ge
 - Gestiona el context window del LLM
 - Formatea la información de manera óptima
 
-**Relacionado**: [[Prompt Engineering]] • [[Context Window]]
+**Relacionado**: [[Data Studies/LLM/Prompt Engineering]] • [[Context Window]]
 
 ### 📌 Generation (Generación)
 
@@ -142,7 +142,7 @@ La técnica que reduce alucinaciones al dar fuentes reales al LLM es ==RAG==
 - [[Embeddings]]
 - [[Vector Databases]]
 - [[Claude API]]
-- [[Prompt Engineering]]
+- [[Data Studies/LLM/Prompt Engineering]]
 
 **Referencias externas**: 
 - [LangChain RAG Tutorial](https://python.langchain.com/docs/use_cases/question_answering/)

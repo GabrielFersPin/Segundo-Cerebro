@@ -2,14 +2,14 @@
 cards-deck: Nube::AWS vs. Azure
 created: 2026-01-22
 modified: 2026-01-22
-status: 🌿 Creciendo
-tipo_nota:
-tecnica asignatura: Infraestructura-Nube
 nivel-comprension: 💡 Entiendo bien
-proxima-revision: 2026-01-29
-ultima-revision: 2026-01-22
-veces-revisado: 0
+proxima-revision: '2026-06-01'
+status: 🌿 Creciendo
+tecnica asignatura: Infraestructura-Nube
 tiempo-repaso: 15min
+tipo_nota: null
+ultima-revision: '2026-05-25'
+veces-revisado: 1
 ---
 # 📌 Arquitectura de Cómputo: IaaS vs. Serverless (AWS/Azure)
 
@@ -17,7 +17,7 @@ tiempo-repaso: 15min
 > 
 > 🎯 Dominar la equivalencia de servicios entre AWS (Teoría/Uni) y Azure (Práctica/Entrevista) y saber justificar cuándo usar Máquinas Virtuales (EC2) frente a Serverless (Lambda/Functions) basándose en costes y escalabilidad.
 
----
+
 
 ## 🎓 Contexto Académico
 
@@ -27,7 +27,7 @@ Relevancia para: Examen Final (Preguntas de teoría de escalado) y Entrevista T�
 
 Dificultad percibida: ⭐⭐⭐☆☆ Medio
 
----
+
 
 ## 📝 Definición
 
@@ -35,7 +35,7 @@ El cómputo en la nube se divide principalmente en modelos de responsabilidad co
 
 Para la entrevista, es vital entender que **Serverless no significa "sin servidores"**, sino que la gestión, el parcheo y el escalado de esos servidores son responsabilidad del proveedor (AWS/Azure), permitiendo un modelo de costes "Pay-as-you-go" (pago por uso real).
 
----
+
 
 ## ⚙️ Conceptos Clave
 
@@ -80,7 +80,7 @@ Para la entrevista, es vital entender que **Serverless no significa "sin servido
 - **Defensa en entrevista**: "En mi proyecto EduInnovatech acepté este pequeño retraso inicial a cambio de tener coste cero cuando nadie usa la app".
     
 
----
+
 
 ## 💻 Ejemplo Práctico
 
@@ -99,7 +99,7 @@ La Implementación:
     El Resultado: Reducción de costes del 90% en entorno de desarrollo.
     
 
----
+
 
 ## 💭 Reflexiones & Conexiones
 
@@ -111,7 +111,7 @@ Cuando me pregunten "¿Por qué Azure y no AWS?", la respuesta académica es "so
 
 En el examen preguntarán por "Alta Disponibilidad". En Serverless, la alta disponibilidad viene "de serie" (multi-AZ) sin configurar nada extra. En EC2/VM tienes que configurar tú el Load Balancer y el Auto Scaling Group.
 
----
+
 
 ## 🎴 Flashcards
 
@@ -143,7 +143,7 @@ El modelo de costes de Serverless se basa en ==pago por uso (tiempo de ejecució
 
 Si el entrevistador pregunta "¿Cómo manejas picos de tráfico de 100 usuarios a 100.000?", ¿qué concepto debes mencionar?::Auto Scaling (Escalado Automático) y el diseño Stateless (sin estado) de la aplicación, para que se puedan crear copias horizontales sin perder datos. #entrevista
 
----
+
 
 ## 📚 Referencias & Enlaces
 
@@ -151,7 +151,7 @@ Enlaces internos: [[Proyecto Coworking AI]], [[Proyecto EduInnovatech]]
 
 Referencias externas: Documentación AWS EC2 vs Lambda.
 
----
+
 
 ## 📋 Metadata
 
@@ -168,7 +168,7 @@ Referencias externas: Documentación AWS EC2 vs Lambda.
 - **Tiempo estimado de repaso**: 15min
     
 
----
+
 
 > [!tip] 💡 Próximos pasos
 > 

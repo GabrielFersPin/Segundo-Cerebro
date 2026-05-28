@@ -1,15 +1,15 @@
 ---
-tipo_nota: tecnica
 area: Infraestructura-Nube
-nivel-comprension: 🤔
-proxima-revision: 2025-11-27
-ultima-revision: 2025-11-20
-tiempo-repaso: 5min
-status: 🌿 Creciendo
-veces-revisado: 0
+cards-deck: ''
 created: 2025-11-20
 modified: 2025-11-20
-cards-deck: ""
+nivel-comprension: 🤔
+proxima-revision: '2026-06-01'
+status: 🌿 Creciendo
+tiempo-repaso: 5min
+tipo_nota: tecnica
+ultima-revision: '2026-05-25'
+veces-revisado: 1
 ---
 # 🐳 DOCKER
 
@@ -43,7 +43,7 @@ Docker: Hardware → OS → Docker Engine → [App] + [App]
 
 **Ventaja**: Más ligero, arranca en segundos
 
----
+
 
 **Relacionado**: 
 - [[Kubernetes vs Docker Compose]]

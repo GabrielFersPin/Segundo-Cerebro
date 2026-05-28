@@ -1,16 +1,16 @@
 ---
+area: Infraestructura-Nube
 cards-deck: Nube
 created: 2025-11-20
 modified: 2026-01-22
-status: 🌿 Creciendo
-tipo_nota: tecnica
-area: Infraestructura-Nube
 nivel-comprension: 💡
-proxima-revision: 2026-01-29
-ultima-revision: 2026-01-22
-veces-revisado: 1
-tiempo-repaso: 30min
+proxima-revision: '2026-06-01'
+status: 🌿 Creciendo
 tiempo-estimado: 10m
+tiempo-repaso: 30min
+tipo_nota: tecnica
+ultima-revision: '2026-05-25'
+veces-revisado: 2
 ---
 
 # Amazon EC2 (Elastic Compute Cloud)
@@ -18,7 +18,7 @@ tiempo-estimado: 10m
 > [!abstract] Objetivo
 > Comprender el funcionamiento de EC2 como servicio principal de cómputo en AWS, sus componentes clave, modelos de pricing y casos de uso prácticos para proyectos de Data Science y desarrollo web.
 
----
+
 
 ## 🎓 Contexto Académico
 
@@ -26,7 +26,7 @@ tiempo-estimado: 10m
 **Relevancia para**: Examen final y proyectos prácticos de despliegue
 **Dificultad percibida**: ⭐⭐⭐☆☆
 
----
+
 
 ## 📝 Definición
 
@@ -36,7 +36,7 @@ EC2 te permite lanzar instancias (servidores virtuales) con diferentes configura
 
 El concepto de "elasticidad" es fundamental: puedes escalar verticalmente (cambiando a instancias más potentes) u horizontalmente (agregando más instancias) según la demanda de tu aplicación. Esto es especialmente útil en Data Science donde puedes necesitar mucha potencia de cómputo solo durante el entrenamiento de modelos, y luego reducir recursos para inferencia.
 
----
+
 
 ## ⚙️ Conceptos Clave
 
@@ -118,7 +118,7 @@ El concepto de "elasticidad" es fundamental: puedes escalar verticalmente (cambi
 
 **Relacionado**: [[Cloud Cost Optimization]] • [[AWS Pricing]]
 
----
+
 
 ## 💻 Ejemplo Práctico
 
@@ -146,7 +146,7 @@ jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser
 
 **Explicación**: Este ejemplo muestra cómo lanzar una instancia EC2 desde la CLI, conectarse por SSH y configurar un entorno de Jupyter para trabajo de Data Science. La instancia t3.micro está en la capa gratuita si es tu primer año en AWS. Es importante abrir el puerto 8888 en el Security Group para acceder a Jupyter desde tu navegador.
 
----
+
 
 ## 💭 Reflexiones & Conexiones
 
@@ -158,7 +158,7 @@ Veo una analogía con el existencialismo de Camus: EC2 te da libertad total pero
 
 Para mi app de RPG con React, la arquitectura ideal sería: una t3.small para el frontend con Nginx, otra t3.small para el backend Node.js, y usar Lambda + una instancia Spot ocasional para la generación de cartas con IA. Total control, pago solo lo que uso.
 
----
+
 
 ## 🎴 Flashcards
 
@@ -196,13 +196,13 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 ¿Cuándo usarías Spot Instances?::Para cargas de trabajo interrumpibles como procesamiento batch, entrenamiento de modelos, análisis de datos donde puedes tolerar interrupciones #spot #pricing #card
 <!--SR:!2026-01-26,4,270-->
 
----
+
 
 **📊 Total de flashcards**: 10
 
 > 🎯 **Para revisar**: Cmd/Ctrl+P → "Flashcards: Review flashcards"
 
----
+
 
 ## 📚 Referencias & Enlaces
 
@@ -215,7 +215,7 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 
 **Fuente**: Clase de Infraestructura y Servicios en la Nube - UAX, AWS Documentation, experiencia práctica
 
----
+
 
 ## 📋 Metadata
 
@@ -226,7 +226,7 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 - **Nivel de comprensión**: 💡 Entiendo bien
 - **Tiempo estimado de repaso**: 30min
 
----
+
 
 > [!tip] 💡 Próximos pasos
 > - Practicar lanzando una instancia real con la capa gratuita
@@ -236,7 +236,7 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 > - Cuando revises esta nota, actualiza el contador de revisiones y ajusta la próxima fecha según tu comprensión
 
 
----
+
 
 ## 🚧 Plan de Mejora / Tareas Pendientes
 

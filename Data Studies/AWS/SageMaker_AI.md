@@ -53,3 +53,27 @@ On-demand serverless inference is a capability in SageMaker AI that provides ser
 # Sagemaker JumpStart
 
 Is a feature of Sagemaker AI that provides pre-trained, open source models for you to use. SageMaker JumpStart offers FMs that you can use for summarization use cases.
+
+## Sagemanker Canvas
+
+- Create data flows feature engineering workflows that use little to no coding.
+
+- You can use Jupter Lav
+## Amazon SageMaker Studio Classic
+
+- Provides a built-in integration with Amazon EMR (Elastic Mapreduce) - Diseñado para el procesamiento de datos a gran escala.
+
+## Amazon SageMaker Feature Store 
+
+- feature descovery and storage, 
+- Provide a centralized repository to store feature data in a standardized format.
+
+## Amazon SageMaker Clarify
+
+- Analize your data and detect potential biases across multiple facets.
+- Helps you detect whether your trainning data contains imbalanced representations or labeling biases between groups such as gender, race or age.
+
+## Amazon Ground Truth
+
+- Label the data
+

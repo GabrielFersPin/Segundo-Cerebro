@@ -21,89 +21,6 @@ deck: Obsidian::Fine-Tuning
 profesor: No especificado
 ---
 
-# Fine Tuning Methods
-
-> [!info] Contexto captura
-> **Fecha**: 2026-05-22 09:35
-> **Origen**: `= this.origen`
-> **Tipo**: `= this.tipo-captura`
-
----
-
-## 📝 Captura principal
-
-> [!tip] Lo más importante
-> *Escribe aquí la idea principal o el concepto clave en 1-2 frases*
-
-
-### 🎯 Detalles / Contenido
-
-<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
-
-
-
-
----
-
-## 🔑 Keywords / Conceptos clave
-
-`keyword1`, `keyword2`, `keyword3`
-
-> [!note] Para RAG
-> Estos keywords ayudarán a encontrar esta nota después
-
-
----
-
-## ❓ Preguntas / Dudas pendientes
-
-- [ ]
-- [ ]
-
----
-
-## 🧩 Conexiones potenciales
-
-<!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-
--
--
-
----
-
-## ✅ Checklist procesamiento
-
-- [ ] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
-- [ ] Hacer ejercicios relacionados
-- [ ] Conectar con otras notas ([[]])
-- [ ] Actualizar nivel de comprensión
-- [ ] Mover a vault definitivo / Cambiar status a 🌿
-
----
-
-## 💭 Notas adicionales / Ideas rápidas
-
-<!-- Zona libre para cualquier cosa que quieras capturar rápido -->
-
-
-
-
----
-
-## 📋 Metadata resumen
-
-| Campo | Valor |
-|-------|-------|
-| Capturado | 2026-05-22 09:35 |
-| Área/Tema | `= this.area` |
-| Prioridad | `= this.prioridad` |
-| Estado | Captura rápida → Pendiente procesamiento |
-| Revisión | `= this.proxima-revision` |
-
----
-
-#pendiente-procesar #captura-rapida
 
 # 📝 Fine-Tuning Methods
 
@@ -161,42 +78,22 @@ El modelo ya tiene representaciones generales del lenguaje; el fine-tuning ajust
 
 ---
 
-## 🔍 Métodos principales
+## 🔍 Métodos 
 
-### 1. **Full Fine-Tuning**
+### PEFT (Parameter-efficient fine-tuning)
 
-- Ajustar todos los parámetros del modelo.
-- Requiere mayor memoria y tiempo de entrenamiento.
-- Beneficio: máximo potencial de adaptación.
-- Riesgo: sobreajuste y necesidad de datos suficientes.
+- Parameter-efficient fine-tunig: is a process and set of techniques that freeze or preserve the parameters and weights of the original LLM and fine-tune or train a small number of task.specific adaptor layers and parameters.
+	**LoRa**: Popular PEFT technique that also preservers or freezes the original weights of the foundation model and creates new trainable low-rank matrices into each layer of a transformer architecture.
+- PEFT and LoRa modify the weights of your model, but not the representations.
 
-### 2. **Freeze Layers**
+### ReFT (Representation fine-tuning)
 
-- Congelar algunas capas del modelo y ajustar solo otras.
-- Ejemplo: congelar las primeras capas y entrenar las últimas.
-- Ventaja: menor costo computacional.
-- Uso común cuando el dataset es pequeño.
+-  Is a fine-tunig process that freezes the base model and learns task-specific interventions 
 
-### 3. **Adapters**
+### RLHF (Reinforcement learning from human feedback)
 
-- Insertar módulos pequeños entre capas y entrenar solo esos módulos.
-- Mantiene la mayoría de los pesos originales fijos.
-- Permite múltiples adaptaciones sin duplicar el modelo completo.
-- Ejemplos: AdapterHub, Houlsby adapters.
+- You can improve performance in specific domains. You can also fine-tune reinforcement learning from human feedback.
 
-### 4. **LoRA (Low-Rank Adaptation)**
-
-- Ajusta solo matrices de bajo rango dentro de las capas.
-- Muy eficiente en parámetros y memoria.
-- Ideal para grandes LLMs con recursos limitados.
-- Soporta despliegues rápidos y múltiples tareas.
-
-### 5. **Delta Tuning / Prompt Tuning**
-
-- Ajusta vectores o prompts en lugar de pesos de la red.
-- **Prompt Tuning**: aprende prompts continuos para guiar al modelo.
-- **Prefix Tuning**: añade secuencias aprendidas en la entrada.
-- Extremadamente eficiente, pero menos flexible que full fine-tuning.
 
 ---
 

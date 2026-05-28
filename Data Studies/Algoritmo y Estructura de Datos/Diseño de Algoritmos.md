@@ -5,13 +5,13 @@ created: 2025-12-27
 modified: 2026-01-14
 nivel-comprension: 🤔
 origen: PDF Tema6 (Visual)
-proxima-revision: '2026-05-04'
+proxima-revision: '2026-06-01'
 status: 🌱 Semilla
 tiempo-estimado: 15m
+tiempo-repaso: ''
 tipo_nota: tecnica
-ultima-revision: '2026-04-27'
-veces-revisado: 2
-tiempo-repaso: ""
+ultima-revision: '2026-05-25'
+veces-revisado: 3
 ---
 
 # Diseño de Algoritmos  🎨
