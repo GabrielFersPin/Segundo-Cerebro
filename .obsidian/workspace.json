@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Studies/AWS/SageMaker_AI.md",
+                "file": "Dashboard_General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SageMaker_AI"
+              "title": "Dashboard_General"
             }
           },
           {
@@ -356,11 +356,13 @@
   },
   "active": "70b7d468bd4046f6",
   "lastOpenFiles": [
-    "Methods to Evaluate FM Performance.md",
-    "Sin nombre",
-    "Data Studies/AWS/SageMaker_AI.md",
-    "Data Studies/Machine Learning/Fine-Tuning Methods.md",
+    "Dashboard de Estudio.md",
+    "Dashboard_General.md",
     "Prompt Engineering.md",
+    "Methods to Evaluate FM Performance.md",
+    "Data Studies/AWS/SageMaker_AI.md",
+    "Sin nombre",
+    "Data Studies/Machine Learning/Fine-Tuning Methods.md",
     "Data Studies/Machine Learning/RandonForest.md",
     "Data Studies/Machine Learning/K-Means.md",
     "Data Studies/AWS/AWS Infraestructure & Technologies for building Gen AI Applications.md",
@@ -373,8 +375,6 @@
     "Data Studies/Protocolos/FastMCP - Ejemplo de implementación.md",
     "Reading/Filosofía/El mito de Sísifo - Alber Camus.md",
     "Data Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
-    "Dashboard_General.md",
-    "Dashboard de Estudio.md",
     "Templates/Template_Captura_Rápida.md",
     "scratch/format_rapid_notes.py",
     "Templates/hub_template.md",
