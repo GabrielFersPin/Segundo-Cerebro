@@ -204,19 +204,24 @@ Auditora de configuraciones y cambios en recursos.
 
 ### 2. **CloudTrail**
 
-Registro de auditoría de todas las acciones en AWS.
+Registro de calls a la API de AWS, SageMaker y cualquier otro servicio.
 
 **Información registrada**:
 
 - Quién hizo qué.
 - Cuándo se realizó.
 - Resultado de la acción.
+- Desde dónde.
+- resultado
 
-**Ventajas**:
+**Ejemplos**:
 
 - Compliance: evidencia para auditorías.
 - Investigación de incidentes.
 - Seguimiento de cambios.
+- Control de invocaciones de modelos.
+- Control de costes.
+- Automatizar respuestas.
 
 ---
 
