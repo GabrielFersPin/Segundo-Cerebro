@@ -230,6 +230,11 @@ Monitoreo y logging centralizado.
 - Logs de aplicaciones.
 - Eventos del sistema.
 
+### **4.Glue DataBrew**
+
+-  Can analyse many types of datasets, including data that's stored in Amazon S3 and in relational data bases and data warehouses. 
+- Tracks data bases and data warehouses.
+- Visual interface to determine its origin called the data lineage.
 ---
 
 ### 4. **Artifact**
@@ -238,7 +243,11 @@ Acceso a informes de compliance y certificaciones de AWS.
 
 **Disponible**:
 
-- SOC 1, SOC 2, SOC 3
+- SOC 1(Service Organization Control)
+	- Verify if a third party is following some specific best practices.
+- SOC 2:
+	- Reports and controls related to security, availability, processing, integrity, confidentiality, and privacy
+- SOC
 - ISO 27001
 - PCI DSS
 - HIPAA BAA

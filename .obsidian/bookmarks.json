@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1780049378022,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1780049362469,
+          "path": "Data Studies/AWS/SageMaker_AI.md"
+        }
+      ],
+      "title": "AWS AI Practitioner"
+    }
+  ]
+}

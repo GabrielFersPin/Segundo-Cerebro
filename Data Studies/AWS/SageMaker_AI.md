@@ -58,7 +58,8 @@ Is a feature of Sagemaker AI that provides pre-trained, open source models for y
 
 - Create data flows feature engineering workflows that use little to no coding.
 
-- You can use Jupter Lav
+- You can use Jupter Lab
+
 ## Amazon SageMaker Studio Classic
 
 - Provides a built-in integration with Amazon EMR (Elastic Mapreduce) - Diseñado para el procesamiento de datos a gran escala.
@@ -76,4 +77,26 @@ Is a feature of Sagemaker AI that provides pre-trained, open source models for y
 ## Amazon Ground Truth
 
 - Label the data
+
+## Amazon SageMaker Serverless Inferencing
+
+- Requires little managment to host the model
+
+## Amazon SageMaker Model Monitor
+
+- Monitor data quality
+- Compares the model and the data with the baselines
+- It generates statistics and metrics that are visible in SageMaker Studio
+
+## SageMaker Model Registry
+
+- Store models catalog
+
+## SageMaker Model Cards
+
+- Document, Retrieve and share essential model information from conception to deplyoment
+- Model cards can be exports to PDF to share with stakeholders
+
+
+
 
