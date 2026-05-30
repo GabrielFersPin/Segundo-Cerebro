@@ -154,16 +154,16 @@ cards-deck: ""
   -  Presentation of my final proyect
   -  Continue Learning Deep Learning
   - Improving the InnerLevel app
-* August
- * Keep Improving the InnerLevel app
-* September
- * Keep improving the InnerLevel app
-* October
- * Went back to the Data Science and AI degree
- * Start learning about Cloud, Hardware, algoritims and data science basics
-* November
- * Finish the InnerLevel Beta 
- * Build a Climate Change proyect for the Fundamentos de Data Science
+- August
+ - Keep Improving the InnerLevel app
+- September
+ - Keep improving the InnerLevel app
+- October
+ - Went back to the Data Science and AI degree
+ - Start learning about Cloud, Hardware, algoritims and data science basics
+- November
+ - Finish the InnerLevel Beta 
+ - Build a Climate Change proyect for the Fundamentos de Data Science
 - Diciember
  - Got an SQL/Python Interview and didn't get the job
  - Better understand FastAPi for InnerLevel
@@ -181,3 +181,6 @@ cards-deck: ""
 - March
  - Start a AWS course inside the company
  - Start a Agent course inside the company
+ - Did a personal AI Agents project
+- April
+ - 
