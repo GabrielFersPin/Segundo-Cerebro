@@ -9,7 +9,7 @@ proxima-revision: 2026-05-27
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: ""
+cards-deck: AWS::SageMaker_AI
 tags: [captura_rapida, 2026-05-20]
 ---
 
@@ -76,7 +76,8 @@ Is a feature of Sagemaker AI that provides pre-trained, open source models for y
 
 ## Amazon Ground Truth
 
-- Label the data
+- Automate the labeling of the data
+- 
 
 ## Amazon SageMaker Serverless Inferencing
 
@@ -100,3 +101,17 @@ Is a feature of Sagemaker AI that provides pre-trained, open source models for y
 
 
 
+
+
+## 🎴 Flashcards
+
+¿Qué es SageMaker AI?::Es un servicio completamente administrado que proporciona herramientas e infraestructura para construir, entrenar y desplegar modelos de machine learning a escala. #card <!--SR:!2026-06-02,1,230-->
+¿Cuáles son las 4 formas de desplegar un modelo para inferencia en SageMaker?::Real Time, Batch Transform, Asynchronous y Serverless. #card <!--SR:!2026-06-02,1,230-->
+¿Qué es SageMaker JumpStart?::Una característica que proporciona modelos de código abierto pre-entrenados listos para usar (ej. Foundation Models para resúmenes). #card <!--SR:!2026-06-02,1,230-->
+¿Para qué sirve Amazon SageMaker Canvas?::Para crear flujos de datos y de ingeniería de características con poco o ningún código. #card <!--SR:!2026-06-02,1,230-->
+¿Cuál es la función de Amazon SageMaker Feature Store?::Proporcionar un repositorio centralizado para descubrir y almacenar datos de características (features) en un formato estandarizado. #card <!--SR:!2026-06-02,1,230-->
+¿Qué permite hacer Amazon SageMaker Clarify?::Analizar los datos y detectar posibles sesgos (ej. de género, raza o edad) y representaciones desbalanceadas. #card <!--SR:!2026-06-02,1,230-->
+¿Qué servicio se utiliza para etiquetar datos en el ecosistema de SageMaker?::Amazon Ground Truth. #card <!--SR:!2026-06-02,1,230-->
+¿Qué hace Amazon SageMaker Model Monitor?::Monitorea la calidad de los datos comparando el modelo y los datos con líneas base, generando métricas visibles en SageMaker Studio. #card <!--SR:!2026-06-02,1,230-->
+¿Para qué sirve SageMaker Model Registry?::Para almacenar y catalogar modelos. #card <!--SR:!2026-06-02,1,230-->
+¿Qué son las SageMaker Model Cards?::Documentan, recuperan y comparten información esencial del modelo desde su concepción hasta su despliegue (exportables a PDF). #card <!--SR:!2026-06-02,1,230-->

@@ -1,5 +1,10 @@
 ---
-tags: [AWS, seguridad, compliance, gobernanza, IAM]
+tags:
+  - AWS
+  - seguridad
+  - compliance
+  - gobernanza
+  - IAM
 deck: Obsidian::AWS
 created: 2026-05-14 10:00
 modified: 2026-05-14 10:00
@@ -11,7 +16,7 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: ""
+cards-deck: AWS::Seguridad-Compliance-Gobernanza
 ---
 
 # 📝 AWS - Servicios de Seguridad, Compliance y Gobernanza
@@ -251,7 +256,7 @@ Acceso a informes de compliance y certificaciones de AWS.
 - SOC 1(Service Organization Control)
 	- Verify if a third party is following some specific best practices.
 - SOC 2:
-	- Reports and controls related to security, availability, processing, integrity, confidentiality, and privacy
+	- Reports and controls related to security, availability, processing, integrity, confidentiality, and privacyGen
 - SOC
 - ISO 27001
 - PCI DSS
@@ -317,6 +322,15 @@ Recomendaciones para optimizar infraestructura.
 Límites de permisos a nivel de cuenta/OU en Organizations.
 
 **Ejemplo**: impedir que se lance una instancia EC2 fuera de cierta región.
+
+---
+
+## 6. AWS Lake Formation
+
+Es un servicio enfocado en la gestión y gobernanza de datos
+
+- Diseñado para facilitar la creación y administración de data lakes, proporcionando herramientas para el control de acceso, la catalogación, y la aplicación de políticas de seguridad.
+- Ayuda a combinar diferentes tipos de datos estructurados y no estructurados en un repositório centralizado
 
 ---
 

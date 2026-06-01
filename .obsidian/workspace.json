@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cdfff99c5f5f0d2a",
+        "id": "8dcbb654a2bf7004",
         "type": "tabs",
         "children": [
           {
-            "id": "0ba054a8217961eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Studies/Machine Learning/Fine-Tuning Methods.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Fine-Tuning Methods"
-            }
-          },
-          {
-            "id": "b3e5a3d353540a31",
+            "id": "325fee96d6877c14",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,37 +20,8 @@
               "icon": "lucide-file",
               "title": "AWS - Seguridad Compliance y Gobernanza"
             }
-          },
-          {
-            "id": "751f2a62e6527e98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Studies/AWS/AWS Infraestructure & Technologies for building Gen AI Applications.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AWS Infraestructure & Technologies for building Gen AI Applications"
-            }
-          },
-          {
-            "id": "469e46a22d0dfa6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Template_Captura_Rápida.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Template_Captura_Rápida"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-12-04.md",
+                "file": "Data Studies/AWS/AWS - Seguridad Compliance y Gobernanza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 2025-12-04"
+              "title": "Enlaces entrantes de AWS - Seguridad Compliance y Gobernanza"
             }
           },
           {
@@ -156,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-12-04.md",
+                "file": "Data Studies/AWS/AWS - Seguridad Compliance y Gobernanza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 2025-12-04"
+              "title": "Enlaces salientes de AWS - Seguridad Compliance y Gobernanza"
             }
           },
           {
@@ -185,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Data Studies/AWS/AWS - Seguridad Compliance y Gobernanza.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de index"
+              "title": "Esquema de AWS - Seguridad Compliance y Gobernanza"
             }
           },
           {
@@ -213,109 +170,9 @@
               "icon": "SpacedRepIcon",
               "title": "Cola de notas a revisar"
             }
-          },
-          {
-            "id": "fa1631579e4a27ad",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "d14df5068f1f6162",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "7a13a7f5f3c0592a",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "0edeee39002f51b2",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "4a19c3cf0eca1e6c",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "ab780c14cc3d77e4",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "309b088444518a33",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "2051e2eb25a65316",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "715114cd1b8af3ec",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
-          },
-          {
-            "id": "1bf6205433c8158b",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -340,18 +197,25 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "b3e5a3d353540a31",
+  "active": "325fee96d6877c14",
   "lastOpenFiles": [
+    "Data Studies/AWS/Amazon S3.md",
+    "Data Studies/AWS/AWS Glue.md",
+    "Data Studies/AWS/AWS Infraestructure & Technologies for building Gen AI Applications.md",
+    "Data Studies/AWS/AWS - Seguridad Compliance y Gobernanza.md",
     "Data Studies/AWS/AWS_Service_Tools_for_Responsible_AI.md",
     "Data Studies/AWS/Amazon_Text_and_Images_Services.md",
     "Data Studies/AWS/AWS_Services_for_MLOps.md",
-    "Data Studies/AWS/AWS - Seguridad Compliance y Gobernanza.md",
     "Data Studies/AWS/SageMaker_AI.md",
+    "Data Studies/AWS/EC2_Amazon_Elastic_Compute_Cloud.md",
+    "Data Studies/Algoritmo y Estructura de Datos/Tablas Hash.md",
+    "Data Studies/Algoritmo y Estructura de Datos/ExamenAlgoritmos.md",
+    "Templates/Template_Captura_Rápida.md",
+    "Data Studies/Algoritmo y Estructura de Datos/Algoritmos sobre Grafos.md",
+    "Data Studies/Machine Learning/Fine-Tuning Methods.md",
+    "Data Studies/Algoritmo y Estructura de Datos/Algortimos de Programación dinámica.md",
     "Data Studies/AWS/Monitoring & Management.md",
     "2026-05-29.md",
-    "Data Studies/Machine Learning/Fine-Tuning Methods.md",
-    "Templates/Template_Captura_Rápida.md",
-    "Data Studies/AWS/AWS Infraestructure & Technologies for building Gen AI Applications.md",
     "Methods to Evaluate FM Performance.md",
     "Journal/Sin título.md",
     "Dashboard_General.md",
@@ -363,14 +227,7 @@
     "Data Studies/Arquitectura de Ordenadores/CPU - Fundamentos y Componentes Básicos.md",
     "format_notes.py",
     "Data Studies/Arquitectura de Ordenadores/Trabajo Out of order Execution.md",
-    "Data Studies/Machine Learning/Model Evaluation - Métricas BLEU ROUGE BERTScore.md",
-    "Data Studies/Protocolos/FastMCP - Ejemplo de implementación.md",
-    "Reading/Filosofía/El mito de Sísifo - Alber Camus.md",
-    "Data Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
     "scratch/format_rapid_notes.py",
-    "Templates/hub_template.md",
-    "Templates/Dashboard_Rendimiento.md",
-    "Templates/Task-List.md",
     "Data Studies/Big Data",
     "Data Studies/Protocolos",
     "Data Studies/LLM",
