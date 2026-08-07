@@ -1,15 +1,15 @@
 ---
-created: 2026-05-25 16:37
-modified: 2026-05-25 16:37
-area: Prompt Engineering
+created: 2026-06-03 14:32
+modified: 2026-06-03 14:32
+area: Testing
 tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: 2026-06-01
-ultima-revision: 2026-05-25
+proxima-revision: 2026-06-10
+ultima-revision: 2026-06-03
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Prompt Engineering
+cards-deck: Testing
 procesamiento: CAPTURA-RAPIDA
 prioridad: EXAMEN-PROXIMO
 tipo-captura: concepto
@@ -18,10 +18,10 @@ origen: Curso
 urgente: false
 ---
 
-# Prompt Engineering
+# Red Teaming
 
 > [!info] Contexto captura
-> **Fecha**: 2026-05-25 16:38
+> **Fecha**: 2026-06-03 14:33
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -35,13 +35,9 @@ urgente: false
 
 ### 🎯 Detalles / Contenido
 
-<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
+>[!Definición] Read teaming es una manera de hacer un test antes del deploy para identificar vulnerabilidades de edge-cases. Identifica biases, outputs peligrosos y modos fallidos.
+>Garantiza un comportamiento más seguro de los modelos en condiciones reales.
 
-**Few-shot prompting**: Is when you provide a few examples to help the LLM models better perfomr and calibrate their output to meet your expectations.
-
-**Zero-shot prompting**: Is a sentiment classification prompt with no examples provided to the prompt.
-
-**
 
 
 
@@ -97,7 +93,7 @@ urgente: false
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-05-25 16:38 |
+| Capturado | 2026-06-03 14:33 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

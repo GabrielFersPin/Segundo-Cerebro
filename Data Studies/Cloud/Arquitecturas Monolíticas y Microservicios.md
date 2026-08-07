@@ -70,7 +70,7 @@ Facebook antiguamente
 
 ## 💭 Reflexiones & Conexiones
 
-Mi aplicación de InnerLevel tiene una arquitectura híbrida entre monílitca y microservicios. Mi frontend y Backend están comunicados por una API, pero están comunicados como un bloque, ya la base de  datos está en un [[Modelos_Servicios#📌 Software como Servicio (SaaS)]] que es Supabase una aplicación que gestiona la base de datos que se comunica con API con las otras funciones de la aplicación
+Mi aplicación de InnerLevel tiene una arquitectura híbrida entre monílitca y microservicios. Mi frontend y Backend están comunicados por una API, pero están comunicados como un bloque, ya la base de  datos está en un [[Modelos Servicios#📌 Software como Servicio (SaaS)]] que es Supabase una aplicación que gestiona la base de datos que se comunica con API con las otras funciones de la aplicación
 
 ---
 

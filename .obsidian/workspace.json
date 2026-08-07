@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "8dcbb654a2bf7004",
+        "id": "15db0a9faa12f45f",
         "type": "tabs",
         "children": [
           {
-            "id": "325fee96d6877c14",
+            "id": "9f722b90c26d272f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Studies/AWS/AWS_AI_Practitioner_Servicios_Clave.md",
+                "file": "Data Studies/Proyectos/InnerLevel/Plan de Estudios de la APP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS_AI_Practitioner_Servicios_Clave"
+              "title": "Plan de Estudios de la APP"
+            }
+          },
+          {
+            "id": "a6e0abef2487cc16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Studies/Python/Una función puede modificar un objeto sin devolver un nuevo valor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Una función puede modificar un objeto sin devolver un nuevo valor"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -78,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6b00cfbf30760cd6",
@@ -95,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Studies/AWS/AWS_AI_Practitioner_Servicios_Clave.md",
+                "file": "Data Studies/Proyectos/InnerLevel/Plan de Estudios de la APP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de AWS_AI_Practitioner_Servicios_Clave"
+              "title": "Enlaces entrantes de Plan de Estudios de la APP"
             }
           },
           {
@@ -114,12 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Studies/AWS/AWS_AI_Practitioner_Servicios_Clave.md",
+                "file": "Data Studies/Proyectos/InnerLevel/Plan de Estudios de la APP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de AWS_AI_Practitioner_Servicios_Clave"
+              "title": "Enlaces salientes de Plan de Estudios de la APP"
             }
           },
           {
@@ -143,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Studies/AWS/AWS_AI_Practitioner_Servicios_Clave.md",
+                "file": "Data Studies/Proyectos/InnerLevel/Plan de Estudios de la APP.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de AWS_AI_Practitioner_Servicios_Clave"
+              "title": "Esquema de Plan de Estudios de la APP"
             }
           },
           {
@@ -173,11 +189,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,47 +215,48 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "325fee96d6877c14",
+  "active": "6b8804b4095ea407",
   "lastOpenFiles": [
-    "index.md",
-    "Journal/2026-05-29.md",
-    "Prompt Engineering.md",
-    "Data Studies/AWS/AWS - Seguridad Compliance y Gobernanza.md",
-    "Methods to Evaluate FM Performance.md",
-    "Data Studies/AWS/AWS_AI_Practitioner_Servicios_Clave.md",
-    "Data Studies/AWS/Amazon S3.md",
-    "Data Studies/AWS/AWS Glue.md",
-    "Data Studies/AWS/AWS Infraestructure & Technologies for building Gen AI Applications.md",
-    "Data Studies/AWS/AWS_Service_Tools_for_Responsible_AI.md",
-    "Data Studies/AWS/Amazon_Text_and_Images_Services.md",
-    "Data Studies/AWS/AWS_Services_for_MLOps.md",
-    "Data Studies/AWS/SageMaker_AI.md",
-    "Data Studies/AWS/EC2_Amazon_Elastic_Compute_Cloud.md",
-    "Data Studies/Algoritmo y Estructura de Datos/Tablas Hash.md",
-    "Data Studies/Algoritmo y Estructura de Datos/ExamenAlgoritmos.md",
-    "Templates/Template_Captura_Rápida.md",
-    "Data Studies/Algoritmo y Estructura de Datos/Algoritmos sobre Grafos.md",
-    "Data Studies/Machine Learning/Fine-Tuning Methods.md",
-    "Data Studies/Algoritmo y Estructura de Datos/Algortimos de Programación dinámica.md",
-    "Data Studies/AWS/Monitoring & Management.md",
-    "Journal/Sin título.md",
+    "Data Studies/AWS/Well-Architected Framework.md",
+    "Data Studies/Python/Una función puede modificar un objeto sin devolver un nuevo valor.md",
+    "Data Studies/Cloud/Well-Architected Framework.md",
+    "Data Studies/Proyectos/InnerLevel/Plan de Estudios de la APP.md",
     "Dashboard_General.md",
-    "Dashboard de Estudio.md",
-    "Sin nombre",
-    "Data Studies/Machine Learning/RandonForest.md",
-    "Data Studies/Machine Learning/K-Means.md",
+    "Reading/Libros que quiero leer.md",
+    "Data Studies/Cloud/DevOps.md",
+    "Data Studies/Cloud/IaaS vs. Serverless (AWS vs. Azure).md",
+    "Data Studies/Big Data/Data Lake.md",
+    "index.md",
+    "IaaS.md",
+    "Data Studies/Cloud/Modelos de Implementación.md",
+    "Data Studies/Cloud/Ventajas y Desventajas de Adoptar la Computación en la Nube.md",
+    "Data Studies/Cloud/Modelos Servicios.md",
+    "Data Studies/Cloud/Cloud_Computing.md",
+    "Data Studies/Cloud/Arquitecturas Monolíticas y Microservicios.md",
+    "Data Studies/Cloud/Ejercicio Feedback.md",
+    "Data Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech_Proposal.md",
+    "Data Studies/Cloud/Eduinnovatech.png",
+    "Data Studies/Proyectos/segundo_cerebro_agentes_plan_v2.md",
+    "Data Studies/Proyectos/LLM Learning Project/Build the model.md",
+    "Data Studies/Model destillation.md",
+    "Data Studies/Testing.md",
+    "Data Studies/LLM/Prompt Engineering.md",
+    "Data Studies/LLM/Prompt Engineering 1.md",
+    "Data Studies/AI Agents/A2A - Agent-to-Agent.md",
+    "Journal/2026-08-04.md",
+    "Data Studies/Python/Python_Cheat_Sheet_-_The_Basics_Coursera.pdf",
+    "Data Studies/Python/Pyhton_for_Data_Science.pdf",
+    "Café",
+    "Data Studies/Deep Learning/Comportamiento Humano e Integración de la Intelig 10f3376ecba34c8cb252ba5f5e3d7c74/Unidad 1(Introducción a la inteligencia artificia 439cadea289947a284f732f172fde532/Untitled.png",
+    "Excalidraw",
     "format_notes.py",
     "scratch/format_rapid_notes.py",
     "Data Studies/Big Data",
     "Data Studies/Protocolos",
     "Data Studies/LLM",
     "crear_nota.py",
-    "scratch/update_frontmatter.py",
-    "scratch",
-    "Templates/sedc2FT24",
     "Sin título.canvas",
-    "Data Studies/Infraestructuras y Servicios en la Nube/Eduinnovatech.png",
-    "Data Studies/Infraestructuras y Servicios en la Nube/Docker/Docker Comandos.canvas",
+    "Data Studies/Cloud/Docker/Docker Comandos.canvas",
     "Data Studies/Algoritmo y Estructura de Datos/Guía Rápida de Algoritmos.png",
     "Data Studies/Algoritmo y Estructura de Datos/ListaEnlazada.png",
     "Data Studies/Arquitectura de Ordenadores/Canva - CPU.canvas",
@@ -248,7 +266,6 @@
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 4 973c10893877457e824a1874ba8a3844/Untitled 2.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 2.png",
     "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 5.png",
-    "Ingeniería/Termodinámica 855c50ea520449b2a8e44316f47e7c32/Tema 2 7f2ae715885b4929bab75c92fa155a9a/Segundo principio de la termodinámica 8256b265549645b0b8d92405358229a1/Untitled 4.png",
     "Data Studies/Git/GIT COMANDOS.canvas",
     "Sin título 1.canvas"
   ]

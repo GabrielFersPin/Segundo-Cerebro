@@ -1,2 +1,3 @@
 - Trail life - Ray Jardine
 - El extranjero - Albert Camus
+- A philosophy of a software design - 

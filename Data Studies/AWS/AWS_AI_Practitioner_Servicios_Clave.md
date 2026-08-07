@@ -33,6 +33,8 @@ SageMaker proporciona herramientas para construir, entrenar y desplegar modelos 
 - **SageMaker Feature Store**: Repositorio centralizado para almacenar, descubrir y compartir variables (features) de ML.
 - **SageMaker Model Monitor**: Monitorea continuamente la calidad de los modelos en producción (detecta *data drift* y *model drift*).
 - **SageMaker Ground Truth**: Servicio para etiquetar (label) grandes volúmenes de datos de entrenamiento usando fuerza de trabajo humana o IA.
+- **Amazon Augmented AI**: Servicio que permite el humano revisar las predicciones de los modelos, particularmente de modelos de menos confianza. Puede integrar Textract, Rekognition, y modelos customizados.
+- **Amazon Personalize**: Es un servicio de recomendación en tiempo real utilizando ML.
 
 ## 3. 👁️ Servicios de IA Cognitivos (API Services)
 Servicios pre-entrenados listos para usar que no requieren experiencia en Machine Learning.
@@ -67,6 +69,7 @@ Chips diseñados específicamente por AWS para optimizar cargas de trabajo de ML
 ### 5. Seguridad, Compliance y Gobernanza
 
 - **Amazon Fraud Detector**: Es un servicio que usa ML para identificar potenciales actividades fraudulentas.
+- **AWS AI Service Card**: Documentación que publica AWS para cada servicio de IA, con su descripción, casos de uso, diseño de elecciones, consideraciones de responsabilidades de IA, limitaciones y mejores practicas para el deployment.
 ---
 
 ## 🎴 Flashcards
