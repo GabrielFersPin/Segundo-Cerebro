@@ -2,15 +2,15 @@
 area: Infraestructura-Nube
 cards-deck: Nube
 created: 2025-11-20
-modified: 2026-01-22
-nivel-comprension: 💡
-proxima-revision: '2026-06-01'
-status: 🌿 Creciendo
+modified: 2026-08-14
+nivel-comprension: ✅
+proxima-revision: 2026-08-21
+status: 🌳 Maduro
 tiempo-estimado: 10m
 tiempo-repaso: 30min
 tipo_nota: tecnica
-ultima-revision: '2026-05-25'
-veces-revisado: 2
+ultima-revision: 2026-08-14
+veces-revisado: 3
 ---
 
 # Amazon EC2 (Elastic Compute Cloud)
@@ -98,10 +98,7 @@ El concepto de "elasticidad" es fundamental: puedes escalar verticalmente (cambi
 
 **Características**:
 - Volúmenes de almacenamiento persistente que se conectan a instancias
-- Los datos persisten independientemente del ciclo de vida de la instancia
-- Puedes crear snapshots (backups) y restaurarlos cuando necesites
-- Permiten redimensionamiento dinámico sin downtime
-- Diferentes tipos: gp3 (SSD general), io2 (alto IOPS), st1 (throughput optimizado)
+
 
 **Relacionado**: [[Storage]] • [[Snapshots]] • [[Backup Strategies]]
 

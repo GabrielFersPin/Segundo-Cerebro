@@ -3,21 +3,21 @@ area: Fundamentos-DS
 cards-deck: Fundamentos DS
 complejidad: ⭐⭐
 created: 2025-12-15 19:17
-fecha-examen: ''
-modified: 2026-02-07
-nivel-comprension: 💡
+fecha-examen: ""
+modified: 2026-08-14
+nivel-comprension: 🎯
 origen: Clase
 prioridad: EXAMEN-LEJANO
 procesamiento: PROCESADO
-proxima-revision: '2026-06-01'
-status: 🌿 Creciendo
+proxima-revision: ""
+status: 🎉 Completado / Archivado
 tiempo-estimado: 15 min
-tiempo-repaso: ''
+tiempo-repaso: ""
 tipo-captura: concepto
 tipo_nota: tecnica
-ultima-revision: '2026-05-25'
+ultima-revision: 2026-08-14
 urgente: false
-veces-revisado: 2
+veces-revisado: 3
 ---
 
 # Regresión Logística

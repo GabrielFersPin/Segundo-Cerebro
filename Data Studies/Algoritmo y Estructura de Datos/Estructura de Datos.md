@@ -1,14 +1,14 @@
 ---
 created: 2025-11-26
-modified: 2025-12-10
-status: 🌿 Creciendo
+modified: 2026-08-12
+status: 🎉 Completado / Archivado
 tipo_nota: tecnica
 area: Algoritmos
 cards-deck: Algoritmos::Estructura-de-Datos
-nivel-comprension: 💡
-proxima-revision: 2025-12-24
-ultima-revision: 2025-12-10
-veces-revisado: 4
+nivel-comprension: 🎯
+proxima-revision: ""
+ultima-revision: 2026-08-12
+veces-revisado: 5
 estado: 🟢 Al día
 tiempo-repaso: 15min
 tiempo-estimado: 30m

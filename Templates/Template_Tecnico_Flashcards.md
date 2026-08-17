@@ -9,7 +9,6 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: <% await tp.system.prompt("🎴 Mazo (ej: Nube, Algoritmos, DataScience, Arquitectura):") %>
 ---
 
 # <% await tp.system.prompt("📌 Título del concepto:") %>

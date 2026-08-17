@@ -4,21 +4,23 @@ const fm = app.metadataCache.getFileCache(file)?.frontmatter || {};
 
 // 1. Seleccionar Nuevo Nivel de Comprensión
 const nuevoNivel = await tp.system.suggester(
-    ["❓ No entiendo", "🤔 Entiendo parcialmente", "💡 Entiendo bien", "✅ Domino el concepto", "🎯 Puedo enseñarlo"],
-    ["❓", "🤔", "💡", "✅", "🎯"]
+    ["❓ No entiendo", "🤔 Entiendo parcialmente", "💡 Entiendo bien", "✅ Domino el concepto", "🎯 Puedo enseñarlo", "🎉 No necesita más revisión / Archivada"],
+    ["❓", "🤔", "💡", "✅", "🎯", "COMPLETADO"]
 );
 
-// 2. Seleccionar Días para Próxima Revisión
-const diasParaProximaRevision = await tp.system.suggester(
-    ["📅 1 día", "📅 3 días", "📅 7 días", "📅 14 días", "📅 30 días", "📅 Personalizado"],
-    [1, 3, 7, 14, 30, "custom"]
-);
+// 2. Seleccionar Días para Próxima Revisión (si aplica)
+let dias = null;
+if (nuevoNivel !== "COMPLETADO") {
+    const diasParaProximaRevision = await tp.system.suggester(
+        ["📅 1 día", "📅 3 días", "📅 7 días", "📅 14 días", "📅 30 días", "📅 Personalizado"],
+        [1, 3, 7, 14, 30, "custom"]
+    );
 
-let dias;
-if (diasParaProximaRevision === "custom") {
-    dias = parseInt(await tp.system.prompt("Días hasta próxima revisión:", "7"));
-} else {
-    dias = diasParaProximaRevision;
+    if (diasParaProximaRevision === "custom") {
+        dias = parseInt(await tp.system.prompt("Días hasta próxima revisión:", "7"));
+    } else {
+        dias = diasParaProximaRevision;
+    }
 }
 
 // 3. Preguntar por tiempo estimado si no existe
@@ -29,8 +31,21 @@ if (!tiempoEstimado) {
 
 await app.fileManager.processFrontMatter(file, (fm) => {
     // A. Actualizaciones Esenciales
-    fm["nivel-comprension"] = nuevoNivel;
-    fm["proxima-revision"] = tp.date.now("YYYY-MM-DD", dias);
+    if (nuevoNivel === "COMPLETADO") {
+        fm["nivel-comprension"] = "🎯";
+        fm["proxima-revision"] = "";
+        fm.status = "🎉 Completado / Archivado";
+    } else {
+        fm["nivel-comprension"] = nuevoNivel;
+        fm["proxima-revision"] = tp.date.now("YYYY-MM-DD", dias);
+        if (nuevoNivel === "✅" || nuevoNivel === "🎯") {
+            fm.status = "🌳 Maduro";
+        } else if (nuevoNivel === "💡") {
+            fm.status = "🌿 Creciendo";
+        } else {
+            fm.status = "🌱 Semilla";
+        }
+    }
     fm["ultima-revision"] = tp.date.now("YYYY-MM-DD");
     fm.modified = tp.date.now("YYYY-MM-DD");
     
@@ -42,28 +57,23 @@ await app.fileManager.processFrontMatter(file, (fm) => {
     // C. Incrementar contador de repasos
     const vecesRevisado = fm["veces-revisado"] || 0;
     fm["veces-revisado"] = vecesRevisado + 1;
-    
-    // D. Actualizar status automáticamente según nivel
-    if (nuevoNivel === "✅" || nuevoNivel === "🎯") {
-        fm.status = "🌳 Maduro";
-    } else if (nuevoNivel === "💡") {
-        fm.status = "🌿 Creciendo";
-    } else {
-        fm.status = "🌱 Semilla";
-    }
 });
 
 // 4. Notificación final
-let mensaje = `✅ Nivel actualizado a ${nuevoNivel}\nPróxima revisión: ${tp.date.now("YYYY-MM-DD", dias)}\nRepasos totales: ${fm["veces-revisado"] + 1}`;
-
-if (nuevoNivel === "🤔" || nuevoNivel === "❓" || nuevoNivel === "💡") {
-    mensaje += `\n\n🚨 ¡Recuerda! Añade TAREAS de mejora (#mejora-...) a la sección "Plan de Mejora".`;
+let mensaje;
+if (nuevoNivel === "COMPLETADO") {
+    mensaje = `🎉 Nota marcada como completada.\nNo se programarán más revisiones en el Dashboard.\nRepasos totales: ${(fm["veces-revisado"] || 0) + 1}`;
+} else {
+    mensaje = `✅ Nivel actualizado a ${nuevoNivel}\nPróxima revisión: ${tp.date.now("YYYY-MM-DD", dias)}\nRepasos totales: ${(fm["veces-revisado"] || 0) + 1}`;
+    if (nuevoNivel === "🤔" || nuevoNivel === "❓" || nuevoNivel === "💡") {
+        mensaje += `\n\n🚨 ¡Recuerda! Añade TAREAS de mejora (#mejora-...) a la sección "Plan de Mejora".`;
+    }
 }
 
 new Notice(mensaje);
 
 // 5. MEJORA CLAVE: Crear la sección de Plan de Mejora si no existe, solo con tareas Kanban-compatibles.
-if (nuevoNivel !== "✅" && nuevoNivel !== "🎯") {
+if (nuevoNivel !== "✅" && nuevoNivel !== "🎯" && nuevoNivel !== "COMPLETADO") {
     let fileContent = await app.vault.read(file);
     let targetHeader = '## 🚧 Plan de Mejora / Tareas Pendientes';
     let targetLine = fileContent.indexOf(targetHeader);

@@ -2,16 +2,16 @@
 area: Algoritmos
 cards-deck: Algoritmos
 created: 2025-12-27
-modified: 2025-12-27
-nivel-comprension: 💡
+modified: 2026-08-12
+nivel-comprension: 🎯
 origen: PDF Tema5 (Visual)
-proxima-revision: '2026-06-01'
-status: 🌱
+proxima-revision: ""
+status: 🎉 Completado / Archivado
 tiempo-estimado: 15m
-tiempo-repaso: ''
+tiempo-repaso: ""
 tipo_nota: tecnica
-ultima-revision: '2026-05-25'
-veces-revisado: 2
+ultima-revision: 2026-08-12
+veces-revisado: 3
 ---
 
 # Resolución de Problemas 🎨

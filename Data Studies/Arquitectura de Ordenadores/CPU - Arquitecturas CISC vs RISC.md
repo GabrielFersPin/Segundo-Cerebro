@@ -2,15 +2,15 @@
 area: Arquitectura
 cards-deck: Arquitectura::CISC vs RISC
 created: 2024-12-13
-modified: 2025-12-25
-nivel-comprension: 💡
-proxima-revision: '2026-06-01'
-status: 🌿 Creciendo
+modified: 2026-08-12
+nivel-comprension: 🎯
+proxima-revision: ""
+status: 🎉 Completado / Archivado
 tiempo-estimado: 10m
 tiempo-repaso: 25min
 tipo_nota: tecnica
-ultima-revision: '2026-05-25'
-veces-revisado: 3
+ultima-revision: 2026-08-12
+veces-revisado: 4
 ---
 
 # CPU - Arquitecturas CISC vs RISC

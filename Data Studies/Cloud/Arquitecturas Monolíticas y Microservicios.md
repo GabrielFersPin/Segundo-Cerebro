@@ -1,15 +1,15 @@
 ---
 cards-deck: Nube::Monolítica-Microservicio
 created: 2025-11-02
-modified: 2026-01-22
-status: 🌳 Maduro
+modified: 2026-08-14
+status: 🎉 Completado / Archivado
 tipo_nota: tecnica
 area: Infraestructura-Nube
-nivel-comprension: ✅
-proxima-revision: 2026-02-21
-ultima-revision: 2026-01-22
+nivel-comprension: 🎯
+proxima-revision: ""
+ultima-revision: 2026-08-14
 tiempo-repaso: 5min
-veces-revisado: 1
+veces-revisado: 2
 tiempo-estimado: 5m
 ---
 

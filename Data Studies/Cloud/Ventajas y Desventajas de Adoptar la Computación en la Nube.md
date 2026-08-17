@@ -2,14 +2,15 @@
 cards-deck: Nube::Ventajas-Desventajas
 tipo_nota: tecnica
 area: Infraestructura-Nube
-nivel-comprension: 💡
-proxima-revision: 2025-11-27
-ultima-revision: 2025-11-20
+nivel-comprension: ✅
+proxima-revision: 2026-08-28
+ultima-revision: 2026-08-14
 tiempo-repaso: 5min
 status: 🌳 Maduro
-veces-revisado: 0
+veces-revisado: 1
 created: 2025-11-20
-modified: 2025-11-20
+modified: 2026-08-14
+tiempo-estimado: 10min
 ---
 
 # Ventajas y Desventajas de Adoptar la Computación en la Nube
@@ -29,7 +30,7 @@ modified: 2025-11-20
 
 ## 📝 Definición
 
-La adopción de la computación en la nube representa un cambio paradigmático en la gestión de recursos TI, ofreciendo beneficios significativos en términos de eficiencia, flexibilidad y escalabilidad, pero también presentando desafíos importantes en seguridad, dependencia tecnológica y cumplimiento normativo.
+La adopción de la computación en la nube representa un cambio pragmático en la gestión de recursos TI, ofreciendo beneficios significativos en términos de eficiencia, flexibilidad y escalabilidad, pero también presentando desafíos importantes en seguridad, dependencia tecnológica y cumplimiento normativo.
 
 ---
 
@@ -164,7 +165,7 @@ CAPEX vs OPEX en cloud::CAPEX (gastos de capital): inversiones iniciales en hard
 
 ## 📚 Referencias & Enlaces
 
-**Enlaces internos**: [[CAPEX vs OPEX]], [[Compliance Cloud]], [[Trabajo Remoto]]
+**Enlaces internos**: [[Modelos Servicios]]
 **Referencias externas**: [Cloud Economics](https://aws.amazon.com/economics/)
 **Fuente**: Apuntes de clase - Infraestructura y Servicios en la Nube
 

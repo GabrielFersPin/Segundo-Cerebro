@@ -385,7 +385,7 @@ Es un servicio enfocado en la gestión y gobernanza de datos
 
 ### 🔗 Conexiones
 
-- [[EC2_Amazon_Elastic_Compute_Cloud]]
+- [[Amazon EC2 (Elastic Compute Cloud)]]
 - [[Azure]]
 - [[Infraestructuras y Servicios en la Nube]]
 

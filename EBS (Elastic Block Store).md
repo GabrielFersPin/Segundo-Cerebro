@@ -1,47 +1,42 @@
 ---
-created: 2026-01-12 16:40
-modified: 2026-08-12
-area: Algoritmos
-tipo_nota: tecnica
-status: 🎉 Completado / Archivado
-nivel-comprension: 🎯
+created: 2026-08-14
+modified: 2026-08-14
+area: ""
+tipo_nota: ""
+status: 🌱
+nivel-comprension: ""
 proxima-revision: ""
-ultima-revision: 2026-08-12
-veces-revisado: 3
+ultima-revision: ""
+veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Algoritmos
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-complejidad: ⭐
-origen: UD4
-urgente: false
-tiempo-estimado: "2"
 ---
 
-# Algoritmos de Programación dinámica
+# EBS (Elastic Block Store)
 
 > [!info] Contexto captura
-> **Fecha**: 2026-01-12 16:40
+> **Fecha**: 2026-08-14 09:57
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
-
+---
 
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> *Programación dinámica puede resolver problemaas complejos*
+> Volúmenes de almacenamiento persistente que se conectan a instancias
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
+- Los datos persisten independientemente del ciclo de vida de la instancia
+- Puedes crear snapshots (backups) y restaurarlos cuando necesites
+- Permiten redimensionamiento dinámico sin downtime
+- Diferentes tipos: gp3 (SSD general), io2 (alto IOPS), st1 (throughput optimizado)
 
 
-
-
+---
 
 ## 🔑 Keywords / Conceptos clave
 
@@ -50,15 +45,24 @@ tiempo-estimado: "2"
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
 
+---
 
+## 🎴 Flashcards
 
+_Flashcards pendientes de crear_
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
+---
 
 ## ❓ Preguntas / Dudas pendientes
 
 - [ ]
 - [ ]
 
-
+---
 
 ## 🧩 Conexiones potenciales
 
@@ -67,7 +71,7 @@ tiempo-estimado: "2"
 -
 -
 
-
+---
 
 ## ✅ Checklist procesamiento
 
@@ -78,7 +82,7 @@ tiempo-estimado: "2"
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
-
+---
 
 ## 💭 Notas adicionales / Ideas rápidas
 
@@ -87,18 +91,18 @@ tiempo-estimado: "2"
 
 
 
-
+---
 
 ## 📋 Metadata resumen
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-01-12 16:40 |
-| Asignatura | `= this.asignatura` |
+| Capturado | 2026-08-14 09:57 |
+| Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
 
-
+---
 
 #pendiente-procesar #captura-rapida

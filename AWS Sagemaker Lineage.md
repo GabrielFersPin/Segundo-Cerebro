@@ -1,73 +1,80 @@
 ---
-created: 2026-01-12 16:40
-modified: 2026-08-12
-area: Algoritmos
-tipo_nota: tecnica
-status: 🎉 Completado / Archivado
-nivel-comprension: 🎯
+created: 2026-08-14
+modified: 2026-08-14
+area: ""
+tipo_nota: ""
+status: 🌱
+nivel-comprension: ""
 proxima-revision: ""
-ultima-revision: 2026-08-12
-veces-revisado: 3
+ultima-revision: ""
+veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Algoritmos
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-complejidad: ⭐
-origen: UD4
-urgente: false
-tiempo-estimado: "2"
 ---
 
-# Algoritmos de Programación dinámica
+# AWS Sagemaker Lineage
 
 > [!info] Contexto captura
-> **Fecha**: 2026-01-12 16:40
+> **Fecha**: 2026-08-14 14:15
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
-
+---
 
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> *Programación dinámica puede resolver problemaas complejos*
+> SageMaker Lineage es un servicio para rastrear el “linaje” (provenance) de los modelos en AWS: cómo se llegó a un modelo final a partir de datos y pasos anteriores.
+
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
+En términos simples, ayuda a responder:
 
+- qué datos se usaron,
+- qué código/experimentos y transformaciones se ejecutaron,
+- y cómo eso produjo un modelo que luego se entrenó o se desplegó.
 
+Sirve para auditoría, reproducibilidad y entender el origen de decisiones del pipeline.
 
-
+---
 
 ## 🔑 Keywords / Conceptos clave
 
-`keyword1`, `keyword2`, `keyword3`
+`AWS`, `Sagemaker`, `Sagemaker Lineage`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
 
+---
 
+## 🎴 Flashcards
 
+_Flashcards pendientes de crear_
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
+---
 
 ## ❓ Preguntas / Dudas pendientes
 
 - [ ]
 - [ ]
 
-
+---
 
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--
+- [[AWS Sagemaker Services]]
 -
 
-
+---
 
 ## ✅ Checklist procesamiento
 
@@ -78,27 +85,27 @@ tiempo-estimado: "2"
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
-
+---
 
 ## 💭 Notas adicionales / Ideas rápidas
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
+Es un servicio que verifica como ha sido todo el proceso del despliegue del modelo, desde la ingesta de los datos de donde vienen hasta como se ha utilizado el modelo de estos datos.
 
 
-
-
+---
 
 ## 📋 Metadata resumen
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-01-12 16:40 |
-| Asignatura | `= this.asignatura` |
+| Capturado | 2026-08-14 14:15 |
+| Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
 
-
+---
 
 #pendiente-procesar #captura-rapida

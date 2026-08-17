@@ -1,14 +1,14 @@
 ---
 cards-deck: Arquitectura::Hardware
 created: 2025-11-04
-modified: 2026-01-17
-status: 🌳 Maduro
+modified: 2026-08-12
+status: 🎉 Completado / Archivado
 tipo_nota: tecnica
 area: Arquitectura
-nivel-comprension: ✅
-proxima-revision: 2026-02-16
-ultima-revision: 2026-01-17
-veces-revisado: 2
+nivel-comprension: 🎯
+proxima-revision: ""
+ultima-revision: 2026-08-12
+veces-revisado: 3
 estado: 🟡 Atrasado
 tiempo-estimado: 2min
 tiempo-repaso: ""

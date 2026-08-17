@@ -5,17 +5,17 @@ complejidad: ⭐⭐⭐⭐⭐
 created: 2026-01-12
 fecha-examen: 2025-02-15
 fuente: UD4 - Algoritmos sobre Grafos
-modified: 2026-01-12
-nivel-comprension: 💡
+modified: 2026-08-12
+nivel-comprension: 🎯
 prioridad: EXAMEN-LEJANO
 procesamiento: COMPLETO
-proxima-revision: '2026-06-01'
-status: 🌿 Creciendo
+proxima-revision: ""
+status: 🎉 Completado / Archivado
 tiempo-estimado: 3h
-tiempo-repaso: ''
+tiempo-repaso: ""
 tipo_nota: tecnica
-ultima-revision: '2026-05-25'
-veces-revisado: 2
+ultima-revision: 2026-08-12
+veces-revisado: 3
 ---
 
 # Algoritmos sobre Grafos

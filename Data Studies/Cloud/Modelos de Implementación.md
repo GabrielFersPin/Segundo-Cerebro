@@ -2,14 +2,15 @@
 area: Infraestructura-Nube
 cards-deck: Nube::Modelos-Implementacion
 created: 2025-11-20
-modified: 2025-11-20
-nivel-comprension: 🤔
-proxima-revision: '2026-06-01'
-status: 🌿 Creciendo
+modified: 2026-08-14
+nivel-comprension: ✅
+proxima-revision: 2026-08-21
+status: 🌳 Maduro
 tiempo-repaso: 5min
 tipo_nota: tecnica
-ultima-revision: '2026-05-25'
-veces-revisado: 1
+ultima-revision: 2026-08-14
+veces-revisado: 2
+tiempo-estimado: 20min
 ---
 
 # Modelos de Implementación en la Nube

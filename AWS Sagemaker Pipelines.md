@@ -1,73 +1,82 @@
 ---
-created: 2026-01-12 16:40
-modified: 2026-08-12
-area: Algoritmos
-tipo_nota: tecnica
-status: 🎉 Completado / Archivado
-nivel-comprension: 🎯
+created: 2026-08-14
+modified: 2026-08-14
+area: ""
+tipo_nota: ""
+status: 🌱
+nivel-comprension: ""
 proxima-revision: ""
-ultima-revision: 2026-08-12
-veces-revisado: 3
+ultima-revision: ""
+veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Algoritmos
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-complejidad: ⭐
-origen: UD4
-urgente: false
-tiempo-estimado: "2"
 ---
 
-# Algoritmos de Programación dinámica
+# Sagemaker Pipelines
 
 > [!info] Contexto captura
-> **Fecha**: 2026-01-12 16:40
+> **Fecha**: 2026-08-14 14:03
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
-
+---
 
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> *Programación dinámica puede resolver problemaas complejos*
+> SageMaker Pipelines es un servicio de AWS para orquestar de forma automática todo el flujo de trabajo de machine learning.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
+Normalmente sirve para encadenar etapas como:
+
+- preprocesamiento de datos
+- entrenamiento
+- evaluación
+- registro del modelo (model registry, si lo usas)
+- tuning (cuando aplica)
+- despliegue (por ejemplo, creando/updating endpoints)
 
 
 
-
+---
 
 ## 🔑 Keywords / Conceptos clave
 
-`keyword1`, `keyword2`, `keyword3`
+`AWS`, `Sagemaker`, `Sagemaker Pipelines`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
 
+---
 
+## 🎴 Flashcards
 
+_Flashcards pendientes de crear_
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
+---
 
 ## ❓ Preguntas / Dudas pendientes
 
 - [ ]
 - [ ]
 
-
+---
 
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--
+- [[AWS Sagemaker Services]]
 -
 
-
+---
 
 ## ✅ Checklist procesamiento
 
@@ -78,27 +87,27 @@ tiempo-estimado: "2"
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
-
+---
 
 ## 💭 Notas adicionales / Ideas rápidas
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
+Es un producto que orquestra el todo pipeline de los modelos
 
 
-
-
+---
 
 ## 📋 Metadata resumen
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-01-12 16:40 |
-| Asignatura | `= this.asignatura` |
+| Capturado | 2026-08-14 14:03 |
+| Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
 
-
+---
 
 #pendiente-procesar #captura-rapida

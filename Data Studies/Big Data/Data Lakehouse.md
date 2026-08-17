@@ -2,14 +2,15 @@
 area: Databricks
 cards-deck: DataScience
 created: 2026-04-27
-modified: 2026-04-27
-nivel-comprension: 🤔
-proxima-revision: '2026-06-01'
-status: 🌱 Semilla
+modified: 2026-08-14
+nivel-comprension: 🎯
+proxima-revision: ""
+status: 🎉 Completado / Archivado
 tiempo-repaso: 15min
 tipo_nota: tecnica
-ultima-revision: '2026-05-25'
-veces-revisado: 1
+ultima-revision: 2026-08-14
+veces-revisado: 2
+tiempo-estimado: 10min
 ---
 
 # 📌 Data Lakehouse

@@ -1,14 +1,14 @@
 ---
 cards-deck: Algoritmos::Big O
 created: 2025-11-04
-modified: 2025-12-23
-status: 🌳 Maduro
+modified: 2026-08-12
+status: 🎉 Completado / Archivado
 tipo_nota: tecnica
 area: Algoritmos
-nivel-comprension: ✅
-proxima-revision: 2026-01-22
-ultima-revision: 2025-12-23
-veces-revisado: 7
+nivel-comprension: 🎯
+proxima-revision: ""
+ultima-revision: 2026-08-12
+veces-revisado: 8
 estado: 🟢 Al día
 tiempo-estimado: 5m
 tiempo-repaso: ""

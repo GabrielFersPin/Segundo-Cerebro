@@ -1,14 +1,14 @@
 ---
 cards-deck: Algoritmos:Big O
 created: 2025-11-26
-modified: 2025-12-23
-status: 🌿 Creciendo
+modified: 2026-08-12
+status: 🎉 Completado / Archivado
 tipo_nota: tecnica
 area: Algoritmos
-nivel-comprension: 💡
-proxima-revision: 2026-01-22
-ultima-revision: 2025-12-23
-veces-revisado: 2
+nivel-comprension: 🎯
+proxima-revision: ""
+ultima-revision: 2026-08-12
+veces-revisado: 3
 estado: 🟢 Al día
 tiempo-repaso: 15min
 tiempo-estimado: 5min

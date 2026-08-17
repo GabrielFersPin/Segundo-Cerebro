@@ -1,20 +1,20 @@
 ---
 cards-deck: Algoritmos:Búsqueda
 created: 2024-11-27
-modified: 2026-01-14
-status: 🌿 Creciendo
+modified: 2026-08-12
+status: 🎉 Completado / Archivado
 tipo_nota: tecnica
 area: Algoritmos
 procesamiento: COMPLETO
 prioridad: EXAMEN-LEJANO
 fecha-examen: 2025-02-15
-proxima-revision: 2026-01-28
+proxima-revision: ""
 complejidad: ⭐⭐⭐⭐
 tiempo-estimado: 2h
 fuente: UD3 - Algoritmos y Estructuras de Datos UAX
-nivel-comprension: 💡
-ultima-revision: 2026-01-14
-veces-revisado: 3
+nivel-comprension: 🎯
+ultima-revision: 2026-08-12
+veces-revisado: 4
 tiempo-repaso: ""
 ---
 

@@ -1,11 +1,11 @@
 ---
-nivel-comprension: 💡
-proxima-revision: 2026-01-25
-ultima-revision: 2026-01-15
-modified: 2026-01-15
+nivel-comprension: 🎯
+proxima-revision: ""
+ultima-revision: 2026-08-12
+modified: 2026-08-12
 tiempo-estimado: 15m
-veces-revisado: 3
-status: 🌿 Creciendo
+veces-revisado: 4
+status: 🎉 Completado / Archivado
 cards-deck: Arquitectura::CPU-Fundamentos
 created: 2026-01-15
 tipo_nota: tecnica

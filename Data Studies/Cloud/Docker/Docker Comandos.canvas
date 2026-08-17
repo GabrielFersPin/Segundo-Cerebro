@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"4334909b91e8eb06","type":"file","file":"Data Studies/Cloud/Docker/00_Docker_Core.md","x":-200,"y":-200,"width":400,"height":400},
+		{"id":"4334909b91e8eb06","type":"file","file":"Data Studies/Cloud/Docker/Docker.md","x":-200,"y":-200,"width":400,"height":400},
 		{"id":"325201d29b488276","type":"file","file":"Data Studies/Cloud/Docker/01_Imagenes.md","x":-960,"y":-200,"width":400,"height":400,"color":"2"},
 		{"id":"d452c080a0666264","type":"file","file":"Data Studies/Cloud/Docker/02_Contenedores.md","x":560,"y":-200,"width":400,"height":400,"color":"4"},
 		{"id":"c77e9ea1045e499c","type":"file","file":"Data Studies/Cloud/Docker/03_Dockerfile.md","x":-200,"y":-960,"width":400,"height":400,"color":"2"},

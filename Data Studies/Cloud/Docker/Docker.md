@@ -1,15 +1,16 @@
 ---
 area: Infraestructura-Nube
-cards-deck: ''
+cards-deck: ""
 created: 2025-11-20
-modified: 2025-11-20
-nivel-comprension: 🤔
-proxima-revision: '2026-06-01'
-status: 🌿 Creciendo
+modified: 2026-08-14
+nivel-comprension: ✅
+proxima-revision: 2026-09-13
+status: 🌳 Maduro
 tiempo-repaso: 5min
 tipo_nota: tecnica
-ultima-revision: '2026-05-25'
-veces-revisado: 1
+ultima-revision: 2026-08-14
+veces-revisado: 2
+tiempo-estimado: 20min
 ---
 # 🐳 DOCKER
 
@@ -20,6 +21,7 @@ veces-revisado: 1
 - Aísla aplicaciones del sistema host
 - "Funciona en mi máquina" → "Funciona en todas las máquinas"
 - Ligero comparado con VMs (comparte kernel del OS)
+- ![[Pasted image 20260814100325.png]]
 
 ## Conceptos Core
 - **Imagen**: Plantilla inmutable (como una clase)

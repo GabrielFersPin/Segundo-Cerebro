@@ -2,14 +2,14 @@
 cards-deck: Nube::Modelos-Servicios
 tipo_nota: tecnica
 area: Infraestructura-Nube
-nivel-comprension: ✅
-proxima-revision: 2026-02-21
-ultima-revision: 2026-01-22
+nivel-comprension: 🎯
+proxima-revision: 2027-03-02
+ultima-revision: 2026-08-14
 tiempo-repaso: 5min
 status: 🌳 Maduro
-veces-revisado: 1
+veces-revisado: 2
 created: 2025-11-20
-modified: 2026-01-22
+modified: 2026-08-14
 tiempo-estimado: 10min
 ---
 

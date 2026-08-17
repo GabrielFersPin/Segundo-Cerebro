@@ -2,16 +2,16 @@
 area: Algoritmos
 cards-deck: Algoritmos
 created: 2025-12-27
-modified: 2026-01-14
-nivel-comprension: 🤔
+modified: 2026-08-12
+nivel-comprension: 🎯
 origen: PDF Tema6 (Visual)
-proxima-revision: '2026-06-01'
-status: 🌱 Semilla
+proxima-revision: ""
+status: 🎉 Completado / Archivado
 tiempo-estimado: 15m
-tiempo-repaso: ''
+tiempo-repaso: ""
 tipo_nota: tecnica
-ultima-revision: '2026-05-25'
-veces-revisado: 3
+ultima-revision: 2026-08-12
+veces-revisado: 4
 ---
 
 # Diseño de Algoritmos  🎨

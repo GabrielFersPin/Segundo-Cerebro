@@ -1,37 +1,29 @@
 ---
-created: 2026-01-12 16:40
-modified: 2026-08-12
-area: Algoritmos
-tipo_nota: tecnica
-status: 🎉 Completado / Archivado
-nivel-comprension: 🎯
+created: 2026-08-14
+modified: 2026-08-14
+area: ""
+tipo_nota: ""
+status: 🌱
+nivel-comprension: ""
 proxima-revision: ""
-ultima-revision: 2026-08-12
-veces-revisado: 3
+ultima-revision: ""
+veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Algoritmos
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-complejidad: ⭐
-origen: UD4
-urgente: false
-tiempo-estimado: "2"
 ---
 
-# Algoritmos de Programación dinámica
+# AWS Cloudfront
 
 > [!info] Contexto captura
-> **Fecha**: 2026-01-12 16:40
+> **Fecha**: 2026-08-14 13:15
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
-
+---
 
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> *Programación dinámica puede resolver problemaas complejos*
+> CloudFront is a CDN (Content Delivery Network) like an “in-between” layer that sits between your website/origin server and visitors. It has edge locations around the world, so when someone requests content, CloudFront can serve it from the nearest edge site (or fetch it from your origin only if it’s not cached yet). That makes delivery faster and reduces the load on your origin server
 
 
 ### 🎯 Detalles / Contenido
@@ -41,64 +33,73 @@ tiempo-estimado: "2"
 
 
 
-
+---
 
 ## 🔑 Keywords / Conceptos clave
 
-`keyword1`, `keyword2`, `keyword3`
+`AWS`, `CDN`, `CloudFront`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
 
+---
 
+## 🎴 Flashcards
 
+_Flashcards pendientes de crear_
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
+---
 
 ## ❓ Preguntas / Dudas pendientes
 
 - [ ]
 - [ ]
 
-
+---
 
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--
+- [[Cloud Computing]]
 -
 
-
+---
 
 ## ✅ Checklist procesamiento
 
 - [ ] Revisar y expandir contenido
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [ ] Conectar con otras notas ([[]])
+- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
-
+---
 
 ## 💭 Notas adicionales / Ideas rápidas
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
+Es un intermedio entre la backend y el frontend en que puede enviar información mucho más rápido por tener servidores en muchas partes del mundo y conectar directamente con la región del usuario.
 
 
-
-
+---
 
 ## 📋 Metadata resumen
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-01-12 16:40 |
-| Asignatura | `= this.asignatura` |
+| Capturado | 2026-08-14 13:15 |
+| Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
 
-
+---
 
 #pendiente-procesar #captura-rapida

@@ -1,37 +1,29 @@
 ---
-created: 2026-01-12 16:40
+created: 2026-08-12
 modified: 2026-08-12
-area: Algoritmos
-tipo_nota: tecnica
-status: 🎉 Completado / Archivado
-nivel-comprension: 🎯
+area: "Amazon Titan"
+tipo_nota: "captura_rapida"
+status: 🌱
+nivel-comprension: ""
 proxima-revision: ""
-ultima-revision: 2026-08-12
-veces-revisado: 3
+ultima-revision: ""
+veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Algoritmos
-procesamiento: CAPTURA-RAPIDA
-prioridad: FUNDACIONAL
-tipo-captura: concepto
-complejidad: ⭐
-origen: UD4
-urgente: false
-tiempo-estimado: "2"
 ---
 
-# Algoritmos de Programación dinámica
+# Amazon Titan
 
 > [!info] Contexto captura
-> **Fecha**: 2026-01-12 16:40
+> **Fecha**: 2026-08-12 12:56
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
-
+---
 
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> *Programación dinámica puede resolver problemaas complejos*
+>  Is a FM provided by Amazon acts as a general-purpose foundation model and is a great option if you require tax generation capabilities.
 
 
 ### 🎯 Detalles / Contenido
@@ -41,24 +33,31 @@ tiempo-estimado: "2"
 
 
 
-
+---
 
 ## 🔑 Keywords / Conceptos clave
 
-`keyword1`, `keyword2`, `keyword3`
+`AWS`, `FM`, `Bedrock`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
 
+---
 
+## 🎴 Flashcards
 
+¿Qué es Amazon Titan?::Es un modelo fundacional (FM) de propósito general creado por Amazon, ideal para tareas de generación y procesamiento de texto e imágenes. #aws #bedrock #card
+
+¿En qué plataforma de AWS se suele consumir Amazon Titan?::En Amazon Bedrock. #aws #bedrock #card
+
+---
 
 ## ❓ Preguntas / Dudas pendientes
 
 - [ ]
 - [ ]
 
-
+---
 
 ## 🧩 Conexiones potenciales
 
@@ -67,18 +66,18 @@ tiempo-estimado: "2"
 -
 -
 
-
+---
 
 ## ✅ Checklist procesamiento
 
-- [ ] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
+- [x] Revisar y expandir contenido ✅ 2026-08-12
+- [x] Crear flashcards si es necesario ✅ 2026-08-12
 - [ ] Hacer ejercicios relacionados
 - [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
-
+---
 
 ## 💭 Notas adicionales / Ideas rápidas
 
@@ -87,18 +86,18 @@ tiempo-estimado: "2"
 
 
 
-
+---
 
 ## 📋 Metadata resumen
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-01-12 16:40 |
-| Asignatura | `= this.asignatura` |
+| Capturado | 2026-08-12 12:56 |
+| Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
 
-
+---
 
 #pendiente-procesar #captura-rapida
