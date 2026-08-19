@@ -9,12 +9,13 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+estado: "pendiente"
 ---
 
-# AWS Sagemaker Inference
+# AWS Cloudfront
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 13:58
+> **Fecha**: 2026-08-14 13:15
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,32 +24,21 @@ tiempo-repaso: ""
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Inference es la parte de SageMaker destinada a obtener predicciones usando un modelo entrenado.
+> CloudFront is a CDN (Content Delivery Network) like an “in-between” layer that sits between your website/origin server and visitors. It has edge locations around the world, so when someone requests content, CloudFront can serve it from the nearest edge site (or fetch it from your origin only if it’s not cached yet). That makes delivery faster and reduces the load on your origin server
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-Incluye el proceso de:
 
-- desplegar el modelo,
-- recibir entradas (solicitudes) desde tu app,
-- ejecutar el modelo en instancias de inferencia,
-- devolver la salida (predicción).
-
-Dependiendo de cómo lo uses, “inference” puede referirse a:
-
-- Endpoints (infra “siempre lista” para responder),
-- batch transform (predicciones por lotes),
-- y otros modos gestionados para inferencia.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Inference`
+`AWS`, `CDN`, `CloudFront`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -76,7 +66,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[AWS Sagemaker Services]]
+- [[Cloud Computing]]
 -
 
 ---
@@ -86,7 +76,7 @@ _Flashcards pendientes de crear_
 - [ ] Revisar y expandir contenido
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [ ] Conectar con otras notas ([[]])
+- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -96,7 +86,8 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Se puede obtener predicciones usando el modelo entrenado
+Es un intermedio entre la backend y el frontend en que puede enviar información mucho más rápido por tener servidores en muchas partes del mundo y conectar directamente con la región del usuario.
+
 
 ---
 
@@ -104,7 +95,7 @@ Se puede obtener predicciones usando el modelo entrenado
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 13:58 |
+| Capturado | 2026-08-14 13:15 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

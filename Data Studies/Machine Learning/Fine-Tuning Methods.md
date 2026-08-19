@@ -1,24 +1,25 @@
 ---
 created: 2026-05-22 09:34
-modified: 2026-05-22 09:34
+modified: 2026-08-18
 area: Machine Learning
 tipo_nota: captura_rapida
-status: 🔴 Por procesar
-nivel-comprension: "❓"
-proxima-revision: 2026-05-29
-ultima-revision: 2026-05-22
-veces-revisado: 0
+status: 🎉 Completado / Archivado
+nivel-comprension: 🎯
+proxima-revision: ""
+ultima-revision: 2026-08-18
+veces-revisado: 1
 tiempo-repaso: ""
-cards-deck: 
+cards-deck:
 procesamiento: CAPTURA-RAPIDA
 prioridad: EXAMEN-PROXIMO
 tipo-captura: concepto
 complejidad: ⭐
 origen: Curso
 urgente: false
-tags: 
+tags:
 deck: Obsidian::Fine-Tuning
 profesor: No especificado
+tiempo-estimado: 10min
 ---
 
 

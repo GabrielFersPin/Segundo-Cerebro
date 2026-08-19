@@ -4,7 +4,7 @@ cards-deck: Nube
 created: 2025-11-20
 modified: 2026-08-14
 nivel-comprension: ✅
-proxima-revision: 2026-08-21
+dias-para-revision: 2
 status: 🌳 Maduro
 tiempo-estimado: 10m
 tiempo-repaso: 30min
@@ -90,7 +90,7 @@ El concepto de "elasticidad" es fundamental: puedes escalar verticalmente (cambi
 - Puedes especificar protocolos, puertos y rangos de IP
 - Se pueden modificar en caliente sin reiniciar la instancia
 
-**Relacionado**: [[Network Security]] • [[VPC]]
+**Relacionado**: [[Network Security]] • [[Amazon VPC (Virtual Private Cloud)]]
 
 ### 📌 EBS (Elastic Block Store)
 

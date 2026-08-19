@@ -4,7 +4,7 @@ cards-deck: ""
 created: 2025-11-20
 modified: 2026-08-14
 nivel-comprension: ✅
-proxima-revision: 2026-09-13
+dias-para-revision: 25
 status: 🌳 Maduro
 tiempo-repaso: 5min
 tipo_nota: tecnica

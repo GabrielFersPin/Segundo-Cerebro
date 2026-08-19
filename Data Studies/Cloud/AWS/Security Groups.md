@@ -9,12 +9,13 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+estado: "pendiente"
 ---
 
-# AWS Site-to-Site VPN
+# Security Groups
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 09:41
+> **Fecha**: 2026-08-14 09:52
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,21 +24,25 @@ tiempo-repaso: ""
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> Site-to-Site VPN creates an ecnrypted network path between you on-premises network and your AWS Cloud network. This connection between your on-premises network and your AWS Cloud network uses the internet.
+> Actúan como firewalls virtuales a nivel de instancia
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-
+**Características**:
+- Controlan tráfico de entrada (inbound) y salida (outbound)
+- Son stateful: si permites entrada, la respuesta se permite automáticamente
+- Puedes especificar protocolos, puertos y rangos de IP
+- Se pueden modificar en caliente sin reiniciar la instancia
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `VPN`, `Site-to-Site`
+`AWS`, `VPC`, `Security Groups`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -46,7 +51,7 @@ tiempo-repaso: ""
 
 ## 🎴 Flashcards
 
-_Flashcards pendientes de crear_
+Security Group:::Firewall virtual a nivel de instancia que controla tráfico inbound/outbound de forma stateful #security #networking #card
 
 > 💡 **Formato recomendado**:
 > - Inline: `¿Pregunta?::Respuesta #tags`
@@ -64,8 +69,8 @@ _Flashcards pendientes de crear_
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-
-- [[AWS]]
+[[AWS - Seguridad Compliance y Gobernanza]]
+-
 -
 
 ---
@@ -73,7 +78,7 @@ _Flashcards pendientes de crear_
 ## ✅ Checklist procesamiento
 
 - [ ] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
+- [x] Crear flashcards si es necesario ✅ 2026-08-14
 - [ ] Hacer ejercicios relacionados
 - [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
 - [ ] Actualizar nivel de comprensión
@@ -84,8 +89,8 @@ _Flashcards pendientes de crear_
 ## 💭 Notas adicionales / Ideas rápidas
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
+Actúa como una capa de seguridad de la instancia
 
-Es un servicio para conectar de forma segura entre tu y AWS
 
 
 ---
@@ -94,7 +99,7 @@ Es un servicio para conectar de forma segura entre tu y AWS
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 09:41 |
+| Capturado | 2026-08-14 09:52 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

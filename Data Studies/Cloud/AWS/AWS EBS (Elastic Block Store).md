@@ -1,27 +1,21 @@
 ---
-created: 2026-06-09 12:09
-modified: 2026-06-09 12:09
-area: Model Destillation
-tipo_nota: captura_rapida
+created: 2026-08-14
+modified: 2026-08-14
+area: ""
+tipo_nota: ""
 status: 🌱
 nivel-comprension: ""
-dias-para-revision: -64
-ultima-revision: 2026-06-09
+proxima-revision: ""
+ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Data Distillation
-procesamiento: CAPTURA-RAPIDA
-prioridad: EXAMEN-PROXIMO
-tipo-captura: concepto
-complejidad: ⭐
-origen: curso
-urgente: false
+estado: "pendiente"
 ---
 
-# Model Destillation
+# EBS (Elastic Block Store)
 
 > [!info] Contexto captura
-> **Fecha**: 2026-06-09 12:29
+> **Fecha**: 2026-08-14 09:57
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -30,15 +24,17 @@ urgente: false
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> *Escribe aquí la idea principal o el concepto clave en 1-2 frases*
+> Volúmenes de almacenamiento persistente que se conectan a instancias
 
 
 ### 🎯 Detalles / Contenido
 
->[!Definición] Es una técnica que utiliza un modelo grande para entrenar uno más pequeño para reducir el coste de inferencia.
->El modelo 'alumno' aprende los outputs del modelo 'profesor' sin necesidad de aprender por los datos en bruto, que es más caro.
->Puede ser utilizado en Amazon Bedrock 
+<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
+- Los datos persisten independientemente del ciclo de vida de la instancia
+- Puedes crear snapshots (backups) y restaurarlos cuando necesites
+- Permiten redimensionamiento dinámico sin downtime
+- Diferentes tipos: gp3 (SSD general), io2 (alto IOPS), st1 (throughput optimizado)
 
 
 ---
@@ -50,7 +46,16 @@ urgente: false
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
 
+---
 
+## 🎴 Flashcards
+
+_Flashcards pendientes de crear_
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
 ---
 
 ## ❓ Preguntas / Dudas pendientes
@@ -93,7 +98,7 @@ urgente: false
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-06-09 12:29 |
+| Capturado | 2026-08-14 09:57 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

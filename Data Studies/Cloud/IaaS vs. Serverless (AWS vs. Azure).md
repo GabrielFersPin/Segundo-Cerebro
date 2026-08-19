@@ -3,7 +3,7 @@ cards-deck: Nube::AWS vs. Azure
 created: 2026-01-22
 modified: 2026-01-22
 nivel-comprension: 💡 Entiendo bien
-proxima-revision: '2026-06-01'
+dias-para-revision: -79
 status: 🌿 Creciendo
 tecnica asignatura: Infraestructura-Nube
 tiempo-repaso: 15min

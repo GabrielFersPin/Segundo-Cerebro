@@ -9,12 +9,13 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+estado: "pendiente"
 ---
 
-# Security Groups
+# AWS Sagemaker Endpoints
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 09:52
+> **Fecha**: 2026-08-14 13:53
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,25 +24,32 @@ tiempo-repaso: ""
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> Actúan como firewalls virtuales a nivel de instancia
+> In AWS, SageMaker Endpoints are the hosted, always-on (or managed) URLs where you deploy a trained ML model so applications can send requests and get predictions.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-**Características**:
-- Controlan tráfico de entrada (inbound) y salida (outbound)
-- Son stateful: si permites entrada, la respuesta se permite automáticamente
-- Puedes especificar protocolos, puertos y rangos de IP
-- Se pueden modificar en caliente sin reiniciar la instancia
+How they’re typically used:
+
+- You train a model in SageMaker.
+- You deploy it to an endpoint.
+- Your app then calls that endpoint (e.g., over HTTPS) with input data.
+- SageMaker runs the model and returns the prediction result.
+
+Key ideas:
+
+- They provide scaling and resource management around the model.
+- You can configure things like how many instances handle traffic and deployment variants (for updates/A-B style rollouts).
+
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `VPC`, `Security Groups`
+`AWS`, `Sagemaker`, `Sagemaker Endpoints`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -50,7 +58,7 @@ tiempo-repaso: ""
 
 ## 🎴 Flashcards
 
-Security Group:::Firewall virtual a nivel de instancia que controla tráfico inbound/outbound de forma stateful #security #networking #card
+_Flashcards pendientes de crear_
 
 > 💡 **Formato recomendado**:
 > - Inline: `¿Pregunta?::Respuesta #tags`
@@ -68,8 +76,8 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-[[AWS - Seguridad Compliance y Gobernanza]]
--
+
+- [[AWS Sagemaker Services]]
 -
 
 ---
@@ -77,7 +85,7 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 ## ✅ Checklist procesamiento
 
 - [ ] Revisar y expandir contenido
-- [x] Crear flashcards si es necesario ✅ 2026-08-14
+- [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
 - [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
 - [ ] Actualizar nivel de comprensión
@@ -88,8 +96,8 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 ## 💭 Notas adicionales / Ideas rápidas
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
-Actúa como una capa de seguridad de la instancia
 
+Es un recurso para conectar el modelo con el frontend por una llamada a la API
 
 
 ---
@@ -98,7 +106,7 @@ Actúa como una capa de seguridad de la instancia
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 09:52 |
+| Capturado | 2026-08-14 13:53 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

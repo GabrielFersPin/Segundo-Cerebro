@@ -1,20 +1,20 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
+created: 2026-08-19
+modified: 2026-08-19
 area: ""
-tipo_nota: ""
+tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: ""
-ultima-revision: ""
+proxima-revision: 2026-08-22
+ultima-revision: 2026-08-19
 veces-revisado: 0
-tiempo-repaso: ""
+tiempo-repaso: 5min
 ---
 
-# EBS (Elastic Block Store)
+# Serverless
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 09:57
+> **Fecha**: 2026-08-19 13:39
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,24 +23,27 @@ tiempo-repaso: ""
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> Volúmenes de almacenamiento persistente que se conectan a instancias
+>  Serverless significa que no administras servidores: la infraestructura se gestiona por el proveedor (para ti).
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-- Los datos persisten independientemente del ciclo de vida de la instancia
-- Puedes crear snapshots (backups) y restaurarlos cuando necesites
-- Permiten redimensionamiento dinámico sin downtime
-- Diferentes tipos: gp3 (SSD general), io2 (alto IOPS), st1 (throughput optimizado)
+En vez de aprovisionar y mantener EC2/VMs, sueles:
+
+- escribir funciones o configurar tareas,
+- y el servicio se encarga de escalar automáticamente según la demanda,
+- cobrando normalmente por uso (ejecuciones/tiempo o recursos), no por mantener servidores encendidos.
+
+Ejemplos típicos: AWS Lambda, API Gateway, y servicios administrados como algunos componentes de S3/step functions.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`keyword1`, `keyword2`, `keyword3`
+`Cloud`, `AWS`, `Azure`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -68,7 +71,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--
+- [[Cloud Computing Fundamentals]], [[Cloud Computing]]
 -
 
 ---
@@ -97,11 +100,12 @@ _Flashcards pendientes de crear_
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 09:57 |
+| Capturado | 2026-08-19 13:39 |
 | Área/Tema | `= this.area` |
+| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
-| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
+| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 

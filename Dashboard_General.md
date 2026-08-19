@@ -6,14 +6,19 @@ created: 2025-11-19
 # 📊 Control de Estudio
 
 ## 🎯 Vista Global de Areas
-```dataview
-TABLE WITHOUT ID
-  file.link as "Area",
-  estado as "Estado",
-  hito-importante as "🎯 Próximo Hito"
-FROM ""
-WHERE tipo = "dashboard-area"
-SORT estado ASC
+```dataviewjs
+// Agrupa notas por `area` y muestra estado, hito importante y contador de notas
+const pages = dv.pages('').filter(p => p.area);
+const areas = {};
+for (const p of pages) {
+  const a = p.area;
+  if (!a) continue;
+  if (!areas[a]) areas[a] = {count: 0, hito: null, estado: null};
+  areas[a].count += 1;
+  if (p['hito-importante']) areas[a].hito = p['hito-importante'];
+  if (p.estado) areas[a].estado = p.estado;
+}
+dv.table(["Area","Estado","🎯 Próximo Hito","Notas"], Object.entries(areas).map(([k,v]) => [k, v.estado || "", v.hito || "", v.count]));
 ```
 
 ## 🔴 URGENTE: Temas para HOY

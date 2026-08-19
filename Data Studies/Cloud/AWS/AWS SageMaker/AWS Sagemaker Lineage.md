@@ -9,12 +9,13 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+estado: "pendiente"
 ---
 
-# AWS Sagemaker Autopilot
+# AWS Sagemaker Lineage
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:10
+> **Fecha**: 2026-08-14 14:15
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,26 +24,27 @@ tiempo-repaso: ""
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Autopilot es un servicio de AWS que automatiza el proceso de construir y entrenar modelos de ML.
+> SageMaker Lineage es un servicio para rastrear el “linaje” (provenance) de los modelos en AWS: cómo se llegó a un modelo final a partir de datos y pasos anteriores.
+
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-En la práctica:
+En términos simples, ayuda a responder:
 
-- le das tus datos de entrenamiento (y el objetivo),
-- Autopilot prueba múltiples algoritmos y configuraciones,
-- evalúa los resultados con métricas,
-- y te entrega los mejores modelos para que elijas (o luego despliegues).
+- qué datos se usaron,
+- qué código/experimentos y transformaciones se ejecutaron,
+- y cómo eso produjo un modelo que luego se entrenó o se desplegó.
 
+Sirve para auditoría, reproducibilidad y entender el origen de decisiones del pipeline.
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Autopilot`
+`AWS`, `Sagemaker`, `Sagemaker Lineage`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -70,7 +72,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--[[AWS Sagemaker Services]]
+- [[AWS Sagemaker Services]]
 -
 
 ---
@@ -90,8 +92,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Hace de manera automática la utilización de los mejores modelos para el objetivo que tienes.
-
+Es un servicio que verifica como ha sido todo el proceso del despliegue del modelo, desde la ingesta de los datos de donde vienen hasta como se ha utilizado el modelo de estos datos.
 
 
 ---
@@ -100,7 +101,7 @@ Hace de manera automática la utilización de los mejores modelos para el objeti
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:10 |
+| Capturado | 2026-08-14 14:15 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

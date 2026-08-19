@@ -7,10 +7,16 @@
         {
           "type": "file",
           "ctime": 1780049362469,
-          "path": "Data Studies/AWS/SageMaker_AI.md"
+          "path": "Data Studies/Cloud/AWS/SageMaker_AI.md"
         }
       ],
       "title": "AWS AI Practitioner"
+    },
+    {
+      "type": "group",
+      "ctime": 1786965938099,
+      "items": [],
+      "title": "AWS Cloud Practitioner"
     }
   ]
 }

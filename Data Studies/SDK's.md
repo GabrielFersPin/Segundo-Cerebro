@@ -1,6 +1,6 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
+created: 2026-08-18
+modified: 2026-08-18
 area: ""
 tipo_nota: ""
 status: 🌱
@@ -9,12 +9,13 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+estado: "pendiente"
 ---
 
-# AWS Sagemaker Endpoints
+# SDK's
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 13:53
+> **Fecha**: 2026-08-18 12:29
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,24 +24,14 @@ tiempo-repaso: ""
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> In AWS, SageMaker Endpoints are the hosted, always-on (or managed) URLs where you deploy a trained ML model so applications can send requests and get predictions.
+> A set of libraries and developer tools that makes it easier to build applications by providing APIs to interact with specific services or platforms
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-How they’re typically used:
-
-- You train a model in SageMaker.
-- You deploy it to an endpoint.
-- Your app then calls that endpoint (e.g., over HTTPS) with input data.
-- SageMaker runs the model and returns the prediction result.
-
-Key ideas:
-
-- They provide scaling and resource management around the model.
-- You can configure things like how many instances handle traffic and deployment variants (for updates/A-B style rollouts).
+In AWS context, SDKs let me write code to call AWS APIs (e.g., S3, SageMaker, CloudFront) to automate tasks like uploading data, invoking ML endpoints, and managing resources—without using the AWS web console manually.
 
 
 
@@ -48,7 +39,7 @@ Key ideas:
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Endpoints`
+`SDK`, `keyword2`, `keyword3`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -76,7 +67,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[AWS Sagemaker Services]]
+- [[]]
 -
 
 ---
@@ -86,7 +77,7 @@ _Flashcards pendientes de crear_
 - [ ] Revisar y expandir contenido
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
+- [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -96,7 +87,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Es un recurso para conectar el modelo con el frontend por una llamada a la API
+Son paquetes que puedes instalar en tu local para utilizar los servicios llamando la API, implementando directamente en el código.
 
 
 ---
@@ -105,7 +96,7 @@ Es un recurso para conectar el modelo con el frontend por una llamada a la API
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 13:53 |
+| Capturado | 2026-08-18 12:29 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

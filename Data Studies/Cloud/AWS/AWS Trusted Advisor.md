@@ -5,7 +5,7 @@ area: AWS Trusted Advisor
 tipo_nota: captura_rapida
 status: 🌿 Creciendo
 nivel-comprension: 💡
-proxima-revision: 2026-08-19
+dias-para-revision: 0
 ultima-revision: 2026-08-12
 veces-revisado: 1
 tiempo-repaso: ""
@@ -67,7 +67,7 @@ tiempo-estimado: 1min
 
 ## 🧩 Conexiones potenciales
 
-- [[Amazon Simple Notification Service (Amazon SNS)]]
+- [[AWS Simple Notification Service (Amazon SNS)]]
 - [[Data Studies/Cloud/Well-Architected Framework]]
 
 ---

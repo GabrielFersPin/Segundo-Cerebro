@@ -1,27 +1,21 @@
 ---
-created: 2026-06-09 12:09
-modified: 2026-06-09 12:09
-area: Model Destillation
-tipo_nota: captura_rapida
+created: 2026-08-14
+modified: 2026-08-14
+area: ""
+tipo_nota: ""
 status: 🌱
 nivel-comprension: ""
-dias-para-revision: -64
-ultima-revision: 2026-06-09
+proxima-revision: ""
+ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Data Distillation
-procesamiento: CAPTURA-RAPIDA
-prioridad: EXAMEN-PROXIMO
-tipo-captura: concepto
-complejidad: ⭐
-origen: curso
-urgente: false
+estado: "pendiente"
 ---
 
-# Model Destillation
+# AWS Site-to-Site VPN
 
 > [!info] Contexto captura
-> **Fecha**: 2026-06-09 12:29
+> **Fecha**: 2026-08-14 09:41
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -30,14 +24,13 @@ urgente: false
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> *Escribe aquí la idea principal o el concepto clave en 1-2 frases*
+> Site-to-Site VPN creates an ecnrypted network path between you on-premises network and your AWS Cloud network. This connection between your on-premises network and your AWS Cloud network uses the internet.
 
 
 ### 🎯 Detalles / Contenido
 
->[!Definición] Es una técnica que utiliza un modelo grande para entrenar uno más pequeño para reducir el coste de inferencia.
->El modelo 'alumno' aprende los outputs del modelo 'profesor' sin necesidad de aprender por los datos en bruto, que es más caro.
->Puede ser utilizado en Amazon Bedrock 
+<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
+
 
 
 
@@ -45,12 +38,21 @@ urgente: false
 
 ## 🔑 Keywords / Conceptos clave
 
-`keyword1`, `keyword2`, `keyword3`
+`AWS`, `VPN`, `Site-to-Site`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
 
+---
 
+## 🎴 Flashcards
+
+_Flashcards pendientes de crear_
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
 ---
 
 ## ❓ Preguntas / Dudas pendientes
@@ -64,7 +66,7 @@ urgente: false
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--
+- [[AWS]]
 -
 
 ---
@@ -74,7 +76,7 @@ urgente: false
 - [ ] Revisar y expandir contenido
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [ ] Conectar con otras notas ([[]])
+- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -84,7 +86,7 @@ urgente: false
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
+Es un servicio para conectar de forma segura entre tu y AWS
 
 
 ---
@@ -93,7 +95,7 @@ urgente: false
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-06-09 12:29 |
+| Capturado | 2026-08-14 09:41 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

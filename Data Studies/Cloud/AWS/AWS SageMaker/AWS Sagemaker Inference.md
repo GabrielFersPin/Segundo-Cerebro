@@ -1,27 +1,21 @@
 ---
-created: 2026-06-09 12:09
-modified: 2026-06-09 12:09
-area: Model Destillation
-tipo_nota: captura_rapida
+created: 2026-08-14
+modified: 2026-08-14
+area: ""
+tipo_nota: ""
 status: 🌱
 nivel-comprension: ""
-dias-para-revision: -64
-ultima-revision: 2026-06-09
+proxima-revision: ""
+ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Data Distillation
-procesamiento: CAPTURA-RAPIDA
-prioridad: EXAMEN-PROXIMO
-tipo-captura: concepto
-complejidad: ⭐
-origen: curso
-urgente: false
+estado: "pendiente"
 ---
 
-# Model Destillation
+# AWS Sagemaker Inference
 
 > [!info] Contexto captura
-> **Fecha**: 2026-06-09 12:29
+> **Fecha**: 2026-08-14 13:58
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -30,27 +24,46 @@ urgente: false
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> *Escribe aquí la idea principal o el concepto clave en 1-2 frases*
+> SageMaker Inference es la parte de SageMaker destinada a obtener predicciones usando un modelo entrenado.
 
 
 ### 🎯 Detalles / Contenido
 
->[!Definición] Es una técnica que utiliza un modelo grande para entrenar uno más pequeño para reducir el coste de inferencia.
->El modelo 'alumno' aprende los outputs del modelo 'profesor' sin necesidad de aprender por los datos en bruto, que es más caro.
->Puede ser utilizado en Amazon Bedrock 
+<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
+Incluye el proceso de:
+
+- desplegar el modelo,
+- recibir entradas (solicitudes) desde tu app,
+- ejecutar el modelo en instancias de inferencia,
+- devolver la salida (predicción).
+
+Dependiendo de cómo lo uses, “inference” puede referirse a:
+
+- Endpoints (infra “siempre lista” para responder),
+- batch transform (predicciones por lotes),
+- y otros modos gestionados para inferencia.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`keyword1`, `keyword2`, `keyword3`
+`AWS`, `Sagemaker`, `Sagemaker Inference`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
 
+---
 
+## 🎴 Flashcards
+
+_Flashcards pendientes de crear_
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
 ---
 
 ## ❓ Preguntas / Dudas pendientes
@@ -64,7 +77,7 @@ urgente: false
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--
+- [[AWS Sagemaker Services]]
 -
 
 ---
@@ -84,8 +97,7 @@ urgente: false
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
-
+Se puede obtener predicciones usando el modelo entrenado
 
 ---
 
@@ -93,7 +105,7 @@ urgente: false
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-06-09 12:29 |
+| Capturado | 2026-08-14 13:58 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

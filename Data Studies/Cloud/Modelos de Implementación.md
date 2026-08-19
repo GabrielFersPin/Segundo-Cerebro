@@ -4,7 +4,7 @@ cards-deck: Nube::Modelos-Implementacion
 created: 2025-11-20
 modified: 2026-08-14
 nivel-comprension: ✅
-proxima-revision: 2026-08-21
+dias-para-revision: 2
 status: 🌳 Maduro
 tiempo-repaso: 5min
 tipo_nota: tecnica

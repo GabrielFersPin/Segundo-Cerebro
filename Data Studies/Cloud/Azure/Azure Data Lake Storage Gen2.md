@@ -1,20 +1,27 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
-area: ""
-tipo_nota: ""
-status: 🌱
-nivel-comprension: ""
-proxima-revision: ""
+created: 2026-02-09 14:30
+modified: 2026-02-09 14:30
+area: 
+tipo_nota: tecnica
+status: 🔴 Por procesar
+nivel-comprension: "❓"
+dias-para-revision: -184
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+cards-deck: Azure Data Engineer
+procesamiento: CAPTURA-RAPIDA
+prioridad: 
+tipo-captura: 
+complejidad: ⭐
+origen: 
+urgente: false
 ---
 
-# AWS Sagemaker Model Cards
+# Azure Data Lake Storage Gen2
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:20
+> **Fecha**: 2026-02-09 14:30
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,43 +30,26 @@ tiempo-repaso: ""
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Model Cards (tarjetas de modelo) es una función para documentar un modelo.
-
+> *Azure Cloud Service for managment of data lakes*
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
+Azure Data Lake Storage Gen2 isn't a standalone Azure service, but rather a configurable capability of a **StorageV2 (General Purpose V2)** Azure Storage.
 
-Sirve para que quede claro, de forma estructurada, cosas como:
-
-- para qué casos de uso está pensado,
-- datos usados para entrenar,
-- métricas y rendimiento,
-- limitaciones/confiabilidad,
-- y consideraciones de seguridad/ética (según cómo lo completes).
-
-Es útil para que equipos técnicos y de negocio entiendan el modelo y para auditorías y gobernanza, especialmente cuando el modelo ya está en producción.
+To enable Azure Data Lake Storage Gen2 in an Azure Storage account, you can select the option to **Enable hierarchical namespace** in the **Advanced** page when creating the storage account in the Azure portal:
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Model Cards`
+`keyword1`, `keyword2`, `keyword3`
 
 > [!note] Para RAG
-> Estos keywords ayudarán a encontrar esta nota después
+> [[Data Lake]]
 
----
 
-## 🎴 Flashcards
-
-_Flashcards pendientes de crear_
-
-> 💡 **Formato recomendado**:
-> - Inline: `¿Pregunta?::Respuesta #tags`
-> - Reversa: `Término:::Definición #tags`
-> - Cloze: `Texto con ==palabra== oculta`
 ---
 
 ## ❓ Preguntas / Dudas pendientes
@@ -73,7 +63,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--[[AWS Sagemaker Services]]
+-
 -
 
 ---
@@ -93,7 +83,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Sirve para hacer la gobernanza del modelo.
+
 
 
 ---
@@ -102,8 +92,8 @@ Sirve para hacer la gobernanza del modelo.
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:20 |
-| Área/Tema | `= this.area` |
+| Capturado | 2026-02-09 14:30 |
+| Asignatura | `= this.asignatura` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |

@@ -5,7 +5,7 @@ area: Testing
 tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: 2026-06-10
+dias-para-revision: -70
 ultima-revision: 2026-06-03
 veces-revisado: 0
 tiempo-repaso: ""

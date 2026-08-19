@@ -8,7 +8,7 @@ area: Algoritmos
 procesamiento: COMPLETO
 prioridad: EXAMEN-LEJANO
 fecha-examen: 2025-02-15
-proxima-revision: ""
+proxima-revision: 2026-08-22
 complejidad: ⭐⭐⭐
 tiempo-estimado: 1h
 fuente: UD3 - Algoritmos y Estructuras de Datos UAX

@@ -4,16 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "e6dafef6add00fe9",
+        "id": "dab2204753e7dfa8",
         "type": "tabs",
         "children": [
           {
-            "id": "169642501ecd34f5",
+            "id": "4a1639ca38ad00b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Studies/AWS/AWS Sagemaker Services.md",
+                "file": "Dashboard_General.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard_General"
+            }
+          },
+          {
+            "id": "1b78c2ffa5fd3b5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Studies/Cloud/AWS/AWS SageMaker/AWS Sagemaker Services.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,73 +36,31 @@
             }
           },
           {
-            "id": "e00a0b9dea59a651",
+            "id": "5397b0c69fab7620",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Sagemaker Model Monitor.md",
+                "file": "AWS SageMaker Processing job.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Sagemaker Model Monitor"
+              "title": "AWS SageMaker Processing job"
             }
           },
           {
-            "id": "e869e3416113de80",
+            "id": "04c405431590acc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Sagemaker Autopilot.md",
+                "file": "Serverless.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Sagemaker Autopilot"
-            }
-          },
-          {
-            "id": "c99a22a0d82bd485",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS Sagemaker Lineage.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AWS Sagemaker Lineage"
-            }
-          },
-          {
-            "id": "899f9f740c3d4cab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS SageMaker Model Cards.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AWS SageMaker Model Cards"
-            }
-          },
-          {
-            "id": "c32d1122678a341c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS Sagemaker Experiments.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AWS Sagemaker Experiments"
+              "title": "Serverless"
             }
           }
         ]
@@ -141,7 +113,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
@@ -270,9 +245,39 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "169642501ecd34f5",
+  "active": "bf9b1def435f8fae",
   "lastOpenFiles": [
-    "Projects/aws-cfn-secure-vpc/docs/paso1_resumen.md",
+    "Dashboard_General.md",
+    "Data Studies/Cloud/AWS/AWS Simple Notification Service (Amazon SNS).md",
+    "Data Studies/Machine Learning/Model Deployment.md",
+    "Serverless.md",
+    "Data Studies/Machine Learning/Model Evaluation.md",
+    "Data Studies/Machine Learning/MLOps.md",
+    "Data Studies/Cloud/AWS/AWS SageMaker/AWS Sagemaker Services.md",
+    "Data Studies/AI Agents/A2A - Agent-to-Agent.md",
+    "Data Studies/Algoritmo y Estructura de Datos/Algoritmos de Ordenación.md",
+    "AWS SageMaker Processing job.md",
+    "Data Studies/Cloud/AWS/AWS Direct Connect.md",
+    "Templates/Template_Tecnico_Flashcards.md",
+    "Data Studies/Cloud/AWS/AWS Sagemaker Data Wrangler.md",
+    "Data Studies/Machine Learning/Fine-Tuning Methods.md",
+    "Dashboard.md",
+    "Data Studies/Cloud/AWS/AWS Trusted Advisor.md",
+    "Data Studies/Cloud/Modelos Servicios.md",
+    "Data Studies/Cloud/Ejercicio Feedback.md",
+    "Data Studies/Cloud/Dashboard-Infraestructura.md",
+    "Data Studies/Cloud/AWS/Well-Architected Framework.md",
+    "Data Studies/Cloud/AWS/AWS_AI_Practitioner_Servicios_Clave.md",
+    "Data Studies/Cloud/AWS/Amazon S3.md",
+    "Data Studies/Cloud/AWS/AWS - Seguridad Compliance y Gobernanza.md",
+    "Data Studies/Cloud/AWS/Amazon Text and Images Services.md",
+    "Data Studies/Cloud/AWS/SageMaker_AI.md",
+    "Data Studies/Cloud/AWS/AWS SageMaker/AWS Sagemaker Model Monitor.md",
+    "Data Studies/Cloud/AWS/Pasted image 20260812130040.png",
+    "Data Studies/Cloud/AWS/AWS SageMaker",
+    "Data Studies/Cloud/AWS/Pasted image 20260812130035.png",
+    "Data Studies/Cloud/AWS/Pasted image 20260814100325.png",
+    "Data Studies/Redes",
     "Projects/aws-cfn-secure-vpc/scripts/deploy-local.sh",
     "Projects/aws-cfn-secure-vpc/templates/01-vpc-network.yaml",
     "Projects/aws-cfn-secure-vpc/templates",
@@ -280,39 +285,9 @@
     "Projects/aws-cfn-secure-vpc/docs",
     "Projects/aws-cfn-secure-vpc",
     "Projects",
-    "AWS Sagemaker Experiments.md",
-    "Data Studies/AWS/AWS Sagemaker Services.md",
-    "AWS SageMaker Model Cards.md",
-    "AWS Sagemaker Lineage.md",
-    "AWS Sagemaker Autopilot.md",
-    "AWS Sagemaker Model Monitor.md",
-    "AWS SageMaker AI Clarify.md",
-    "AWS Site-to_site VPN.md",
-    "Security Groups.md",
-    "EBS (Elastic Block Store).md",
-    "AWS CloudFront.md",
-    "AWS Sagemaker JumpStart.md",
-    "AWS Sagemaker Endpoints.md",
-    "AWS Sagemaker Inference.md",
-    "AWS Sagemaker Pipelines.md",
-    "Sagemaker Model Monitor.md",
-    "[AWS Sagemaker Endpoints.md",
-    "Dashboard_General.md",
-    "Data Studies/Cloud/Ventajas y Desventajas de Adoptar la Computación en la Nube.md",
-    "Data Studies/Cloud/Modelos de Implementación.md",
-    "Data Studies/Cloud/Modelos Servicios.md",
-    "Data Studies/Cloud/Docker/Docker.md",
-    "Pasted image 20260814100325.png",
-    "Data Studies/Cloud/Cloud Computing.md",
-    "Data Studies/Cloud/Arquitecturas Monolíticas y Microservicios.md",
-    "Data Studies/AWS/Amazon EC2 (Elastic Compute Cloud).md",
-    "Pasted image 20260812130035.png",
-    "Pasted image 20260812130040.png",
     "Pasted image 20260812122547.png",
     "Data Studies/Cloud/Eduinnovatech.png",
     "Data Studies/Python/Python_Cheat_Sheet_-_The_Basics_Coursera.pdf",
-    "Data Studies/Python/Pyhton_for_Data_Science.pdf",
-    "Café",
     "Data Studies/Deep Learning/Comportamiento Humano e Integración de la Intelig 10f3376ecba34c8cb252ba5f5e3d7c74/Unidad 1(Introducción a la inteligencia artificia 439cadea289947a284f732f172fde532/Untitled.png",
     "Sin título.canvas",
     "Data Studies/Cloud/Docker/Docker Comandos.canvas",

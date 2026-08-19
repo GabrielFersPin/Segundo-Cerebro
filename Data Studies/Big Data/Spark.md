@@ -5,7 +5,7 @@ area: null
 tipo_nota: tecnica
 status: 🔴 Por procesar
 nivel-comprension: "❓"
-proxima-revision: 2026-04-14
+dias-para-revision: -127
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""

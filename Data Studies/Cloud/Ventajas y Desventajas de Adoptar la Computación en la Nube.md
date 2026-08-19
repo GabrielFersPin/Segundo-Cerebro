@@ -3,7 +3,7 @@ cards-deck: Nube::Ventajas-Desventajas
 tipo_nota: tecnica
 area: Infraestructura-Nube
 nivel-comprension: ✅
-proxima-revision: 2026-08-28
+dias-para-revision: 9
 ultima-revision: 2026-08-14
 tiempo-repaso: 5min
 status: 🌳 Maduro

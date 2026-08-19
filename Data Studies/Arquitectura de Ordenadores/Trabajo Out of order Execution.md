@@ -2,7 +2,7 @@
 tipo_nota: Trabajo
 area: Arquitectura
 nivel-comprension: 💡
-proxima-revision: 2026-01-25
+dias-para-revision: -206
 tiempo-repaso: 10 min
 veces-revisado: 2
 tags:

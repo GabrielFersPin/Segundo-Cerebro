@@ -9,12 +9,13 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+estado: "pendiente"
 ---
 
-# Sagemaker Experiments
+# AWS Sagemaker Model Cards
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:25
+> **Fecha**: 2026-08-14 14:20
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,27 +24,29 @@ tiempo-repaso: ""
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Experiments es una función de AWS para organizar y registrar experimentos de machine learning.
+> SageMaker Model Cards (tarjetas de modelo) es una función para documentar un modelo.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-Sirve para que puedas llevar control de:
+Sirve para que quede claro, de forma estructurada, cosas como:
 
-- qué jobs/training formaron parte del experimento,
-- qué parámetros se usaron (o al menos cómo los relacionas),
-- y cómo se relacionan distintos intentos (por ejemplo, variantes de features/hiperparámetros/modelos).
+- para qué casos de uso está pensado,
+- datos usados para entrenar,
+- métricas y rendimiento,
+- limitaciones/confiabilidad,
+- y consideraciones de seguridad/ética (según cómo lo completes).
 
-La idea clave es hacer más fácil la trazabilidad y la comparación entre runs, especialmente cuando estás iterando mucho.
+Es útil para que equipos técnicos y de negocio entiendan el modelo y para auditorías y gobernanza, especialmente cuando el modelo ya está en producción.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Experiment`
+`AWS`, `Sagemaker`, `Sagemaker Model Cards`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -70,8 +73,8 @@ _Flashcards pendientes de crear_
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-[[AWS Sagemaker Services]]
--
+
+-[[AWS Sagemaker Services]]
 -
 
 ---
@@ -91,7 +94,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Es un servicio para monitorizar experimentos con los modelos
+Sirve para hacer la gobernanza del modelo.
 
 
 ---
@@ -100,7 +103,7 @@ Es un servicio para monitorizar experimentos con los modelos
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:25 |
+| Capturado | 2026-08-14 14:20 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

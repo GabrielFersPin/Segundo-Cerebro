@@ -2,13 +2,13 @@
 created: <% tp.date.now("YYYY-MM-DD") %>
 modified: <% tp.date.now("YYYY-MM-DD") %>
 area: ""
-tipo_nota: ""
-status: 🌱
+tipo_nota: "captura_rapida"
+status: "🌱"
 nivel-comprension: ""
-proxima-revision: ""
-ultima-revision: ""
+proxima-revision: "<% tp.date.now('YYYY-MM-DD', 3) %>"
+ultima-revision: "<% tp.date.now('YYYY-MM-DD') %>"
 veces-revisado: 0
-tiempo-repaso: ""
+tiempo-repaso: "5min"
 ---
 
 # <% await tp.system.prompt("📌 Título del concepto:") %>
@@ -209,9 +209,10 @@ _%>
 |-------|-------|
 | Capturado | <% tp.date.now("YYYY-MM-DD HH:mm") %> |
 | Área/Tema | `= this.area` |
+| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
-| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
+| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 

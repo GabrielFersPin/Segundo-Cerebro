@@ -1,16 +1,20 @@
 ---
 created: 2026-05-20 01:09
-modified: 2026-05-20 01:09
-area: "Machine Learning"
+modified: 2026-08-19
+area: Machine Learning
 tipo_nota: captura_rapida
-status: 🔴 Por procesar
-nivel-comprension: "❓"
-proxima-revision: 2026-05-27
-ultima-revision: ""
-veces-revisado: 0
+status: 🌿 Creciendo
+nivel-comprension: 💡
+dias-para-revision:
+ultima-revision: 2026-08-19
+veces-revisado: 1
 tiempo-repaso: ""
 cards-deck: Machine_Learning::MLOps
-tags: [captura_rapida, 2026-05-20]
+tags:
+  - captura_rapida
+  - 2026-05-20
+proxima-revision: 2026-09-18
+tiempo-estimado: 5min
 ---
 
 # MLOps
@@ -47,3 +51,15 @@ Data Preparation --> Model build --> Model evaluation --> Model selection --> Mo
 
 
 
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia
+- [ ] Crear Flashcards

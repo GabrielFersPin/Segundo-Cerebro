@@ -9,6 +9,7 @@ proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
+estado: "pendiente"
 ---
 
 # Amazon SageMaker AI Clarify
