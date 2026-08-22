@@ -2,15 +2,16 @@
 cards-deck: Nube::Modelos-Servicios
 tipo_nota: tecnica
 area: Infraestructura-Nube
-nivel-comprension: 🎯
+nivel-comprension: ✅
 dias-para-revision: 195
-ultima-revision: 2026-08-14
+ultima-revision: 2026-08-20
 tiempo-repaso: 5min
 status: 🌳 Maduro
-veces-revisado: 2
+veces-revisado: 3
 created: 2025-11-20
-modified: 2026-08-14
+modified: 2026-08-20
 tiempo-estimado: 10min
+proxima-revision: 2026-09-19
 ---
 
 # Modelos de Servicios en la Nube

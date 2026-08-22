@@ -1,20 +1,20 @@
 ---
-created: 2026-08-19
-modified: 2026-08-19
-area: Cloud
+created: 2026-08-20
+modified: 2026-08-20
+area: Redes
 tipo_nota: captura_rapida
 status: 🌱
-nivel-comprension: ❓
-proxima-revision: 2026-08-22
-ultima-revision: 2026-08-19
+nivel-comprension: ""
+proxima-revision: 2026-08-23
+ultima-revision: 2026-08-20
 veces-revisado: 0
 tiempo-repaso: 5min
 ---
 
-# AWS SageMaker Processing Job
+# Firewall
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-19 12:20
+> **Fecha**: 2026-08-20 12:15
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,30 +23,23 @@ tiempo-repaso: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> Un SageMaker Processing Job es un tipo de trabajo en AWS SageMaker para procesar datos y/o ejecutar tareas de preparación (no es entrenamiento del modelo en sí).
+> Un firewall es una barrera de seguridad que controla qué tráfico de red puede entrar o salir a un sistema.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-Se usa típicamente para:
-
-- limpieza y preprocesamiento por lotes,
-- feature engineering,
-- conversión/formato de datasets,
-- validación de datos,
-- ejecutar scripts (Python/contendedores) en un entorno gestionado,
-- y preparar artefactos que luego alimentan al entrenamiento o la inferencia.
-
-En resumen: Processing Job = procesamiento de datos en SageMaker (a escala y reproducible), mientras que el Training Job = entrenamiento del modelo.
+- Revisa origen/destino, puertos y protocolo.
+- Puede ser stateful (recuerda el estado de las conexiones) o stateless (no recuerda; filtra cada paquete).
+- No suele “leer contenido” como un antivirus; su foco es dejar pasar o bloquear conexiones.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Processing Job`
+`Firewall`, `Seguridad`, `keyword3`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -94,7 +87,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
+Es como el puerta de la discoteca, que puedo o no verificar que lleva cada persona.
 
 
 ---
@@ -103,7 +96,7 @@ _Flashcards pendientes de crear_
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-19 12:20 |
+| Capturado | 2026-08-20 12:15 |
 | Área/Tema | `= this.area` |
 | Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |

@@ -2,15 +2,16 @@
 area: Infraestructura-Nube
 cards-deck: Nube::Modelos-Implementacion
 created: 2025-11-20
-modified: 2026-08-14
-nivel-comprension: ✅
+modified: 2026-08-20
+nivel-comprension: 💡
 dias-para-revision: 2
-status: 🌳 Maduro
+status: 🌿 Creciendo
 tiempo-repaso: 5min
 tipo_nota: tecnica
-ultima-revision: 2026-08-14
-veces-revisado: 2
+ultima-revision: 2026-08-20
+veces-revisado: 3
 tiempo-estimado: 20min
+proxima-revision: 2026-09-19
 ---
 
 # Modelos de Implementación en la Nube
@@ -202,3 +203,14 @@ Para Data Science/ML, ¿cuándo usar nube híbrida?::Datos de entrenamiento sens
 
 > [!tip] 💡 Próximos pasos
 > _Esta nota tiene contenido avanzado. Considera crear notas separadas para Cloud Bursting, Multi-Cloud Strategy, y FinOps_
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia

@@ -1,13 +1,13 @@
 ---
 created: 2026-08-11 14:47
-modified: 2026-08-12
+modified: 2026-08-20
 area: AWS Trusted Advisor
 tipo_nota: captura_rapida
-status: 🌿 Creciendo
-nivel-comprension: 💡
+status: 🌳 Maduro
+nivel-comprension: ✅
 dias-para-revision: 0
-ultima-revision: 2026-08-12
-veces-revisado: 1
+ultima-revision: 2026-08-20
+veces-revisado: 2
 tiempo-repaso: ""
 cards-deck: AWS
 procesamiento: CAPTURA-RAPIDA
@@ -17,6 +17,7 @@ complejidad: ⭐
 origen: Skillbuilder
 urgente: false
 tiempo-estimado: 1min
+proxima-revision: 2026-10-19
 ---
 
 # AWS Trusted Advisor
@@ -61,8 +62,8 @@ tiempo-estimado: 1min
 
 ## ❓ Preguntas / Dudas pendientes
 
-- [ ] ¿Qué diferencia hay entre la versión gratuita y la de soporte Business/Enterprise?
-
+- [x] ¿Qué diferencia hay entre la versión gratuita y la de soporte Business/Enterprise? ✅ 2026-08-20
+la versión gratuita no da soporte a muchos checks, ya el plan business te hace más checks de los servicios.
 ---
 
 ## 🧩 Conexiones potenciales
@@ -76,16 +77,16 @@ tiempo-estimado: 1min
 
 - [x] Revisar y expandir contenido
 - [x] Crear flashcards si es necesario
-- [ ] Hacer ejercicios relacionados
+- [x] Hacer ejercicios relacionados ✅ 2026-08-20
 - [x] Conectar con otras notas ([[]])
-- [ ] Actualizar nivel de comprensión
+- [x] Actualizar nivel de comprensión ✅ 2026-08-20
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
 ---
 
 ## 💭 Notas adicionales / Ideas rápidas
 
-
+Es simplemente un dashboard que verifica como está tus servicios en función de lo que se puede mejorar y minimizar costes. Es servicio gratuito, pero el plan Business ofrece más checks.
 
 
 ---

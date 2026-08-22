@@ -2,15 +2,16 @@
 area: Infraestructura-Nube
 cards-deck: Nube
 created: 2025-11-20
-modified: 2026-08-14
+modified: 2026-08-20
 nivel-comprension: ✅
 dias-para-revision: 2
 status: 🌳 Maduro
 tiempo-estimado: 10m
 tiempo-repaso: 30min
 tipo_nota: tecnica
-ultima-revision: 2026-08-14
-veces-revisado: 3
+ultima-revision: 2026-08-20
+veces-revisado: 4
+proxima-revision: 2026-11-28
 ---
 
 # Amazon EC2 (Elastic Compute Cloud)

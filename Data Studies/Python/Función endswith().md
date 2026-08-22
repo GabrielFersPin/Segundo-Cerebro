@@ -1,21 +1,20 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
+created: 2026-08-22
+modified: 2026-08-22
 area: ""
-tipo_nota: ""
+tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: ""
-ultima-revision: ""
+proxima-revision: 2026-08-25
+ultima-revision: 2026-08-22
 veces-revisado: 0
-tiempo-repaso: ""
-estado: "pendiente"
+tiempo-repaso: 5min
 ---
 
-# Security Groups
+# Función endswith()
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 09:52
+> **Fecha**: 2026-08-22 18:19
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,25 +23,27 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> Actúan como firewalls virtuales a nivel de tráfico.
+> `endswith()` es un método de Python que comprueba si una cadena termina con un texto concreto.
+> Su resultado siempre es `True` o `False`.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-**Características**:
-- Controlan tráfico de entrada (inbound) y salida (outbound)
-- Son stateful: si permites entrada, la respuesta se permite automáticamente
-- Puedes especificar protocolos, puertos y rangos de IP
-- Se pueden modificar en caliente sin reiniciar la instancia
+```python
+texto = "Hola mundo"
+
+print(texto.endswith("mundo"))  # True
+print(texto.endswith("Hola"))   # False
+```
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `VPC`, `Security Groups`
+`keyword1`, `keyword2`, `keyword3`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -51,7 +52,7 @@ estado: "pendiente"
 
 ## 🎴 Flashcards
 
-Security Group:::Firewall virtual a nivel de instancia que controla tráfico inbound/outbound de forma stateful #security #networking #card
+_Flashcards pendientes de crear_
 
 > 💡 **Formato recomendado**:
 > - Inline: `¿Pregunta?::Respuesta #tags`
@@ -69,7 +70,7 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-[[AWS - Seguridad Compliance y Gobernanza]]
+
 -
 -
 
@@ -77,10 +78,10 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 
 ## ✅ Checklist procesamiento
 
-- [x] Revisar y expandir contenido ✅ 2026-08-20
-- [x] Crear flashcards si es necesario ✅ 2026-08-14
+- [ ] Revisar y expandir contenido
+- [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
+- [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -89,7 +90,7 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 ## 💭 Notas adicionales / Ideas rápidas
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
-Actúa como una capa de seguridad a nivel de tráfico, protege el trafico que está ocurriendo en el momento (stateful)
+
 
 
 
@@ -99,11 +100,12 @@ Actúa como una capa de seguridad a nivel de tráfico, protege el trafico que es
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 09:52 |
+| Capturado | 2026-08-22 18:19 |
 | Área/Tema | `= this.area` |
+| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
-| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
+| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 
