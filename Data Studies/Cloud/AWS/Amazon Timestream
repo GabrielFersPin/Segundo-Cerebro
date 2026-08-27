@@ -1,0 +1,118 @@
+---
+created: 2026-08-26
+modified: 2026-08-26
+area: "Data Studies/Cloud/AWS"
+tipo_nota: "captura_rapida"
+status: "🌱"
+nivel-comprension: "Básico"
+proxima-revision: "2026-08-29"
+ultima-revision: "2026-08-26"
+veces-revisado: 0
+tiempo-repaso: "5min"
+---
+
+# Amazon Timestream
+
+> [!info] Contexto captura
+> **Fecha**: 2026-08-26 09:00
+> **Origen**: AWS / Base de datos para series temporales
+> **Tipo**: Concepto / servicio de datos temporales
+
+---
+
+## 📝 Captura principal
+
+> [!tip] Lo más importante
+> Amazon Timestream es un servicio de bases de datos para series temporales optimizado para almacenar, consultar y analizar grandes volúmenes de datos con marca temporal, como métricas, logs, eventos de IoT o telemetría.
+
+### 🎯 Detalles / Contenido
+
+Amazon Timestream está diseñado para workloads donde los datos llegan continuamente y cada evento incluye una marca temporal. Es especialmente útil para:
+
+- Monitorización de infraestructura y aplicaciones
+- Telemetría de dispositivos IoT
+- Métricas de rendimiento y alertas
+- Análisis de logs y eventos por tiempo
+
+Sus principales ventajas son:
+
+- Escala automática para altos volúmenes de ingestión
+- Optimización para consultas por rango temporal
+- Retención y almacenamiento tierizado
+- Soporte de consultas SQL similares a SQL estándar
+- Reducción de coste frente a soluciones generales de bases de datos para series temporales
+
+En términos de arquitectura, el servicio guarda los datos organizados por medida, dimensión y tiempo. Esto permite hacer consultas rápidas sobre tendencias, agregaciones y comparaciones temporales.
+
+A nivel práctico, suele usarse junto con:
+
+- Amazon IoT Core para ingestión de dispositivos
+- Amazon Kinesis Data Firehose para streaming
+- CloudWatch / observabilidad de aplicaciones
+- Athena o herramientas de BI para análisis más avanzados
+
+Timestream no es un almacén relacional clásico; está pensado para series temporales y patrones de consulta basados en tiempo, no para transacciones OLTP o joins complejos como una base de datos operativa generalista.
+
+---
+
+## 🔑 Keywords / Conceptos clave
+
+`Amazon Timestream`, `series temporales`, `telemetría`, `IoT`, `SQL temporal`, `observabilidad`
+
+> [!note] Para RAG
+> Estos keywords ayudarán a encontrar esta nota después
+
+---
+
+## ❓ Preguntas / Dudas pendientes
+
+- [ ] ¿Qué diferencia hay entre Timestream y DynamoDB para datos temporales?
+- [ ] ¿Cuándo conviene usar Timestream frente a OpenSearch o Athena?
+- [ ] ¿Cómo se configura la retención por niveles de almacenamiento?
+
+---
+
+## 🧩 Conexiones potenciales
+
+- Amazon IoT Core
+- Amazon Kinesis Data Firehose
+- Amazon OpenSearch Service
+- Amazon Athena
+- CloudWatch / observabilidad
+- Amazon Redshift (para analytics más complejos)
+
+---
+
+## ✅ Checklist procesamiento
+
+- [x] Revisar y expandir contenido
+- [ ] Crear flashcards si es necesario
+- [ ] Hacer ejercicios relacionados
+- [ ] Conectar con otras notas ([[]])
+- [ ] Actualizar nivel de comprensión
+- [ ] Mover a vault definitivo / Cambiar status a 🌿
+
+---
+
+## 💭 Notas adicionales / Ideas rápidas
+
+Timestream es útil cuando el valor principal está en el tiempo: respuestas a preguntas como “¿qué pasó en la última hora?”, “¿cuál fue la tendencia del día?”, “¿qué cambió entre dos ventanas temporales?”.
+
+Su principal foco no es el almacenamiento transaccional, sino la analítica de series temporales a escala.
+
+---
+
+## 📋 Metadata resumen
+
+| Campo | Valor |
+|-------|-------|
+| Capturado | 2026-08-26 09:00 |
+| Área/Tema | Data Studies/Cloud/AWS |
+| Estado | 🌱 |
+| Prioridad |  |
+| Revisión | 2026-08-29 |
+| Nivel de comprensión | Básico |
+
+---
+
+#pendiente-procesar #captura-rapida
