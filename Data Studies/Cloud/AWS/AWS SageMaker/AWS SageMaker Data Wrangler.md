@@ -1,21 +1,21 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
-area: ""
-tipo_nota: ""
+created: 2026-08-18
+modified: 2026-08-18
+area: Cloud
+tipo_nota: captura_rapida
 status: 🌱
-nivel-comprension: ""
+nivel-comprension: ❓
 proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
-tiempo-repaso: ""
-estado: "pendiente"
+tiempo-repaso: 5min
+estado: pendiente
 ---
 
-# AWS Sagemaker Inference
+# AWS Sagemaker Data Wrangler
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 13:58
+> **Fecha**: 2026-08-18 12:58
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,32 +24,27 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Inference es la parte de SageMaker destinada a obtener predicciones usando un modelo entrenado.
+> AWS SageMaker Data Wrangler sirve para preparar y transformar datos para ML de forma visual y asistida, sin tener que escribir todo el código de limpieza/transformación desde cero.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-Incluye el proceso de:
 
-- desplegar el modelo,
-- recibir entradas (solicitudes) desde tu app,
-- ejecutar el modelo en instancias de inferencia,
-- devolver la salida (predicción).
+En la práctica se usa para:
 
-Dependiendo de cómo lo uses, “inference” puede referirse a:
-
-- Endpoints (infra “siempre lista” para responder),
-- batch transform (predicciones por lotes),
-- y otros modos gestionados para inferencia.
-
+- importar datos (por ejemplo desde S3 u otras fuentes),
+- limpiar y tratar valores faltantes/duplicados,
+- transformar variables (codificar, escalar, generar features),
+- explorar datos (estadísticas/visualizaciones),
+- y dejar un pipeline de preprocesamiento reproducible (para entrenamiento o inferencia).
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Inference`
+`AWS`, `Sagemaker`, `Sagemaker Data Wrangler`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -77,7 +72,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[AWS Sagemaker Services]]
+- [[AWS SageMaker Services]]
 -
 
 ---
@@ -97,7 +92,8 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Se puede obtener predicciones usando el modelo entrenado
+Es como un dashboard en que puedes limpiar datos, definir transformaciones, cambiar opciones, ver resultados y estadísticas sin tener que picar código.
+
 
 ---
 
@@ -105,7 +101,7 @@ Se puede obtener predicciones usando el modelo entrenado
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 13:58 |
+| Capturado | 2026-08-18 12:58 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

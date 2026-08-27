@@ -1,14 +1,15 @@
 ---
 created: 2026-08-19
-modified: 2026-08-19
+modified: 2026-08-22
 area: Cloud
 tipo_nota: captura_rapida
-status: 🌱
-nivel-comprension: ❓
-proxima-revision: 2026-08-22
-ultima-revision: 2026-08-19
-veces-revisado: 0
+status: 🌳 Maduro
+nivel-comprension: ✅
+proxima-revision: 2026-09-21
+ultima-revision: 2026-08-22
+veces-revisado: 1
 tiempo-repaso: 5min
+tiempo-estimado: 5min
 ---
 
 # AWS SageMaker Processing Job

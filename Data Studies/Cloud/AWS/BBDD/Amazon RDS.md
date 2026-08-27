@@ -1,14 +1,15 @@
 ---
 created: 2026-08-20
-modified: 2026-08-20
+modified: 2026-08-25
 area: Cloud
 tipo_nota: captura_rapida
-status: 🌱
-nivel-comprension: ""
-proxima-revision: 2026-08-23
-ultima-revision: 2026-08-20
-veces-revisado: 0
+status: 🌿 Creciendo
+nivel-comprension: 💡
+proxima-revision: 2026-09-24
+ultima-revision: 2026-08-25
+veces-revisado: 1
 tiempo-repaso: 5min
+tiempo-estimado: 30m
 ---
 
 # Amazon RDS
@@ -46,7 +47,7 @@ En resumen: RDS es para tener una base de datos SQL en la nube sin tener que enc
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `keyword2`, `keyword3`
+`AWS`, `BBDD`, `keyword3`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -55,7 +56,15 @@ En resumen: RDS es para tener una base de datos SQL en la nube sin tener que enc
 
 ## 🎴 Flashcards
 
-_Flashcards pendientes de crear_
+¿Qué es Amazon RDS?::Es un servicio de AWS para alojar bases de datos relacionales gestionadas, sin tener que administrar el servidor completo. #aws #rds #database
+
+¿Qué ofrece Amazon RDS en lugar de gestionar tú mismo la infraestructura?::Motor de base de datos, aprovisionamiento, backups automáticos, parches, restores y opciones de alta disponibilidad. #aws #rds
+
+¿Para qué sirve RDS?::Para ejecutar bases de datos SQL en la nube con gestión operativa simplificada y mantenimiento automatizado. #aws #rds #sql
+
+¿Qué tipo de bases de datos suele correr sobre RDS?::Bases de datos relacionales como MySQL, PostgreSQL y otros motores compatibles. #aws #rds
+
+¿Qué ventaja tiene usar RDS frente a un servidor propio?::Reduce la carga operativa y permite enfocarte en la aplicación, mientras AWS gestiona parte del mantenimiento. #aws #rds
 
 > 💡 **Formato recomendado**:
 > - Inline: `¿Pregunta?::Respuesta #tags`
@@ -75,16 +84,17 @@ _Flashcards pendientes de crear_
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
 -
--
+-[[SQL]]
+
 
 ---
 
 ## ✅ Checklist procesamiento
 
-- [ ] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
-- [ ] Hacer ejercicios relacionados
-- [ ] Conectar con otras notas ([[]])
+- [x] Revisar y expandir contenido ✅ 2026-08-25
+- [x] Crear flashcards si es necesario ✅ 2026-08-25
+- [x] Hacer ejercicios relacionados ✅ 2026-08-25
+- [x] Conectar con otras notas ([[]]) ✅ 2026-08-25
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -113,3 +123,14 @@ Es un almacenamiento de base de datos como Azure SQL Databases que es serverless
 ---
 
 #pendiente-procesar #captura-rapida
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia

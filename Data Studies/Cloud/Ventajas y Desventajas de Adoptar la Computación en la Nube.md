@@ -2,15 +2,16 @@
 cards-deck: Nube::Ventajas-Desventajas
 tipo_nota: tecnica
 area: Infraestructura-Nube
-nivel-comprension: ✅
+nivel-comprension: 🎯
 dias-para-revision: 9
-ultima-revision: 2026-08-14
+ultima-revision: 2026-08-22
 tiempo-repaso: 5min
-status: 🌳 Maduro
-veces-revisado: 1
+status: 🎉 Completado / Archivado
+veces-revisado: 2
 created: 2025-11-20
-modified: 2026-08-14
+modified: 2026-08-22
 tiempo-estimado: 10min
+proxima-revision: ""
 ---
 
 # Ventajas y Desventajas de Adoptar la Computación en la Nube

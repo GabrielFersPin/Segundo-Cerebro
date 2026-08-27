@@ -1,27 +1,21 @@
 ---
-created: 2026-06-03 14:32
-modified: 2026-06-03 14:32
-area: Testing
-tipo_nota: captura_rapida
+created: 2026-08-14
+modified: 2026-08-14
+area: ""
+tipo_nota: ""
 status: 🌱
 nivel-comprension: ""
-dias-para-revision: -70
-ultima-revision: 2026-06-03
+proxima-revision: ""
+ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: ""
-cards-deck: Testing
-procesamiento: CAPTURA-RAPIDA
-prioridad: EXAMEN-PROXIMO
-tipo-captura: concepto
-complejidad: ⭐
-origen: Curso
-urgente: false
+estado: "pendiente"
 ---
 
-# Red Teaming
+# Sagemaker Experiments
 
 > [!info] Contexto captura
-> **Fecha**: 2026-06-03 14:33
+> **Fecha**: 2026-08-14 14:25
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -30,27 +24,41 @@ urgente: false
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> *Escribe aquí la idea principal o el concepto clave en 1-2 frases*
+> SageMaker Experiments es una función de AWS para organizar y registrar experimentos de machine learning.
 
 
 ### 🎯 Detalles / Contenido
 
->[!Definición] Read teaming es una manera de hacer un test antes del deploy para identificar vulnerabilidades de edge-cases. Identifica biases, outputs peligrosos y modos fallidos.
->Garantiza un comportamiento más seguro de los modelos en condiciones reales.
+<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
+Sirve para que puedas llevar control de:
 
+- qué jobs/training formaron parte del experimento,
+- qué parámetros se usaron (o al menos cómo los relacionas),
+- y cómo se relacionan distintos intentos (por ejemplo, variantes de features/hiperparámetros/modelos).
+
+La idea clave es hacer más fácil la trazabilidad y la comparación entre runs, especialmente cuando estás iterando mucho.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`keyword1`, `keyword2`, `keyword3`
+`AWS`, `Sagemaker`, `Sagemaker Experiment`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
 
+---
 
+## 🎴 Flashcards
+
+_Flashcards pendientes de crear_
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
 ---
 
 ## ❓ Preguntas / Dudas pendientes
@@ -63,7 +71,7 @@ urgente: false
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-
+[[AWS SageMaker Services]]
 -
 -
 
@@ -84,7 +92,7 @@ urgente: false
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
+Es un servicio para monitorizar experimentos con los modelos
 
 
 ---
@@ -93,7 +101,7 @@ urgente: false
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-06-03 14:33 |
+| Capturado | 2026-08-14 14:25 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

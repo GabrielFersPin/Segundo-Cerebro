@@ -12,10 +12,10 @@ tiempo-repaso: ""
 estado: "pendiente"
 ---
 
-# AWS Sagemaker Autopilot
+# AWS Sagemaker Inference
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:10
+> **Fecha**: 2026-08-14 13:58
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,26 +24,32 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Autopilot es un servicio de AWS que automatiza el proceso de construir y entrenar modelos de ML.
+> SageMaker Inference es la parte de SageMaker destinada a obtener predicciones usando un modelo entrenado.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-En la práctica:
+Incluye el proceso de:
 
-- le das tus datos de entrenamiento (y el objetivo),
-- Autopilot prueba múltiples algoritmos y configuraciones,
-- evalúa los resultados con métricas,
-- y te entrega los mejores modelos para que elijas (o luego despliegues).
+- desplegar el modelo,
+- recibir entradas (solicitudes) desde tu app,
+- ejecutar el modelo en instancias de inferencia,
+- devolver la salida (predicción).
+
+Dependiendo de cómo lo uses, “inference” puede referirse a:
+
+- Endpoints (infra “siempre lista” para responder),
+- batch transform (predicciones por lotes),
+- y otros modos gestionados para inferencia.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Autopilot`
+`AWS`, `Sagemaker`, `Sagemaker Inference`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -71,7 +77,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--[[AWS Sagemaker Services]]
+- [[AWS SageMaker Services]]
 -
 
 ---
@@ -91,9 +97,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Hace de manera automática la utilización de los mejores modelos para el objetivo que tienes.
-
-
+Se puede obtener predicciones usando el modelo entrenado
 
 ---
 
@@ -101,7 +105,7 @@ Hace de manera automática la utilización de los mejores modelos para el objeti
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:10 |
+| Capturado | 2026-08-14 13:58 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

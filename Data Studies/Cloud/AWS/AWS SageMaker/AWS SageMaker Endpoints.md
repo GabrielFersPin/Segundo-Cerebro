@@ -12,10 +12,10 @@ tiempo-repaso: ""
 estado: "pendiente"
 ---
 
-# AWS Sagemaker Model Monitor
+# AWS Sagemaker Endpoints
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:06
+> **Fecha**: 2026-08-14 13:53
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,24 +24,32 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Model Monitor es un servicio para vigilar en producción cómo se comporta tu modelo y detectar problemas.
+> In AWS, SageMaker Endpoints are the hosted, always-on (or managed) URLs where you deploy a trained ML model so applications can send requests and get predictions.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-La idea típica es:
+How they’re typically used:
 
-- usar tus nuevos datos (y, si aplica, compararlos contra el entrenamiento/validación) para revisar señales de degradación,
-- y así generar hallazgos/alertas cuando el comportamiento cambia.
+- You train a model in SageMaker.
+- You deploy it to an endpoint.
+- Your app then calls that endpoint (e.g., over HTTPS) with input data.
+- SageMaker runs the model and returns the prediction result.
+
+Key ideas:
+
+- They provide scaling and resource management around the model.
+- You can configure things like how many instances handle traffic and deployment variants (for updates/A-B style rollouts).
+
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Model Monitor`
+`AWS`, `Sagemaker`, `Sagemaker Endpoints`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -68,8 +76,8 @@ _Flashcards pendientes de crear_
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-[[AWS Sagemaker Services]]
--
+
+- [[AWS SageMaker Services]]
 -
 
 ---
@@ -89,7 +97,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-cuando los datos tienen una ingesta constante es este servicio que se podría utilizar para monitorar como se comporta el modelo con los nuevos datos ingestados
+Es un recurso para conectar el modelo con el frontend por una llamada a la API
 
 
 ---
@@ -98,7 +106,7 @@ cuando los datos tienen una ingesta constante es este servicio que se podría ut
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:06 |
+| Capturado | 2026-08-14 13:53 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

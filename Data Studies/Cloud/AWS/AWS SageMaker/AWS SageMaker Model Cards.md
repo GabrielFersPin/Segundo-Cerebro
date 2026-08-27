@@ -74,7 +74,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--[[AWS Sagemaker Services]]
+-[[AWS SageMaker Services]]
 -
 
 ---

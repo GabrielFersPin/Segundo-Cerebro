@@ -12,10 +12,10 @@ tiempo-repaso: ""
 estado: "pendiente"
 ---
 
-# AWS Sagemaker Endpoints
+# AWS Sagemaker Autopilot
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 13:53
+> **Fecha**: 2026-08-14 14:10
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,32 +24,26 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> In AWS, SageMaker Endpoints are the hosted, always-on (or managed) URLs where you deploy a trained ML model so applications can send requests and get predictions.
+> SageMaker Autopilot es un servicio de AWS que automatiza el proceso de construir y entrenar modelos de ML.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-How they’re typically used:
+En la práctica:
 
-- You train a model in SageMaker.
-- You deploy it to an endpoint.
-- Your app then calls that endpoint (e.g., over HTTPS) with input data.
-- SageMaker runs the model and returns the prediction result.
-
-Key ideas:
-
-- They provide scaling and resource management around the model.
-- You can configure things like how many instances handle traffic and deployment variants (for updates/A-B style rollouts).
-
+- le das tus datos de entrenamiento (y el objetivo),
+- Autopilot prueba múltiples algoritmos y configuraciones,
+- evalúa los resultados con métricas,
+- y te entrega los mejores modelos para que elijas (o luego despliegues).
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Endpoints`
+`AWS`, `Sagemaker`, `Sagemaker Autopilot`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -77,7 +71,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[AWS Sagemaker Services]]
+-[[AWS SageMaker Services]]
 -
 
 ---
@@ -87,7 +81,7 @@ _Flashcards pendientes de crear_
 - [ ] Revisar y expandir contenido
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
+- [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -97,7 +91,8 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Es un recurso para conectar el modelo con el frontend por una llamada a la API
+Hace de manera automática la utilización de los mejores modelos para el objetivo que tienes.
+
 
 
 ---
@@ -106,7 +101,7 @@ Es un recurso para conectar el modelo con el frontend por una llamada a la API
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 13:53 |
+| Capturado | 2026-08-14 14:10 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

@@ -1,29 +1,29 @@
 ---
-created: 2026-06-09 12:09
+created: 2026-06-03 14:32
 modified: 2026-08-22
-area: Model Destillation
+area: Testing
 tipo_nota: captura_rapida
-status: 🌿 Creciendo
-nivel-comprension: 💡
-dias-para-revision: -64
+status: 🌱 Semilla
+nivel-comprension: 🤔
+dias-para-revision: -70
 ultima-revision: 2026-08-22
 veces-revisado: 1
 tiempo-repaso: ""
-cards-deck: Data Distillation
+cards-deck: Testing
 procesamiento: CAPTURA-RAPIDA
 prioridad: EXAMEN-PROXIMO
 tipo-captura: concepto
 complejidad: ⭐
-origen: curso
+origen: Curso
 urgente: false
-proxima-revision: 2026-10-21
-tiempo-estimado: 20min
+proxima-revision: 2026-09-21
+tiempo-estimado: 30m
 ---
 
-# Model Destillation
+# Red Teaming
 
 > [!info] Contexto captura
-> **Fecha**: 2026-06-09 12:29
+> **Fecha**: 2026-06-03 14:33
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -32,14 +32,14 @@ tiempo-estimado: 20min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> Es una técnica que utiliza un modelo grande para entrenar uno más pequeño para reducir el coste de inferencia.
+> Read teaming es una manera de hacer un test antes del deploy para identificar vulnerabilidades de edge-cases. Identifica biases, outputs peligrosos y modos fallidos.
 
 
 ### 🎯 Detalles / Contenido
 
-El modelo 'alumno' aprende los outputs del modelo 'profesor' sin necesidad de aprender por los datos en bruto, que es más caro. 
 
-Puede ser utilizado en Amazon Bedrock
+>Garantiza un comportamiento más seguro de los modelos en condiciones reales.
+
 
 
 
@@ -47,7 +47,7 @@ Puede ser utilizado en Amazon Bedrock
 
 ## 🔑 Keywords / Conceptos clave
 
-`Machine Learning`, `keyword2`, `keyword3`
+`keyword1`, `keyword2`, `keyword3`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -95,7 +95,7 @@ Puede ser utilizado en Amazon Bedrock
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-06-09 12:29 |
+| Capturado | 2026-06-03 14:33 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

@@ -1,13 +1,13 @@
 ---
 created: 2026-05-06
-modified: 2026-05-06
+modified: 2026-08-22
 area: IA / Agentes
 tipo_nota: tecnica
-status: 🎉 Completado / Archivado
-nivel-comprension: 💡 Entiendo bien
-proxima-revision: 2026-08-22
-ultima-revision: 2026-08-19
-veces-revisado: 2
+status: 🌿 Creciendo
+nivel-comprension: 💡
+proxima-revision: 2026-11-30
+ultima-revision: 2026-08-22
+veces-revisado: 3
 tiempo-repaso: 15min
 cards-deck:
 procesamiento: COMPLETO
@@ -17,6 +17,7 @@ complejidad: ⭐
 origen: Estudio personal
 urgente: false
 proxima_revision: 2026-05-13
+tiempo-estimado: 20min
 ---
 
 # A2A - Agent-to-Agent
@@ -106,14 +107,26 @@ A2A no es solo "mensaje entre agentes"; es un patrón de colaboración en el que
 ## ❓ Preguntas / Dudas pendientes
 
 - [ ] ¿Qué formatos de mensaje A2A son más eficaces?
+- Suele ser JSON
 - [ ] ¿Cómo manejar conflictos de autoridad entre agentes?
+- Los conflictos de autoridad entre agentes se manejan mejor definiendo de antemano quién puede decidir qué. No conviene que dos agentes tengan autoridad absoluta sobre el mismo recurso o acción.
+
+Un modelo básico sería:
+
+1. Asignar dominios de autoridad
+    
+    - Agente financiero: pagos y presupuestos.
+    - Agente técnico: configuración del sistema.
+    - Agente de soporte: respuestas al cliente.
+    - Un agente solo puede actuar dentro de sus permisos.
 - [ ] ¿Qué guardrails son necesarios para evitar bucles de delegación?
+- Para evitar bucles de comprobación entre agentes, necesitas limitar tanto el tiempo como el número de intentos y detectar cuándo no hay progreso.
 
 ---
 
 ## ✅ Checklist procesamiento
 
-- [ ] Revisar y expandir ejemplos con casos prácticos
+- [x] Revisar y expandir ejemplos con casos prácticos ✅ 2026-08-22
 - [ ] Añadir diagramas de flujo de comunicación
 - [ ] Crear flashcards sobre patrones A2A
 - [ ] Conectar con notas de coordinación y orquestación
@@ -122,7 +135,6 @@ A2A no es solo "mensaje entre agentes"; es un patrón de colaboración en el que
 
 ## 💭 Notas adicionales / Ideas rápidas
 
-- Incluir referencia a sistemas multi-agente reales y protocolos de mensajería.
 - Pensar en A2A como base para agentes especializados que comparten resultados semánticos.
 
 ---
@@ -140,3 +152,14 @@ A2A no es solo "mensaje entre agentes"; es un patrón de colaboración en el que
 ---
 
 # pendiente-procesar #captura-rapida
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia
