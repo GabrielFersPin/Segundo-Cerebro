@@ -1,15 +1,16 @@
 ---
 created: 2026-08-17
-modified: 2026-08-17
+modified: 2026-09-01
 area: ""
 tipo_nota: ""
-status: 🌱
-nivel-comprension: ""
-proxima-revision: ""
-ultima-revision: ""
-veces-revisado: 0
+status: 🌿 Creciendo
+nivel-comprension: 💡
+proxima-revision: 2026-10-31
+ultima-revision: 2026-09-01
+veces-revisado: 1
 tiempo-repaso: ""
-estado: "pendiente"
+estado: pendiente
+tiempo-estimado: 10min
 ---
 
 # Amazon VPC (Virtual Private Cloud) 
@@ -89,11 +90,11 @@ estado: "pendiente"
 
 ## ✅ Checklist procesamiento
 
-- [ ] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
-- [ ] Hacer ejercicios relacionados
-- [ ] Conectar con otras notas ([[]])
-- [ ] Actualizar nivel de comprensión
+- [x] Revisar y expandir contenido ✅ 2026-09-01
+- [x] Crear flashcards si es necesario ✅ 2026-09-01
+- [x] Hacer ejercicios relacionados ✅ 2026-09-01
+- [x] Conectar con otras notas ([[]]) ✅ 2026-09-01
+- [x] Actualizar nivel de comprensión ✅ 2026-09-01
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
 ---
@@ -120,3 +121,14 @@ Es una red de comunicación privada para configurar quien entra en tu red AWS.
 ---
 
 #pendiente-procesar #captura-rapida
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia

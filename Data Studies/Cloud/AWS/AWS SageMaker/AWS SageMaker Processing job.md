@@ -1,13 +1,13 @@
 ---
 created: 2026-08-19
-modified: 2026-08-22
+modified: 2026-09-01
 area: Cloud
 tipo_nota: captura_rapida
-status: 🌳 Maduro
-nivel-comprension: ✅
-proxima-revision: 2026-09-21
-ultima-revision: 2026-08-22
-veces-revisado: 1
+status: 🌿 Creciendo
+nivel-comprension: 💡
+proxima-revision: 2026-10-01
+ultima-revision: 2026-09-01
+veces-revisado: 3
 tiempo-repaso: 5min
 tiempo-estimado: 5min
 ---
@@ -85,8 +85,8 @@ En resumen: Processing Job = procesamiento de datos en SageMaker (a escala y rep
 ## ✅ Checklist procesamiento
 
 - [ ] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
-- [ ] Hacer ejercicios relacionados
+- [x] Crear flashcards si es necesario ✅ 2026-09-01
+- [x] Hacer ejercicios relacionados ✅ 2026-09-01
 - [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
@@ -97,7 +97,7 @@ En resumen: Processing Job = procesamiento de datos en SageMaker (a escala y rep
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
+Es un servicio para ejecutar procesos de preparación, ETL y limpieza de datos para utilizar un modelo.
 
 
 ---
@@ -116,3 +116,14 @@ En resumen: Processing Job = procesamiento de datos en SageMaker (a escala y rep
 ---
 
 #pendiente-procesar #captura-rapida
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia

@@ -1,14 +1,15 @@
 ---
 created: 2026-08-26
-modified: 2026-08-26
-area: "Data Studies/Cloud/AWS"
-tipo_nota: "captura_rapida"
-status: "🌱"
-nivel-comprension: "Básico"
-proxima-revision: "2026-08-29"
-ultima-revision: "2026-08-26"
-veces-revisado: 0
-tiempo-repaso: "5min"
+modified: 2026-09-01
+area: Data Studies/Cloud/AWS
+tipo_nota: captura_rapida
+status: 🌿 Creciendo
+nivel-comprension: 💡
+proxima-revision: 2026-10-01
+ultima-revision: 2026-09-01
+veces-revisado: 1
+tiempo-repaso: 5min
+tiempo-estimado: 10min
 ---
 
 # Amazon Lambda
@@ -70,6 +71,7 @@ El mayor beneficio es la reducción de ops, aunque hay que tener en cuenta lími
 ## ❓ Preguntas / Dudas pendientes
 
 - [ ] ¿Qué diferencia hay entre Lambda y EC2 para ejecutar código?
+- Una Lambda ejecuta una tarea cuando es activada, ya EC2 mantiene un proceso rodando aunque no estés ejecutando la tarea.
 - [ ] ¿Cuándo conviene Lambda frente a contenedores o servicios gestionados?
 - [ ] ¿Cómo afecta el cold start a la latencia de una API?
 
@@ -89,11 +91,42 @@ El mayor beneficio es la reducción de ops, aunque hay que tener en cuenta lími
 ## ✅ Checklist procesamiento
 
 - [x] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
-- [ ] Hacer ejercicios relacionados
+- [x] Crear flashcards si es necesario
+- [x] Hacer ejercicios relacionados ✅ 2026-09-01
 - [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
+
+---
+
+## 🎴 Flashcards
+
+¿Qué es Amazon Lambda?::Es un servicio serverless que ejecuta código bajo demanda sin provisionar ni gestionar servidores. #aws #lambda #serverless
+
+¿Qué significa que Lambda sea serverless?::Que AWS gestiona la infraestructura y el escalado, y tú solo te encargas del código y la lógica de negocio. #aws #lambda
+
+¿Cuándo conviene usar Lambda?::Cuando necesitas procesar eventos, automatizar tareas o responder a cambios en S3, DynamoDB, SNS, SQS o API Gateway. #aws #lambda
+
+¿Qué es un trigger en Lambda?::Es el evento que dispara la ejecución, como la subida de un archivo a S3 o un mensaje en SQS. #aws #lambda
+
+¿Qué es el modelo event-driven de Lambda?::Es un patrón donde cada evento activa una función que ejecuta una acción específica. #aws #lambda
+
+¿Por qué Lambda es útil para APIs?::Porque puede exponer lógica backend en respuesta a peticiones HTTP mediante API Gateway sin mantener servidores siempre activos. #aws #lambda
+
+¿Qué ventaja principal tiene Lambda en coste?::Pagas solo por el tiempo de ejecución y por las invocaciones realmente usadas. #aws #lambda
+
+¿Qué es cold start en Lambda?::Es el tiempo inicial de preparación del entorno cuando la función se ejecuta por primera vez o tras un periodo de inactividad. #aws #lambda
+
+¿Cuál es un caso real de uso para Lambda con S3?::Al subir una imagen a S3, una Lambda puede generar una miniatura, convertir el formato o enviar una notificación. #aws #lambda
+
+¿Cuál es un caso real de uso para Lambda con DynamoDB?::Cuando se inserta un registro, una Lambda puede enviar un evento, actualizar otros datos o realizar validaciones. #aws #lambda
+
+¿Qué limita Lambda en comparación con EC2?::Tiene límites de tiempo, memoria, duración y está optimizada para tareas cortas y eventos puntuales. #aws #lambda
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
 
 ---
 
@@ -119,3 +152,14 @@ Es ideal para automatización, integración y funciones muy cortas o con tráfic
 ---
 
 #pendiente-procesar #captura-rapida
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia

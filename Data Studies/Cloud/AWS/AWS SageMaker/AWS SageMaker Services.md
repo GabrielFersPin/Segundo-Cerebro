@@ -51,7 +51,7 @@ tiempo-estimado: 20min
 
 **Evaluate model**
 
-Sagemaker Processing Job: a tool for evaluating ML models
+[[AWS SageMaker Processing job]]: a tool for evaluating ML models
 
 **Register models**
 

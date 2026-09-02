@@ -1,21 +1,20 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
+created: 2026-09-01
+modified: 2026-09-01
 area: ""
-tipo_nota: ""
+tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: ""
-ultima-revision: ""
+proxima-revision: 2026-09-04
+ultima-revision: 2026-09-01
 veces-revisado: 0
-tiempo-repaso: ""
-estado: "pendiente"
+tiempo-repaso: 5min
 ---
 
-# AWS Cloudfront
+# CDN's
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 13:15
+> **Fecha**: 2026-09-01 14:15
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,13 +23,20 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> CloudFront is a CDN (Content Delivery Network) like an “in-between” layer that sits between your website/origin server and visitors. It has edge locations around the world, so when someone requests content, CloudFront can serve it from the nearest edge site (or fetch it from your origin only if it’s not cached yet). That makes delivery faster and reduces the load on your origin server
+> Una CDN (_Content Delivery Network_) es una red de servidores distribuidos en distintas ubicaciones geográficas que entrega contenido a los usuarios desde el servidor más cercano.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
+Se utiliza para:
 
+- Acelerar la carga de páginas web, imágenes, vídeos, archivos y contenido estático.
+- Reducir la carga del servidor principal.
+- Mejorar la disponibilidad y la capacidad de soportar muchos usuarios.
+- Añadir funcionalidades de seguridad, como protección frente a ciertos ataques y tráfico malicioso.
+
+Por ejemplo, si tu servidor está en Estados Unidos y un usuario accede desde España, la CDN puede entregarle una copia almacenada en un punto de presencia cercano.
 
 
 
@@ -38,7 +44,7 @@ estado: "pendiente"
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `CDN`, `CloudFront`
+`AWS`, `Network`, `CDN's`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -66,7 +72,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[Cloud Computing]]
+-
 -
 
 ---
@@ -76,7 +82,7 @@ _Flashcards pendientes de crear_
 - [ ] Revisar y expandir contenido
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
+- [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -86,7 +92,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Es un intermedio entre la backend y el frontend en que puede enviar información mucho más rápido por tener servidores en muchas partes del mundo y conectar directamente con la región del usuario.
+Una CDN acerca el contenido a los usuarios para mejorar el rendimiento, la disponibilidad y la escalabilidad de una aplicación.
 
 
 ---
@@ -95,11 +101,12 @@ Es un intermedio entre la backend y el frontend en que puede enviar información
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 13:15 |
+| Capturado | 2026-09-01 14:15 |
 | Área/Tema | `= this.area` |
+| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
-| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
+| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 
