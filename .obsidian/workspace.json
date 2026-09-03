@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "b2269194c962e031",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "URL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "URL"
-            }
-          },
-          {
             "id": "0268a2d151269e33",
             "type": "leaf",
             "state": {
@@ -48,9 +34,51 @@
               "icon": "lucide-file",
               "title": "HTTP"
             }
+          },
+          {
+            "id": "abfa02a7f295cfbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon Route 53.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Route 53"
+            }
+          },
+          {
+            "id": "0c389d4caa998609",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Studies/Cloud/AWS/Storage/Amazon Glacier.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Glacier"
+            }
+          },
+          {
+            "id": "aaab622ba3bdfd2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Studies/Cloud/AWS/Storage/Amazon EBS (Elastic Block Store).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon EBS (Elastic Block Store)"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -232,9 +260,15 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "0268a2d151269e33",
+  "active": "aaab622ba3bdfd2d",
   "lastOpenFiles": [
+    "Amazon EFS.md",
+    "Data Studies/Cloud/AWS/Storage/Amazon EBS (Elastic Block Store).md",
+    "Data Studies/Cloud/AWS/Storage/Amazon Glacier.md",
+    "Amazon Route 53.md",
     "HTTP.md",
+    "Journal/2026-08-04.md",
+    "Journal/2026-09-03.md",
     "URL.md",
     "Data Studies/Cloud/AWS/Network/AWS CloudFront.md",
     "Data Studies/Cloud/Content Delivery Networks (CDN's).md",
@@ -257,12 +291,6 @@
     "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Trainning Jobs.md",
     "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker JumpStart.md",
     "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Endpoints.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Inference.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Pipelines.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Model Monitor.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Autopilot.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Lineage.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Model Cards.md",
     "Data Studies/Python/Python_Cheat_Sheet_-_The_Basics_Coursera.pdf",
     "Data Studies/Python/Pyhton_for_Data_Science.pdf",
     "Data Studies/Cloud/AWS/Storage",

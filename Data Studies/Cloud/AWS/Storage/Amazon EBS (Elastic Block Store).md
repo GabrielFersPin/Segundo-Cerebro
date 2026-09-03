@@ -50,7 +50,21 @@ estado: "pendiente"
 
 ## 🎴 Flashcards
 
-_Flashcards pendientes de crear_
+¿Qué es Amazon EBS?::Es un servicio de almacenamiento por bloques persistente que se conecta a instancias de Amazon EC2. #aws #ebs #storage
+
+¿Qué ocurre con los datos de EBS cuando se detiene o termina una instancia?::Los datos persisten independientemente del ciclo de vida de la instancia, según la configuración del volumen. #aws #ebs
+
+¿Qué es un snapshot de EBS?::Es una copia de respaldo de un volumen EBS que puede almacenarse y utilizarse para restaurar o crear nuevos volúmenes. #aws #ebs #backup
+
+¿Qué ventaja ofrece el redimensionamiento de un volumen EBS?::Permite aumentar su capacidad o ajustar su rendimiento sin necesidad de detener la instancia, evitando downtime en muchos casos. #aws #ebs
+
+¿Cuándo usarías un volumen gp3?::Cuando necesitas almacenamiento SSD de propósito general para cargas comunes, como el disco de una aplicación o una base de datos moderada. #aws #ebs
+
+¿Cuándo usarías un volumen io2?::Cuando necesitas alto rendimiento y muchos IOPS, por ejemplo para una base de datos crítica con muchas operaciones de entrada y salida. #aws #ebs
+
+¿Cuándo usarías un volumen st1?::Cuando la carga necesita alto throughput para procesar grandes volúmenes de datos secuenciales, como logs o procesamiento de big data. #aws #ebs
+
+¿Qué diferencia principal hay entre EBS y un almacenamiento de objetos como S3?::EBS proporciona almacenamiento por bloques para una instancia, mientras S3 almacena objetos y se accede mediante APIs. #aws #ebs #s3
 
 > 💡 **Formato recomendado**:
 > - Inline: `¿Pregunta?::Respuesta #tags`
@@ -77,7 +91,7 @@ _Flashcards pendientes de crear_
 ## ✅ Checklist procesamiento
 
 - [ ] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
+- [x] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
 - [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
