@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP.md",
+                "file": "Data Studies/Redes/HTTP.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Route 53.md",
+                "file": "Data Studies/Cloud/AWS/Network/Amazon Route 53.md",
                 "mode": "source",
                 "source": false
               },
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Studies/Cloud/AWS/Storage/Amazon EBS (Elastic Block Store).md",
+                "file": "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon EBS (Elastic Block Store)"
+              "title": "AWS SageMaker Services"
             }
           }
         ],
@@ -262,26 +262,26 @@
   },
   "active": "aaab622ba3bdfd2d",
   "lastOpenFiles": [
-    "Amazon EFS.md",
+    "Dashboard_General.md",
+    "Amazon Aurora.md",
+    "Amazon Redshift.md",
+    "Amazon Database Migration.md",
+    "Data Studies/Cloud/AWS/Storage/Amazon EFS.md",
     "Data Studies/Cloud/AWS/Storage/Amazon EBS (Elastic Block Store).md",
     "Data Studies/Cloud/AWS/Storage/Amazon Glacier.md",
-    "Amazon Route 53.md",
-    "HTTP.md",
+    "Data Studies/Cloud/AWS/Network/Amazon Route 53.md",
+    "Data Studies/Redes/HTTP.md",
     "Journal/2026-08-04.md",
     "Journal/2026-09-03.md",
-    "URL.md",
+    "Data Studies/Redes/URL.md",
     "Data Studies/Cloud/AWS/Network/AWS CloudFront.md",
     "Data Studies/Cloud/Content Delivery Networks (CDN's).md",
     "Data Studies/Cloud/AWS/Network/Amazon VPC (Virtual Private Cloud).md",
     "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Services.md",
     "Data Studies/Cloud/AWS/Network",
-    "Dashboard_General.md",
     "Data Studies/Cloud/AWS/Migration",
-    "Amazon Aurora.md",
-    "Amazon Redshift.md",
     "Data Studies/Cloud/AWS/Migration/AWS Database Migration Service.md",
     "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Processing job.md",
-    "Amazon Database Migration.md",
     "Data Studies/Cloud/AWS/Migration/Amazon Schema Convertion Tool.md",
     "Data Studies/Cloud/AWS/Amazon Lambda.md",
     "Data Studies/Cloud/AWS/BBDD/Amazon DynamoDB.md",
