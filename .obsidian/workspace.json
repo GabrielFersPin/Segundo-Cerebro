@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "edd5dfbb9fad1808",
+        "id": "5790d7c12af51837",
         "type": "tabs",
         "children": [
           {
-            "id": "2372e3a89c4445e2",
+            "id": "885c8c08cafab025",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Studies/Redes/Firewall.md",
+                "file": "Data Studies/Cloud/AWS/Boto3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Firewall"
+              "title": "Boto3"
             }
           }
         ]
@@ -203,10 +203,15 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "2372e3a89c4445e2",
+  "active": "885c8c08cafab025",
   "lastOpenFiles": [
-    "Dashboard_General.md",
+    "Data Studies/Cloud/AWS/Data & Analytics/AWS Glue.md",
+    "Data Studies/Cloud/AWS/Boto3.md",
+    "Data Studies/Cloud/AWS/Security & Governance/Amazon Macie.md",
     "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Services.md",
+    "Dashboard_General.md",
+    "Data Studies/Redes/URL.md",
+    "Data Studies/Redes/Firewall.md",
     "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Model Registry.md",
     "Data Studies/SQL/SQL.md",
     "Data Studies/Vector Database/Vector Database.md",
@@ -230,13 +235,8 @@
     "Data Studies/Cloud/AWS/AI & GenAI",
     "Data Studies/Cloud/AWS/Data & Analytics/Amazon Redshift.md",
     "Data Studies/Cloud/AWS/Data & Analytics/Amazon QuickSight.md",
-    "Data Studies/Cloud/AWS/Data & Analytics/Amazon OpenSearch Serverless.md",
-    "Data Studies/Cloud/AWS/Data & Analytics/Amazon Kinesis.md",
-    "Data Studies/Cloud/AWS/Data & Analytics/Amazon Athena.md",
-    "Data Studies/Cloud/AWS/Data & Analytics/AWS Glue.md",
     "Data Studies/Cloud/AWS/Data & Analytics",
     "Data Studies/Cloud/AWS/Databases/Amazon Timestream",
-    "Data Studies/Cloud/AWS/Databases/Amazon RDS.md",
     "Data Studies/Cloud/AWS/Databases",
     "Data Studies/Cloud/AWS/Compute",
     "Data Studies/Cloud/AWS/Network",

@@ -1,19 +1,19 @@
 ---
 created: 2026-05-20 11:25
-modified: 2026-08-22
+modified: 2026-09-07
 area: Machine Learning
 tipo_nota: captura_rapida
-status: 🌿 Creciendo
-nivel-comprension: 💡
+status: 🌱 Semilla
+nivel-comprension: 🤔
 dias-para-revision: 2
-ultima-revision: 2026-08-22
-veces-revisado: 3
+ultima-revision: 2026-09-07
+veces-revisado: 4
 tiempo-repaso: ""
 cards-deck: ""
 tags:
   - captura_rapida
   - 2026-05-20
-proxima-revision: 2026-08-25
+proxima-revision: 2026-09-08
 tiempo-estimado: 20min
 ---
 

@@ -1,14 +1,15 @@
 ---
 created: 2026-08-20
-modified: 2026-08-20
+modified: 2026-09-07
 area: Redes
 tipo_nota: captura_rapida
-status: 🌱
-nivel-comprension: ""
-proxima-revision: 2026-08-23
-ultima-revision: 2026-08-20
-veces-revisado: 0
+status: 🌿 Creciendo
+nivel-comprension: 💡
+proxima-revision: 2026-10-07
+ultima-revision: 2026-09-07
+veces-revisado: 1
 tiempo-repaso: 5min
+tiempo-estimado: 10min
 ---
 
 # Firewall
@@ -48,7 +49,15 @@ tiempo-repaso: 5min
 
 ## 🎴 Flashcards
 
-_Flashcards pendientes de crear_
+¿Qué es un firewall?::Es una barrera de seguridad que controla qué tráfico de red puede entrar o salir de un sistema. #redes #seguridad #firewall
+
+¿Qué criterios puede revisar un firewall para filtrar tráfico?::El origen, el destino, los puertos y el protocolo de la comunicación. #redes #firewall
+
+¿Qué diferencia hay entre un firewall stateful y uno stateless?::Un firewall stateful recuerda el estado de las conexiones; uno stateless analiza cada paquete de forma independiente. #redes #firewall
+
+¿Qué hace principalmente un firewall?::Permite o bloquea conexiones según sus reglas de filtrado; no suele analizar el contenido como lo haría un antivirus. #redes #seguridad
+
+¿Cómo funciona la analogía del firewall como puerta de una discoteca?::Comprueba ciertos criterios de entrada y decide quién puede pasar, pero no necesariamente inspecciona todo lo que lleva cada persona. #redes #firewall
 
 > 💡 **Formato recomendado**:
 > - Inline: `¿Pregunta?::Respuesta #tags`
@@ -75,7 +84,7 @@ _Flashcards pendientes de crear_
 ## ✅ Checklist procesamiento
 
 - [ ] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
+- [x] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
 - [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
@@ -106,3 +115,14 @@ Es como el puerta de la discoteca, que puedo o no verificar que lleva cada perso
 ---
 
 #pendiente-procesar #captura-rapida
+
+
+---
+
+## 🚧 Plan de Mejora / Tareas Pendientes
+
+Define las tareas que te ayudarán a subir tu `nivel-comprension` en la próxima revisión. Usa los tags: `#mejora-concepto`, `#mejora-practica`, `#mejora-analogia`.
+
+- [ ] Tarea para aclarar una duda de concepto. Usa #mejora-concepto
+- [ ] Tarea para implementar un ejercicio práctico. Usa #mejora-practica
+- [ ] Tarea para crear una analogía o diagrama. Usa #mejora-analogia
