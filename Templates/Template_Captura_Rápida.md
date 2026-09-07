@@ -5,7 +5,7 @@ area: ""
 tipo_nota: "captura_rapida"
 status: "🌱"
 nivel-comprension: ""
-proxima-revision: "<% tp.date.now('YYYY-MM-DD', 3) %>"
+proxima-revision: "<% tp.date.now('YYYY-MM-DD', 2) %>"
 ultima-revision: "<% tp.date.now('YYYY-MM-DD') %>"
 veces-revisado: 0
 tiempo-repaso: "5min"

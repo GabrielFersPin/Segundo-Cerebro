@@ -55,7 +55,7 @@ tiempo-estimado: 20min
 
 **Register models**
 
-Sagemaker Model Registry: a tool for registering ML models
+[[AWS SageMaker Model Registry]]: a tool for registering ML models
 
 ## Deploy and manage
 

@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3284ba32b978e576",
+        "id": "edd5dfbb9fad1808",
         "type": "tabs",
         "children": [
           {
-            "id": "481ef1319f75b402",
+            "id": "2372e3a89c4445e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Studies/Cloud/AWS/Network/AWS CloudFront.md",
+                "file": "Data Studies/Redes/Firewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS CloudFront"
-            }
-          },
-          {
-            "id": "0268a2d151269e33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Studies/Redes/HTTP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HTTP"
-            }
-          },
-          {
-            "id": "abfa02a7f295cfbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Studies/Cloud/AWS/Network/Amazon Route 53.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Amazon Route 53"
-            }
-          },
-          {
-            "id": "0c389d4caa998609",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Studies/Cloud/AWS/Storage/Amazon Glacier.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Amazon Glacier"
-            }
-          },
-          {
-            "id": "aaab622ba3bdfd2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Services.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AWS SageMaker Services"
+              "title": "Firewall"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:Amazon Redshi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -260,47 +203,47 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "aaab622ba3bdfd2d",
+  "active": "2372e3a89c4445e2",
   "lastOpenFiles": [
     "Dashboard_General.md",
-    "Amazon Aurora.md",
-    "Amazon Redshift.md",
-    "Amazon Database Migration.md",
-    "Data Studies/Cloud/AWS/Storage/Amazon EFS.md",
-    "Data Studies/Cloud/AWS/Storage/Amazon EBS (Elastic Block Store).md",
-    "Data Studies/Cloud/AWS/Storage/Amazon Glacier.md",
-    "Data Studies/Cloud/AWS/Network/Amazon Route 53.md",
-    "Data Studies/Redes/HTTP.md",
-    "Journal/2026-08-04.md",
-    "Journal/2026-09-03.md",
-    "Data Studies/Redes/URL.md",
-    "Data Studies/Cloud/AWS/Network/AWS CloudFront.md",
-    "Data Studies/Cloud/Content Delivery Networks (CDN's).md",
-    "Data Studies/Cloud/AWS/Network/Amazon VPC (Virtual Private Cloud).md",
     "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Services.md",
+    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Model Registry.md",
+    "Data Studies/SQL/SQL.md",
+    "Data Studies/Vector Database/Vector Database.md",
+    "Data Studies/Vector Database/Vector_Databases_para_Búsqueda_Semántica.md",
+    "Data Studies/Serverless.md",
+    "Data Studies/Cloud/AWS/AWS_AI_Practitioner_Servicios_Clave.md",
+    "Data Studies/Cloud/AWS/Amazon QuickSight.md",
+    "Data Studies/Cloud/AWS/Network/AWS Site-to_site VPN.md",
+    "Data Studies/Cloud/AWS/Network/AWS Direct Connect.md",
+    "Data Studies/Cloud/AWS/Messaging & Integration/AWS Simple Notification Service (Amazon SNS).md",
+    "Data Studies/Cloud/AWS/Messaging & Integration",
+    "Data Studies/Cloud/AWS/Architecture & IaC/AWS CloudFormation.md",
+    "Data Studies/Cloud/AWS/Architecture & IaC",
+    "Data Studies/Cloud/AWS/Security & Governance/Well-Architected Framework.md",
+    "Data Studies/Cloud/AWS/Security & Governance/AWS Trusted Advisor.md",
+    "Data Studies/Cloud/AWS/Security & Governance/AWS - Seguridad Compliance y Gobernanza.md",
+    "Data Studies/Cloud/AWS/Security & Governance",
+    "Data Studies/Cloud/AWS/AI & GenAI/Amazon Titan.md",
+    "Data Studies/Cloud/AWS/AI & GenAI/Amazon Text and Images Services.md",
+    "Data Studies/Cloud/AWS/AI & GenAI/Amazon Bedrock.md",
+    "Data Studies/Cloud/AWS/AI & GenAI",
+    "Data Studies/Cloud/AWS/Data & Analytics/Amazon Redshift.md",
+    "Data Studies/Cloud/AWS/Data & Analytics/Amazon QuickSight.md",
+    "Data Studies/Cloud/AWS/Data & Analytics/Amazon OpenSearch Serverless.md",
+    "Data Studies/Cloud/AWS/Data & Analytics/Amazon Kinesis.md",
+    "Data Studies/Cloud/AWS/Data & Analytics/Amazon Athena.md",
+    "Data Studies/Cloud/AWS/Data & Analytics/AWS Glue.md",
+    "Data Studies/Cloud/AWS/Data & Analytics",
+    "Data Studies/Cloud/AWS/Databases/Amazon Timestream",
+    "Data Studies/Cloud/AWS/Databases/Amazon RDS.md",
+    "Data Studies/Cloud/AWS/Databases",
+    "Data Studies/Cloud/AWS/Compute",
     "Data Studies/Cloud/AWS/Network",
     "Data Studies/Cloud/AWS/Migration",
-    "Data Studies/Cloud/AWS/Migration/AWS Database Migration Service.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Processing job.md",
-    "Data Studies/Cloud/AWS/Migration/Amazon Schema Convertion Tool.md",
-    "Data Studies/Cloud/AWS/Amazon Lambda.md",
-    "Data Studies/Cloud/AWS/BBDD/Amazon DynamoDB.md",
-    "Ideas y Tareas.md",
-    "Data Studies/Cloud/AWS/Amazon Timestream",
-    "Finanzas/Plan Financiero.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Trainning Jobs.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker JumpStart.md",
-    "Data Studies/Cloud/AWS/AWS SageMaker/AWS SageMaker Endpoints.md",
-    "Data Studies/Python/Python_Cheat_Sheet_-_The_Basics_Coursera.pdf",
-    "Data Studies/Python/Pyhton_for_Data_Science.pdf",
-    "Data Studies/Cloud/AWS/Storage",
-    "Data Studies/Cloud/AWS/BBDD",
     "Data Studies/Cloud/AWS/Pasted image 20260812130040.png",
-    "Data Studies/Cloud/AWS/AWS SageMaker",
     "Data Studies/Cloud/AWS/Pasted image 20260812130035.png",
     "Data Studies/Cloud/AWS/Pasted image 20260814100325.png",
-    "Data Studies/Redes",
-    "Projects/aws-cfn-secure-vpc/scripts/deploy-local.sh",
     "Pasted image 20260812122547.png",
     "Data Studies/Cloud/Eduinnovatech.png",
     "Data Studies/Deep Learning/Comportamiento Humano e Integración de la Intelig 10f3376ecba34c8cb252ba5f5e3d7c74/Unidad 1(Introducción a la inteligencia artificia 439cadea289947a284f732f172fde532/Untitled.png",

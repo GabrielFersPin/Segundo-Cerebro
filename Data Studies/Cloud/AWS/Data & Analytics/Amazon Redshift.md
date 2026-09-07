@@ -1,0 +1,117 @@
+---
+created: 2026-09-04
+modified: 2026-09-04
+area: ""
+tipo_nota: captura_rapida
+status: 🌱
+nivel-comprension: ""
+proxima-revision: 2026-09-07
+ultima-revision: 2026-09-04
+veces-revisado: 0
+tiempo-repaso: 5min
+---
+
+# Amazon Redshift
+
+> [!info] Contexto captura
+> **Fecha**: 2026-09-04 14:45
+> **Origen**: `= this.origen`
+> **Tipo**: `= this.tipo-captura`
+
+---
+
+## 📝 Captura principal
+
+> [!tip] Lo más importante
+> Amazon Redshift es un servicio de data warehouse administrado de AWS, diseñado para analizar grandes volúmenes de datos mediante SQL.
+
+
+### 🎯 Detalles / Contenido
+
+<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
+
+Se utiliza para:
+
+- Consultar terabytes o petabytes de información.
+- Combinar datos de distintas fuentes.
+- Ejecutar informes y análisis complejos.
+- Alimentar dashboards de herramientas como QuickSight.
+- Crear procesos de inteligencia empresarial y analítica histórica.
+
+A diferencia de Athena:
+
+- Redshift: almacena los datos en un warehouse optimizado para análisis repetidos y consultas complejas.
+- [[Amazon Athena]]: consulta directamente archivos almacenados en S3 y cobra principalmente por los datos escaneados.
+
+
+---
+
+## 🔑 Keywords / Conceptos clave
+
+`AWS`, `Redshift`, `SQL`
+
+> [!note] Para RAG
+> Estos keywords ayudarán a encontrar esta nota después
+
+---
+
+## 🎴 Flashcards
+
+_Flashcards pendientes de crear_
+
+> 💡 **Formato recomendado**:
+> - Inline: `¿Pregunta?::Respuesta #tags`
+> - Reversa: `Término:::Definición #tags`
+> - Cloze: `Texto con ==palabra== oculta`
+---
+
+## ❓ Preguntas / Dudas pendientes
+
+- [ ]
+- [ ]
+
+---
+
+## 🧩 Conexiones potenciales
+
+<!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
+
+-
+-
+
+---
+
+## ✅ Checklist procesamiento
+
+- [ ] Revisar y expandir contenido
+- [ ] Crear flashcards si es necesario
+- [ ] Hacer ejercicios relacionados
+- [ ] Conectar con otras notas ([[]])
+- [ ] Actualizar nivel de comprensión
+- [ ] Mover a vault definitivo / Cambiar status a 🌿
+
+---
+
+## 💭 Notas adicionales / Ideas rápidas
+
+<!-- Zona libre para cualquier cosa que quieras capturar rápido -->
+
+
+
+
+---
+
+## 📋 Metadata resumen
+
+| Campo | Valor |
+|-------|-------|
+| Capturado | 2026-09-04 14:45 |
+| Área/Tema | `= this.area` |
+| Estado | `= this.status` |
+| Prioridad | `= this.prioridad` |
+| Revisión | `= this.proxima-revision` |
+| Nivel de comprensión | `= this.nivel-comprension` |
+
+---
+
+#pendiente-procesar #captura-rapida
