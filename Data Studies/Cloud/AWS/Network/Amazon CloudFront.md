@@ -13,7 +13,7 @@ estado: pendiente
 tiempo-estimado: 10min
 ---
 
-# AWS Cloudfront
+# Amazon CloudFront
 
 > [!info] Contexto captura
 > **Fecha**: 2026-08-14 13:15

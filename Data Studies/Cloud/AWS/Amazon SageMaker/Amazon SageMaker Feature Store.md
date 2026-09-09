@@ -11,7 +11,7 @@ veces-revisado: 0
 tiempo-repaso: 5min
 ---
 
-# AWS Sagemaker Feature Store
+# Amazon SageMaker Feature Store
 
 > [!info] Contexto captura
 > **Fecha**: 2026-08-22 18:42

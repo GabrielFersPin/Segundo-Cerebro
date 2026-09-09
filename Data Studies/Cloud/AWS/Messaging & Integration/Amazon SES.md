@@ -1,21 +1,20 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
+created: 2026-09-07
+modified: 2026-09-07
 area: ""
-tipo_nota: ""
+tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: ""
-ultima-revision: ""
+proxima-revision: 2026-09-09
+ultima-revision: 2026-09-07
 veces-revisado: 0
-tiempo-repaso: ""
-estado: "pendiente"
+tiempo-repaso: 5min
 ---
 
-# AWS Sagemaker Autopilot
+# Amazon SES
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:10
+> **Fecha**: 2026-09-07 13:22
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,26 +23,34 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Autopilot es un servicio de AWS que automatiza el proceso de construir y entrenar modelos de ML.
+> Amazon SES (Simple Email Service) es un servicio de AWS para enviar y recibir correos electrónicos a gran escala.
 
 
 ### 🎯 Detalles / Contenido
 
-<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
+Se utiliza para:
 
-En la práctica:
+- Enviar emails transaccionales, como confirmaciones de compra o recuperación de contraseñas.
+- Enviar campañas y comunicaciones masivas.
+- Recibir correos y procesarlos automáticamente.
+- Gestionar plantillas de email.
+- Monitorizar entregas, rebotes y quejas por spam.
+- Integrarse con Lambda, S3, SNS y otros servicios.
 
-- le das tus datos de entrenamiento (y el objetivo),
-- Autopilot prueba múltiples algoritmos y configuraciones,
-- evalúa los resultados con métricas,
-- y te entrega los mejores modelos para que elijas (o luego despliegues).
+Ejemplo:
+
+> Un usuario se registra → una Lambda llama a SES → SES envía el correo de verificación.
+
+Antes de enviar correos en producción, normalmente debes verificar el dominio y configurar mecanismos de autenticación como SPF, DKIM y DMARC.
+
+
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Autopilot`
+`AWS`, `SES`, `Messaging`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -71,7 +78,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--[[AWS SageMaker Services]]
+-
 -
 
 ---
@@ -89,9 +96,8 @@ _Flashcards pendientes de crear_
 
 ## 💭 Notas adicionales / Ideas rápidas
 
-<!-- Zona libre para cualquier cosa que quieras capturar rápido -->
+Amazon SES es la plataforma de correo electrónico de AWS para enviar y recibir emails de forma programática y escalable.
 
-Hace de manera automática la utilización de los mejores modelos para el objetivo que tienes.
 
 
 
@@ -101,11 +107,12 @@ Hace de manera automática la utilización de los mejores modelos para el objeti
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:10 |
+| Capturado | 2026-09-07 13:22 |
 | Área/Tema | `= this.area` |
+| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
-| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
+| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 

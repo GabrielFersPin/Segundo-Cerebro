@@ -69,7 +69,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[SageMaker_AI]]
+- [[Amazon SageMaker Services]]
 - [[LLMs]]
 
 ---

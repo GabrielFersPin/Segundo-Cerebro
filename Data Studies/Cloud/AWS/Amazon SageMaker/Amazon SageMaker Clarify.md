@@ -1,6 +1,6 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
+created: 2026-08-13
+modified: 2026-08-13
 area: ""
 tipo_nota: ""
 status: 🌱
@@ -12,10 +12,10 @@ tiempo-repaso: ""
 estado: "pendiente"
 ---
 
-# AWS Sagemaker Model Monitor
+# Amazon SageMaker Clarify
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:06
+> **Fecha**: 2026-08-13 09:08
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,24 +24,21 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Model Monitor es un servicio para vigilar en producción cómo se comporta tu modelo y detectar problemas.
+> Supports FM evaluation. You can automatically evaluate the output of your FM for bias and fairness
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-La idea típica es:
 
-- usar tus nuevos datos (y, si aplica, compararlos contra el entrenamiento/validación) para revisar señales de degradación,
-- y así generar hallazgos/alertas cuando el comportamiento cambia.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Model Monitor`
+	`AWS`, `Cloud`, `Sagemaker`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -68,18 +65,18 @@ _Flashcards pendientes de crear_
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-[[AWS SageMaker Services]]
--
+
+- [[Amazon SageMaker Services]]
 -
 
 ---
 
 ## ✅ Checklist procesamiento
 
-- [ ] Revisar y expandir contenido
+- [x] Revisar y expandir contenido ✅ 2026-08-13
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
+- [x] Conectar con otras notas ([[]]) ✅ 2026-08-13
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -89,7 +86,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-cuando los datos tienen una ingesta constante es este servicio que se podría utilizar para monitorar como se comporta el modelo con los nuevos datos ingestados
+
 
 
 ---
@@ -98,7 +95,7 @@ cuando los datos tienen una ingesta constante es este servicio que se podría ut
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:06 |
+| Capturado | 2026-08-13 09:08 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

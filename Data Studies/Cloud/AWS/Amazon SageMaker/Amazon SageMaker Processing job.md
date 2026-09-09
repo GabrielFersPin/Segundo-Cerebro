@@ -12,7 +12,7 @@ tiempo-repaso: 5min
 tiempo-estimado: 5min
 ---
 
-# AWS SageMaker Processing Job
+# Amazon SageMaker Processing Job
 
 > [!info] Contexto captura
 > **Fecha**: 2026-08-19 12:20
@@ -24,7 +24,7 @@ tiempo-estimado: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> Un SageMaker Processing Job es un tipo de trabajo en AWS SageMaker para procesar datos y/o ejecutar tareas de preparación (no es entrenamiento del modelo en sí).
+> Un SageMaker Processing Job es un tipo de trabajo en Amazon SageMaker para procesar datos y/o ejecutar tareas de preparación (no es entrenamiento del modelo en sí).
 
 
 ### 🎯 Detalles / Contenido

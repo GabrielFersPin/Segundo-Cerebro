@@ -1,21 +1,20 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
+created: 2026-09-07
+modified: 2026-09-07
 area: ""
-tipo_nota: ""
+tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: ""
-ultima-revision: ""
+proxima-revision: 2026-09-09
+ultima-revision: 2026-09-07
 veces-revisado: 0
-tiempo-repaso: ""
-estado: "pendiente"
+tiempo-repaso: 5min
 ---
 
-# AWS Sagemaker Model Cards
+# AWS CodePipeline
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:20
+> **Fecha**: 2026-09-07 13:29
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,29 +23,38 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Model Cards (tarjetas de modelo) es una función para documentar un modelo.
+> AWS CodePipeline es un servicio de integración y entrega continua (CI/CD) que automatiza el flujo desde que se modifica el código hasta que se prueba y despliega.
 
 
 ### 🎯 Detalles / Contenido
 
-<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
+Un pipeline típico puede ser:
 
-Sirve para que quede claro, de forma estructurada, cosas como:
+> Código en GitHub o CodeCommit → compilar con CodeBuild → probar → desplegar en ECS, EC2, Lambda o S3.
 
-- para qué casos de uso está pensado,
-- datos usados para entrenar,
-- métricas y rendimiento,
-- limitaciones/confiabilidad,
-- y consideraciones de seguridad/ética (según cómo lo completes).
+Sus etapas principales suelen ser:
 
-Es útil para que equipos técnicos y de negocio entiendan el modelo y para auditorías y gobernanza, especialmente cuando el modelo ya está en producción.
+- Source: obtiene el código.
+- Build: compila la aplicación y ejecuta pruebas.
+- Test: realiza validaciones adicionales.
+- Deploy: publica la nueva versión.
+- Approval: solicita aprobación manual antes de producción, si es necesario.
+
+CodePipeline coordina servicios como:
+
+- CodeBuild: compila y prueba.
+- CodeDeploy: despliega aplicaciones.
+- CloudFormation: crea o actualiza infraestructura.
+- ECS, Lambda, EC2 o S3: destinos del despliegue.
+
+
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Model Cards`
+`AWS`, `CodePipeline`, `Code`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -74,7 +82,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--[[AWS SageMaker Services]]
+-
 -
 
 ---
@@ -92,9 +100,9 @@ _Flashcards pendientes de crear_
 
 ## 💭 Notas adicionales / Ideas rápidas
 
-<!-- Zona libre para cualquier cosa que quieras capturar rápido -->
+CodePipeline automatiza y coordina el proceso de llevar código desde un repositorio hasta un entorno de despliegue.
 
-Sirve para hacer la gobernanza del modelo.
+
 
 
 ---
@@ -103,11 +111,12 @@ Sirve para hacer la gobernanza del modelo.
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:20 |
+| Capturado | 2026-09-07 13:29 |
 | Área/Tema | `= this.area` |
+| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
-| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
+| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 

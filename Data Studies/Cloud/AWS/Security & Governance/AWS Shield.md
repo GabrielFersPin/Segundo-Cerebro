@@ -1,20 +1,20 @@
 ---
-created: 2026-09-01
-modified: 2026-09-01
+created: 2026-09-09
+modified: 2026-09-09
 area: ""
 tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: 2026-09-04
-ultima-revision: 2026-09-01
+proxima-revision: 2026-09-11
+ultima-revision: 2026-09-09
 veces-revisado: 0
 tiempo-repaso: 5min
 ---
 
-# AWS Database Migration Service
+# Amazon Shield
 
 > [!info] Contexto captura
-> **Fecha**: 2026-09-01 13:44
+> **Fecha**: 2026-09-09 10:40
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,24 +23,30 @@ tiempo-repaso: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> AWS Database Migration Service (AWS DMS) es un servicio administrado para migrar datos entre bases de datos y almacenes de datos con poco tiempo de inactividad.
+> AWS Shield es un servicio de protección contra ataques de denegación de servicio distribuido (DDoS).
 
 
 ### 🎯 Detalles / Contenido
 
-<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
-Permite:
+Protege aplicaciones y recursos de AWS frente a grandes volúmenes de tráfico malicioso que intentan saturarlos o dejarlos inaccesibles.
 
-- Migrar bases de datos homogéneas, como Oracle → Oracle.
-- Migrar bases heterogéneas, como Oracle → PostgreSQL.
-- Realizar migraciones únicas o replicación continua.
-- Mantener sincronizada la base de datos destino mediante la captura de cambios (_Change Data Capture_, CDC).
-- Migrar datos hacia servicios como [[Amazon RDS]], Amazon Aurora, [[Amazon Redshift]], [[Amazon DynamoDB]] o [[Amazon S3]].
+Tiene dos niveles principales:
 
-En una migración típica:
+- Shield Standard: protección básica automática contra ataques comunes en servicios como CloudFront, Route 53 y Elastic Load Balancing.
+- Shield Advanced: protección ampliada, más visibilidad, mitigación avanzada y soporte especializado para recursos críticos.
 
-1. [[AWS Schema Conversion Tool]] convierte el esquema y el código si cambia el motor de base de datos.
-2. [[AWS Database Migration Service]] copia los datos y replica los cambios mientras la base de datos original sigue funcionando.
+Shield suele combinarse con:
+
+- AWS WAF: filtra solicitudes HTTP/HTTPS según reglas.
+- CloudFront: distribuye y absorbe tráfico desde una red global.
+- Route 53: ayuda a mantener la disponibilidad del DNS.
+
+Diferencia rápida:
+
+- Shield: protege principalmente contra DDoS.
+- WAF: bloquea solicitudes web maliciosas, como inyecciones o bots.
+- GuardDuty: detecta comportamientos y amenazas sospechosas.t
+
 
 
 
@@ -48,7 +54,7 @@ En una migración típica:
 
 ## 🔑 Keywords / Conceptos clave
 
-`Migration`, `Amazon`, `DMS`
+`keyword1`, `keyword2`, `keyword3`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -96,7 +102,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-AWS DMS copia los datos y replica los cambios, mientras la base de datos original sigue funcionando
+
 
 
 ---
@@ -105,7 +111,7 @@ AWS DMS copia los datos y replica los cambios, mientras la base de datos origina
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-09-01 13:44 |
+| Capturado | 2026-09-09 10:40 |
 | Área/Tema | `= this.area` |
 | Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |

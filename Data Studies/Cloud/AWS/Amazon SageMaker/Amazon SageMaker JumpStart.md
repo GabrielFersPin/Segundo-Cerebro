@@ -11,7 +11,7 @@ veces-revisado: 0
 tiempo-repaso: ""
 ---
 
-# AWS SageMaker JumpStart
+# Amazon SageMaker JumpStart
 
 > [!info] Contexto captura
 > **Fecha**: 2026-08-12 12:47
@@ -63,7 +63,7 @@ tiempo-repaso: ""
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
 - [[AWS]]
-- [[SageMaker_AI]]
+- [[Amazon SageMaker Services]]
 
 ---
 

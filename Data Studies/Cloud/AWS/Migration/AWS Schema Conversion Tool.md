@@ -11,10 +11,10 @@ veces-revisado: 0
 tiempo-repaso: 5min
 ---
 
-# AWS Database Migration Service
+# AWS Schema Conversion Tool
 
 > [!info] Contexto captura
-> **Fecha**: 2026-09-01 13:44
+> **Fecha**: 2026-09-01 13:42
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,32 +23,34 @@ tiempo-repaso: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> AWS Database Migration Service (AWS DMS) es un servicio administrado para migrar datos entre bases de datos y almacenes de datos con poco tiempo de inactividad.
+> AWS Schema Conversion Tool (AWS SCT) es una herramienta de AWS para ayudar a migrar bases de datos entre motores diferentes
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
-Permite:
 
-- Migrar bases de datos homogéneas, como Oracle → Oracle.
-- Migrar bases heterogéneas, como Oracle → PostgreSQL.
-- Realizar migraciones únicas o replicación continua.
-- Mantener sincronizada la base de datos destino mediante la captura de cambios (_Change Data Capture_, CDC).
-- Migrar datos hacia servicios como [[Amazon RDS]], Amazon Aurora, [[Amazon Redshift]], [[Amazon DynamoDB]] o [[Amazon S3]].
+por ejemplo:
 
-En una migración típica:
+- Oracle → PostgreSQL
+- SQL Server → Aurora MySQL
+- Teradata → Amazon Redshift
 
-1. [[AWS Schema Conversion Tool]] convierte el esquema y el código si cambia el motor de base de datos.
-2. [[AWS Database Migration Service]] copia los datos y replica los cambios mientras la base de datos original sigue funcionando.
+Sus funciones principales son:
 
+- Analizar la base de datos de origen.
+- Detectar incompatibilidades entre motores.
+- Convertir automáticamente tablas, índices, vistas, procedimientos y otros objetos cuando es posible.
+- Generar un informe con los elementos que requieren conversión manual.
+
+Importante: SCT convierte principalmente el esquema y el código, pero no está centrada en migrar todos los datos. Para mover los datos suele utilizarse [[AWS Database Migration Service]] (AWS DMS).
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`Migration`, `Amazon`, `DMS`
+`keyword1`, `keyword2`, `keyword3`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -96,7 +98,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-AWS DMS copia los datos y replica los cambios, mientras la base de datos original sigue funcionando
+
 
 
 ---
@@ -105,7 +107,7 @@ AWS DMS copia los datos y replica los cambios, mientras la base de datos origina
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-09-01 13:44 |
+| Capturado | 2026-09-01 13:42 |
 | Área/Tema | `= this.area` |
 | Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |

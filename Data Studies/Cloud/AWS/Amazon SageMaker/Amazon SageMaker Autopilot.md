@@ -12,10 +12,10 @@ tiempo-repaso: ""
 estado: "pendiente"
 ---
 
-# Sagemaker Pipelines
+# Amazon SageMaker Autopilot
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:03
+> **Fecha**: 2026-08-14 14:10
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,29 +24,26 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Pipelines es un servicio de AWS para orquestar de forma automática todo el flujo de trabajo de machine learning.
+> SageMaker Autopilot es un servicio de AWS que automatiza el proceso de construir y entrenar modelos de ML.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-Normalmente sirve para encadenar etapas como:
+En la práctica:
 
-- preprocesamiento de datos
-- entrenamiento
-- evaluación
-- registro del modelo (model registry, si lo usas)
-- tuning (cuando aplica)
-- despliegue (por ejemplo, creando/updating endpoints)
-
+- le das tus datos de entrenamiento (y el objetivo),
+- Autopilot prueba múltiples algoritmos y configuraciones,
+- evalúa los resultados con métricas,
+- y te entrega los mejores modelos para que elijas (o luego despliegues).
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Pipelines`
+`AWS`, `Sagemaker`, `Sagemaker Autopilot`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -74,7 +71,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[AWS SageMaker Services]]
+-[[Amazon SageMaker Services]]
 -
 
 ---
@@ -94,7 +91,8 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Es un producto que orquestra el todo pipeline de los modelos
+Hace de manera automática la utilización de los mejores modelos para el objetivo que tienes.
+
 
 
 ---
@@ -103,7 +101,7 @@ Es un producto que orquestra el todo pipeline de los modelos
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:03 |
+| Capturado | 2026-08-14 14:10 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

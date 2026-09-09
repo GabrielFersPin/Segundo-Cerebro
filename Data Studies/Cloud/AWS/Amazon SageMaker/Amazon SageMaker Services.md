@@ -25,75 +25,75 @@ tiempo-estimado: 20min
 
 ---
 
-# AWS Sagemaker Services
+# Amazon SageMaker Services
 
 ## Data Preparation
 
 **Prepare Data**
 
-[[AWS SageMaker Data Wrangler]]: a tool for data preparation and feature engineering
+[[Amazon SageMaker Data Wrangler]]: a tool for data preparation and feature engineering
 
-[[AWS SageMaker Processing job]]: a tool for data processing and feature engineering
+[[Amazon SageMaker Processing job]]: a tool for data processing and feature engineering
 
 **Curate features**
 
-[[AWS SageMaker Feature Store]]: a tool for feature storage and retrieval
+[[Amazon SageMaker Feature Store]]: a tool for feature storage and retrieval
 
 ## Training and Tuning
 
 **Experiment tracking**
 
-[[AWS SageMaker Experiments]]: a tool for tracking ML experiments
+[[Amazon SageMaker Experiments]]: a tool for tracking ML experiments
 
 **Train models**
 
-[[AWS SageMaker Trainning Jobs]]: a tool for training ML models
+[[Amazon SageMaker Training Jobs]]: a tool for training ML models
 
 **Evaluate model**
 
-[[AWS SageMaker Processing job]]: a tool for evaluating ML models
+[[Amazon SageMaker Processing job]]: a tool for evaluating ML models
 
 **Register models**
 
-[[AWS SageMaker Model Registry]]: a tool for registering ML models
+[[Amazon SageMaker Model Registry]]: a tool for registering ML models
 
 ## Deploy and manage
 
 **Deploy models**
 
-[[AWS SageMaker JumpStart]]: A hub of pre-built models to easy deploy
+[[Amazon SageMaker JumpStart]]: A hub of pre-built models to easy deploy
 
-[[AWS SageMaker Endpoints]]: a tool for deploying ML models
+[[Amazon SageMaker Endpoints]]: a tool for deploying ML models
 
 **Inferece**
 
-[[AWS SageMaker Inference]]: a tool for inference with ML models
+[[Amazon SageMaker Inference]]: a tool for inference with ML models
 
 **MLOps Pipelines**
 
-[[AWS SageMaker Pipelines]]: a tool for orchestrating ML workflows
+[[Amazon SageMaker Pipelines]]: a tool for orchestrating ML workflows
 
 **Model Monitoring**
 
-[[AWS SageMaker Model Monitor]]: a tool for monitoring ML model performance
+[[Amazon SageMaker Model Monitor]]: a tool for monitoring ML model performance
 
 **AutoML**
 
-[[AWS SageMaker Autopilot]]: a tool for automated machine learning
+[[Amazon SageMaker Autopilot]]: a tool for automated machine learning
 
 ## Governance and security
 
 **Explain models**
 
-[[AWS SageMaker AI Clarify]]: a tool for model explainability and bias detection
+[[Amazon SageMaker Clarify]]: a tool for model explainability and bias detection
 
 **Track model lineage**
 
-[[AWS SageMaker Lineage]]]: a tool for tracking model lineage
+[[Amazon SageMaker Lineage]]: a tool for tracking model lineage
 
 **Audit models**
 
-[[AWS SageMaker Model Cards]]: a tool for model documentation and auditing
+[[Amazon SageMaker Model Cards]]: a tool for model documentation and auditing
 
 ---
 

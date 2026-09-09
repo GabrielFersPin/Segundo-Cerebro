@@ -1,20 +1,20 @@
 ---
-created: 2026-09-01
-modified: 2026-09-01
+created: 2026-09-07
+modified: 2026-09-07
 area: ""
 tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: 2026-09-04
-ultima-revision: 2026-09-01
+proxima-revision: 2026-09-09
+ultima-revision: 2026-09-07
 veces-revisado: 0
 tiempo-repaso: 5min
 ---
 
-# AWS Database Migration Service
+# Amazon SQS (Simple Queue Service)
 
 > [!info] Contexto captura
-> **Fecha**: 2026-09-01 13:44
+> **Fecha**: 2026-09-07 13:16
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,32 +23,48 @@ tiempo-repaso: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> AWS Database Migration Service (AWS DMS) es un servicio administrado para migrar datos entre bases de datos y almacenes de datos con poco tiempo de inactividad.
+> Amazon SQS (Simple Queue Service) es un servicio de colas de mensajes que permite desacoplar aplicaciones y procesar tareas de forma asíncrona.
 
 
 ### 🎯 Detalles / Contenido
 
-<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
-Permite:
+Funcionamiento básico:
 
-- Migrar bases de datos homogéneas, como Oracle → Oracle.
-- Migrar bases heterogéneas, como Oracle → PostgreSQL.
-- Realizar migraciones únicas o replicación continua.
-- Mantener sincronizada la base de datos destino mediante la captura de cambios (_Change Data Capture_, CDC).
-- Migrar datos hacia servicios como [[Amazon RDS]], Amazon Aurora, [[Amazon Redshift]], [[Amazon DynamoDB]] o [[Amazon S3]].
+> Productor → cola SQS → consumidor
 
-En una migración típica:
+Ejemplo:
 
-1. [[AWS Schema Conversion Tool]] convierte el esquema y el código si cambia el motor de base de datos.
-2. [[AWS Database Migration Service]] copia los datos y replica los cambios mientras la base de datos original sigue funcionando.
+1. Una aplicación recibe un pedido.
+2. Envía un mensaje a SQS.
+3. Un worker o una Lambda lee el mensaje.
+4. Procesa el pedido.
+5. El mensaje se elimina de la cola.
 
+Ventajas:
+
+- Evita que los servicios tengan que estar disponibles al mismo tiempo.
+- Absorbe picos de tráfico.
+- Permite reintentos si el procesamiento falla.
+- Ayuda a desacoplar componentes.
+- Puede enviar mensajes fallidos a una Dead-Letter Queue (DLQ).
+
+Tipos principales:
+
+- Standard Queue: alto rendimiento, pero puede entregar mensajes duplicados o fuera de orden.
+- FIFO Queue: conserva el orden y evita duplicados dentro de ciertas condiciones, aunque ofrece menor capacidad que Standard.
+
+Comparación rápida:
+
+- SQS: almacena mensajes hasta que un consumidor los procesa.
+- [[Amazon SNS]]: distribuye mensajes a varios suscriptores.
+- [[AWS EventBridge]]: enruta eventos según reglas y patrones.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`Migration`, `Amazon`, `DMS`
+`AWS`, `SQS`, `Messaging`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -96,7 +112,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-AWS DMS copia los datos y replica los cambios, mientras la base de datos original sigue funcionando
+SQS es una cola que permite enviar tareas entre servicios de forma segura, asíncrona y desacoplada.
 
 
 ---
@@ -105,7 +121,7 @@ AWS DMS copia los datos y replica los cambios, mientras la base de datos origina
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-09-01 13:44 |
+| Capturado | 2026-09-07 13:16 |
 | Área/Tema | `= this.area` |
 | Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |

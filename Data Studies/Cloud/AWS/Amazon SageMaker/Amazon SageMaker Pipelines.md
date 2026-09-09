@@ -1,21 +1,21 @@
 ---
-created: 2026-08-18
-modified: 2026-08-18
-area: Cloud
-tipo_nota: captura_rapida
+created: 2026-08-14
+modified: 2026-08-14
+area: ""
+tipo_nota: ""
 status: 🌱
-nivel-comprension: ❓
+nivel-comprension: ""
 proxima-revision: ""
 ultima-revision: ""
 veces-revisado: 0
-tiempo-repaso: 5min
-estado: pendiente
+tiempo-repaso: ""
+estado: "pendiente"
 ---
 
-# AWS Sagemaker Data Wrangler
+# Sagemaker Pipelines
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-18 12:58
+> **Fecha**: 2026-08-14 14:03
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,27 +24,29 @@ estado: pendiente
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> AWS SageMaker Data Wrangler sirve para preparar y transformar datos para ML de forma visual y asistida, sin tener que escribir todo el código de limpieza/transformación desde cero.
+> SageMaker Pipelines es un servicio de AWS para orquestar de forma automática todo el flujo de trabajo de machine learning.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
+Normalmente sirve para encadenar etapas como:
 
-En la práctica se usa para:
+- preprocesamiento de datos
+- entrenamiento
+- evaluación
+- registro del modelo (model registry, si lo usas)
+- tuning (cuando aplica)
+- despliegue (por ejemplo, creando/updating endpoints)
 
-- importar datos (por ejemplo desde S3 u otras fuentes),
-- limpiar y tratar valores faltantes/duplicados,
-- transformar variables (codificar, escalar, generar features),
-- explorar datos (estadísticas/visualizaciones),
-- y dejar un pipeline de preprocesamiento reproducible (para entrenamiento o inferencia).
+
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Data Wrangler`
+`AWS`, `Sagemaker`, `Sagemaker Pipelines`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -72,7 +74,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[AWS SageMaker Services]]
+- [[Amazon SageMaker Services]]
 -
 
 ---
@@ -92,7 +94,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Es como un dashboard en que puedes limpiar datos, definir transformaciones, cambiar opciones, ver resultados y estadísticas sin tener que picar código.
+Es un producto que orquestra el todo pipeline de los modelos
 
 
 ---
@@ -101,7 +103,7 @@ Es como un dashboard en que puedes limpiar datos, definir transformaciones, camb
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-18 12:58 |
+| Capturado | 2026-08-14 14:03 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

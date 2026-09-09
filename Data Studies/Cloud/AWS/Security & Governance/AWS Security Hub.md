@@ -1,21 +1,20 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
+created: 2026-09-09
+modified: 2026-09-09
 area: ""
-tipo_nota: ""
+tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: ""
-ultima-revision: ""
+proxima-revision: 2026-09-11
+ultima-revision: 2026-09-09
 veces-revisado: 0
-tiempo-repaso: ""
-estado: "pendiente"
+tiempo-repaso: 5min
 ---
 
-# AWS Sagemaker Lineage
+# AWS Security Hub
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:15
+> **Fecha**: 2026-09-09 10:21
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,27 +23,39 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Lineage es un servicio para rastrear el “linaje” (provenance) de los modelos en AWS: cómo se llegó a un modelo final a partir de datos y pasos anteriores.
-
+> AWS Security Hub es un servicio que centraliza y prioriza los hallazgos de seguridad de una cuenta o entorno de AWS.
 
 
 ### 🎯 Detalles / Contenido
 
-<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
+Permite:
 
-En términos simples, ayuda a responder:
+- Recibir alertas de servicios como [[Amazon GuardDuty]], Inspector, Macie y IAM Access Analyzer.
+- Detectar configuraciones que no cumplen buenas prácticas.
+- Unificar hallazgos en un panel central.
+- Asignar niveles de gravedad y estados.
+- Comprobar el cumplimiento de estándares de seguridad.
+- Automatizar respuestas mediante EventBridge y Lambda.
 
-- qué datos se usaron,
-- qué código/experimentos y transformaciones se ejecutaron,
-- y cómo eso produjo un modelo que luego se entrenó o se desplegó.
+Ejemplo:
 
-Sirve para auditoría, reproducibilidad y entender el origen de decisiones del pipeline.
+> GuardDuty detecta actividad sospechosa → Security Hub centraliza el hallazgo → EventBridge activa una Lambda para responder.
+
+Diferencias rápidas:
+
+- GuardDuty: detecta amenazas.
+- Inspector: analiza vulnerabilidades.
+- Macie: descubre datos sensibles en S3.
+- Security Hub: centraliza y organiza los hallazgos.
+
+
+
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Lineage`
+`AWS`, `Security Hub`, `Security`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -72,7 +83,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[AWS SageMaker Services]]
+-
 -
 
 ---
@@ -90,9 +101,9 @@ _Flashcards pendientes de crear_
 
 ## 💭 Notas adicionales / Ideas rápidas
 
-<!-- Zona libre para cualquier cosa que quieras capturar rápido -->
+Security Hub funciona como un centro de control para consolidar, priorizar y gestionar problemas de seguridad en AWS.
 
-Es un servicio que verifica como ha sido todo el proceso del despliegue del modelo, desde la ingesta de los datos de donde vienen hasta como se ha utilizado el modelo de estos datos.
+
 
 
 ---
@@ -101,11 +112,12 @@ Es un servicio que verifica como ha sido todo el proceso del despliegue del mode
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:15 |
+| Capturado | 2026-09-09 10:21 |
 | Área/Tema | `= this.area` |
+| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
-| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
+| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 

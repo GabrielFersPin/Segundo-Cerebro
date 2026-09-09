@@ -1,20 +1,21 @@
 ---
-created: 2026-09-01
-modified: 2026-09-01
-area: ""
+created: 2026-08-18
+modified: 2026-08-18
+area: Cloud
 tipo_nota: captura_rapida
 status: 🌱
-nivel-comprension: ""
-proxima-revision: 2026-09-04
-ultima-revision: 2026-09-01
+nivel-comprension: ❓
+proxima-revision: ""
+ultima-revision: ""
 veces-revisado: 0
 tiempo-repaso: 5min
+estado: pendiente
 ---
 
-# AWS Database Migration Service
+# Amazon SageMaker Data Wrangler
 
 > [!info] Contexto captura
-> **Fecha**: 2026-09-01 13:44
+> **Fecha**: 2026-08-18 12:58
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,32 +24,27 @@ tiempo-repaso: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> AWS Database Migration Service (AWS DMS) es un servicio administrado para migrar datos entre bases de datos y almacenes de datos con poco tiempo de inactividad.
+> Amazon SageMaker Data Wrangler sirve para preparar y transformar datos para ML de forma visual y asistida, sin tener que escribir todo el código de limpieza/transformación desde cero.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
-Permite:
-
-- Migrar bases de datos homogéneas, como Oracle → Oracle.
-- Migrar bases heterogéneas, como Oracle → PostgreSQL.
-- Realizar migraciones únicas o replicación continua.
-- Mantener sincronizada la base de datos destino mediante la captura de cambios (_Change Data Capture_, CDC).
-- Migrar datos hacia servicios como [[Amazon RDS]], Amazon Aurora, [[Amazon Redshift]], [[Amazon DynamoDB]] o [[Amazon S3]].
-
-En una migración típica:
-
-1. [[AWS Schema Conversion Tool]] convierte el esquema y el código si cambia el motor de base de datos.
-2. [[AWS Database Migration Service]] copia los datos y replica los cambios mientras la base de datos original sigue funcionando.
 
 
+En la práctica se usa para:
+
+- importar datos (por ejemplo desde S3 u otras fuentes),
+- limpiar y tratar valores faltantes/duplicados,
+- transformar variables (codificar, escalar, generar features),
+- explorar datos (estadísticas/visualizaciones),
+- y dejar un pipeline de preprocesamiento reproducible (para entrenamiento o inferencia).
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`Migration`, `Amazon`, `DMS`
+`AWS`, `Sagemaker`, `Sagemaker Data Wrangler`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -76,7 +72,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--
+- [[Amazon SageMaker Services]]
 -
 
 ---
@@ -96,7 +92,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-AWS DMS copia los datos y replica los cambios, mientras la base de datos original sigue funcionando
+Es como un dashboard en que puedes limpiar datos, definir transformaciones, cambiar opciones, ver resultados y estadísticas sin tener que picar código.
 
 
 ---
@@ -105,12 +101,11 @@ AWS DMS copia los datos y replica los cambios, mientras la base de datos origina
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-09-01 13:44 |
+| Capturado | 2026-08-18 12:58 |
 | Área/Tema | `= this.area` |
-| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
+| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
-| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 

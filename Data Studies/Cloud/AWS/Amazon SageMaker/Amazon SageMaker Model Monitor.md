@@ -1,20 +1,21 @@
 ---
-created: 2026-09-01
-modified: 2026-09-01
+created: 2026-08-14
+modified: 2026-08-14
 area: ""
-tipo_nota: captura_rapida
+tipo_nota: ""
 status: 🌱
 nivel-comprension: ""
-proxima-revision: 2026-09-04
-ultima-revision: 2026-09-01
+proxima-revision: ""
+ultima-revision: ""
 veces-revisado: 0
-tiempo-repaso: 5min
+tiempo-repaso: ""
+estado: "pendiente"
 ---
 
-# AWS Database Migration Service
+# Amazon SageMaker Model Monitor
 
 > [!info] Contexto captura
-> **Fecha**: 2026-09-01 13:44
+> **Fecha**: 2026-08-14 14:06
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,32 +24,24 @@ tiempo-repaso: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> AWS Database Migration Service (AWS DMS) es un servicio administrado para migrar datos entre bases de datos y almacenes de datos con poco tiempo de inactividad.
+> SageMaker Model Monitor es un servicio para vigilar en producción cómo se comporta tu modelo y detectar problemas.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
-Permite:
 
-- Migrar bases de datos homogéneas, como Oracle → Oracle.
-- Migrar bases heterogéneas, como Oracle → PostgreSQL.
-- Realizar migraciones únicas o replicación continua.
-- Mantener sincronizada la base de datos destino mediante la captura de cambios (_Change Data Capture_, CDC).
-- Migrar datos hacia servicios como [[Amazon RDS]], Amazon Aurora, [[Amazon Redshift]], [[Amazon DynamoDB]] o [[Amazon S3]].
+La idea típica es:
 
-En una migración típica:
-
-1. [[AWS Schema Conversion Tool]] convierte el esquema y el código si cambia el motor de base de datos.
-2. [[AWS Database Migration Service]] copia los datos y replica los cambios mientras la base de datos original sigue funcionando.
-
+- usar tus nuevos datos (y, si aplica, compararlos contra el entrenamiento/validación) para revisar señales de degradación,
+- y así generar hallazgos/alertas cuando el comportamiento cambia.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`Migration`, `Amazon`, `DMS`
+`AWS`, `Sagemaker`, `Sagemaker Model Monitor`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -75,7 +68,7 @@ _Flashcards pendientes de crear_
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-
+[[Amazon SageMaker Services]]
 -
 -
 
@@ -86,7 +79,7 @@ _Flashcards pendientes de crear_
 - [ ] Revisar y expandir contenido
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [ ] Conectar con otras notas ([[]])
+- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -96,7 +89,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-AWS DMS copia los datos y replica los cambios, mientras la base de datos original sigue funcionando
+cuando los datos tienen una ingesta constante es este servicio que se podría utilizar para monitorar como se comporta el modelo con los nuevos datos ingestados
 
 
 ---
@@ -105,12 +98,11 @@ AWS DMS copia los datos y replica los cambios, mientras la base de datos origina
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-09-01 13:44 |
+| Capturado | 2026-08-14 14:06 |
 | Área/Tema | `= this.area` |
-| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
+| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
-| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 

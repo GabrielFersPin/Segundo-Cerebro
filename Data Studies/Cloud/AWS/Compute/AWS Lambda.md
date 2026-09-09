@@ -12,7 +12,7 @@ tiempo-repaso: 5min
 tiempo-estimado: 10min
 ---
 
-# Amazon Lambda
+# AWS Lambda
 
 > [!info] Contexto captura
 > **Fecha**: 2026-08-26 09:15
@@ -24,7 +24,7 @@ tiempo-estimado: 10min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> Amazon Lambda permite ejecutar código sin provisionar ni gestionar servidores, respondiendo a eventos y escalando automáticamente según la carga.
+> AWS Lambda permite ejecutar código sin provisionar ni gestionar servidores, respondiendo a eventos y escalando automáticamente según la carga.
 
 ### 🎯 Detalles / Contenido
 
@@ -61,7 +61,7 @@ El mayor beneficio es la reducción de ops, aunque hay que tener en cuenta lími
 
 ## 🔑 Keywords / Conceptos clave
 
-`Amazon Lambda`, `serverless`, `event-driven`, `FaaS`, `AWS`, `funciones`, `trigger`
+`AWS Lambda`, `serverless`, `event-driven`, `FaaS`, `AWS`, `funciones`, `trigger`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -101,7 +101,7 @@ El mayor beneficio es la reducción de ops, aunque hay que tener en cuenta lími
 
 ## 🎴 Flashcards
 
-¿Qué es Amazon Lambda?::Es un servicio serverless que ejecuta código bajo demanda sin provisionar ni gestionar servidores. #aws #lambda #serverless
+¿Qué es AWS Lambda?::Es un servicio serverless que ejecuta código bajo demanda sin provisionar ni gestionar servidores. #aws #lambda #serverless
 
 ¿Qué significa que Lambda sea serverless?::Que AWS gestiona la infraestructura y el escalado, y tú solo te encargas del código y la lógica de negocio. #aws #lambda
 

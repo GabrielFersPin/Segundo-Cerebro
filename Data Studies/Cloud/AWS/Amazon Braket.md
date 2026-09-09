@@ -1,20 +1,20 @@
 ---
-created: 2026-09-01
-modified: 2026-09-01
-area: ""
 tipo_nota: captura_rapida
 status: 🌱
+area: ""
 nivel-comprension: ""
-proxima-revision: 2026-09-04
-ultima-revision: 2026-09-01
+proxima-revision: 2026-09-09
+ultima-revision: 2026-09-07
 veces-revisado: 0
 tiempo-repaso: 5min
+created: 2026-09-07
+modified: 2026-09-07
 ---
 
-# AWS Database Migration Service
+# Amazon Braket
 
 > [!info] Contexto captura
-> **Fecha**: 2026-09-01 13:44
+> **Fecha**: 2026-09-07 13:39
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,32 +23,29 @@ tiempo-repaso: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> AWS Database Migration Service (AWS DMS) es un servicio administrado para migrar datos entre bases de datos y almacenes de datos con poco tiempo de inactividad.
+> Amazon Braket es un servicio administrado de AWS para desarrollar y ejecutar aplicaciones de computación cuántica.
 
 
 ### 🎯 Detalles / Contenido
 
-<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 Permite:
 
-- Migrar bases de datos homogéneas, como Oracle → Oracle.
-- Migrar bases heterogéneas, como Oracle → PostgreSQL.
-- Realizar migraciones únicas o replicación continua.
-- Mantener sincronizada la base de datos destino mediante la captura de cambios (_Change Data Capture_, CDC).
-- Migrar datos hacia servicios como [[Amazon RDS]], Amazon Aurora, [[Amazon Redshift]], [[Amazon DynamoDB]] o [[Amazon S3]].
+- Diseñar circuitos y algoritmos cuánticos.
+- Probarlos en simuladores.
+- Ejecutarlos en distintos tipos de hardware cuántico mediante la nube.
+- Utilizar herramientas y frameworks como PennyLane.
+- Integrar experimentos con otros servicios de AWS.
 
-En una migración típica:
+Flujo básico:
 
-1. [[AWS Schema Conversion Tool]] convierte el esquema y el código si cambia el motor de base de datos.
-2. [[AWS Database Migration Service]] copia los datos y replica los cambios mientras la base de datos original sigue funcionando.
-
+> Diseñar circuito cuántico → probarlo en un simulador → ejecutarlo en hardware cuántico → analizar los resultados.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`Migration`, `Amazon`, `DMS`
+`AWS`, `Braket`, `Quantum Computing`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -94,9 +91,9 @@ _Flashcards pendientes de crear_
 
 ## 💭 Notas adicionales / Ideas rápidas
 
-<!-- Zona libre para cualquier cosa que quieras capturar rápido -->
+Amazon Braket proporciona acceso a simuladores y ordenadores cuánticos sin necesidad de tener hardware cuántico propio.
 
-AWS DMS copia los datos y replica los cambios, mientras la base de datos original sigue funcionando
+
 
 
 ---
@@ -105,7 +102,7 @@ AWS DMS copia los datos y replica los cambios, mientras la base de datos origina
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-09-01 13:44 |
+| Capturado | 2026-09-07 13:39 |
 | Área/Tema | `= this.area` |
 | Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |

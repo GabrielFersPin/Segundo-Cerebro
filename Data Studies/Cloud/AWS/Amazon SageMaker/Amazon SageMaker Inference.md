@@ -1,6 +1,6 @@
 ---
-created: 2026-08-13
-modified: 2026-08-13
+created: 2026-08-14
+modified: 2026-08-14
 area: ""
 tipo_nota: ""
 status: 🌱
@@ -12,10 +12,10 @@ tiempo-repaso: ""
 estado: "pendiente"
 ---
 
-# Amazon SageMaker AI Clarify
+# Amazon SageMaker Inference
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-13 09:08
+> **Fecha**: 2026-08-14 13:58
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,21 +24,32 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> Supports FM evaluation. You can automatically evaluate the output of your FM for bias and fairness
+> SageMaker Inference es la parte de SageMaker destinada a obtener predicciones usando un modelo entrenado.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
+Incluye el proceso de:
 
+- desplegar el modelo,
+- recibir entradas (solicitudes) desde tu app,
+- ejecutar el modelo en instancias de inferencia,
+- devolver la salida (predicción).
+
+Dependiendo de cómo lo uses, “inference” puede referirse a:
+
+- Endpoints (infra “siempre lista” para responder),
+- batch transform (predicciones por lotes),
+- y otros modos gestionados para inferencia.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-	`AWS`, `Cloud`, `Sagemaker`
+`AWS`, `Sagemaker`, `Sagemaker Inference`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -66,17 +77,17 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[SageMaker_AI]]
+- [[Amazon SageMaker Services]]
 -
 
 ---
 
 ## ✅ Checklist procesamiento
 
-- [x] Revisar y expandir contenido ✅ 2026-08-13
+- [ ] Revisar y expandir contenido
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [x] Conectar con otras notas ([[]]) ✅ 2026-08-13
+- [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -86,8 +97,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
-
+Se puede obtener predicciones usando el modelo entrenado
 
 ---
 
@@ -95,7 +105,7 @@ _Flashcards pendientes de crear_
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-13 09:08 |
+| Capturado | 2026-08-14 13:58 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

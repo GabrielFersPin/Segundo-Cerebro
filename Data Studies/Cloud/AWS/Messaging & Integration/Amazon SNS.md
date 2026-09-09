@@ -1,20 +1,29 @@
 ---
-created: 2026-09-01
-modified: 2026-09-01
+created: 2026-08-19
+modified: 2026-08-19
 area: ""
 tipo_nota: captura_rapida
-status: 🌱
+status: 🌿 Creciendo
 nivel-comprension: ""
-proxima-revision: 2026-09-04
-ultima-revision: 2026-09-01
+dias-para-revision: 13
+ultima-revision: 2026-08-19
 veces-revisado: 0
 tiempo-repaso: 5min
+cards-deck: Nube
+procesamiento: CAPTURA-RAPIDA
+prioridad: EXAMEN-MEDIO
+tipo-captura: concepto
+complejidad: ⭐
+origen: Skillbuilder
+urgente: false
+tiempo-estimado: 2min
+proxima-revision: 2026-08-22
 ---
 
-# Amazon Schema Convertion Tool
+# Amaon SNS (Simple Notification Service)
 
 > [!info] Contexto captura
-> **Fecha**: 2026-09-01 13:42
+> **Fecha**: 2026-08-19 14:03
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,34 +32,21 @@ tiempo-repaso: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> AWS Schema Conversion Tool (AWS SCT) es una herramienta de AWS para ayudar a migrar bases de datos entre motores diferentes
+> *Escribe aquí la idea principal o el concepto clave en 1-2 frases*
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-por ejemplo:
 
-- Oracle → PostgreSQL
-- SQL Server → Aurora MySQL
-- Teradata → Amazon Redshift
-
-Sus funciones principales son:
-
-- Analizar la base de datos de origen.
-- Detectar incompatibilidades entre motores.
-- Convertir automáticamente tablas, índices, vistas, procedimientos y otros objetos cuando es posible.
-- Generar un informe con los elementos que requieren conversión manual.
-
-Importante: SCT convierte principalmente el esquema y el código, pero no está centrada en migrar todos los datos. Para mover los datos suele utilizarse [[AWS Database Migration Service]] (AWS DMS).
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`keyword1`, `keyword2`, `keyword3`
+`AWS`, `SNS`, `Mensajería`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -59,7 +55,7 @@ Importante: SCT convierte principalmente el esquema y el código, pero no está 
 
 ## 🎴 Flashcards
 
-_Flashcards pendientes de crear_
+¿Para qué sirve Amazon SNS?::Sirve para enviar notificaciones por mensajes, email, mensajes de texto, etc., cuando hay algún fallo en el control de calidad o eventos de alguna aplicación. #nube #aws
 
 > 💡 **Formato recomendado**:
 > - Inline: `¿Pregunta?::Respuesta #tags`
@@ -78,7 +74,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--
+- [[AWS]]
 -
 
 ---
@@ -86,10 +82,10 @@ _Flashcards pendientes de crear_
 ## ✅ Checklist procesamiento
 
 - [ ] Revisar y expandir contenido
-- [ ] Crear flashcards si es necesario
-- [ ] Hacer ejercicios relacionados
-- [ ] Conectar con otras notas ([[]])
-- [ ] Actualizar nivel de comprensión
+- [x] Crear flashcards si es necesario ✅ 2026-08-19
+- [x] Hacer ejercicios relacionados ✅ 2026-08-19
+- [x] Conectar con otras notas ([[]]) ✅ 2026-08-19
+- [x] Actualizar nivel de comprensión ✅ 2026-08-19
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
 ---
@@ -98,7 +94,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-
+Es un sistema de mensajes que se envían a los subscriptores que defines al configurar el servicio cuando algo va mal en proceso de control de calidad
 
 
 ---
@@ -107,7 +103,7 @@ _Flashcards pendientes de crear_
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-09-01 13:42 |
+| Capturado | 2026-08-19 14:03 |
 | Área/Tema | `= this.area` |
 | Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
@@ -115,5 +111,3 @@ _Flashcards pendientes de crear_
 | Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
-
-#pendiente-procesar #captura-rapida

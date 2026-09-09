@@ -12,10 +12,10 @@ tiempo-repaso: ""
 estado: "pendiente"
 ---
 
-# Sagemaker Experiments
+# Amazon SageMaker Lineage
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 14:25
+> **Fecha**: 2026-08-14 14:15
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,27 +24,27 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> SageMaker Experiments es una función de AWS para organizar y registrar experimentos de machine learning.
+> SageMaker Lineage es un servicio para rastrear el “linaje” (provenance) de los modelos en AWS: cómo se llegó a un modelo final a partir de datos y pasos anteriores.
+
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
 
-Sirve para que puedas llevar control de:
+En términos simples, ayuda a responder:
 
-- qué jobs/training formaron parte del experimento,
-- qué parámetros se usaron (o al menos cómo los relacionas),
-- y cómo se relacionan distintos intentos (por ejemplo, variantes de features/hiperparámetros/modelos).
+- qué datos se usaron,
+- qué código/experimentos y transformaciones se ejecutaron,
+- y cómo eso produjo un modelo que luego se entrenó o se desplegó.
 
-La idea clave es hacer más fácil la trazabilidad y la comparación entre runs, especialmente cuando estás iterando mucho.
-
+Sirve para auditoría, reproducibilidad y entender el origen de decisiones del pipeline.
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Experiment`
+`AWS`, `Sagemaker`, `Sagemaker Lineage`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -71,8 +71,8 @@ _Flashcards pendientes de crear_
 ## 🧩 Conexiones potenciales
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
-[[AWS SageMaker Services]]
--
+
+- [[Amazon SageMaker Services]]
 -
 
 ---
@@ -92,7 +92,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-Es un servicio para monitorizar experimentos con los modelos
+Es un servicio que verifica como ha sido todo el proceso del despliegue del modelo, desde la ingesta de los datos de donde vienen hasta como se ha utilizado el modelo de estos datos.
 
 
 ---
@@ -101,7 +101,7 @@ Es un servicio para monitorizar experimentos con los modelos
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 14:25 |
+| Capturado | 2026-08-14 14:15 |
 | Área/Tema | `= this.area` |
 | Prioridad | `= this.prioridad` |
 | Estado | Captura rápida → Pendiente procesamiento |

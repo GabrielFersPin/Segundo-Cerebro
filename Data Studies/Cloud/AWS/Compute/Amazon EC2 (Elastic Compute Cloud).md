@@ -204,7 +204,7 @@ Security Group:::Firewall virtual a nivel de instancia que controla tráfico inb
 
 ## 📚 Referencias & Enlaces
 
-**Enlaces internos**: [[AWS VPC]] • [[Cloud Computing Fundamentals]] • [[Load Balancing]] • [[Auto Scaling]] • [[IAM Roles]]
+**Enlaces internos**: [[Amazon VPC (Virtual Private Cloud)]] • [[Cloud Computing Fundamentals]] • [[Load Balancing]] • [[Auto Scaling]] • [[IAM Roles]]
 
 **Referencias externas**: 
 - [AWS EC2 Documentation](https://docs.aws.amazon.com/ec2/)

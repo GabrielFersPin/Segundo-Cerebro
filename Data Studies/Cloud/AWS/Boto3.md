@@ -155,6 +155,17 @@ glue_client.start_job_run(JobName='my_etl_job')
 athena_client = boto3.client('athena', region_name=region)
 athena_client.start_query_execution(QueryString='SELECT * FROM my_table')
 
+
+# Manda un mensaje con SNS
+sns = boto3.client('sns')
+response = sns.publish(
+    TopicArn='arn:aws:sns:us-east-1:123456789012:MyTopic',
+    Message='Hello, AWS SNS!',
+)
+
+print(response)
+
+
 ``` 
 
 El ejemplo requiere que LocalStack esté ejecutándose para S3 y que, en AWS, existan el rol IAM, la imagen de entrenamiento, los datos de entrada, el stream de Kinesis, el job de Glue y la tabla consultada.

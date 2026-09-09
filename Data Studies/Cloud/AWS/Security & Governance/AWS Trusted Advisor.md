@@ -68,8 +68,8 @@ la versión gratuita no da soporte a muchos checks, ya el plan business te hace 
 
 ## 🧩 Conexiones potenciales
 
-- [[AWS Simple Notification Service (Amazon SNS)]]
-- [[Data Studies/Cloud/AWS/Security & Governance/Well-Architected Framework]]
+- [[Amazon SNS]]
+- [[Well-Architected Framework]]
 
 ---
 

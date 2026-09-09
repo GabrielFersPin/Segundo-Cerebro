@@ -1,20 +1,21 @@
 ---
-created: 2026-09-01
-modified: 2026-09-01
+created: 2026-08-14
+modified: 2026-08-14
 area: ""
-tipo_nota: captura_rapida
+tipo_nota: ""
 status: 🌱
 nivel-comprension: ""
-proxima-revision: 2026-09-04
-ultima-revision: 2026-09-01
+proxima-revision: ""
+ultima-revision: ""
 veces-revisado: 0
-tiempo-repaso: 5min
+tiempo-repaso: ""
+estado: "pendiente"
 ---
 
-# AWS Database Migration Service
+# Amazon SageMaker Model Cards
 
 > [!info] Contexto captura
-> **Fecha**: 2026-09-01 13:44
+> **Fecha**: 2026-08-14 14:20
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -23,32 +24,29 @@ tiempo-repaso: 5min
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> AWS Database Migration Service (AWS DMS) es un servicio administrado para migrar datos entre bases de datos y almacenes de datos con poco tiempo de inactividad.
+> SageMaker Model Cards (tarjetas de modelo) es una función para documentar un modelo.
 
 
 ### 🎯 Detalles / Contenido
 
 <!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
-Permite:
 
-- Migrar bases de datos homogéneas, como Oracle → Oracle.
-- Migrar bases heterogéneas, como Oracle → PostgreSQL.
-- Realizar migraciones únicas o replicación continua.
-- Mantener sincronizada la base de datos destino mediante la captura de cambios (_Change Data Capture_, CDC).
-- Migrar datos hacia servicios como [[Amazon RDS]], Amazon Aurora, [[Amazon Redshift]], [[Amazon DynamoDB]] o [[Amazon S3]].
+Sirve para que quede claro, de forma estructurada, cosas como:
 
-En una migración típica:
+- para qué casos de uso está pensado,
+- datos usados para entrenar,
+- métricas y rendimiento,
+- limitaciones/confiabilidad,
+- y consideraciones de seguridad/ética (según cómo lo completes).
 
-1. [[AWS Schema Conversion Tool]] convierte el esquema y el código si cambia el motor de base de datos.
-2. [[AWS Database Migration Service]] copia los datos y replica los cambios mientras la base de datos original sigue funcionando.
-
+Es útil para que equipos técnicos y de negocio entiendan el modelo y para auditorías y gobernanza, especialmente cuando el modelo ya está en producción.
 
 
 ---
 
 ## 🔑 Keywords / Conceptos clave
 
-`Migration`, `Amazon`, `DMS`
+`AWS`, `Sagemaker`, `Sagemaker Model Cards`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -76,7 +74,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
--
+-[[Amazon SageMaker Services]]
 -
 
 ---
@@ -96,7 +94,7 @@ _Flashcards pendientes de crear_
 
 <!-- Zona libre para cualquier cosa que quieras capturar rápido -->
 
-AWS DMS copia los datos y replica los cambios, mientras la base de datos original sigue funcionando
+Sirve para hacer la gobernanza del modelo.
 
 
 ---
@@ -105,12 +103,11 @@ AWS DMS copia los datos y replica los cambios, mientras la base de datos origina
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-09-01 13:44 |
+| Capturado | 2026-08-14 14:20 |
 | Área/Tema | `= this.area` |
-| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
+| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
-| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 

@@ -11,7 +11,7 @@ veces-revisado: 0
 tiempo-repaso: 5min
 ---
 
-# AWS SageMaker Trainning Jobs
+# Amazon SageMaker Training Jobs
 
 > [!info] Contexto captura
 > **Fecha**: 2026-08-25 13:16
@@ -91,7 +91,7 @@ estimator.fit({
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `SageMaker`, `Trainning Jobs`
+`AWS`, `SageMaker`, `Training Jobs`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después

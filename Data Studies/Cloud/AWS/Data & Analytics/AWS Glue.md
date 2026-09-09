@@ -84,7 +84,7 @@ Un Crawler descubre archivos en S3 y registra sus metadatos en el Data Catalog. 
 
 - [[Amazon S3]]
 - [[Amazon Athena]]
-- [[AWS SageMaker Processing job]]
+- [[Amazon SageMaker Processing job]]
 
 ---
 

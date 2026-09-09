@@ -1,21 +1,20 @@
 ---
-created: 2026-08-14
-modified: 2026-08-14
+created: 2026-09-07
+modified: 2026-09-07
 area: ""
-tipo_nota: ""
+tipo_nota: captura_rapida
 status: 🌱
 nivel-comprension: ""
-proxima-revision: ""
-ultima-revision: ""
+proxima-revision: 2026-09-09
+ultima-revision: 2026-09-07
 veces-revisado: 0
-tiempo-repaso: ""
-estado: "pendiente"
+tiempo-repaso: 5min
 ---
 
-# AWS Sagemaker Endpoints
+# Amazon Connect
 
 > [!info] Contexto captura
-> **Fecha**: 2026-08-14 13:53
+> **Fecha**: 2026-09-07 13:20
 > **Origen**: `= this.origen`
 > **Tipo**: `= this.tipo-captura`
 
@@ -24,24 +23,28 @@ estado: "pendiente"
 ## 📝 Captura principal
 
 > [!tip] Lo más importante
-> In AWS, SageMaker Endpoints are the hosted, always-on (or managed) URLs where you deploy a trained ML model so applications can send requests and get predictions.
+> Amazon Connect es un servicio de AWS para crear y gestionar centros de atención al cliente en la nube.
 
 
 ### 🎯 Detalles / Contenido
 
-<!-- Captura rápida del contenido sin preocuparte por formato perfecto -->
+Permite:
 
-How they’re typically used:
+- Gestionar llamadas telefónicas.
+- Crear menús de respuesta de voz interactiva (IVR).
+- Atender conversaciones por chat.
+- Distribuir contactos entre agentes.
+- Crear colas y reglas de enrutamiento.
+- Grabar y analizar llamadas.
+- Integrar bots y servicios de IA.
+- Consultar métricas y generar informes.
 
-- You train a model in SageMaker.
-- You deploy it to an endpoint.
-- Your app then calls that endpoint (e.g., over HTTPS) with input data.
-- SageMaker runs the model and returns the prediction result.
+Ejemplo:
 
-Key ideas:
+> Un cliente llama → Amazon Connect reproduce un menú → identifica el motivo → lo coloca en una cola → lo dirige al agente adecuado.
 
-- They provide scaling and resource management around the model.
-- You can configure things like how many instances handle traffic and deployment variants (for updates/A-B style rollouts).
+Es un servicio serverless, por lo que no necesitas instalar ni mantener una centralita física.
+
 
 
 
@@ -49,7 +52,7 @@ Key ideas:
 
 ## 🔑 Keywords / Conceptos clave
 
-`AWS`, `Sagemaker`, `Sagemaker Endpoints`
+`keyword1`, `keyword2`, `keyword3`
 
 > [!note] Para RAG
 > Estos keywords ayudarán a encontrar esta nota después
@@ -77,7 +80,7 @@ _Flashcards pendientes de crear_
 
 <!-- ¿Con qué otros temas se relaciona? Escribe rápido, ya harás los links después -->
 
-- [[AWS SageMaker Services]]
+-
 -
 
 ---
@@ -87,7 +90,7 @@ _Flashcards pendientes de crear_
 - [ ] Revisar y expandir contenido
 - [ ] Crear flashcards si es necesario
 - [ ] Hacer ejercicios relacionados
-- [x] Conectar con otras notas ([[]]) ✅ 2026-08-14
+- [ ] Conectar con otras notas ([[]])
 - [ ] Actualizar nivel de comprensión
 - [ ] Mover a vault definitivo / Cambiar status a 🌿
 
@@ -95,9 +98,9 @@ _Flashcards pendientes de crear_
 
 ## 💭 Notas adicionales / Ideas rápidas
 
-<!-- Zona libre para cualquier cosa que quieras capturar rápido -->
+Amazon Connect permite crear un contact center escalable para gestionar llamadas, chats y atención al cliente desde AWS.
 
-Es un recurso para conectar el modelo con el frontend por una llamada a la API
+
 
 
 ---
@@ -106,11 +109,12 @@ Es un recurso para conectar el modelo con el frontend por una llamada a la API
 
 | Campo | Valor |
 |-------|-------|
-| Capturado | 2026-08-14 13:53 |
+| Capturado | 2026-09-07 13:20 |
 | Área/Tema | `= this.area` |
+| Estado | `= this.status` |
 | Prioridad | `= this.prioridad` |
-| Estado | Captura rápida → Pendiente procesamiento |
 | Revisión | `= this.proxima-revision` |
+| Nivel de comprensión | `= this.nivel-comprension` |
 
 ---
 
